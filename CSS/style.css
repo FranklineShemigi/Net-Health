@@ -16,16 +16,59 @@ body{
 
 nav{
 
-    display:flex;
+display:flex;
 
-    justify-content:space-between;
+justify-content:space-between;
 
-    align-items:center;
+align-items:center;
 
-    padding:25px 60px;
+padding:20px 50px;
+
+background:#091827;
+
+position:sticky;
+
+top:0;
 
 }
 
+.logo{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:#38bdf8;
+
+}
+
+.nav-links{
+
+display:flex;
+
+gap:35px;
+
+list-style:none;
+
+}
+
+.nav-links a{
+
+text-decoration:none;
+
+color:white;
+
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.nav-links a:hover{
+
+color:#38bdf8;
+
+}
 nav ul{
 
     display:flex;
