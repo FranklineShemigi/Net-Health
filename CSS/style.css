@@ -1,19 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
 
-    margin:0;
+    font-family:Arial,sans-serif;
 
-    font-family:Arial, sans-serif;
-
-    background:#0f172a;
+    background:#07111f;
 
     color:white;
 
 }
 
-h1{
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 60px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:25px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.hero{
 
     text-align:center;
 
-    margin-top:100px;
+    padding:120px 20px;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+}
+
+.hero p{
+
+    width:600px;
+
+    max-width:90%;
+
+    margin:30px auto;
+
+    line-height:1.8;
+
+}
+
+button{
+
+    padding:15px 30px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    padding:60px;
+
+}
+
+.card{
+
+    background:#10233d;
+
+    padding:30px;
+
+    border-radius:15px;
 
 }
