@@ -67,23 +67,7 @@ transition:0.3s;
 .nav-links a:hover{
 
 color:#38bdf8;
-
-}
-nav ul{
-
-    display:flex;
-
-    list-style:none;
-
-    gap:25px;
-
-}
-
-nav a{
-
-    color:white;
-
-    text-decoration:none;
+    
 
 }
 
