@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#07111f;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#091827;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    font-size:18px;
+}
+
+main{
+    padding:40px;
+}
+
+.welcome{
+    margin-bottom:40px;
+}
+
+.welcome h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.welcome p{
+    color:#cbd5e1;
+    font-size:18px;
+}
