@@ -89,3 +89,57 @@ main{
     font-size:28px;
     font-weight:bold;
 }
+
+.modules{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.module{
+    background:#10233d;
+    padding:30px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.3s;
+    border:1px solid transparent;
+}
+
+.module:hover{
+    border-color:#38bdf8;
+    transform:translateY(-5px);
+}
+.module h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+    font-size:22px;
+}
+.module p{
+    color:#cbd5e1;
+    line-height:1.6;
+}
+
+.activity{
+    background:#10233d;
+    padding:30px;
+    border-radius:15px;
+}
+
+.activity h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.activity ul{
+    list-style:none;
+}
+
+.activity li{
+    padding:12px 0;
+    border-bottom:1px solid #1e3a5f;
+}
+
+.activity li:last-child{
+    border-bottom:none;
+}
