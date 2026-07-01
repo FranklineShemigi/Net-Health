@@ -1,11 +1,5 @@
 let username = "Frankline";
 
-let course = "Medication Safety";
+let greeting = document.getElementById("greeting");
 
-let completedLessons = 12;
-
-console.log(username);
-
-console.log(course);
-
-console.log(completedLessons);
+greeting.textContent = "Welcome, " + username + " 👋";
