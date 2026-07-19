@@ -1,0 +1,28 @@
+/*
+=========================================
+Net-Health Design Variables
+=========================================
+*/
+
+:root{
+
+    --primary:#2563EB;
+    --secondary:#06B6D4;
+
+    --success:#22C55E;
+    --warning:#F59E0B;
+    --danger:#EF4444;
+
+    --background:#F8FAFC;
+    --surface:#FFFFFF;
+
+    --text:#0F172A;
+    --muted:#64748B;
+
+    --radius-sm:6px;
+    --radius-md:12px;
+    --radius-lg:18px;
+
+    --shadow:0 8px 24px rgba(15,23,42,.08);
+
+}

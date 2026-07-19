@@ -1,54 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>DoseWise Pro | Medication Safety</title>
- <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Net-Health</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/responsive.css">
+
 </head>
 
 <body>
- <header>
-  <nav>
-   <div class="logo">🛡 DoseWise Pro     </div>
-   <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Simulator</a></li>
-    <li><a href="#">Drug Library</a>      </li>
-    <li><a href="#">Calculator</a>        </li>
-    <li><a href="#">Login</a></li>
-    </ul>
-  </nav>
+
+<header>
+
+<nav>
+
+<div class="logo">
+Net-Health
+</div>
+
+<ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Learn</a></li>
+ <li><a href="#">Practice</a></li>
+ <li><a href="#">Consult</a></li>
+ <li><a href="#">About</a></li>
+</ul>
+
+<div class="buttons">
+
+<button class="login">
+
+Login
+
+</button>
+
+<button class="signup">
+
+Sign Up
+
+</button>
+
+</div>
+
+</nav>
 
 </header>
-  <main>
-    <section class="hero">
-      <h1>Practice. Prevent. Protect.</h1>
-      <p>AI-powered medication safety platform for healthcare students and professionals.</p>
-      <button>Launch Simulator</button>
-      <button>Learn More</button>
-    </section>
-    <section class="features">
-      <div class="card">
-        <h3>Drug Library</h3>
-        <p>Search hundreds of medications instantly.</p>
-      </div>
-      <div class="card">
-        <h3>Dose Calculator</h3>
-        <p>Calculate safe doses accurately.</p>
-      </div>
-      <div class="card">
-        <h3>Patient Simulator</h3>
-        <p>Practice real clinical scenarios.</p>
-      </div>
-      <div class="card">
-        <h3>Interaction Checker</h3>
-        <p>Detect dangerous drug combinations.</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>© 2026 DoseWise Pro</p>
-  </footer>
+
+<main>
+
+<section class="hero">
+    <div class="hero__content">
+        <span class="hero__badge">
+            AI-Powered Clinical Learning Platform
+        </span>
+        <h1>
+            Learn Safely.
+            Practice Confidently.
+            Care Better.
+        </h1>
+        <p>
+            Master medicines, practice realistic clinical scenarios,
+            calculate doses, and connect patients with verified
+            healthcare professionals.
+        </p>
+        <div class="hero__buttons">
+            <button class="btn-primary">
+                Start Learning
+            </button>
+            <button class="btn-secondary">
+                Find a Doctor
+            </button>
+        </div>
+    </div>
+    <div class="hero__image">
+        <img src="assets/images/doctor.svg"
+             alt="Doctor Illustration">
+    </div>
+</section>
+    
+ <section class="features">
+    <div class="section-title">
+        <h2>Everything You Need In One Platform</h2>
+        <p>
+            Learn, practice, and deliver safer patient care.
+        </p>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card">
+            <h3>💊 Drug Library</h3>
+            <p>Search medicines with detailed clinical information.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🧮 Dose Calculator</h3>
+            <p>Calculate adult and pediatric doses safely.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🧠 AI Clinical Tutor</h3>
+            <p>Learn with AI-powered explanations and guidance.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🏥 Clinical Simulator</h3>
+            <p>Practice realistic patient scenarios without risk.</p>
+        </div>
+        <div class="feature-card">
+            <h3>⚠️ Drug Interaction Checker</h3>
+            <p>Identify potentially dangerous drug interactions.</p>
+        </div>
+        <div class="feature-card">
+            <h3>👨‍⚕️ Doctor Consultation</h3>
+            <p>Book appointments with verified healthcare professionals.</p>
+        </div>
+    </div>
+</section>
+
+ <section class="why">
+    <div class="section-title">
+        <h2>Why Choose Net-Health?</h2>
+        <p>
+            Built for safer learning and better patient care.
+        </p>
+    </div>
+    <div class="why-grid">
+        <div class="why-card">
+            <h3>📖 Learn</h3>
+            <p>Study medicines using evidence-based clinical information.</p>
+        </div>
+        <div class="why-card">
+            <h3>🩺 Practice</h3>
+            <p>Train with realistic patient cases before treating real patients.</p>
+        </div>
+        <div class="why-card">
+            <h3>🤖 AI Guidance</h3>
+            <p>Receive explanations that help you understand clinical reasoning.</p>
+        </div>
+        <div class="why-card">
+            <h3>🔒 Patient Safety</h3>
+            <p>Every tool is designed to reduce medication errors and encourage safe practice.</p>
+        </div>
+    </div>
+</section>
+    
+    <section class="cta">
+    <div class="cta-content">
+        <h2>Ready to Learn Smarter?</h2>
+        <p>
+            Join healthcare students and professionals building safer clinical skills with Net-Health.
+        </p>
+        <button class="btn-primary">
+            Get Started
+        </button>
+    </div>
+</section>
+    
+    <footer>
+    <div class="footer-content">
+        <h2>Net-Health</h2>
+        <p>
+            Learn. Practice. Care.
+        </p>
+        <p>
+            © 2026 Net-Health. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+    
+</main>
+
+<script src="js/app.js"></script>
+
 </body>
+
 </html>
