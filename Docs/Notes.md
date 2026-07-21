@@ -1,53 +1,31 @@
 # Net-Health
+## Project Description
+Net-Health is an AI-powered clinical learning and medication safety platform designed for healthcare students and professionals.
 
-Version: 0.1.0
-Status: In Development
-
-## Vision
-
-Net-Health is an AI-powered clinical learning and telehealth platform that enables healthcare students and professionals to learn, practice, and improve medication safety through interactive simulations while allowing patients to consult verified healthcare professionals.
-
-## Mission
-
-Improve medication safety and clinical competence through technology.
-
-## Core Modules
-
-- Learn
-- Practice
-- Care
-- Community
-- Institution Portal
-
-## User Roles
-
-- Student
-- Doctor
-- Nurse
-- Pharmacist
-- Clinical Officer
-- Patient
-- Educator
-- Administrator
-
-## MVP
-
-- Landing Page
-- Authentication
-- Dashboard
+The platform combines:
 - Drug Library
 - Dose Calculator
 - Drug Interaction Checker
-- AI Tutor
 - Clinical Simulator
-- Medication Administration Lab
-- Doctor Verification
-- Appointment Booking
-- Badges
+- AI Learning Assistant
+- Doctor Consultation
+- Medication Safety Tools
 
-## Current Sprint
+## Tech Stack
+Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6 Modules)
 
-Sprint 1
+Backend
+- Node.js
+- Express.js
 
-Goal:
-Build the project foundation.
+Database
+- PostgreSQL
+
+Version Control
+- Git & GitHub
+
+## Documentation
+Detailed development history is stored in the `docs/sprints` folder.
