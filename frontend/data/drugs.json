@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "genericName": "Paracetamol",
+    "brandNames": ["Panadol", "Calpol"],
+    "category": "Analgesic",
+    "drugClass": "Analgesic / Antipyretic",
+    "dosageForms": ["Tablet", "Syrup"],
+    "strengths": ["500 mg", "120 mg/5 mL"],
+    "prescriptionOnly": false,
+    "essentialMedicine": true
+  },
+  {
+    "id": 2,
+    "genericName": "Ibuprofen",
+    "brandNames": ["Brufen"],
+    "category": "Analgesic",
+    "drugClass": "NSAID",
+    "dosageForms": ["Tablet", "Suspension"],
+    "strengths": ["200 mg", "400 mg"],
+    "prescriptionOnly": false,
+    "essentialMedicine": true
+  },
+  {
+    "id": 3,
+    "genericName": "Amoxicillin",
+    "brandNames": ["Amoxil"],
+    "category": "Antibiotic",
+    "drugClass": "Penicillin",
+    "dosageForms": ["Capsule", "Suspension"],
+    "strengths": ["250 mg", "500 mg"],
+    "prescriptionOnly": true,
+    "essentialMedicine": true
+  },
+  {
+    "id": 4,
+    "genericName": "Ceftriaxone",
+    "brandNames": ["Rocephin"],
+    "category": "Antibiotic",
+    "drugClass": "Cephalosporin",
+    "dosageForms": ["Injection"],
+    "strengths": ["1 g"],
+    "prescriptionOnly": true,
+    "essentialMedicine": true
+  },
+  {
+    "id": 5,
+    "genericName": "Metronidazole",
+    "brandNames": ["Flagyl"],
+    "category": "Antibiotic",
+    "drugClass": "Nitroimidazole",
+    "dosageForms": ["Tablet", "Injection"],
+    "strengths": ["200 mg", "400 mg", "500 mg"],
+    "prescriptionOnly": true,
+    "essentialMedicine": true
+  }
+]
