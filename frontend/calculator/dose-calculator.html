@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dose Calculator | Net-Health</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+<header class="dashboard-header">
+    <h1>Net-Health</h1>
+    <nav>
+        <a href="../dashboard/dashboard.html">Dashboard</a>
+        <a href="../drugs/drug-library.html">Drug Library</a>
+    </nav>
+
+</header>
+<main class="dose-calculator">
+
+    <div class="calculator-container">
+
+        <a href="../dashboard/dashboard.html" class="back-btn">
+            ← Back to Dashboard
+        </a>
+
+        <h1>Dose Calculator</h1>
+
+        <p class="page-description">
+            Calculate safe medicine doses using patient information.
+        </p>
+
+        <div class="calculator-card">
+
+            <label for="medicine">Medicine</label>
+
+            <select id="medicine">
+                <option value="">Select Medicine</option>
+            </select>
+
+            <label for="weight">Weight (kg)</label>
+
+            <input
+                type="number"
+                id="weight"
+                placeholder="Enter patient's weight">
+
+            <label for="age">Age (years)</label>
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter patient's age">
+
+            <div class="calculator-buttons">
+
+                <button id="calculate-btn">
+                    Calculate Dose
+                </button>
+
+                <button id="reset-btn">
+                    Reset
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="result" class="result-card">
+
+            <h2>Result</h2>
+
+            <p>Dose calculations will appear here.</p>
+
+        </div>
+
+    </div>
+
+</main>
+
+<script src="../data/drugs.js"></script>
+<script src="../js/dose-calculator.js"></script>
+</body>
+</html>
