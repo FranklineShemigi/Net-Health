@@ -1,168 +1,188 @@
 # Net-Health Architecture
-## Project Overview
-Net-Health is an AI-powered clinical learning and medication safety platform designed for healthcare students and professionals.
-The application is being developed incrementally, with each version introducing a complete, testable feature.
+
+## Overview
+
+Net-Health is a modular front-end web application designed around reusable components, organised folders, and scalable JavaScript modules.
+
+The project separates responsibilities so that each file has a clear purpose.
 
 ---
 
-# Technology Stack
-## Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6)
+# Project Structure
 
-## Backend (Planned)
-- Node.js
-- Express.js
+frontend/
 
-## Database (Planned)
-- PostgreSQL
+├── auth/
+│   Authentication pages
 
-## Version Control
-- Git
-- GitHub
+├── calculator/
+│   Dose Calculator
 
----
+├── dashboard/
+│   User dashboard
 
-# Folder Structure
-Net-Health/
-├── backend/
-│
-├── docs/
-│
-├── frontend/
-│   ├── assets/
-│   ├── auth/
-│   ├── calculator/
-│   ├── consultation/
-│   ├── css/
-│   ├── dashboard/
-│   ├── data/
-│   ├── drugs/
-│   ├── js/
-│   ├── pages/
-│   ├── profile/
-│   ├── simulator/
-│   └── index.html
-│
-├── .gitignore
-└── README.md
+├── drugs/
+│   Drug Library and Drug Details
+
+├── css/
+│   Shared styling
+
+├── data/
+│   Application data
+
+├── js/
+│   JavaScript modules
+
+└── index.html
+Landing page
 
 ---
 
-# Frontend Modules
+# Architecture Layers
 
-Authentication
-- Login
-- Register
-- Forgot Password
+## 1. Presentation Layer
 
-Dashboard
-- Welcome
-- Quick Actions
-- Sidebar Navigation
+Responsible for displaying information.
 
-Drug Library
-- Search
-- Categories
-- Drug Details
+Contains:
 
-Dose Calculator
-- Adult Dose
-- Pediatric Dose
+- HTML
+- CSS
 
-Clinical Simulator
-- Patient Cases
-- Scoring
-- Feedback
+Examples
 
-Doctor Consultation
-- Doctor Directory
-- Booking
-- Payments
-
-Profile
-- Progress
-- Badges
-- Settings
+- Dashboard
+- Drug Library
+- Dose Calculator
 
 ---
 
-# Current Authentication Flow
+## 2. Logic Layer
 
-Landing Page
+Responsible for application behaviour.
+
+Contains JavaScript modules such as:
+
+- auth.js
+- navigation.js
+- dashboard.js
+- drug-library.js
+- drug-details.js
+- dose-calculator.js
+
+Each module performs one responsibility.
+
+---
+
+## 3. Data Layer
+
+Stores application data.
+
+Current:
+
+- drugs.js
+
+Future:
+
+- JSON databases
+- API endpoints
+- Backend database
+
+---
+
+# Navigation Architecture
+
+All authenticated pages use a shared navigation system.
+
+navigation.js controls:
+
+- Sidebar
+- Hamburger menu
+- Logout
+
+This avoids repeating the same code on every page.
+
+---
+
+# Styling Architecture
+
+All styling is centralised.
+
+variables.css
+
+Stores:
+
+- Colours
+- Shadows
+- Border radius
+- Typography
+- Spacing
+
+style.css
+
+Contains reusable components such as:
+
+- Cards
+- Buttons
+- Forms
+- Dashboard
+- Drug Library
+- Dose Calculator
+
+responsive.css
+
+Contains responsive layouts for mobile and larger screens.
+
+---
+
+# Data Flow
+
+User Input
 
 ↓
 
-Login / Register
+JavaScript Validation
 
 ↓
 
-Dashboard
+Application Logic
 
 ↓
 
-Logout
+Data Lookup
 
 ↓
 
-Landing Page
+Calculation
+
+↓
+
+Result Display
 
 ---
 
-# Planned User Roles
+# Design Principles
 
-1. Student
-2. Healthcare Professional
-3. Verified Doctor
-4. Administrator
+The project follows these principles:
 
-Each role will receive different permissions throughout the platform.
-
----
-
-# Coding Standards
-
-HTML
-- Semantic elements
-- Accessible forms
-
-CSS
-- Mobile-first
-- Modular
+- Modular code
 - Reusable components
-
-JavaScript
-- One responsibility per file
-- Clear function names
-- Avoid global variables
-
-Git
-- Small commits
-- Meaningful commit messages
-- Version tags for milestones
+- Consistent user interface
+- Separation of concerns
+- Mobile-first design
+- Easy scalability
 
 ---
 
-# Documentation
+# Future Architecture
 
-Notes.md
-Project overview
+As Net-Health grows, the architecture will evolve to include:
 
-CHANGELOG.md
-Version history
+- Backend API
+- Database
+- User accounts
+- AI services
+- Authentication server
+- Clinical decision engine
 
-TODO.md
-Current work
-
-DECISIONS.md
-Important design decisions
-
-IDEAS.md
-Future features
-
-ARCHITECTURE.md
-System design
-
-docs/sprints/
-Detailed sprint history
+The current modular structure allows these features to be added with minimal changes to the existing codebase.
