@@ -17,13 +17,36 @@
 <body>
 
 <header class="dashboard-header">
-    <h1>Net-Health</h1>
+    <button class="menu-btn">&#9776;</button>
+    <h1 class="logo">Net-Health</h1>
+    <button class="profile-btn">👤</button>
     <nav>
         <a href="../dashboard/dashboard.html">Dashboard</a>
         <a href="../drugs/drug-library.html">Drug Library</a>
     </nav>
-
 </header>
+      
+         <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+<div class="sidebar-header">
+    <h2>Net-Health</h2>
+    <button class="close-btn">&times;</button>
+
+</div>
+        <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
+<a href="../drugs/drug-library.html">💊 Drug Library</a>
+<a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
+<a href="#" onclick="alert('Coming Soon!')">
+ ⚠ Drug Interaction Checker</a>
+<a href="#" onclick="alert('Coming soon!')">
+🤖 AI Tutor</a>
+<a href="#" onclick="alert('Coming soon!')">
+🩺 Clinical Simulator</a>
+<a href="#" onclick="alert('Coming soon!')">
+⚙ Settings</a>
+<a href="../index.html">🚪 Logout</a>
+    </aside>
+      
 <main class="dose-calculator">
 
     <div class="calculator-container">
@@ -87,6 +110,6 @@
 </main>
 
 <script src="../data/drugs.js"></script>
-<script src="../js/dose-calculator.js"></script>
+<script src="../js/navigation.js"></script>
 </body>
 </html>

@@ -23,15 +23,18 @@
     <button class="close-btn">&times;</button>
 
 </div>
-        <a href="#">🏠 Dashboard</a>
-        <a href="#">💊 Drug Library</a>
-        <a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
-        <a href="#">🧠 AI Tutor</a>
-        <a href="#">🩺 Clinical Simulator</a>
-        <a href="#">👨‍⚕️ Consult a Doctor</a>
-        <a href="#">🏆 My Badges</a>
-        <a href="#">⚙️ Settings</a>
-        <a href="#" id="logout-btn">🚪 Logout</a>
+        <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
+<a href="../drugs/drug-library.html">💊 Drug Library</a>
+<a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
+<a href="#" onclick="alert('Coming Soon!')">
+ ⚠ Drug Interaction Checker</a>
+<a href="#" onclick="alert('Coming soon!')">
+🤖 AI Tutor</a>
+<a href="#" onclick="alert('Coming soon!')">
+🩺 Clinical Simulator</a>
+<a href="#" onclick="alert('Coming soon!')">
+⚙ Settings</a>
+<a href="../index.html">🚪 Logout</a>
     </aside>
 
     <!-- Main Content -->
@@ -50,27 +53,27 @@
             <h2>Quick Actions</h2>
             <div class="action-grid">
 
-                <button class="action-card">
-                    💊 <span>Drug Library</span>
+                <button class="action-card" onclick="location.href='../drugs/drug-library.html'">
+                💊 <span>Drug Library</span>
+               </button>
+
+                <button class="action-card" onclick="location.href='../calculator/dose-calculator.html'">
+                 🧮 <span>Dose Calculator</span>
                 </button>
 
-                <button class="action-card">
-                    🧮 <span>Dose Calculator</span>
+                <button class="action-card" onclick="alert('Coming Soon')">
+                🧠  <span>AI Tutor</span>
                 </button>
 
-                <button class="action-card">
-                    🧠  <span>AI Tutor</span>
-                </button>
-
-                <button class="action-card">
+                <button class="action-card"  onclick="alert('Coming Soon')">
                     🩺  <span>Clinical Simulator</span>
                 </button>
 
-                <button class="action-card">
+                <button class="action-card" onclick="alert('Coming Soon')">
                     👨‍⚕️ <span>Book Consultation</span>
                 </button>
 
-                <button class="action-card">
+                <button class="action-card" onclick="alert('Coming Soon')">
                     🏆  <span>My Badges</span>
                 </button>
             </div>
@@ -78,6 +81,7 @@
 
     </main>
     <script src="../js/dashboard.js"></script>
+    <script src="../js/navigation.js"></script>
 
 </body>
 </html>

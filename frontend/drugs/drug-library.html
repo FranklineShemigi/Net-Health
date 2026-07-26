@@ -15,6 +15,38 @@
     <h1 class="logo">Drug Library</h1>
     <button class="profile-btn">👤</button>
 </header>
+    
+<div class="sidebar" id="sidebar">
+
+    <div class="sidebar-header">
+        <h2>Menu</h2>
+
+        <button class="close-btn">&times;</button>
+    </div>
+
+    <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
+
+    <a href="drug-library.html">💊 Drug Library</a>
+
+    <a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
+
+    <a href="#" onclick="alert('Coming in Sprint 9!')">
+        ⚠ Drug Interaction Checker
+    </a>
+
+    <a href="#" onclick="alert('Coming soon!')">
+        🤖 AI Tutor
+    </a>
+
+    <a href="#" onclick="alert('Coming soon!')">
+        🩺 Clinical Simulator
+    </a>
+
+    <a href="../index.html" id="logout-btn">
+        🚪 Logout
+    </a>
+
+</div>
       
 <main class="dashboard">
     <h2>Drug Library</h2>
@@ -26,8 +58,10 @@
     </div>
 </main>
       
-<script src="../js/drugs.js"></script>
+<script src="../data/drugs.js"></script>
 <script src="../js/drug-library.js"></script>
-
+<script src="../js/dashboard.js"></script>
+<script src="../js/navigation.js"></script>
+    
 </body>
 </html>
