@@ -1,52 +1,74 @@
+
 /* ===========================
    RESPONSIVE DESIGN
 =========================== */
+
 .menu-btn{
     display:none;
 }
 
 @media (max-width:768px){
-    nav{
-        position:relative;
-    }
 
-    .menu-btn{
-        display:block;
-        background:none;
-        border:none;
-        font-size:2rem;
-        cursor:pointer;
-        color:var(--primary);
-    }
+/* ===== NAVIGATION ===== */
 
-    nav ul{
-        display:none;
-    }
+nav{
+    position:relative;
+    justify-content:space-between;
+}
 
-    nav ul.active{
-        display:flex;
-        flex-direction:column;
-        position:absolute;
-        top:80px;
-        left:0;
-        width:100%;
-        background:white;
-        padding:20px;
-        gap:20px;
-        box-shadow:var(--shadow);
-    }
+.logo{
+    font-size:1.5rem;
+}
 
-    .buttons{
-        display:none;
-    }
-    
-    .hero{
+.menu-btn{
+    display:block;
+    background:none;
+    border:none;
+    font-size:2rem;
+    cursor:pointer;
+    color:var(--primary);
+}
+
+nav ul{
+    display:none;
+}
+
+nav ul.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    padding:20px;
+    gap:20px;
+    background:var(--surface);
+    box-shadow:var(--shadow);
+}
+
+.desktop-auth{
+    display:none;
+}
+
+.mobile-auth{
+    display:block;
+    width:100%;
+}
+
+.mobile-auth button{
+    width:100%;
+    margin-top:10px;
+}
+
+/* ===== HERO ===== */
+
+.hero{
     flex-direction:column;
     text-align:center;
     padding:120px 8% 60px;
 }
 
-.hero__content{
+.hero-content{
     width:100%;
 }
 
@@ -58,131 +80,195 @@
     font-size:1rem;
 }
 
-.hero__buttons{
+.hero-buttons{
     flex-direction:column;
     align-items:center;
 }
 
-.hero__buttons button{
+.hero-buttons button{
     width:100%;
     max-width:320px;
 }
 
-.hero__image{
+.hero-image{
     width:100%;
     margin-top:40px;
 }
 
-.hero__image img{
+.hero-image img{
     width:80%;
     max-width:350px;
 }
-    
-    .logo{
-    font-size:1.5rem;
+
+/* ===== FEATURES ===== */
+
+.features{
+    padding:60px 8%;
 }
 
-nav{
-    justify-content:space-between;
+.features-grid{
+    grid-template-columns:1fr;
 }
-    
-    .section-title h2{
+
+.feature-card{
+    text-align:center;
+}
+
+/* ===== WHY ===== */
+
+.why{
+    padding:60px 8%;
+}
+
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.why-card{
+    text-align:center;
+}
+
+/* ===== CTA ===== */
+
+.cta{
+    padding:60px 8%;
+}
+
+.cta h2{
+    font-size:2.2rem;
+}
+
+.cta p{
+    font-size:1rem;
+}
+
+/* ===== SECTION TITLES ===== */
+
+.section-title h2{
     font-size:2rem;
 }
 
 .section-title p{
     font-size:1rem;
 }
-    /* Welcome Card */
-    .welcome-card{padding:25px;}
-.welcome-card h2{font-size:1.8rem;}
-.welcome-card p{font-size:1rem;}
-    
-    /* Action Card */
-    .action-card{
-        padding:20px;
-    font-size:1rem;
-}
-     .action-grid{grid-template-columns:1fr;}
-    
-   /* Search Bar */
-  .search-bar{width:100%;}
-.search-bar input{
-    width:100%;
-    font-size:1rem;
-    padding:15px;
-}  
-    
-  /*buttons*/
-    .back-btn,.print-btn{width:100%;}
-    
-    /*Warning Box*/
-    .warning-box{
-    font-size:0.95rem;
-    line-height:1.6;
-}
-    /* ===== GLOBAL MOBILE POLISH ===== */
-body{overflow-x:hidden;}
-img{max-width:100%;
-    height:auto;}
-button{min-height:48px;}
-input{min-height:48px;}
-section{overflow:hidden;}
-   
-    /* ===== FEATURES ===== */
-.features{padding:60px 8%;}
-.features-grid{grid-template-columns:1fr;}
-.feature-card{text-align:center;}
-    
-    /* ===== WHY SECTION ===== */
-.why{padding:60px 8%;}
-.why-grid{grid-template-columns:1fr;}
-.why-card{text-align:center;}
-    
-    /* ===== CTA ===== */
-.cta{padding:60px 8%;}
-    .cta h2{font-size:2.2rem;}
-.cta p{font-size:1rem;}
-    
+
 /* ===== DASHBOARD ===== */
 
 .dashboard{
     margin-top:90px;
     padding:30px 5%;
 }
-    /*Dashboard Header*/
-    .dashboard-header nav{
-    display:none;
-}
 
 .dashboard-header{
     padding:18px;
 }
-    
-    /* ===== DRUG LIBRARY ===== */
-.drug-library{padding:30px 5%;}
-       /*Drug-card*/
-    .drug-grid{grid-template-columns:1fr;}
-.drug-card{padding:20px;}
-    
-    .drug-card h3{font-size:1.3rem;}
-.drug-card p{font-size:1rem;}
-    
-    .drug-card-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+
+.dashboard-header nav{
+    display:none;
 }
-    
-    /* DRUG DETAILS */
+
+.welcome-card{
+    padding:25px;
+}
+
+.welcome-card h2{
+    font-size:1.8rem;
+}
+
+.welcome-card p{
+    font-size:1rem;
+}
+
+.action-grid{
+    grid-template-columns:1fr;
+}
+
+.action-card{
+    padding:20px;
+}
+
+/* ===== SEARCH ===== */
+
+.search-bar{
+    width:100%;
+}
+
+.search-bar input{
+    width:100%;
+    padding:15px;
+    font-size:1rem;
+}
+
+/* ===== DRUG LIBRARY ===== */
+
+.drug-library{
+    padding:30px 5%;
+}
+
+.drug-grid{
+    grid-template-columns:1fr;
+}
+
+.drug-card{
+    padding:20px;
+}
+
+.drug-card h3{
+    font-size:1.3rem;
+}
+
+.drug-card p{
+    font-size:1rem;
+}
+
+/* ===== DRUG DETAILS ===== */
+
 .drug-details-card{
     padding:25px;
     margin:20px auto;
 }
-    .drug-details-card h1{font-size:2rem;}
-    .drug-details-card p{font-size:1rem;
-                          line-height:1.8;}
-    
-    
+
+.drug-details-card h1{
+    font-size:2rem;
 }
 
+.drug-details-card p{
+    font-size:1rem;
+    line-height:1.8;
+}
+
+/* ===== BUTTONS ===== */
+
+.back-btn,
+.print-btn{
+    width:100%;
+}
+
+/* ===== WARNING ===== */
+
+.warning-box{
+    font-size:.95rem;
+    line-height:1.6;
+}
+
+/* ===== GLOBAL ===== */
+
+body{
+    overflow-x:hidden;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+button,
+input{
+    min-height:48px;
+}
+
+section{
+    overflow:hidden;
+}
+
+}
