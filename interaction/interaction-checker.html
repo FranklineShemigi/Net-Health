@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drug Library | Net-Health</title>
+    <title>Drug Interaction Checker | Net-Health</title>
 
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
-   
 </head>
 <body>
 
 <header class="dashboard-header">
     <button class="menu-btn">&#9776;</button>
-    <h1 class="logo">Drug Library</h1>
+
+    <h1 class="logo">Interaction Checker</h1>
+
     <button class="profile-btn">👤</button>
 </header>
-    
+
 <div class="sidebar" id="sidebar">
 
     <div class="sidebar-header">
         <h2>Menu</h2>
-
         <button class="close-btn">&times;</button>
     </div>
       <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
@@ -40,21 +40,53 @@
 <a href="../index.html">🚪 Logout</a>
     
 </div>
-      
+
 <main class="dashboard">
-    <h2>Drug Library</h2>
-    <input
-        type="text"
-        id="search"
-        placeholder="Search medicines...">
-    <div id="drug-list">
+<div class="interaction-container">
+    <h2>Drug Interaction Checker</h2>
+
+    <p class="page-description">
+        Select two medicines to check for possible drug interactions.
+    </p>
+
+    <div class="calculator-card">
+
+        <label for="drug-one">Drug 1</label>
+        <select id="drug-one">
+            <option value="">Choose a medicine</option>
+        </select>
+
+        <label for="drug-two">Drug 2</label>
+        <select id="drug-two">
+            <option value="">Choose a medicine</option>
+        </select>
+
+        <div class="calculator-buttons">
+            <button id="check-btn">
+                Check Interaction
+            </button>
+        </div>
+
     </div>
+
+    <div class="result-card">
+
+        <h3>Result</h3>
+
+        <div id="interaction-result">
+            Select two medicines and press
+            <strong>Check Interaction</strong>.
+        </div>
+
+    </div>
+</div>>
 </main>
-      
+
 <script src="../data/drugs.js"></script>
-<script src="../js/drug-library.js"></script>
+<script src="../data/interactions.js"></script>
 <script src="../js/dashboard.js"></script>
 <script src="../js/navigation.js"></script>
-    
+<script src="../js/interaction-checker.js"></script>
+
 </body>
 </html>
