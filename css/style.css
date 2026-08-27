@@ -1,1026 +1,2514 @@
 /* ======================================
-   RESET
+   NET-HEALTH
+   MAIN STYLESHEET
 ====================================== */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+/* ======================================
+   1. RESET & GLOBAL
+====================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:var(--background);
-    color:var(--text);
-    line-height:1.6;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
 }
 
-img{
-    display:block;
-    max-width:100%;
-    height:auto;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-button{
-    font:inherit;
-    cursor:pointer;
+button {
+    font: inherit;
+    cursor: pointer;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
 
 /* ======================================
-   NAVIGATION
+   2. MAIN NAVIGATION
 ====================================== */
 
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:var(--surface);
-    box-shadow:0 2px 10px rgba(0,0,0,.08);
-    z-index:1000;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background: var(--surface);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+    z-index: 1000;
 }
 
-nav{
-    width:90%;
-    max-width:1200px;
-    height:80px;
-    margin:auto;
+nav {
+    width: 90%;
+    max-width: 1200px;
+    height: 80px;
 
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:30px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
 }
 
-.logo{
-    font-size:1.8rem;
-    font-weight:700;
-    color:var(--primary);
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
 }
 
-nav ul{
-    display:flex;
-    align-items:center;
-    gap:30px;
-    list-style:none;
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
 }
 
-nav ul li{
-    list-style:none;
+nav ul li {
+    list-style: none;
 }
 
-nav a{
-    color:var(--text);
-    font-weight:600;
-    transition:.3s;
+nav a {
+    color: var(--text);
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-nav a:hover{
-    color:var(--primary);
-}
-
-
-/* ===== Desktop Authentication ===== */
-
-.desktop-auth{
-    display:flex;
-    gap:15px;
-}
-
-.mobile-auth{
-    display:none;
+nav a:hover {
+    color: var(--primary);
 }
 
 
-/* ===== Buttons ===== */
+/* ======================================
+   3. AUTH NAVIGATION
+====================================== */
+
+.desktop-auth {
+    display: flex;
+    gap: 15px;
+}
+
+.mobile-auth {
+    display: none;
+}
 
 .login,
-.signup{
-    padding:10px 22px;
-    border-radius:8px;
-    font-weight:600;
-    transition:.3s;
+.signup {
+    padding: 10px 22px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
 }
 
-.login{
-    border:1px solid var(--primary);
-    background:var(--surface);
-    color:var(--primary);
+.login {
+    border: 1px solid var(--primary);
+
+    background: var(--surface);
+    color: var(--primary);
 }
 
-.login:hover{
-    background:var(--primary);
-    color:white;
+.login:hover {
+    background: var(--primary);
+    color: white;
 }
 
-.signup{
-    border:none;
-    background:var(--primary);
-    color:white;
+.signup {
+    border: none;
+
+    background: var(--primary);
+    color: white;
 }
 
-.signup:hover{
-    opacity:.9;
+.signup:hover {
+    opacity: 0.9;
 }
 
-
-/* ===== Navigation Menu Button ===== */
-
-.menu-btn{
-    display:none;
-    background:none;
-    border:none;
-    font-size:2rem;
-    color:var(--primary);
-}
 
 /* ======================================
-   HERO
+   4. MENU BUTTON
 ====================================== */
 
-.hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:60px;
+.menu-btn {
+    background: none;
+    border: none;
 
-    max-width:1200px;
-    margin:0 auto;
-    padding:140px 8% 80px;
+    font-size: 2rem;
+    color: var(--primary);
 }
 
-.hero-content{
-    flex:1;
-}
-
-.hero-badge{
-    display:inline-block;
-    padding:8px 16px;
-    margin-bottom:20px;
-
-    background:#CCFBF1;
-    color:var(--primary);
-
-    border-radius:999px;
-    font-weight:600;
-}
-
-.hero h1{
-    font-size:60px;
-    line-height:1.1;
-    margin-bottom:20px;
-}
-
-.hero p{
-    margin-bottom:35px;
-    font-size:20px;
-    color:var(--muted);
-}
-
-.hero-buttons{
-    display:flex;
-    gap:20px;
-}
-
-.btn-primary{
-    padding:16px 32px;
-    border:none;
-    border-radius:var(--radius-md);
-
-    background:var(--primary);
-    color:white;
-}
-
-.btn-primary:hover{
-    opacity:.9;
-}
-
-.btn-secondary{
-    padding:16px 32px;
-
-    border:2px solid var(--primary);
-    border-radius:var(--radius-md);
-
-    background:transparent;
-    color:var(--primary);
-}
-
-.btn-secondary:hover{
-    background:var(--primary);
-    color:white;
-}
-
-.hero-image{
-    flex:1;
-    display:flex;
-    justify-content:center;
-}
-
-.hero-image img{
-    width:100%;
-    max-width:650px;
-}
 
 /* ======================================
-   FEATURES
+   5. BUTTONS
 ====================================== */
 
-.features{
-    padding:100px 8%;
-    background:var(--surface);
+.btn-primary {
+    padding: 16px 32px;
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    background: var(--primary);
+    color: white;
 }
 
-.section-title{
-    max-width:700px;
-    margin:0 auto 60px;
-    text-align:center;
+.btn-primary:hover {
+    opacity: 0.9;
 }
 
-.section-title h2{
-    margin-bottom:15px;
-    font-size:42px;
-    color:var(--text);
+.btn-secondary {
+    padding: 16px 32px;
+
+    border: 2px solid var(--primary);
+    border-radius: var(--radius-md);
+
+    background: transparent;
+    color: var(--primary);
 }
 
-.section-title p{
-    font-size:18px;
-    color:var(--muted);
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
 }
 
-.features-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
-}
-
-.feature-card{
-    padding:30px;
-    background:var(--background);
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
-    transition:transform .3s;
-}
-
-.feature-card:hover{
-    transform:translateY(-8px);
-}
-
-.feature-card h3{
-    margin-bottom:15px;
-    color:var(--primary);
-}
-
-.feature-card p{
-    color:var(--muted);
-    line-height:1.7;
-}
 
 /* ======================================
-   WHY NET-HEALTH
+   6. HERO
 ====================================== */
 
-.why{
-    padding:100px 8%;
-    background:var(--background);
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 60px;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 140px 8% 80px;
 }
 
-.why-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
+.hero-content {
+    flex: 1;
 }
 
-.why-card{
-    padding:35px;
-    text-align:center;
+.hero-badge {
+    display: inline-block;
 
-    background:var(--surface);
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    padding: 8px 16px;
+    margin-bottom: 20px;
 
-    transition:transform .3s;
+    background: #CCFBF1;
+    color: var(--primary);
+
+    border-radius: 999px;
+
+    font-weight: 600;
 }
 
-.why-card:hover{
-    transform:translateY(-8px);
+.hero h1 {
+    margin-bottom: 20px;
+
+    font-size: 60px;
+    line-height: 1.1;
 }
 
-.why-card h3{
-    margin-bottom:15px;
-    color:var(--primary);
+.hero p {
+    margin-bottom: 35px;
+
+    font-size: 20px;
+    color: var(--muted);
 }
 
-.why-card p{
-    color:var(--muted);
-    line-height:1.7;
+.hero-buttons {
+    display: flex;
+    gap: 20px;
 }
+
+.hero-image {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 650px;
+}
+
 
 /* ======================================
-   CALL TO ACTION
+   7. FEATURES
 ====================================== */
 
-.cta{
-    padding:100px 8%;
-    background:var(--primary);
-    color:white;
-    text-align:center;
+.features {
+    padding: 100px 8%;
+
+    background: var(--surface);
 }
 
-.cta-content{
-    max-width:700px;
-    margin:auto;
+.section-title {
+    max-width: 700px;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
 }
 
-.cta h2{
-    margin-bottom:20px;
-    font-size:48px;
+.section-title h2 {
+    margin-bottom: 15px;
+
+    font-size: 42px;
+
+    color: var(--text);
 }
 
-.cta p{
-    margin-bottom:35px;
-    font-size:20px;
+.section-title p {
+    font-size: 18px;
+    color: var(--muted);
 }
 
-.cta .btn-primary{
-    background:white;
-    color:var(--primary);
+.features-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 30px;
 }
+
+.feature-card {
+    padding: 30px;
+
+    background: var(--background);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+.feature-card p {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
 
 /* ======================================
-   FOOTER
+   8. WHY NET-HEALTH
 ====================================== */
 
-footer{
-    padding:50px 20px;
-    text-align:center;
+.why {
+    padding: 100px 8%;
 
-    background:var(--text);
-    color:white;
+    background: var(--background);
 }
 
-.footer-content{
-    max-width:700px;
-    margin:auto;
+.why-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 30px;
 }
 
-footer h2{
-    margin-bottom:15px;
+.why-card {
+    padding: 35px;
+
+    text-align: center;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+
+    transition: transform 0.3s;
 }
 
-footer p{
-    margin-bottom:10px;
-    color:#CBD5E1;
+.why-card:hover {
+    transform: translateY(-8px);
 }
+
+.why-card h3 {
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+.why-card p {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
 
 /* ======================================
-   AUTHENTICATION
+   9. CALL TO ACTION
 ====================================== */
 
-.auth{
-    min-height:100vh;
+.cta {
+    padding: 100px 8%;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    background: var(--primary);
+    color: white;
 
-    padding:40px;
-
-    background:var(--background);
+    text-align: center;
 }
 
-.auth-card{
-    width:100%;
-    max-width:500px;
-
-    padding:40px;
-
-    background:var(--surface);
-
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+.cta-content {
+    max-width: 700px;
+    margin: auto;
 }
 
-.auth-card h1{
-    margin-bottom:15px;
-    color:var(--text);
+.cta h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
 }
 
-.auth-card p{
-    margin-bottom:25px;
-    color:var(--muted);
+.cta p {
+    margin-bottom: 35px;
+    font-size: 20px;
 }
 
-.auth-card form{
-    display:flex;
-    flex-direction:column;
-    gap:18px;
+.cta .btn-primary {
+    background: white;
+    color: var(--primary);
+}
+
+
+/* ======================================
+   10. FOOTER
+====================================== */
+
+footer {
+    padding: 50px 20px;
+
+    text-align: center;
+
+    background: var(--text);
+    color: white;
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    color: #CBD5E1;
+}
+
+
+/* ======================================
+   11. AUTHENTICATION
+====================================== */
+
+.auth {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+
+    background: var(--background);
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 40px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+.auth-card h1 {
+    margin-bottom: 15px;
+}
+
+.auth-card p {
+    margin-bottom: 25px;
+    color: var(--muted);
+}
+
+.auth-card form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 18px;
 }
 
 .auth-card input,
-.auth-card select{
-    width:100%;
-    padding:16px;
+.auth-card select {
+    width: 100%;
 
-    border:1px solid var(--border);
-    border-radius:var(--radius-md);
+    padding: 16px;
 
-    font-size:16px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+
+    font-size: 16px;
 }
 
-.auth-card button{
-    margin-top:10px;
+.auth-card button {
+    margin-top: 10px;
 }
 
-.auth-card a{
-    color:var(--primary);
-    font-weight:600;
+.auth-card a {
+    color: var(--primary);
+    font-weight: 600;
 }
 
-.auth-card a:hover{
-    text-decoration:underline;
+.auth-card a:hover {
+    text-decoration: underline;
 }
+
 
 /* ======================================
-   DASHBOARD
+   12. DASHBOARD
 ====================================== */
 
-.dashboard{
-    margin-top:80px;
-    padding:50px 8%;
+.dashboard {
+    margin-top: 80px;
+    padding: 50px 8%;
 }
 
-.dashboard-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 20px;
-    background:var(--surface);
-    box-shadow:var(--shadow);
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 20px;
+
+    background: var(--surface);
+
+    box-shadow: var(--shadow);
 }
 
 .dashboard-header .menu-btn,
-.dashboard-header .profile-btn{
-    background:none;
-    border:none;
-    font-size:2rem;
-    color:var(--text);
-    cursor:pointer;
+.dashboard-header .profile-btn {
+    background: none;
+    border: none;
+
+    font-size: 2rem;
+    color: var(--text);
 }
 
-.profile-btn{
-    background:none;
-    border:none;
-    font-size:2rem;
-    color:var(--text);
+.profile-btn {
+    background: none;
+    border: none;
 
-    cursor:pointer;
+    font-size: 2rem;
+    color: var(--text);
 }
 
-.welcome-card{
-    margin-bottom:40px;
-    padding:40px;
+.welcome-card {
+    margin-bottom: 40px;
 
-    background:var(--primary);
-    color:white;
+    padding: 40px;
 
-    border-radius:var(--radius-lg);
+    background: var(--primary);
+    color: white;
+
+    border-radius: var(--radius-lg);
 }
 
-.quick-actions h2{
-    margin-bottom:25px;
+.quick-actions h2 {
+    margin-bottom: 25px;
 }
 
-.action-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:18px;
+.action-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 18px;
 }
 
-.action-card{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:12px;
+.action-card {
+    display: flex;
+    flex-direction: column;
 
-    padding:25px;
+    justify-content: center;
+    align-items: center;
 
-    background:var(--surface);
+    gap: 12px;
 
-    border:none;
-    border-radius:20px;
+    padding: 25px;
 
-    box-shadow:var(--shadow);
+    background: var(--surface);
 
-    transition:.3s;
+    border: none;
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+
+    transition: 0.3s;
 }
 
-.action-card:hover{
-    transform:translateY(-5px);
+.action-card:hover {
+    transform: translateY(-5px);
 }
+
 
 /* ======================================
-   SIDEBAR
+   13. SIDEBAR
 ====================================== */
 
-.sidebar{
-    position:fixed;
+.sidebar {
+    position: fixed;
 
-    top:0;
-    left:-280px;
+    top: 0;
+    left: -280px;
 
-    width:260px;
-    height:100vh;
+    width: 260px;
+    height: 100vh;
 
-    padding:30px 20px;
+    padding: 30px 20px;
 
-    background:var(--surface);
+    overflow-y: auto;
 
-    box-shadow:var(--shadow);
+    background: var(--surface);
 
-    transition:left .3s;
+    box-shadow: var(--shadow);
 
-    z-index:1000;
+    transition: left 0.3s;
+
+    z-index: 2000;
 }
 
-.sidebar.active{
-    left:0;
+.sidebar.active {
+    left: 0;
 }
 
-.sidebar-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:30px;
+.sidebar-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
 }
 
-.sidebar h2{
-    color:var(--text);
+.sidebar h2 {
+    color: var(--text);
 }
 
-.sidebar a{
-    display:block;
-    padding:15px 0;
-    color:var(--text);
-    font-weight:600;
-    border-bottom:1px solid var(--border-light);
+.sidebar a {
+    display: block;
+
+    padding: 15px 0;
+
+    color: var(--text);
+
+    font-weight: 600;
+
+    border-bottom: 1px solid var(--border-light);
 }
 
-.sidebar a:hover{
-    color:var(--primary);
+.sidebar a:hover {
+    color: var(--primary);
 }
 
-.close-btn{
-    background:none;
-    border:none;
-    font-size:2rem;
-    color:var(--text);
-    cursor:pointer;
+.close-btn {
+    background: none;
+    border: none;
+
+    font-size: 2rem;
+
+    color: var(--text);
 }
+
 
 /* ======================================
-   DRUG LIBRARY
+   14. DRUG LIBRARY
 ====================================== */
 
-#search{
-    width:100%;
-    margin:25px 0;
-    padding:16px;
+#search {
+    width: 100%;
 
-    border:1px solid var(--border);
-    border-radius:var(--radius-md);
+    margin: 25px 0;
 
-    background:var(--surface);
-    color:var(--text);
+    padding: 16px;
 
-    font-size:16px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+    color: var(--text);
+
+    font-size: 16px;
 }
 
-#search:focus{
-    outline:none;
-    border-color:var(--primary);
+#search:focus {
+    outline: none;
+    border-color: var(--primary);
 }
 
-#drug-list{
-    display:grid;
-    gap:20px;
+#drug-list {
+    display: grid;
+    gap: 20px;
 }
 
-.drug-card{
-    padding:20px;
+.drug-card {
+    padding: 20px;
 
-    background:var(--surface);
+    background: var(--surface);
 
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    border-radius: var(--radius-lg);
 
-    cursor:pointer;
-    transition:.3s;
+    box-shadow: var(--shadow);
+
+    cursor: pointer;
+
+    transition: 0.3s;
 }
 
-.drug-card:hover{
-    transform:translateY(-5px);
+.drug-card:hover {
+    transform: translateY(-5px);
 }
 
-.drug-card-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+.drug-card-header {
+    display: flex;
 
-    margin-bottom:15px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
 }
 
-.drug-card h3{
-    margin-bottom:10px;
-    color:var(--primary);
+.drug-card h3 {
+    margin-bottom: 10px;
+    color: var(--primary);
 }
 
-.drug-card p{
-    margin-bottom:8px;
-    color:var(--text);
+.drug-card p {
+    margin-bottom: 8px;
 }
+
 
 /* ======================================
-   STATUS BADGES
+   15. DRUG DETAILS
+====================================== */
+
+.drug-details-card {
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+.detail-header {
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.detail-header h1 {
+    margin-bottom: 15px;
+
+    color: var(--primary);
+
+    font-size: 2.5rem;
+}
+
+.detail-badges {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.detail-section {
+    margin-top: 35px;
+}
+
+.detail-section h2 {
+    margin-bottom: 20px;
+
+    padding-bottom: 10px;
+
+    color: var(--primary);
+
+    border-bottom: 2px solid var(--border);
+}
+
+.detail-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+}
+
+.detail-item {
+    padding: 20px;
+
+    background: var(--background);
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow);
+}
+
+.detail-item strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--primary);
+}
+
+.detail-item p {
+    margin: 0;
+
+    color: var(--text);
+}
+
+.detail-section ul {
+    margin-left: 20px;
+}
+
+.detail-section li {
+    margin-bottom: 10px;
+}
+
+
+/* ======================================
+   16. STATUS BADGES
 ====================================== */
 
 .rx,
 .otc,
-.essential{
-    display:inline-block;
-    padding:6px 12px;
+.essential {
+    display: inline-block;
 
-    border-radius:999px;
+    padding: 6px 12px;
 
-    font-size:.8rem;
-    font-weight:600;
+    border-radius: 999px;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
 }
 
-.rx{
-    background:var(--danger);
-    color:white;
+.rx {
+    background: var(--danger);
+    color: white;
 }
 
-.otc{
-    background:var(--success);
-    color:white;
+.otc {
+    background: var(--success);
+    color: white;
 }
 
-.essential{
-    margin-top:15px;
-    padding:8px 14px;
+.essential {
+    margin-top: 15px;
 
-    background:#CCFBF1;
-    color:var(--primary);
+    padding: 8px 14px;
+
+    background: #CCFBF1;
+    color: var(--primary);
 }
+
 
 /* ======================================
-   NO RESULTS
+   17. WARNING
 ====================================== */
 
-.no-results{
-    padding:40px;
+.warning-box {
+    margin: 25px 0;
 
-    text-align:center;
+    padding: 18px;
 
-    background:var(--surface);
+    background: var(--danger-bg);
 
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    border-left: 5px solid var(--danger);
+
+    border-radius: var(--radius-md);
+
+    color: #991B1B;
 }
 
-.no-results h3{
-    margin-bottom:10px;
-    color:var(--primary);
+.warning-box h2 {
+    color: #B91C1C;
+
+    border-bottom: none;
 }
 
-.no-results p{
-    color:var(--muted);
-}
 
 /* ======================================
-   DRUG DETAILS
+   18. NO RESULTS
 ====================================== */
 
-.drug-details-card{
-    max-width:800px;
-    margin:auto;
+.no-results {
+    padding: 40px;
 
-    padding:35px;
+    text-align: center;
 
-    background:var(--surface);
+    background: var(--surface);
 
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
 }
 
-.drug-details-card h1{
-    margin-bottom:25px;
-    color:var(--primary);
+.no-results h2,
+.no-results h3 {
+    margin-bottom: 10px;
+
+    color: var(--primary);
 }
 
-.drug-details-card p{
-    margin-bottom:18px;
-    line-height:1.7;
+.no-results p {
+    color: var(--muted);
 }
 
-.back-btn{
-    margin-bottom:25px;
-
-    background:none;
-    border:none;
-
-    color:var(--primary);
-
-    font-size:1rem;
-    font-weight:600;
-}
-
-.back-btn:hover{
-    text-decoration:underline;
-}
-
-.print-btn{
-    margin-top:30px;
-    padding:14px 24px;
-
-    border:none;
-    border-radius:var(--radius-md);
-
-    background:var(--primary);
-    color:white;
-
-    transition:.3s;
-}
-
-.print-btn:hover{
-    opacity:.9;
-}
-
-.warning-box{
-    margin:25px 0;
-    padding:18px;
-
-    background:var(--danger-bg);
-
-    border-left:5px solid var(--danger);
-    border-radius:var(--radius-md);
-
-    color:#991B1B;
-}
 
 /* ======================================
-   DOSE CALCULATOR
+   19. BACK & PRINT BUTTONS
 ====================================== */
 
-.dose-calculator{
-    min-height:100vh;
-    padding:140px 8% 60px;
-    background:var(--background);
+.back-btn {
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    background: none;
+    border: none;
+
+    color: var(--primary);
+
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-.calculator-container{
-    max-width:700px;
-    margin:auto;
+.back-btn:hover {
+    text-decoration: underline;
 }
 
-.page-description{
-    margin-bottom:25px;
-    color:var(--muted);
+.print-btn {
+    display: block;
+
+    min-width: 240px;
+
+    margin: 30px auto 0;
+
+    padding: 14px 24px;
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    background: var(--primary);
+    color: white;
+
+    transition: 0.3s;
+}
+
+.print-btn:hover {
+    opacity: 0.9;
+}
+
+
+/* ======================================
+   20. DOSE CALCULATOR
+====================================== */
+
+.dose-calculator {
+    min-height: 100vh;
+
+    padding: 140px 8% 60px;
+
+    background: var(--background);
+}
+
+.calculator-container {
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.page-description {
+    margin-bottom: 25px;
+
+    color: var(--muted);
 }
 
 .calculator-card,
-.result-card{
-    margin-bottom:25px;
-    padding:30px;
+.result-card {
+    margin-bottom: 25px;
 
-    background:var(--surface);
+    padding: 30px;
 
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
 }
 
-.calculator-card label{
-    display:block;
-    margin:20px 0 8px;
-    font-weight:600;
+.calculator-card label {
+    display: block;
+
+    margin: 20px 0 8px;
+
+    font-weight: 600;
 }
 
 .calculator-card input,
-.calculator-card select{
-    width:100%;
-    padding:14px;
+.calculator-card select {
+    width: 100%;
 
-    border:1px solid var(--border);
-    border-radius:var(--radius-md);
+    padding: 14px;
 
-    background:var(--surface);
-    color:var(--text);
+    border: 1px solid var(--border);
 
-    font-size:1rem;
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-size: 1rem;
 }
 
 .calculator-card input:focus,
-.calculator-card select:focus{
-    outline:none;
-    border-color:var(--primary);
+.calculator-card select:focus {
+    outline: none;
+
+    border-color: var(--primary);
 }
 
-.calculator-buttons{
-    display:flex;
-    gap:15px;
-    margin-top:25px;
+.calculator-buttons {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
 }
 
-.calculator-buttons button{
-    flex:1;
-    padding:16px;
+.calculator-buttons button {
+    flex: 1;
 
-    border:none;
-    border-radius:var(--radius-md);
+    padding: 16px;
 
-    font-size:1rem;
-    transition:.3s;
+    border: none;
+
+    border-radius: var(--radius-md);
+
+    font-size: 1rem;
+
+    transition: 0.3s;
 }
 
-#calculate-btn{
-    background:var(--primary);
-    color:white;
+#calculate-btn,
+#book-consultation-btn {
+    background: var(--primary);
+    color: white;
 }
 
-#calculate-btn:hover{
-    opacity:.9;
+#calculate-btn:hover,
+#book-consultation-btn:hover {
+    opacity: 0.9;
 }
 
-#reset-btn{
-    background:#E5E7EB;
-    color:var(--text);
+#reset-btn,
+#reset-consultation-btn {
+    background: #E5E7EB;
+
+    color: var(--text);
 }
 
-#reset-btn:hover{
-    background:#D1D5DB;
+#reset-btn:hover,
+#reset-consultation-btn:hover {
+    background: #D1D5DB;
 }
+
 
 /* ======================================
-   DOSE RESULTS
+   21. SEARCHABLE MEDICINE DROPDOWN
 ====================================== */
 
-.dose-result{
-    display:flex;
-    flex-direction:column;
-    gap:16px;
-    margin-top:20px;
+#medicine-search {
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-size: 1rem;
 }
 
-.result-item{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+#medicine-search:focus {
+    outline: none;
 
-    padding:16px;
-
-    background:var(--background);
-
-    border:1px solid var(--border-light);
-    border-radius:var(--radius-md);
+    border-color: var(--primary);
 }
 
-.result-item strong{
-    color:var(--text);
+.medicine-dropdown {
+    position: relative;
+
+    width: 100%;
+
+    max-height: 250px;
+
+    overflow-y: auto;
+
+    margin-top: 5px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow);
+
+    z-index: 100;
 }
 
-.result-item span{
-    color:var(--primary);
-    font-weight:600;
+.medicine-option {
+    padding: 12px 15px;
+
+    cursor: pointer;
+
+    border-bottom: 1px solid var(--border-light);
 }
 
-.highlight{
-    background:var(--success-bg);
-    border-left:5px solid var(--success);
+.medicine-option:last-child {
+    border-bottom: none;
 }
 
-.highlight span{
-    color:var(--success);
-    font-size:1.1rem;
+.medicine-option:hover {
+    background: var(--background);
+
+    color: var(--primary);
 }
 
-.disclaimer{
-    margin-top:20px;
-    padding:18px;
-
-    background:var(--warning-bg);
-
-    border-left:5px solid var(--warning);
-    border-radius:var(--radius-md);
-
-    color:#7C5A00;
-    line-height:1.6;
-    font-size:.95rem;
-}
 
 /* ======================================
-   DRUG INTERACTION CHECKER
+   22. DOSE RESULTS
 ====================================== */
 
-.interaction-container{
-    max-width:700px;
-    margin:0 auto;
+.dose-result {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+    margin-top: 20px;
 }
 
-.interaction-card,
-.interaction-result-card{
-    margin-bottom:25px;
-    padding:30px;
+.result-item {
+    display: flex;
 
-    background:var(--surface);
+    justify-content: space-between;
+    align-items: center;
 
-    border-radius:var(--radius-lg);
-    box-shadow:var(--shadow);
+    padding: 16px;
+
+    background: var(--background);
+
+    border: 1px solid var(--border-light);
+
+    border-radius: var(--radius-md);
 }
 
-.interaction-card label{
-    display:block;
-    margin:20px 0 8px;
-    font-weight:600;
+.result-item strong {
+    color: var(--text);
 }
 
-.interaction-card select{
-    width:100%;
-    padding:16px;
+.result-item span {
+    color: var(--primary);
 
-    border:1px solid var(--border);
-    border-radius:var(--radius-md);
-
-    background:var(--surface);
-    color:var(--text);
-
-    font-size:16px;
+    font-weight: 600;
 }
 
-.interaction-card select:focus{
-    outline:none;
-    border-color:var(--primary);
+.highlight {
+    background: var(--success-bg);
+
+    border-left: 5px solid var(--success);
 }
 
-#check-btn{
-    width:100%;
-    margin-top:25px;
-    padding:16px;
+.highlight span {
+    color: var(--success);
 
-    border:none;
-    border-radius:var(--radius-md);
-
-    background:var(--primary);
-    color:white;
-
-    font-size:1rem;
-    font-weight:600;
-
-    transition:.3s;
+    font-size: 1.1rem;
 }
 
-#check-btn:hover{
-    opacity:.9;
+.disclaimer {
+    margin-top: 20px;
+
+    padding: 18px;
+
+    background: var(--warning-bg);
+
+    border-left: 5px solid var(--warning);
+
+    border-radius: var(--radius-md);
+
+    color: #7C5A00;
+
+    line-height: 1.6;
+
+    font-size: 0.95rem;
 }
 
-#interaction-result{
-    margin-top:20px;
-    line-height:1.7;
+
+/* ======================================
+   23. DRUG INTERACTION CHECKER
+====================================== */
+
+.interaction-container {
+    max-width: 700px;
+
+    margin: 0 auto;
 }
 
-.severity{
-    display:inline-block;
+.interaction-container .calculator-card,
+.interaction-container .result-card {
+    margin-bottom: 25px;
 
-    margin-bottom:15px;
-    padding:8px 14px;
+    padding: 30px;
 
-    border-radius:999px;
+    background: var(--surface);
 
-    color:white;
-    font-weight:600;
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
 }
 
-.severity.major{
-    background:#DC2626;
+.interaction-container label {
+    display: block;
+
+    margin: 20px 0 8px;
+
+    font-weight: 600;
 }
 
-.severity.moderate{
-    background:#D97706;
+.interaction-container select {
+    width: 100%;
+
+    padding: 16px;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-size: 16px;
 }
 
-.severity.minor{
-    background:#2563EB;
+.interaction-container select:focus {
+    outline: none;
+
+    border-color: var(--primary);
 }
 
-.severity.none{
-    background:#16A34A;
+#check-btn {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: var(--radius-md);
+
+    background: var(--primary);
+
+    color: white;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+#check-btn:hover {
+    opacity: 0.9;
+}
+
+#interaction-result {
+    margin-top: 20px;
+
+    line-height: 1.7;
+}
+
+.severity {
+    display: inline-block;
+
+    margin-bottom: 15px;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    color: white;
+
+    font-weight: 600;
+}
+
+.severity.major {
+    background: #DC2626;
+}
+
+.severity.moderate {
+    background: #D97706;
+}
+
+.severity.minor {
+    background: #2563EB;
+}
+
+.severity.none {
+    background: #16A34A;
+}
+
+
+/* ======================================
+   24. CONSULTATION BOOKING
+====================================== */
+
+.consultation-container {
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.consultation-container .calculator-card {
+    margin-top: 30px;
+}
+
+.consultation-container label {
+    display: block;
+
+    margin-top: 18px;
+    margin-bottom: 8px;
+
+    font-weight: 600;
+}
+
+.consultation-container input,
+.consultation-container select,
+.consultation-container textarea {
+    width: 100%;
+
+    padding: 14px 16px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-family: inherit;
+
+    font-size: 1rem;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.consultation-container input:focus,
+.consultation-container select:focus,
+.consultation-container textarea:focus {
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(0, 128, 128, 0.12);
+}
+
+.consultation-container textarea {
+    resize: vertical;
+
+    min-height: 130px;
+}
+
+.consultation-container .calculator-buttons {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+    flex-wrap: wrap;
+}
+
+#book-consultation-btn {
+    flex: 1;
+
+    min-width: 180px;
+}
+
+#reset-consultation-btn {
+    flex: 0 0 auto;
+}
+
+#consultation-result {
+    margin-top: 30px;
+}
+
+.consultation-success {
+    padding: 10px;
+}
+
+.consultation-success h3 {
+    margin-bottom: 15px;
+}
+
+.consultation-success .result-item {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.consultation-success .result-item:last-of-type {
+    border-bottom: none;
+}
+
+
+/* ======================================
+   25. GENERAL FORM SAFETY
+====================================== */
+
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+
+button:disabled {
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}
+
+
+/* ======================================
+   26. MOBILE OVERRIDES
+====================================== */
+
+@media (max-width: 768px) {
+
+    /* ===== NAVIGATION ===== */
+
+    nav {
+        width: 92%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.active {
+        display: flex;
+
+        flex-direction: column;
+
+        position: absolute;
+
+        top: 80px;
+        left: 0;
+
+        width: 100%;
+
+        padding: 20px;
+
+        gap: 20px;
+
+        background: var(--surface);
+
+        box-shadow: var(--shadow);
+    }
+
+    .desktop-auth {
+        display: none;
+    }
+
+    .mobile-auth {
+        display: block;
+
+        width: 100%;
+    }
+
+    .mobile-auth button {
+        width: 100%;
+
+        margin-top: 10px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+
+    /* ===== HERO ===== */
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 120px 8% 60px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+
+        max-width: 320px;
+    }
+
+    .hero-image {
+        width: 100%;
+
+        margin-top: 40px;
+    }
+
+    .hero-image img {
+        width: 80%;
+
+        max-width: 350px;
+    }
+
+
+    /* ===== FEATURES ===== */
+
+    .features {
+        padding: 60px 8%;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        text-align: center;
+    }
+
+
+    /* ===== WHY ===== */
+
+    .why {
+        padding: 60px 8%;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-card {
+        text-align: center;
+    }
+
+
+    /* ===== CTA ===== */
+
+    .cta {
+        padding: 60px 8%;
+    }
+
+    .cta h2 {
+        font-size: 2.2rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+
+
+    /* ===== SECTION TITLES ===== */
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+    }
+
+
+    /* ===== DASHBOARD ===== */
+
+    .dashboard {
+        margin-top: 80px;
+
+        padding: 30px 5%;
+    }
+
+    .dashboard-header {
+        padding: 18px;
+    }
+
+    .dashboard-header nav {
+        display: none;
+    }
+
+    .welcome-card {
+        padding: 25px;
+    }
+
+    .welcome-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .welcome-card p {
+        font-size: 1rem;
+    }
+
+    .action-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .action-card {
+        padding: 20px;
+    }
+
+
+    /* ===== DRUG LIBRARY ===== */
+
+    .drug-card {
+        padding: 20px;
+    }
+
+    .drug-card-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+
+    /* ===== DRUG DETAILS ===== */
+
+    .drug-details-card {
+        width: 100%;
+
+        padding: 25px;
+
+        margin: 20px auto;
+    }
+
+    .drug-details-card h1 {
+        font-size: 2rem;
+    }
+
+    .drug-details-card p {
+        font-size: 1rem;
+
+        line-height: 1.8;
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-header h1 {
+        font-size: 2rem;
+    }
+
+    .detail-badges {
+        justify-content: center;
+    }
+
+
+    /* ===== BUTTONS ===== */
+
+    .back-btn,
+    .print-btn {
+        width: 100%;
+    }
+
+
+    /* ===== CALCULATOR ===== */
+
+    .dose-calculator {
+        padding: 110px 5% 40px;
+    }
+
+    .calculator-card,
+    .result-card {
+        padding: 20px;
+    }
+
+    .calculator-buttons {
+        flex-direction: column;
+    }
+
+    .calculator-buttons button {
+        width: 100%;
+    }
+
+
+    /* ===== RESULT ===== */
+
+    .result-item {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+    }
+
+
+    /* ===== INTERACTION ===== */
+
+    .interaction-container {
+        width: 100%;
+    }
+
+    .interaction-container .calculator-card,
+    .interaction-container .result-card {
+        padding: 20px;
+    }
+
+
+    /* ===== CONSULTATION ===== */
+
+    .consultation-container {
+        width: 100%;
+    }
+
+    .consultation-container .calculator-card {
+        padding: 20px;
+    }
+
+    .consultation-container .calculator-buttons {
+        flex-direction: column;
+    }
+
+    #book-consultation-btn,
+    #reset-consultation-btn {
+        width: 100%;
+    }
+
+    .consultation-success .result-item {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+    }
+
+
+    /* ===== GLOBAL MOBILE ===== */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+        min-height: 48px;
+    }
+}
+
+/* ==========================================
+   CONSULTATION BOOKING
+========================================== */
+
+.consultation-container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+/* ===== PAGE TITLE ===== */
+
+.consultation-container > h2 {
+    margin-bottom: 10px;
+    color: var(--text);
+    font-size: 2rem;
+}
+
+.consultation-container .page-description {
+    margin-bottom: 30px;
+    color: var(--muted);
+}
+
+
+/* ===== FORM CARD ===== */
+
+.consultation-container .calculator-card {
+    width: 100%;
+    padding: 35px;
+    margin-bottom: 30px;
+
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+.consultation-container .calculator-card h3 {
+    margin-bottom: 25px;
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+
+/* ===== LABELS ===== */
+
+.consultation-container label {
+    display: block;
+
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+    color: var(--text);
+    font-weight: 600;
+}
+
+
+/* ===== INPUTS ===== */
+
+.consultation-container input,
+.consultation-container select,
+.consultation-container textarea {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 14px 16px;
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+    color: var(--text);
+
+    font-family: inherit;
+    font-size: 1rem;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+
+/* ===== INPUT FOCUS ===== */
+
+.consultation-container input:focus,
+.consultation-container select:focus,
+.consultation-container textarea:focus {
+
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(0, 128, 128, 0.12);
+}
+
+
+/* ===== SELECT ===== */
+
+.consultation-container select {
+    cursor: pointer;
+}
+
+
+/* ===== TEXTAREA ===== */
+
+.consultation-container textarea {
+
+    min-height: 140px;
+
+    resize: vertical;
+
+    line-height: 1.6;
+}
+
+
+/* ===== BUTTON CONTAINER ===== */
+
+.consultation-container .calculator-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+
+/* ===== BOOK BUTTON ===== */
+
+#book-consultation-btn {
+
+    flex: 1;
+
+    padding: 15px 20px;
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    background: var(--primary);
+    color: white;
+
+    font-weight: 600;
+    font-size: 1rem;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+#book-consultation-btn:hover {
+
+    opacity: 0.9;
+
+    transform: translateY(-2px);
+}
+
+
+/* ===== RESET BUTTON ===== */
+
+#reset-consultation-btn {
+
+    flex: 0 0 140px;
+
+    padding: 15px 20px;
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    background: #E5E7EB;
+    color: var(--text);
+
+    font-weight: 600;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+#reset-consultation-btn:hover {
+
+    background: #D1D5DB;
+
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+.about-page {
+    min-height: 100vh;
+    padding: 140px 8% 70px;
+    background: var(--background);
+}
+
+
+/* ==========================================
+   ABOUT HERO
+========================================== */
+
+.about-hero {
+    max-width: 850px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.about-badge {
+    display: inline-block;
+
+    padding: 8px 16px;
+    margin-bottom: 20px;
+
+    background: #CCFBF1;
+    color: var(--primary);
+
+    border-radius: 999px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.about-hero h1 {
+    margin-bottom: 20px;
+
+    color: var(--primary);
+
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.about-hero p {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    color: var(--muted);
+
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   ABOUT SECTIONS
+========================================== */
+
+.about-section {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto 50px;
+}
+
+
+/* ==========================================
+   ABOUT CARD
+========================================== */
+
+.about-card {
+    padding: 40px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+.about-card h2 {
+    margin-bottom: 20px;
+
+    color: var(--primary);
+
+    font-size: 2rem;
+}
+
+.about-card p {
+    margin-bottom: 18px;
+
+    color: var(--text);
+
+    line-height: 1.8;
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   ABOUT GRID
+========================================== */
+
+.about-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 25px;
+}
+
+
+/* ==========================================
+   ABOUT FEATURE CARD
+========================================== */
+
+.about-feature-card {
+    padding: 30px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.about-feature-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.10);
+}
+
+.about-feature-card h3 {
+    margin-bottom: 12px;
+
+    color: var(--primary);
+
+    font-size: 1.3rem;
+}
+
+.about-feature-card p {
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   ABOUT ICON
+========================================== */
+
+.about-icon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 55px;
+    height: 55px;
+
+    margin-bottom: 20px;
+
+    background: #CCFBF1;
+
+    border-radius: 14px;
+
+    font-size: 1.6rem;
+}
+
+
+/* ==========================================
+   VISION
+========================================== */
+
+.vision-card {
+    text-align: center;
+}
+
+.vision-card .about-badge {
+    margin-bottom: 20px;
+}
+
+.vision-card h2 {
+    max-width: 750px;
+
+    margin: 0 auto 20px;
+
+    font-size: 2.3rem;
+}
+
+.vision-card p {
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ==========================================
+   MEDICAL WARNING
+========================================== */
+
+.about-warning {
+    padding: 30px;
+
+    background: var(--danger-bg);
+
+    border-left: 5px solid var(--danger);
+
+    border-radius: var(--radius-md);
+
+    color: #991B1B;
+}
+
+.about-warning h2 {
+    margin-bottom: 18px;
+
+    color: #B91C1C;
+
+    font-size: 1.5rem;
+}
+
+.about-warning p {
+    margin-bottom: 15px;
+
+    line-height: 1.7;
+}
+
+.about-warning p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   ABOUT CLOSING
+========================================== */
+
+.about-closing {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 60px 30px;
+
+    text-align: center;
+}
+
+.about-closing h2 {
+    margin-bottom: 12px;
+
+    color: var(--primary);
+
+    font-size: 2rem;
+}
+
+.about-closing p {
+    margin-bottom: 25px;
+
+    color: var(--muted);
+
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   ABOUT MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .about-page {
+        padding: 110px 5% 50px;
+    }
+
+    .about-hero {
+        margin-bottom: 40px;
+    }
+
+    .about-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-hero p {
+        font-size: 1rem;
+    }
+
+    .about-section {
+        margin-bottom: 35px;
+    }
+
+    .about-card {
+        padding: 25px;
+    }
+
+    .about-card h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-feature-card {
+        padding: 25px;
+    }
+
+    .vision-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-warning {
+        padding: 22px;
+    }
+
+    .about-closing {
+        padding: 40px 20px;
+    }
+
+    .about-closing h2 {
+        font-size: 1.7rem;
+    }
+
+}
+
+
+/* ==========================================
+   CONSULTATION RESULT
+========================================== */
+
+#consultation-result {
+
+    width: 100%;
+
+    padding: 30px;
+
+    margin-top: 0;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+
+#consultation-result h3 {
+
+    margin-bottom: 15px;
+
+    color: var(--primary);
+
+    font-size: 1.3rem;
+}
+
+
+#consultation-result > p {
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   SUCCESS RESULT
+========================================== */
+
+.consultation-success {
+
+    padding: 0;
+}
+
+
+.consultation-success h3 {
+
+    margin-bottom: 20px;
+
+    color: var(--success);
+}
+
+
+/* ===== RESULT ROW ===== */
+
+.consultation-success .result-item {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid var(--border-light);
+}
+
+
+.consultation-success .result-item:last-child {
+
+    border-bottom: none;
+}
+
+
+.consultation-success .result-item strong {
+
+    color: var(--text);
+}
+
+
+.consultation-success .result-item span {
+
+    color: var(--primary);
+
+    font-weight: 600;
+
+    text-align: right;
+}
+
+
+/* ==========================================
+   CONSULTATION MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .consultation-container {
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .consultation-container > h2 {
+
+        font-size: 1.7rem;
+    }
+
+
+    .consultation-container .calculator-card {
+
+        padding: 22px;
+
+        border-radius: var(--radius-md);
+    }
+
+
+    #consultation-result {
+
+        padding: 22px;
+
+        border-radius: var(--radius-md);
+    }
+
+
+    .consultation-container .calculator-buttons {
+
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+
+    #book-consultation-btn,
+    #reset-consultation-btn {
+
+        width: 100%;
+
+        flex: none;
+
+        min-height: 50px;
+    }
+
+
+    .consultation-success .result-item {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 6px;
+    }
+
+
+    .consultation-success .result-item span {
+
+        text-align: left;
+    }
+
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drug Details | Net-Health</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+<header class="dashboard-header">
+
+    <button class="menu-btn">&#9776;</button>
+
+    <h1 class="logo">Drug Details</h1>
+
+    <button class="profile-btn">👤</button>
+
+</header>
+
+<!-- Sidebar -->
+
+<div class="sidebar" id="sidebar">
+
+    <div class="sidebar-header">
+        <h2>Net-Health</h2>
+
+        <button class="close-btn">&times;</button>
+    </div>
+
+    <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
+
+    <a href="drug-library.html">💊 Drug Library</a>
+
+    <a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
+
+    <a href="#">⚠ Drug Interaction Checker</a>
+
+    <a href="#">🤖 AI Tutor</a>
+
+    <a href="#">🩺 Clinical Simulator</a>
+
+    <a href="../index.html">🚪 Logout</a>
+
+</div>
+
+<main class="dashboard">
+
+    <button class="back-btn" onclick="history.back()">
+        ← Back to Drug Library
+    </button>
+
+    <div class="drug-details-card">
+
+        <!-- Header -->
+        <section id="drug-header"></section>
+
+        <!-- Basic Information -->
+        <section class="details-section">
+            <h2>📋 Overview</h2>
+            <div id="drug-overview"></div>
+        </section>
+
+        <!-- Indications -->
+        <section class="details-section">
+            <h2>🩺 Indications</h2>
+            <div id="drug-indications"></div>
+        </section>
+
+        <!-- Dosage -->
+        <section class="details-section">
+            <h2>💉 Dosage</h2>
+            <div id="drug-dosage"></div>
+        </section>
+
+        <!-- Contraindications -->
+        <section class="details-section">
+            <h2>⛔ Contraindications</h2>
+            <div id="drug-contraindications"></div>
+        </section>
+
+        <!-- Side Effects -->
+        <section class="details-section">
+            <h2>⚠ Side Effects</h2>
+            <div id="drug-side-effects"></div>
+        </section>
+
+        <!-- Warnings -->
+        <section class="details-section">
+            <h2>🚨 Warnings</h2>
+            <div id="drug-warnings"></div>
+        </section>
+
+        <!-- Pregnancy -->
+        <section class="details-section">
+            <h2>🤰 Pregnancy</h2>
+            <div id="drug-pregnancy"></div>
+        </section>
+
+        <!-- Breastfeeding -->
+        <section class="details-section">
+            <h2>🤱 Breastfeeding</h2>
+            <div id="drug-breastfeeding"></div>
+        </section>
+
+        <button class="print-btn" onclick="window.print()">
+            🖨 Print Drug Information
+        </button>
+
+    </div>
+
+</main>
+
+<script src="../js/drug-details.js"></script>
+<script src="../js/navigation.js"></script>
+
+</body>
+
+</html>

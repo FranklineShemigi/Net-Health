@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Book Consultation | Net-Health
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../css/variables.css">
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="../css/responsive.css">
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="dashboard-header">
+
+    <button
+        class="menu-btn"
+        type="button">
+        &#9776;
+    </button>
+
+    <h1 class="logo">
+        Net-Health
+    </h1>
+
+    <button
+        class="profile-btn"
+        type="button">
+        👤
+    </button>
+
+</header>
+
+
+<!-- =========================
+     SIDEBAR
+========================= -->
+
+<div
+    class="sidebar"
+    id="sidebar">
+
+    <div class="sidebar-header">
+
+        <h2>
+            Menu
+        </h2>
+
+        <button
+            class="close-btn"
+            type="button">
+            &times;
+        </button>
+
+    </div>
+
+
+    <a href="../dashboard/dashboard.html">
+        🏠 Dashboard
+    </a>
+
+    <a href="../drugs/drug-library.html">
+        💊 Drug Library
+    </a>
+
+    <a href="../calculator/dose-calculator.html">
+        🧮 Dose Calculator
+    </a>
+
+    <a href="../interaction/interaction-checker.html">
+        ⚠ Drug Interaction Checker
+    </a>
+
+    <a href="#">
+        🤖 AI Tutor
+    </a>
+
+    <a href="#">
+        🩺 Clinical Simulator
+    </a>
+
+    <a href="book-consultation.html">
+        👨‍⚕️ Book Consultation
+    </a>
+
+    <a href="#">
+        ⚙ Settings
+    </a>
+
+    <a href="../index.html">
+        🚪 Logout
+    </a>
+
+</div>
+
+
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+
+<main class="dashboard">
+
+    <div class="consultation-container">
+
+        <a
+            href="../dashboard/dashboard.html"
+            class="back-btn">
+
+            ← Back to Dashboard
+
+        </a>
+
+
+        <h2>
+            Book a Consultation
+        </h2>
+
+        <p class="page-description">
+
+            Connect with a healthcare professional
+            for a consultation.
+
+        </p>
+
+
+        <!-- =========================
+             CONSULTATION FORM
+        ========================= -->
+
+        <div class="calculator-card">
+
+            <h3>
+                Consultation Details
+            </h3>
+
+
+            <!-- PROFESSIONAL -->
+
+            <label for="professional">
+
+                Healthcare Professional
+
+            </label>
+
+            <select
+                id="professional"
+                required>
+
+                <option value="">
+                    Select a professional
+                </option>
+
+                <option value="doctor">
+                    👨‍⚕️ Doctor
+                </option>
+
+                <option value="nurse">
+                    👩‍⚕️ Nurse
+                </option>
+
+                <option value="pharmacist">
+                    💊 Pharmacist
+                </option>
+
+                <option value="clinical-officer">
+                    🩺 Clinical Officer
+                </option>
+
+            </select>
+
+
+            <!-- CONSULTATION TYPE -->
+
+            <label for="consultation-type">
+
+                Consultation Type
+
+            </label>
+
+            <select
+                id="consultation-type"
+                required>
+
+                <option value="">
+                    Select consultation type
+                </option>
+
+                <option value="general">
+                    General Consultation
+                </option>
+
+                <option value="medication">
+                    Medication Consultation
+                </option>
+
+                <option value="follow-up">
+                    Follow-up Consultation
+                </option>
+
+                <option value="health-education">
+                    Health Education
+                </option>
+
+            </select>
+
+
+            <!-- DATE -->
+
+            <label for="consultation-date">
+
+                Preferred Date
+
+            </label>
+
+            <input
+                type="date"
+                id="consultation-date"
+                required>
+
+
+            <!-- TIME -->
+
+            <label for="consultation-time">
+
+                Preferred Time
+
+            </label>
+
+            <input
+                type="time"
+                id="consultation-time"
+                required>
+
+
+            <!-- REASON -->
+
+            <label for="consultation-reason">
+
+                Reason for Consultation
+
+            </label>
+
+            <textarea
+                id="consultation-reason"
+                rows="5"
+                placeholder="Briefly describe what you need help with..."
+                required></textarea>
+
+
+            <!-- BUTTON -->
+
+            <div class="calculator-buttons">
+
+                <button
+                    type="button"
+                    id="book-consultation-btn">
+
+                    Book Consultation
+
+                </button>
+
+                <button
+                    type="button"
+                    id="reset-consultation-btn">
+
+                    Reset
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             BOOKING RESULT
+        ========================= -->
+
+        <div
+            class="result-card"
+            id="consultation-result"
+            aria-live="polite">
+
+            <h3>
+                Consultation Status
+            </h3>
+
+            <p>
+                Complete the form above to request
+                a consultation.
+            </p>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script src="../js/navigation.js"></script>
+
+<script src="../js/consultation.js"></script>
+
+
+</body>
+
+</html>

@@ -2,56 +2,4213 @@
   {
     "id": 1,
     "genericName": "Paracetamol",
-    "brandNames": ["Panadol", "Calpol"],
+    "brandNames": [ "Panadol", "Calpol"],
     "category": "Analgesic",
     "drugClass": "Analgesic / Antipyretic",
-    "dosageForms": ["Tablet", "Syrup"],
-    "strengths": ["500 mg", "120 mg/5 mL"],
+    "dosageForms": [  "Tablet","Syrup" ],
+    "strengths": [  "500 mg",  "120 mg/5 mL"  ],
     "prescriptionOnly": false,
-    "essentialMedicine": true
+    "essentialMedicine": true,
+    "indications": [  "Fever",  "Pain"  ],
+    "dosing": {
+        "adult": {
+          "dose": "500–1000 mg",
+          "frequency": "Every 4–6 hours",
+          "maxDailyDose": "4000 mg"
+        },
+        "paediatric": {
+          "mgPerKg": 15,
+          "frequency": "Every 4–6 hours",
+          "maxDailyDose": "75 mg/kg/day"
+        }
+    },
+    "contraindications": [ "Severe liver disease", "Hypersensitivity"],
+    "sideEffects": [
+      "Nausea", "Rash", "Rare liver toxicity"   ],
+    "warnings": [
+      "Avoid alcohol",
+      "Do not exceed maximum daily dose"
+    ],
+    "pregnancy": "Generally considered safe during pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
   },
+
+  
   {
     "id": 2,
     "genericName": "Ibuprofen",
-    "brandNames": ["Brufen"],
+    "brandNames": [
+      "Brufen",
+      "Nurofen"
+    ],
     "category": "Analgesic",
     "drugClass": "NSAID",
-    "dosageForms": ["Tablet", "Suspension"],
-    "strengths": ["200 mg", "400 mg"],
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "200 mg",
+      "400 mg",
+      "100 mg/5 mL"
+    ],
     "prescriptionOnly": false,
-    "essentialMedicine": true
+    "essentialMedicine": true,
+    "indications": [
+      "Pain",
+      "Fever",
+      "Inflammation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200–400 mg",
+        "frequency": "Every 6–8 hours",
+        "maxDailyDose": "1200 mg (OTC) / 2400 mg (Rx)"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Every 6–8 hours",
+        "maxDailyDose": "40 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Peptic ulcer disease",
+      "Severe renal impairment",
+      "Third trimester pregnancy"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "Dyspepsia",
+      "Fluid retention"
+    ],
+    "warnings": [
+      "Take with food",
+      "Caution in asthma and renal disease"
+    ],
+    "pregnancy": "Avoid in third trimester; use caution earlier.",
+    "breastfeeding": "Generally compatible in short courses."
   },
   {
     "id": 3,
-    "genericName": "Amoxicillin",
-    "brandNames": ["Amoxil"],
-    "category": "Antibiotic",
-    "drugClass": "Penicillin",
-    "dosageForms": ["Capsule", "Suspension"],
-    "strengths": ["250 mg", "500 mg"],
+    "genericName": "Diclofenac",
+    "brandNames": [
+      "Voltaren",
+      "Cataflam"
+    ],
+    "category": "Analgesic",
+    "drugClass": "NSAID",
+    "dosageForms": [
+      "Tablet",
+      "Injection",
+      "Gel",
+      "Suppository"
+    ],
+    "strengths": [
+      "50 mg",
+      "75 mg/3 mL",
+      "1% gel"
+    ],
     "prescriptionOnly": true,
-    "essentialMedicine": true
+    "essentialMedicine": true,
+    "indications": [
+      "Musculoskeletal pain",
+      "Post-operative pain",
+      "Inflammation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "50 mg",
+        "frequency": "2–3 times daily",
+        "maxDailyDose": "150 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "2–3 times daily",
+        "maxDailyDose": "3 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Peptic ulcer disease",
+      "Cardiovascular disease",
+      "Renal impairment"
+    ],
+    "sideEffects": [
+      "GI bleeding",
+      "Hypertension",
+      "Headache"
+    ],
+    "warnings": [
+      "Cardiovascular risk with long-term use"
+    ],
+    "pregnancy": "Avoid, especially in third trimester.",
+    "breastfeeding": "Use with caution."
   },
   {
     "id": 4,
-    "genericName": "Ceftriaxone",
-    "brandNames": ["Rocephin"],
-    "category": "Antibiotic",
-    "drugClass": "Cephalosporin",
-    "dosageForms": ["Injection"],
-    "strengths": ["1 g"],
+    "genericName": "Tramadol",
+    "brandNames": [
+      "Tramal",
+      "Dolol"
+    ],
+    "category": "Analgesic",
+    "drugClass": "Opioid analgesic",
+    "dosageForms": [
+      "Capsule",
+      "Injection"
+    ],
+    "strengths": [
+      "50 mg",
+      "100 mg/2 mL"
+    ],
     "prescriptionOnly": true,
-    "essentialMedicine": true
+    "essentialMedicine": false,
+    "indications": [
+      "Moderate to severe pain"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "50–100 mg",
+        "frequency": "Every 4–6 hours",
+        "maxDailyDose": "400 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "8 mg/kg/day (not for under 12 yrs typically)"
+      }
+    },
+    "contraindications": [
+      "Seizure disorders",
+      "Concurrent MAOIs",
+      "Severe respiratory depression"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Dizziness",
+      "Constipation",
+      "Sedation"
+    ],
+    "warnings": [
+      "Risk of dependence",
+      "Lowers seizure threshold"
+    ],
+    "pregnancy": "Avoid unless benefit outweighs risk.",
+    "breastfeeding": "Use with caution."
   },
   {
     "id": 5,
-    "genericName": "Metronidazole",
-    "brandNames": ["Flagyl"],
+    "genericName": "Aspirin",
+    "brandNames": [
+      "Disprin",
+      "Cardiprin"
+    ],
+    "category": "Analgesic",
+    "drugClass": "NSAID / Antiplatelet",
+    "dosageForms": [
+      "Tablet",
+      "Dispersible tablet"
+    ],
+    "strengths": [
+      "75 mg",
+      "300 mg",
+      "500 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Pain",
+      "Fever",
+      "Cardiovascular prophylaxis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "300–900 mg (pain); 75 mg (cardio-protective)",
+        "frequency": "Every 4–6 hours (pain); once daily (cardio)",
+        "maxDailyDose": "4000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not recommended under 16 years (Reye syndrome risk)",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Children under 16",
+      "Peptic ulcer disease",
+      "Bleeding disorders"
+    ],
+    "sideEffects": [
+      "GI bleeding",
+      "Tinnitus",
+      "Bronchospasm"
+    ],
+    "warnings": [
+      "Reye's syndrome risk in children",
+      "Stop before surgery"
+    ],
+    "pregnancy": "Avoid high doses, especially third trimester.",
+    "breastfeeding": "Avoid regular use."
+  },
+  {
+    "id": 6,
+    "genericName": "Amoxicillin",
+    "brandNames": [
+      "Amoxil",
+      "Hiconcil"
+    ],
     "category": "Antibiotic",
-    "drugClass": "Nitroimidazole",
-    "dosageForms": ["Tablet", "Injection"],
-    "strengths": ["200 mg", "400 mg", "500 mg"],
+    "drugClass": "Penicillin",
+    "dosageForms": [
+      "Capsule",
+      "Syrup",
+      "Dispersible tablet"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg",
+      "125 mg/5 mL"
+    ],
     "prescriptionOnly": true,
-    "essentialMedicine": true
+    "essentialMedicine": true,
+    "indications": [
+      "Respiratory tract infections",
+      "UTI",
+      "Otitis media"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "250–500 mg",
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "3000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 25,
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "90 mg/kg/day (high-dose regimens)"
+      }
+    },
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "sideEffects": [
+      "Diarrhoea",
+      "Rash",
+      "Nausea"
+    ],
+    "warnings": [
+      "Cross-reactivity with cephalosporins possible"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 7,
+    "genericName": "Amoxicillin/Clavulanic Acid",
+    "brandNames": [
+      "Augmentin",
+      "Clavamox"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Penicillin + beta-lactamase inhibitor",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "625 mg",
+      "1 g",
+      "228 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Resistant respiratory infections",
+      "Skin/soft tissue infections",
+      "UTI"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "625 mg",
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "1875 mg amoxicillin component"
+      },
+      "paediatric": {
+        "mgPerKg": 25,
+        "frequency": "Every 12 hours",
+        "maxDailyDose": "As per amoxicillin component"
+      }
+    },
+    "contraindications": [
+      "Penicillin allergy",
+      "History of cholestatic jaundice with this drug"
+    ],
+    "sideEffects": [
+      "Diarrhoea",
+      "GI upset",
+      "Hepatotoxicity (rare)"
+    ],
+    "warnings": [
+      "Take with food to reduce GI upset"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 8,
+    "genericName": "Flucloxacillin",
+    "brandNames": [
+      "Floxapen"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Penicillinase-resistant penicillin",
+    "dosageForms": [
+      "Capsule",
+      "Syrup",
+      "Injection"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Staphylococcal skin infections",
+      "Cellulitis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "250–500 mg",
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "4000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 12.5,
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "50 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Penicillin allergy",
+      "Liver disease (caution)"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "Cholestatic jaundice (rare)"
+    ],
+    "warnings": [
+      "Complete full course"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 9,
+    "genericName": "Benzylpenicillin (Penicillin G)",
+    "brandNames": [
+      "Crystapen"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Penicillin",
+    "dosageForms": [
+      "Injection (IV/IM)"
+    ],
+    "strengths": [
+      "1 MU",
+      "5 MU"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Severe streptococcal infections",
+      "Meningitis",
+      "Syphilis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1–2 MU",
+        "frequency": "Every 4–6 hours",
+        "maxDailyDose": "24 MU"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "As per weight-based protocol",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "sideEffects": [
+      "Anaphylaxis (rare)",
+      "Electrolyte disturbance (high doses)"
+    ],
+    "warnings": [
+      "Requires slow IV administration"
+    ],
+    "pregnancy": "Safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 10,
+    "genericName": "Benzathine Benzylpenicillin",
+    "brandNames": [
+      "Penadur"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Long-acting Penicillin",
+    "dosageForms": [
+      "Injection (IM)"
+    ],
+    "strengths": [
+      "1.2 MU",
+      "2.4 MU"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Syphilis",
+      "Rheumatic fever prophylaxis",
+      "Streptococcal pharyngitis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1.2–2.4 MU",
+        "frequency": "Single dose or monthly (RF prophylaxis)",
+        "maxDailyDose": "2.4 MU"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-based, single dose",
+        "maxDailyDose": "1.2 MU typical under 30kg"
+      }
+    },
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "sideEffects": [
+      "Injection site pain",
+      "Anaphylaxis (rare)"
+    ],
+    "warnings": [
+      "Deep IM injection only, never IV"
+    ],
+    "pregnancy": "Safe and recommended for syphilis in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 11,
+    "genericName": "Doxycycline",
+    "brandNames": [
+      "Vibramycin"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Tetracycline",
+    "dosageForms": [
+      "Capsule",
+      "Tablet"
+    ],
+    "strengths": [
+      "100 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Respiratory infections",
+      "STIs",
+      "Malaria prophylaxis",
+      "Brucellosis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "100 mg",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "200 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Avoid under 8 years (teeth staining)",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8 years"
+    ],
+    "sideEffects": [
+      "Photosensitivity",
+      "GI upset",
+      "Oesophageal irritation"
+    ],
+    "warnings": [
+      "Take with plenty of water, stay upright afterward"
+    ],
+    "pregnancy": "Contraindicated.",
+    "breastfeeding": "Avoid prolonged use."
+  },
+  {
+    "id": 12,
+    "genericName": "Ciprofloxacin",
+    "brandNames": [
+      "Ciproxin",
+      "Cipro"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Fluoroquinolone",
+    "dosageForms": [
+      "Tablet",
+      "Injection",
+      "Eye drops"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg",
+      "200 mg/100 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "UTI",
+      "Typhoid fever",
+      "GI infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500 mg",
+        "frequency": "Every 12 hours",
+        "maxDailyDose": "1500 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Every 12 hours (caution, specialist use)",
+        "maxDailyDose": "30 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Children (relative)",
+      "Pregnancy",
+      "Tendon disorders"
+    ],
+    "sideEffects": [
+      "Tendon rupture risk",
+      "GI upset",
+      "QT prolongation"
+    ],
+    "warnings": [
+      "Avoid dairy products near dosing",
+      "Avoid in myasthenia gravis"
+    ],
+    "pregnancy": "Avoid unless essential.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 13,
+    "genericName": "Metronidazole",
+    "brandNames": [
+      "Flagyl"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Nitroimidazole (antiprotozoal/antibacterial)",
+    "dosageForms": [
+      "Tablet",
+      "Syrup",
+      "Injection",
+      "Suppository"
+    ],
+    "strengths": [
+      "200 mg",
+      "400 mg",
+      "500 mg/100 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Anaerobic infections",
+      "Amoebiasis",
+      "Giardiasis",
+      "Bacterial vaginosis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "400–500 mg",
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "2000 mg (short course for amoebiasis)"
+      },
+      "paediatric": {
+        "mgPerKg": 7.5,
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "35 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "First trimester pregnancy (relative)"
+    ],
+    "sideEffects": [
+      "Metallic taste",
+      "Nausea",
+      "Peripheral neuropathy (prolonged use)"
+    ],
+    "warnings": [
+      "Avoid alcohol during and after treatment (disulfiram-like reaction)"
+    ],
+    "pregnancy": "Avoid in first trimester; used later if needed.",
+    "breastfeeding": "Compatible; may cause bitter milk taste."
+  },
+  {
+    "id": 14,
+    "genericName": "Erythromycin",
+    "brandNames": [
+      "Erythrocin"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Macrolide",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg",
+      "125 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Respiratory infections",
+      "Penicillin-allergic patients",
+      "Chlamydia in pregnancy"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "250–500 mg",
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "4000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "50 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Hepatic impairment (caution)"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "QT prolongation"
+    ],
+    "warnings": [
+      "Multiple drug interactions (CYP3A4)"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 15,
+    "genericName": "Azithromycin",
+    "brandNames": [
+      "Zithromax"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Macrolide (azalide)",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg",
+      "200 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Respiratory infections",
+      "STIs",
+      "Typhoid fever"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500 mg day 1, then 250 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "500 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Once daily for 3 days",
+        "maxDailyDose": "500 mg"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity to macrolides"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "QT prolongation (rare)"
+    ],
+    "warnings": [
+      "Take on empty stomach for best absorption"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 16,
+    "genericName": "Ceftriaxone",
+    "brandNames": [
+      "Rocephin"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Third-generation Cephalosporin",
+    "dosageForms": [
+      "Injection (IV/IM)"
+    ],
+    "strengths": [
+      "1 g",
+      "2 g"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Meningitis",
+      "Typhoid fever",
+      "Severe pneumonia",
+      "Gonorrhoea"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1–2 g",
+        "frequency": "Once daily",
+        "maxDailyDose": "4 g"
+      },
+      "paediatric": {
+        "mgPerKg": 50,
+        "frequency": "Once daily",
+        "maxDailyDose": "80 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal hyperbilirubinemia (caution)"
+    ],
+    "sideEffects": [
+      "Diarrhoea",
+      "Injection site pain",
+      "Biliary sludging"
+    ],
+    "warnings": [
+      "Do not co-administer with calcium-containing IV fluids in neonates"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 17,
+    "genericName": "Cefuroxime",
+    "brandNames": [
+      "Zinnat"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Second-generation Cephalosporin",
+    "dosageForms": [
+      "Tablet",
+      "Syrup",
+      "Injection"
+    ],
+    "strengths": [
+      "250 mg",
+      "500 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Respiratory infections",
+      "UTI",
+      "Skin infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "250–500 mg",
+        "frequency": "Every 12 hours",
+        "maxDailyDose": "1000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 15,
+        "frequency": "Every 12 hours",
+        "maxDailyDose": "30 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Cephalosporin allergy"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "Rash"
+    ],
+    "warnings": [
+      "Take with food"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 18,
+    "genericName": "Gentamicin",
+    "brandNames": [
+      "Garamycin"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Aminoglycoside",
+    "dosageForms": [
+      "Injection",
+      "Eye drops"
+    ],
+    "strengths": [
+      "80 mg/2 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Severe gram-negative infections",
+      "Neonatal sepsis (combination)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "3–5 mg/kg",
+        "frequency": "Once daily",
+        "maxDailyDose": "Per renal function"
+      },
+      "paediatric": {
+        "mgPerKg": 5,
+        "frequency": "Once daily",
+        "maxDailyDose": "7.5 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Myasthenia gravis",
+      "Severe renal impairment (caution)"
+    ],
+    "sideEffects": [
+      "Nephrotoxicity",
+      "Ototoxicity"
+    ],
+    "warnings": [
+      "Requires monitoring of renal function and levels"
+    ],
+    "pregnancy": "Use only if benefit outweighs risk.",
+    "breastfeeding": "Compatible; poor oral absorption by infant."
+  },
+  {
+    "id": 19,
+    "genericName": "Trimethoprim/Sulfamethoxazole (Cotrimoxazole)",
+    "brandNames": [
+      "Septrin",
+      "Bactrim"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Sulfonamide combination",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "480 mg",
+      "960 mg",
+      "240 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "UTI",
+      "PCP prophylaxis in HIV",
+      "Respiratory infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "960 mg",
+        "frequency": "Every 12 hours",
+        "maxDailyDose": "1920 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band dosing per KEML/HIV guidelines",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Sulfa allergy",
+      "G6PD deficiency (caution)",
+      "Late pregnancy"
+    ],
+    "sideEffects": [
+      "Rash",
+      "Stevens-Johnson syndrome (rare)",
+      "Bone marrow suppression"
+    ],
+    "warnings": [
+      "Ensure adequate hydration"
+    ],
+    "pregnancy": "Avoid near term; used for PCP prophylaxis when indicated.",
+    "breastfeeding": "Caution in G6PD-deficient infants or jaundice."
+  },
+  {
+    "id": 20,
+    "genericName": "Chloramphenicol",
+    "brandNames": [
+      "Chloromycetin"
+    ],
+    "category": "Antibiotic",
+    "drugClass": "Broad-spectrum antibiotic",
+    "dosageForms": [
+      "Capsule",
+      "Eye drops",
+      "Injection"
+    ],
+    "strengths": [
+      "250 mg",
+      "0.5% eye drops"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Bacterial conjunctivitis",
+      "Meningitis (alternative)",
+      "Typhoid fever"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500 mg",
+        "frequency": "Every 6 hours (systemic)",
+        "maxDailyDose": "4000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 12.5,
+        "frequency": "Every 6 hours",
+        "maxDailyDose": "50 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Neonates (Grey baby syndrome risk)",
+      "Bone marrow disorders"
+    ],
+    "sideEffects": [
+      "Aplastic anaemia (rare)",
+      "Grey baby syndrome in neonates"
+    ],
+    "warnings": [
+      "Reserve systemic use for serious infections"
+    ],
+    "pregnancy": "Avoid near term.",
+    "breastfeeding": "Avoid if possible."
+  },
+  {
+    "id": 21,
+    "genericName": "Artemether/Lumefantrine",
+    "brandNames": [
+      "Coartem"
+    ],
+    "category": "Antimalarial",
+    "drugClass": "Artemisinin combination therapy (ACT)",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "20 mg/120 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Uncomplicated Plasmodium falciparum malaria"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "4 tablets",
+        "frequency": "Twice daily for 3 days",
+        "maxDailyDose": "8 tablets/day"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band dosing twice daily for 3 days",
+        "maxDailyDose": "Per weight band"
+      }
+    },
+    "contraindications": [
+      "First trimester pregnancy (relative)",
+      "Severe malaria (use IV artesunate instead)"
+    ],
+    "sideEffects": [
+      "Headache",
+      "Dizziness",
+      "GI upset"
+    ],
+    "warnings": [
+      "Take with fatty food to improve absorption"
+    ],
+    "pregnancy": "Avoid in first trimester if alternatives exist; used in 2nd/3rd trimester.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 22,
+    "genericName": "Artesunate (IV)",
+    "brandNames": [
+      "Artesun"
+    ],
+    "category": "Antimalarial",
+    "drugClass": "Artemisinin derivative",
+    "dosageForms": [
+      "Injection (IV/IM)"
+    ],
+    "strengths": [
+      "60 mg vial"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Severe malaria"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "2.4 mg/kg",
+        "frequency": "At 0, 12, 24 hours, then daily",
+        "maxDailyDose": "Per protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 3,
+        "frequency": "At 0, 12, 24 hours, then daily (under 20kg)",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Known hypersensitivity"
+    ],
+    "sideEffects": [
+      "Post-treatment haemolysis (delayed)",
+      "Injection site reaction"
+    ],
+    "warnings": [
+      "Monitor for delayed haemolytic anaemia up to 4 weeks post-treatment"
+    ],
+    "pregnancy": "Drug of choice for severe malaria in all trimesters.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 23,
+    "genericName": "Quinine",
+    "brandNames": [
+      "Quinine Sulfate"
+    ],
+    "category": "Antimalarial",
+    "drugClass": "Cinchona alkaloid",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "300 mg",
+      "600 mg/2 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Malaria (alternative when ACT/artesunate unavailable)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "600 mg",
+        "frequency": "Every 8 hours for 7 days",
+        "maxDailyDose": "1800 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "30 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Cardiac conduction defects",
+      "G6PD deficiency (caution)"
+    ],
+    "sideEffects": [
+      "Cinchonism (tinnitus, headache)",
+      "Hypoglycaemia"
+    ],
+    "warnings": [
+      "Monitor blood glucose and cardiac rhythm with IV use"
+    ],
+    "pregnancy": "Used when artesunate unavailable.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 24,
+    "genericName": "Sulfadoxine/Pyrimethamine",
+    "brandNames": [
+      "Fansidar"
+    ],
+    "category": "Antimalarial",
+    "drugClass": "Antifolate combination",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "500 mg/25 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Intermittent preventive therapy in pregnancy (IPTp)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "3 tablets",
+        "frequency": "Single dose, repeated monthly during pregnancy",
+        "maxDailyDose": "3 tablets"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not routinely used in children for treatment",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Sulfa allergy",
+      "First trimester (for IPTp)"
+    ],
+    "sideEffects": [
+      "Rash",
+      "Nausea",
+      "Stevens-Johnson syndrome (rare)"
+    ],
+    "warnings": [
+      "Given with folic acid caution (use lower-dose folic acid)"
+    ],
+    "pregnancy": "Used specifically for IPTp from 2nd trimester onward.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 25,
+    "genericName": "Tenofovir/Lamivudine/Dolutegravir (TLD)",
+    "brandNames": [
+      "TLD",
+      "Triumeq"
+    ],
+    "category": "Antiretroviral",
+    "drugClass": "NRTI + INSTI combination",
+    "dosageForms": [
+      "Tablet (fixed-dose combination)"
+    ],
+    "strengths": [
+      "300 mg/300 mg/50 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "HIV infection - first-line ART"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1 tablet",
+        "frequency": "Once daily",
+        "maxDailyDose": "1 tablet"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band dosing (≥20kg per current guidelines)",
+        "maxDailyDose": "1 tablet"
+      }
+    },
+    "contraindications": [
+      "Severe renal impairment (tenofovir component)"
+    ],
+    "sideEffects": [
+      "Weight gain",
+      "Insomnia",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor renal function periodically"
+    ],
+    "pregnancy": "Preferred first-line regimen in pregnancy.",
+    "breastfeeding": "Compatible; continue ART throughout breastfeeding."
+  },
+  {
+    "id": 26,
+    "genericName": "Efavirenz",
+    "brandNames": [
+      "Sustiva"
+    ],
+    "category": "Antiretroviral",
+    "drugClass": "NNRTI",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "600 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "HIV infection (alternative regimen)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "600 mg",
+        "frequency": "Once daily, at bedtime",
+        "maxDailyDose": "600 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band dosing",
+        "maxDailyDose": "Per weight band"
+      }
+    },
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent certain psychiatric conditions (caution)"
+    ],
+    "sideEffects": [
+      "Vivid dreams",
+      "Dizziness",
+      "Rash"
+    ],
+    "warnings": [
+      "CNS side effects usually improve after first weeks"
+    ],
+    "pregnancy": "Considered compatible; used when TLD unavailable.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 27,
+    "genericName": "Nevirapine",
+    "brandNames": [
+      "Viramune"
+    ],
+    "category": "Antiretroviral",
+    "drugClass": "NNRTI",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "200 mg",
+      "50 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "HIV infection",
+      "Prevention of mother-to-child transmission"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200 mg",
+        "frequency": "Once daily for 14 days, then twice daily",
+        "maxDailyDose": "400 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight/age-band dosing for PMTCT prophylaxis",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Hepatic impairment",
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Rash (including severe)",
+      "Hepatotoxicity"
+    ],
+    "warnings": [
+      "Lead-in dosing required to reduce rash risk"
+    ],
+    "pregnancy": "Used for infant PMTCT prophylaxis.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 28,
+    "genericName": "Rifampicin/Isoniazid/Pyrazinamide/Ethambutol (RHZE)",
+    "brandNames": [
+      "Rifafour"
+    ],
+    "category": "Anti-TB",
+    "drugClass": "Fixed-dose combination anti-tuberculosis therapy",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "150 mg/75 mg/400 mg/275 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Pulmonary and extrapulmonary tuberculosis (intensive phase)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Weight-based (typically 3–4 tablets)",
+        "frequency": "Once daily for 2 months (intensive phase)",
+        "maxDailyDose": "Per weight band"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band paediatric FDC dosing",
+        "maxDailyDose": "Per weight band"
+      }
+    },
+    "contraindications": [
+      "Severe liver disease",
+      "Optic neuritis (ethambutol component)"
+    ],
+    "sideEffects": [
+      "Hepatotoxicity",
+      "Orange discolouration of body fluids",
+      "Visual disturbance"
+    ],
+    "warnings": [
+      "Monitor liver function; monitor visual acuity"
+    ],
+    "pregnancy": "Considered safe; treatment should not be delayed.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 29,
+    "genericName": "Rifampicin/Isoniazid (RH)",
+    "brandNames": [
+      "Rifinah"
+    ],
+    "category": "Anti-TB",
+    "drugClass": "Fixed-dose combination anti-tuberculosis therapy",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "150 mg/75 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Tuberculosis continuation phase"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Weight-based (typically 3–4 tablets)",
+        "frequency": "Once daily for 4 months (continuation phase)",
+        "maxDailyDose": "Per weight band"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Weight-band paediatric FDC dosing",
+        "maxDailyDose": "Per weight band"
+      }
+    },
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "sideEffects": [
+      "Hepatotoxicity",
+      "Peripheral neuropathy (isoniazid)"
+    ],
+    "warnings": [
+      "Give pyridoxine (vitamin B6) alongside isoniazid"
+    ],
+    "pregnancy": "Considered safe.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 30,
+    "genericName": "Isoniazid",
+    "brandNames": [
+      "INH"
+    ],
+    "category": "Anti-TB",
+    "drugClass": "Antituberculosis agent",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "100 mg",
+      "300 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "TB treatment",
+      "TB preventive therapy (IPT)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "300 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "300 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Once daily",
+        "maxDailyDose": "300 mg/day"
+      }
+    },
+    "contraindications": [
+      "Active liver disease"
+    ],
+    "sideEffects": [
+      "Peripheral neuropathy",
+      "Hepatotoxicity"
+    ],
+    "warnings": [
+      "Co-administer pyridoxine to prevent neuropathy"
+    ],
+    "pregnancy": "Considered safe with pyridoxine supplementation.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 31,
+    "genericName": "Amlodipine",
+    "brandNames": [
+      "Norvasc"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Calcium channel blocker",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "5–10 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "10 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Severe hypotension",
+      "Cardiogenic shock"
+    ],
+    "sideEffects": [
+      "Ankle oedema",
+      "Flushing",
+      "Headache"
+    ],
+    "warnings": [
+      "Caution in severe aortic stenosis"
+    ],
+    "pregnancy": "Used with caution when needed.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 32,
+    "genericName": "Losartan",
+    "brandNames": [
+      "Cozaar"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Angiotensin II receptor blocker (ARB)",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "50 mg",
+      "100 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Diabetic nephropathy"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "50 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "100 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Pregnancy",
+      "Bilateral renal artery stenosis"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Hyperkalaemia"
+    ],
+    "warnings": [
+      "Monitor renal function and potassium"
+    ],
+    "pregnancy": "Contraindicated.",
+    "breastfeeding": "Avoid; use alternative."
+  },
+  {
+    "id": 33,
+    "genericName": "Enalapril",
+    "brandNames": [
+      "Renitec"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "ACE inhibitor",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "5 mg",
+      "10 mg",
+      "20 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Heart failure"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "5–20 mg",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "40 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0.1,
+        "frequency": "Once daily (specialist)",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Pregnancy",
+      "Bilateral renal artery stenosis",
+      "Angioedema history"
+    ],
+    "sideEffects": [
+      "Dry cough",
+      "Hyperkalaemia",
+      "Angioedema"
+    ],
+    "warnings": [
+      "Monitor renal function and potassium"
+    ],
+    "pregnancy": "Contraindicated.",
+    "breastfeeding": "Considered compatible in low doses."
+  },
+  {
+    "id": 34,
+    "genericName": "Hydrochlorothiazide",
+    "brandNames": [
+      "HCTZ"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Thiazide diuretic",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "12.5 mg",
+      "25 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Oedema"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "12.5–25 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "50 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Once daily (specialist)",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Anuria",
+      "Severe hypokalaemia"
+    ],
+    "sideEffects": [
+      "Hypokalaemia",
+      "Hyponatraemia",
+      "Hyperglycaemia"
+    ],
+    "warnings": [
+      "Monitor electrolytes"
+    ],
+    "pregnancy": "Used cautiously if needed.",
+    "breastfeeding": "Compatible in low doses."
+  },
+  {
+    "id": 35,
+    "genericName": "Nifedipine",
+    "brandNames": [
+      "Adalat"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Calcium channel blocker",
+    "dosageForms": [
+      "Tablet (retard/XL)",
+      "Capsule"
+    ],
+    "strengths": [
+      "10 mg",
+      "20 mg retard"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Hypertensive emergencies in pregnancy"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "10–20 mg",
+        "frequency": "Twice daily (retard)",
+        "maxDailyDose": "80 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Cardiogenic shock",
+      "Unstable angina"
+    ],
+    "sideEffects": [
+      "Flushing",
+      "Headache",
+      "Reflex tachycardia"
+    ],
+    "warnings": [
+      "Avoid sublingual/rapid-release form in hypertensive emergency"
+    ],
+    "pregnancy": "Used for pregnancy-induced hypertension.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 36,
+    "genericName": "Methyldopa",
+    "brandNames": [
+      "Aldomet"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Centrally-acting antihypertensive",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "250 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension in pregnancy"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "250–500 mg",
+        "frequency": "2–3 times daily",
+        "maxDailyDose": "3000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "2–3 times daily (specialist)",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Active liver disease",
+      "Depression (caution)"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Dry mouth",
+      "Hepatotoxicity (rare)"
+    ],
+    "warnings": [
+      "Monitor liver function with prolonged use"
+    ],
+    "pregnancy": "First-line for hypertension in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 37,
+    "genericName": "Atenolol",
+    "brandNames": [
+      "Tenormin"
+    ],
+    "category": "Antihypertensive",
+    "drugClass": "Beta-blocker",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "50 mg",
+      "100 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Hypertension",
+      "Angina",
+      "Arrhythmia"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "50–100 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "100 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Asthma",
+      "Severe bradycardia",
+      "Heart block"
+    ],
+    "sideEffects": [
+      "Fatigue",
+      "Cold extremities",
+      "Bradycardia"
+    ],
+    "warnings": [
+      "Do not stop abruptly"
+    ],
+    "pregnancy": "Use with caution; may affect fetal growth.",
+    "breastfeeding": "Compatible with monitoring."
+  },
+  {
+    "id": 38,
+    "genericName": "Furosemide",
+    "brandNames": [
+      "Lasix"
+    ],
+    "category": "Diuretic",
+    "drugClass": "Loop diuretic",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "40 mg",
+      "20 mg/2 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Heart failure",
+      "Pulmonary oedema",
+      "Oedema"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "20–80 mg",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "600 mg (severe cases)"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "6 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "sideEffects": [
+      "Hypokalaemia",
+      "Dehydration",
+      "Ototoxicity (high doses)"
+    ],
+    "warnings": [
+      "Monitor electrolytes and renal function"
+    ],
+    "pregnancy": "Use only if clearly needed.",
+    "breastfeeding": "Use with caution; may reduce milk production."
+  },
+  {
+    "id": 39,
+    "genericName": "Spironolactone",
+    "brandNames": [
+      "Aldactone"
+    ],
+    "category": "Diuretic",
+    "drugClass": "Potassium-sparing diuretic / Aldosterone antagonist",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "25 mg",
+      "50 mg",
+      "100 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Heart failure",
+      "Ascites in liver cirrhosis",
+      "Resistant hypertension"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "25–100 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "400 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "3 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Hyperkalaemia",
+      "Severe renal impairment"
+    ],
+    "sideEffects": [
+      "Hyperkalaemia",
+      "Gynaecomastia"
+    ],
+    "warnings": [
+      "Monitor potassium levels"
+    ],
+    "pregnancy": "Avoid unless essential.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 40,
+    "genericName": "Metformin",
+    "brandNames": [
+      "Glucophage"
+    ],
+    "category": "Antidiabetic",
+    "drugClass": "Biguanide",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "500 mg",
+      "850 mg",
+      "1000 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Type 2 diabetes mellitus"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500–1000 mg",
+        "frequency": "Twice daily with meals",
+        "maxDailyDose": "2550 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use (age ≥10 in some protocols)",
+        "maxDailyDose": "2000 mg"
+      }
+    },
+    "contraindications": [
+      "Severe renal impairment",
+      "Acute metabolic acidosis"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "Lactic acidosis (rare)",
+      "Vitamin B12 deficiency (long-term)"
+    ],
+    "warnings": [
+      "Withhold before contrast imaging procedures"
+    ],
+    "pregnancy": "Increasingly used; consult local protocol.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 41,
+    "genericName": "Glibenclamide",
+    "brandNames": [
+      "Daonil"
+    ],
+    "category": "Antidiabetic",
+    "drugClass": "Sulfonylurea",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "5 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Type 2 diabetes mellitus"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "2.5–5 mg",
+        "frequency": "Once or twice daily before meals",
+        "maxDailyDose": "15 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not routinely used",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Type 1 diabetes",
+      "Severe renal/hepatic impairment"
+    ],
+    "sideEffects": [
+      "Hypoglycaemia",
+      "Weight gain"
+    ],
+    "warnings": [
+      "Caution in elderly patients due to hypoglycaemia risk"
+    ],
+    "pregnancy": "Avoid; use insulin instead.",
+    "breastfeeding": "Avoid; use insulin instead."
+  },
+  {
+    "id": 42,
+    "genericName": "Gliclazide",
+    "brandNames": [
+      "Diamicron"
+    ],
+    "category": "Antidiabetic",
+    "drugClass": "Sulfonylurea",
+    "dosageForms": [
+      "Tablet",
+      "Modified-release tablet"
+    ],
+    "strengths": [
+      "80 mg",
+      "30 mg MR"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Type 2 diabetes mellitus"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "40–160 mg",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "320 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not routinely used",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Type 1 diabetes",
+      "Severe hepatic/renal impairment"
+    ],
+    "sideEffects": [
+      "Hypoglycaemia",
+      "GI upset"
+    ],
+    "warnings": [
+      "Take with breakfast"
+    ],
+    "pregnancy": "Avoid; use insulin instead.",
+    "breastfeeding": "Avoid; use insulin instead."
+  },
+  {
+    "id": 43,
+    "genericName": "Insulin (Soluble/Regular)",
+    "brandNames": [
+      "Actrapid"
+    ],
+    "category": "Antidiabetic",
+    "drugClass": "Short-acting insulin",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "100 IU/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Type 1 diabetes",
+      "Type 2 diabetes (insulin-requiring)",
+      "DKA management"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Individualised, typically 0.5–1 IU/kg/day total",
+        "frequency": "Before meals / per sliding scale",
+        "maxDailyDose": "Individualised"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Individualised, specialist-guided",
+        "maxDailyDose": "Individualised"
+      }
+    },
+    "contraindications": [
+      "Hypoglycaemia"
+    ],
+    "sideEffects": [
+      "Hypoglycaemia",
+      "Weight gain",
+      "Injection site lipodystrophy"
+    ],
+    "warnings": [
+      "Rotate injection sites"
+    ],
+    "pregnancy": "Safe and preferred agent for diabetes in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 44,
+    "genericName": "Insulin (NPH/Isophane)",
+    "brandNames": [
+      "Insulatard"
+    ],
+    "category": "Antidiabetic",
+    "drugClass": "Intermediate-acting insulin",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "100 IU/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Type 1 and Type 2 diabetes"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Individualised",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "Individualised"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Individualised, specialist-guided",
+        "maxDailyDose": "Individualised"
+      }
+    },
+    "contraindications": [
+      "Hypoglycaemia"
+    ],
+    "sideEffects": [
+      "Hypoglycaemia (especially nocturnal)",
+      "Weight gain"
+    ],
+    "warnings": [
+      "Mix thoroughly before injection"
+    ],
+    "pregnancy": "Safe and commonly used in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 45,
+    "genericName": "Salbutamol",
+    "brandNames": [
+      "Ventolin"
+    ],
+    "category": "Respiratory",
+    "drugClass": "Short-acting beta-2 agonist (SABA)",
+    "dosageForms": [
+      "Inhaler",
+      "Nebulizer solution",
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "100 mcg/dose",
+      "5 mg/mL",
+      "2 mg",
+      "2 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Acute bronchospasm"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1–2 puffs (100–200 mcg)",
+        "frequency": "Every 4–6 hours as needed",
+        "maxDailyDose": "8 puffs (inhaler)"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "1–2 puffs as needed, or nebulized 2.5–5 mg",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Tremor",
+      "Tachycardia",
+      "Palpitations"
+    ],
+    "warnings": [
+      "Overuse may indicate poor asthma control"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 46,
+    "genericName": "Beclometasone",
+    "brandNames": [
+      "Becotide",
+      "Qvar"
+    ],
+    "category": "Respiratory",
+    "drugClass": "Inhaled corticosteroid",
+    "dosageForms": [
+      "Inhaler"
+    ],
+    "strengths": [
+      "100 mcg/dose",
+      "250 mcg/dose"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Asthma maintenance therapy"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "100–400 mcg",
+        "frequency": "Twice daily",
+        "maxDailyDose": "2000 mcg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Twice daily, lower dose",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Active respiratory infection (caution, not absolute)"
+    ],
+    "sideEffects": [
+      "Oral thrush",
+      "Hoarseness"
+    ],
+    "warnings": [
+      "Rinse mouth after use to prevent oral thrush"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 47,
+    "genericName": "Aminophylline",
+    "brandNames": [
+      "Phyllocontin"
+    ],
+    "category": "Respiratory",
+    "drugClass": "Methylxanthine bronchodilator",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "100 mg",
+      "250 mg/10 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Severe acute asthma",
+      "COPD exacerbation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "5 mg/kg loading, then infusion",
+        "frequency": "IV infusion per protocol",
+        "maxDailyDose": "Per protocol / levels"
+      },
+      "paediatric": {
+        "mgPerKg": 5,
+        "frequency": "Loading dose then maintenance infusion",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Uncontrolled arrhythmia",
+      "Peptic ulcer (caution)"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Arrhythmia",
+      "Seizures (toxicity)"
+    ],
+    "warnings": [
+      "Narrow therapeutic index; monitor levels"
+    ],
+    "pregnancy": "Used with caution when needed.",
+    "breastfeeding": "Compatible with monitoring."
+  },
+  {
+    "id": 48,
+    "genericName": "Prednisolone",
+    "brandNames": [
+      "Deltacortril"
+    ],
+    "category": "Corticosteroid",
+    "drugClass": "Glucocorticoid",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "5 mg",
+      "20 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Asthma exacerbation",
+      "Allergic reactions",
+      "Autoimmune conditions"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "20–40 mg",
+        "frequency": "Once daily (short courses)",
+        "maxDailyDose": "Per indication"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Once daily",
+        "maxDailyDose": "40 mg/day (short course)"
+      }
+    },
+    "contraindications": [
+      "Systemic fungal infection"
+    ],
+    "sideEffects": [
+      "Weight gain",
+      "Hyperglycaemia",
+      "Immunosuppression"
+    ],
+    "warnings": [
+      "Taper gradually after prolonged use"
+    ],
+    "pregnancy": "Used when benefit outweighs risk.",
+    "breastfeeding": "Compatible with breastfeeding at low-moderate doses."
+  },
+  {
+    "id": 49,
+    "genericName": "Dexamethasone",
+    "brandNames": [
+      "Decadron"
+    ],
+    "category": "Corticosteroid",
+    "drugClass": "Glucocorticoid",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "0.5 mg",
+      "4 mg/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Cerebral oedema",
+      "Severe COVID-19",
+      "Antenatal fetal lung maturation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "6–16 mg",
+        "frequency": "Once or divided doses daily",
+        "maxDailyDose": "Per indication"
+      },
+      "paediatric": {
+        "mgPerKg": 0.15,
+        "frequency": "Per indication",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Systemic fungal infection"
+    ],
+    "sideEffects": [
+      "Hyperglycaemia",
+      "Immunosuppression",
+      "Insomnia"
+    ],
+    "warnings": [
+      "Taper gradually after prolonged use"
+    ],
+    "pregnancy": "Used for fetal lung maturation in preterm labour risk.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 50,
+    "genericName": "Omeprazole",
+    "brandNames": [
+      "Losec"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "Proton pump inhibitor",
+    "dosageForms": [
+      "Capsule",
+      "Injection"
+    ],
+    "strengths": [
+      "20 mg",
+      "40 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Peptic ulcer disease",
+      "GERD",
+      "H. pylori eradication (combination)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "20–40 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "40 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Once daily",
+        "maxDailyDose": "40 mg/day"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Headache",
+      "GI upset",
+      "Long-term: B12 deficiency, fracture risk"
+    ],
+    "warnings": [
+      "Long-term use associated with increased infection risk"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 51,
+    "genericName": "Ranitidine",
+    "brandNames": [
+      "Zantac"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "H2-receptor antagonist",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "150 mg",
+      "300 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": false,
+    "indications": [
+      "Peptic ulcer disease",
+      "GERD"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "150 mg",
+        "frequency": "Twice daily",
+        "maxDailyDose": "300 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 2,
+        "frequency": "Twice daily",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Headache",
+      "GI upset"
+    ],
+    "warnings": [
+      "Availability reduced in many markets; PPIs often preferred"
+    ],
+    "pregnancy": "Considered safe in pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 52,
+    "genericName": "Magnesium Trisilicate / Antacid",
+    "brandNames": [
+      "Gelusil",
+      "Actal"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "Antacid",
+    "dosageForms": [
+      "Tablet",
+      "Suspension"
+    ],
+    "strengths": [
+      "Various"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Dyspepsia",
+      "Heartburn"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1–2 tablets or 10–20 mL",
+        "frequency": "As needed, up to 4 times daily",
+        "maxDailyDose": "Per label"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not routinely recommended",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Severe renal impairment (magnesium accumulation)"
+    ],
+    "sideEffects": [
+      "Diarrhoea",
+      "Constipation (aluminium-containing)"
+    ],
+    "warnings": [
+      "May reduce absorption of other drugs; space dosing"
+    ],
+    "pregnancy": "Generally considered safe.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 53,
+    "genericName": "Oral Rehydration Salts (ORS)",
+    "brandNames": [
+      "ORS"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "Rehydration therapy",
+    "dosageForms": [
+      "Sachet for oral solution"
+    ],
+    "strengths": [
+      "Standard WHO/UNICEF formula"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Diarrhoea-related dehydration"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200–400 mL after each loose stool",
+        "frequency": "As needed",
+        "maxDailyDose": "Per hydration status"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "10 mL/kg after each loose stool",
+        "maxDailyDose": "Per hydration status"
+      }
+    },
+    "contraindications": [
+      "Severe dehydration requiring IV fluids",
+      "Ileus"
+    ],
+    "sideEffects": [
+      "Vomiting if given too quickly"
+    ],
+    "warnings": [
+      "Use clean water to prepare solution"
+    ],
+    "pregnancy": "Safe in pregnancy.",
+    "breastfeeding": "Continue breastfeeding alongside ORS."
+  },
+  {
+    "id": 54,
+    "genericName": "Zinc Sulfate",
+    "brandNames": [
+      "Zincomed"
+    ],
+    "category": "Supplement",
+    "drugClass": "Mineral supplement",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "20 mg",
+      "10 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Adjunct in childhood diarrhoea",
+      "Zinc deficiency"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "20 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "20 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "10 mg (under 6mo) / 20 mg (over 6mo) once daily for 10-14 days",
+        "maxDailyDose": "20 mg"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Metallic taste"
+    ],
+    "warnings": [
+      "Give with ORS in diarrhoea management"
+    ],
+    "pregnancy": "Safe at supplement doses.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 55,
+    "genericName": "Metoclopramide",
+    "brandNames": [
+      "Maxolon"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "Antiemetic / Prokinetic",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "10 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Nausea and vomiting",
+      "Gastroparesis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "10 mg",
+        "frequency": "Up to 3 times daily",
+        "maxDailyDose": "30 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0.1,
+        "frequency": "Up to 3 times daily (caution under 1 year)",
+        "maxDailyDose": "0.5 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "GI obstruction",
+      "Parkinson's disease"
+    ],
+    "sideEffects": [
+      "Extrapyramidal symptoms",
+      "Drowsiness"
+    ],
+    "warnings": [
+      "Limit duration to 5 days due to EPS risk"
+    ],
+    "pregnancy": "Considered safe for hyperemesis.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 56,
+    "genericName": "Ondansetron",
+    "brandNames": [
+      "Zofran"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "5-HT3 antagonist (antiemetic)",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "4 mg",
+      "8 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Chemotherapy/post-operative nausea and vomiting",
+      "Severe hyperemesis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "4–8 mg",
+        "frequency": "Every 8 hours as needed",
+        "maxDailyDose": "24 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0.15,
+        "frequency": "Every 8 hours",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Congenital long QT syndrome"
+    ],
+    "sideEffects": [
+      "Headache",
+      "Constipation",
+      "QT prolongation"
+    ],
+    "warnings": [
+      "Caution with other QT-prolonging drugs"
+    ],
+    "pregnancy": "Used with caution for severe hyperemesis.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 57,
+    "genericName": "Loperamide",
+    "brandNames": [
+      "Imodium"
+    ],
+    "category": "Gastrointestinal",
+    "drugClass": "Antimotility agent",
+    "dosageForms": [
+      "Capsule",
+      "Tablet"
+    ],
+    "strengths": [
+      "2 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": false,
+    "indications": [
+      "Acute non-infective diarrhoea"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "4 mg initially, then 2 mg after each loose stool",
+        "frequency": "As needed",
+        "maxDailyDose": "16 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not recommended under 12 years",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Bloody diarrhoea/dysentery",
+      "Children under 12"
+    ],
+    "sideEffects": [
+      "Constipation",
+      "Abdominal cramps"
+    ],
+    "warnings": [
+      "Avoid in infective/inflammatory diarrhoea"
+    ],
+    "pregnancy": "Use with caution.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 58,
+    "genericName": "Chlorpheniramine",
+    "brandNames": [
+      "Piriton"
+    ],
+    "category": "Antihistamine",
+    "drugClass": "First-generation antihistamine",
+    "dosageForms": [
+      "Tablet",
+      "Syrup",
+      "Injection"
+    ],
+    "strengths": [
+      "4 mg",
+      "2 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Allergic rhinitis",
+      "Urticaria",
+      "Anaphylaxis (adjunct)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "4 mg",
+        "frequency": "Every 4–6 hours",
+        "maxDailyDose": "24 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Age-based dosing per label",
+        "maxDailyDose": "Per label"
+      }
+    },
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Severe hepatic disease"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Dry mouth"
+    ],
+    "warnings": [
+      "Causes drowsiness; caution when driving"
+    ],
+    "pregnancy": "Considered safe when needed.",
+    "breastfeeding": "Use with caution; may cause infant sedation."
+  },
+  {
+    "id": 59,
+    "genericName": "Cetirizine",
+    "brandNames": [
+      "Zyrtec"
+    ],
+    "category": "Antihistamine",
+    "drugClass": "Second-generation antihistamine",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "10 mg",
+      "5 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": false,
+    "indications": [
+      "Allergic rhinitis",
+      "Urticaria"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "10 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "10 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "5 mg once daily (2-6 yrs), 10mg (6+ yrs)",
+        "maxDailyDose": "10 mg"
+      }
+    },
+    "contraindications": [
+      "Severe renal impairment (dose adjust)"
+    ],
+    "sideEffects": [
+      "Mild drowsiness",
+      "Dry mouth"
+    ],
+    "warnings": [
+      "Less sedating than first-generation antihistamines"
+    ],
+    "pregnancy": "Considered safe when needed.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 60,
+    "genericName": "Promethazine",
+    "brandNames": [
+      "Phenergan"
+    ],
+    "category": "Antihistamine",
+    "drugClass": "First-generation antihistamine / Antiemetic",
+    "dosageForms": [
+      "Tablet",
+      "Syrup",
+      "Injection"
+    ],
+    "strengths": [
+      "25 mg",
+      "5 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Allergic reactions",
+      "Nausea",
+      "Sedation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "25 mg",
+        "frequency": "Once or twice daily",
+        "maxDailyDose": "100 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Avoid under 2 years (respiratory depression risk)",
+        "maxDailyDose": "Per protocol over age 2"
+      }
+    },
+    "contraindications": [
+      "Children under 2 years",
+      "Severe CNS depression"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Anticholinergic effects"
+    ],
+    "warnings": [
+      "Risk of severe tissue damage with IV extravasation"
+    ],
+    "pregnancy": "Used with caution when needed.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 61,
+    "genericName": "Diazepam",
+    "brandNames": [
+      "Valium"
+    ],
+    "category": "CNS",
+    "drugClass": "Benzodiazepine",
+    "dosageForms": [
+      "Tablet",
+      "Injection",
+      "Rectal solution"
+    ],
+    "strengths": [
+      "5 mg",
+      "10 mg/2 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Seizures",
+      "Anxiety",
+      "Muscle spasm",
+      "Alcohol withdrawal"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "5–10 mg",
+        "frequency": "As needed / per protocol",
+        "maxDailyDose": "Per indication"
+      },
+      "paediatric": {
+        "mgPerKg": 0.3,
+        "frequency": "Per seizure protocol (rectal/IV)",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Severe respiratory insufficiency",
+      "Myasthenia gravis"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Respiratory depression",
+      "Dependence"
+    ],
+    "warnings": [
+      "Risk of dependence with prolonged use"
+    ],
+    "pregnancy": "Avoid unless essential (e.g., status epilepticus).",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 62,
+    "genericName": "Phenobarbital",
+    "brandNames": [
+      "Luminal"
+    ],
+    "category": "CNS",
+    "drugClass": "Barbiturate / Anticonvulsant",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "30 mg",
+      "200 mg/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Epilepsy",
+      "Neonatal seizures"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "60–180 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "180 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 5,
+        "frequency": "Once daily",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Porphyria",
+      "Severe respiratory depression"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Cognitive impairment",
+      "Dependence"
+    ],
+    "warnings": [
+      "Do not stop abruptly (rebound seizures)"
+    ],
+    "pregnancy": "Used when benefit outweighs risk; folic acid supplementation advised.",
+    "breastfeeding": "Use with caution; monitor infant for sedation."
+  },
+  {
+    "id": 63,
+    "genericName": "Carbamazepine",
+    "brandNames": [
+      "Tegretol"
+    ],
+    "category": "CNS",
+    "drugClass": "Anticonvulsant",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "200 mg",
+      "400 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Epilepsy",
+      "Trigeminal neuralgia",
+      "Bipolar disorder"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200–400 mg",
+        "frequency": "Twice daily",
+        "maxDailyDose": "1600 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 10,
+        "frequency": "Twice daily",
+        "maxDailyDose": "35 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Bone marrow suppression history",
+      "AV block"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Rash",
+      "Blood dyscrasias"
+    ],
+    "warnings": [
+      "Monitor full blood count periodically"
+    ],
+    "pregnancy": "Associated with neural tube defects; folic acid supplementation advised.",
+    "breastfeeding": "Compatible with monitoring."
+  },
+  {
+    "id": 64,
+    "genericName": "Sodium Valproate",
+    "brandNames": [
+      "Epilim"
+    ],
+    "category": "CNS",
+    "drugClass": "Anticonvulsant",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "200 mg",
+      "500 mg",
+      "200 mg/5 mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Epilepsy",
+      "Bipolar disorder"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "600–1500 mg",
+        "frequency": "Twice daily",
+        "maxDailyDose": "2500 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 15,
+        "frequency": "Twice daily",
+        "maxDailyDose": "60 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Pregnancy (high teratogenic risk)",
+      "Liver disease"
+    ],
+    "sideEffects": [
+      "Weight gain",
+      "Hepatotoxicity",
+      "Tremor"
+    ],
+    "warnings": [
+      "Avoid in women of childbearing potential where possible"
+    ],
+    "pregnancy": "Contraindicated (major birth defect risk).",
+    "breastfeeding": "Compatible with monitoring."
+  },
+  {
+    "id": 65,
+    "genericName": "Magnesium Sulfate",
+    "brandNames": [
+      "MgSO4"
+    ],
+    "category": "Obstetric / CNS",
+    "drugClass": "Anticonvulsant (obstetric)",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "50% solution"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Pre-eclampsia/eclampsia seizure prevention"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "4 g IV loading, then 1 g/hr infusion (or IM regimen)",
+        "frequency": "Per eclampsia protocol",
+        "maxDailyDose": "Per protocol with monitoring"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not applicable (obstetric use)",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Myasthenia gravis",
+      "Heart block"
+    ],
+    "sideEffects": [
+      "Flushing",
+      "Respiratory depression (toxicity)",
+      "Loss of reflexes"
+    ],
+    "warnings": [
+      "Monitor reflexes, respiratory rate, and urine output; have calcium gluconate available as antidote"
+    ],
+    "pregnancy": "First-line for eclampsia/severe pre-eclampsia.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 66,
+    "genericName": "Haloperidol",
+    "brandNames": [
+      "Serenace"
+    ],
+    "category": "CNS",
+    "drugClass": "Typical antipsychotic",
+    "dosageForms": [
+      "Tablet",
+      "Injection"
+    ],
+    "strengths": [
+      "5 mg",
+      "5 mg/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Acute psychosis",
+      "Agitation",
+      "Schizophrenia"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1.5–5 mg",
+        "frequency": "1–3 times daily",
+        "maxDailyDose": "30 mg (specialist)"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Parkinson's disease",
+      "Severe CNS depression"
+    ],
+    "sideEffects": [
+      "Extrapyramidal symptoms",
+      "Sedation",
+      "QT prolongation"
+    ],
+    "warnings": [
+      "Monitor for neuroleptic malignant syndrome"
+    ],
+    "pregnancy": "Use with caution when needed.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 67,
+    "genericName": "Amitriptyline",
+    "brandNames": [
+      "Tryptanol"
+    ],
+    "category": "CNS",
+    "drugClass": "Tricyclic antidepressant",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "10 mg",
+      "25 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Depression",
+      "Neuropathic pain",
+      "Migraine prophylaxis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "25–75 mg",
+        "frequency": "Once daily at bedtime",
+        "maxDailyDose": "150 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not routinely recommended",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Recent myocardial infarction",
+      "Severe arrhythmia"
+    ],
+    "sideEffects": [
+      "Sedation",
+      "Dry mouth",
+      "Weight gain",
+      "Cardiotoxicity in overdose"
+    ],
+    "warnings": [
+      "Dangerous in overdose"
+    ],
+    "pregnancy": "Use with caution when needed.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 68,
+    "genericName": "Fluoxetine",
+    "brandNames": [
+      "Prozac"
+    ],
+    "category": "CNS",
+    "drugClass": "SSRI antidepressant",
+    "dosageForms": [
+      "Capsule"
+    ],
+    "strengths": [
+      "20 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": false,
+    "indications": [
+      "Depression",
+      "Anxiety disorders",
+      "OCD"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "20 mg",
+        "frequency": "Once daily",
+        "maxDailyDose": "80 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Specialist use only",
+        "maxDailyDose": "Per specialist guidance"
+      }
+    },
+    "contraindications": [
+      "Concurrent MAOIs"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Insomnia",
+      "Sexual dysfunction"
+    ],
+    "warnings": [
+      "Monitor for increased suicidality in young adults early in treatment"
+    ],
+    "pregnancy": "Use with caution when needed.",
+    "breastfeeding": "Use with caution."
+  },
+  {
+    "id": 69,
+    "genericName": "Albendazole",
+    "brandNames": [
+      "Zentel"
+    ],
+    "category": "Anthelmintic",
+    "drugClass": "Benzimidazole anthelmintic",
+    "dosageForms": [
+      "Tablet",
+      "Suspension"
+    ],
+    "strengths": [
+      "400 mg",
+      "200 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Intestinal worm infections",
+      "Mass deworming programmes"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "400 mg",
+        "frequency": "Single dose (repeat per indication)",
+        "maxDailyDose": "400 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "400 mg single dose (200mg if under 2 yrs)",
+        "maxDailyDose": "400 mg"
+      }
+    },
+    "contraindications": [
+      "First trimester pregnancy"
+    ],
+    "sideEffects": [
+      "Abdominal pain",
+      "Headache"
+    ],
+    "warnings": [
+      "Avoid in first trimester of pregnancy"
+    ],
+    "pregnancy": "Avoid in first trimester; used in 2nd/3rd trimester per programme guidance.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 70,
+    "genericName": "Mebendazole",
+    "brandNames": [
+      "Vermox"
+    ],
+    "category": "Anthelmintic",
+    "drugClass": "Benzimidazole anthelmintic",
+    "dosageForms": [
+      "Tablet",
+      "Suspension"
+    ],
+    "strengths": [
+      "100 mg",
+      "500 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Intestinal worm infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500 mg",
+        "frequency": "Single dose",
+        "maxDailyDose": "500 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "500 mg single dose (over 1 year)",
+        "maxDailyDose": "500 mg"
+      }
+    },
+    "contraindications": [
+      "First trimester pregnancy",
+      "Children under 1 year"
+    ],
+    "sideEffects": [
+      "Abdominal pain",
+      "Diarrhoea"
+    ],
+    "warnings": [
+      "Avoid in first trimester of pregnancy"
+    ],
+    "pregnancy": "Avoid in first trimester.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 71,
+    "genericName": "Praziquantel",
+    "brandNames": [
+      "Biltricide"
+    ],
+    "category": "Anthelmintic",
+    "drugClass": "Antischistosomal",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "600 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Schistosomiasis",
+      "Tapeworm infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "40 mg/kg",
+        "frequency": "Single dose or divided doses in one day",
+        "maxDailyDose": "40-75 mg/kg depending on indication"
+      },
+      "paediatric": {
+        "mgPerKg": 40,
+        "frequency": "Single dose (over 4 years typically)",
+        "maxDailyDose": "40 mg/kg"
+      }
+    },
+    "contraindications": [
+      "Ocular cysticercosis"
+    ],
+    "sideEffects": [
+      "Abdominal pain",
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Take with food"
+    ],
+    "pregnancy": "Can be used when needed (mass campaigns often defer pregnant women).",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 72,
+    "genericName": "Fluconazole",
+    "brandNames": [
+      "Diflucan"
+    ],
+    "category": "Antifungal",
+    "drugClass": "Triazole antifungal",
+    "dosageForms": [
+      "Capsule",
+      "Injection"
+    ],
+    "strengths": [
+      "150 mg",
+      "200 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Candidiasis",
+      "Cryptococcal meningitis (with other agents)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "150 mg (vaginal candidiasis, single dose) / 200-400 mg (systemic)",
+        "frequency": "Single dose or once daily",
+        "maxDailyDose": "800 mg (severe infections)"
+      },
+      "paediatric": {
+        "mgPerKg": 3,
+        "frequency": "Once daily",
+        "maxDailyDose": "12 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Concurrent terfenadine (historic interaction)"
+    ],
+    "sideEffects": [
+      "Headache",
+      "GI upset",
+      "Hepatotoxicity"
+    ],
+    "warnings": [
+      "Multiple drug interactions via CYP450"
+    ],
+    "pregnancy": "Avoid high-dose regimens; single low-dose considered lower risk.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 73,
+    "genericName": "Clotrimazole",
+    "brandNames": [
+      "Canesten"
+    ],
+    "category": "Antifungal",
+    "drugClass": "Imidazole antifungal (topical)",
+    "dosageForms": [
+      "Cream",
+      "Vaginal pessary"
+    ],
+    "strengths": [
+      "1% cream",
+      "500 mg pessary"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Vaginal candidiasis",
+      "Dermatophyte skin infections"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Apply twice daily (cream) / 500 mg single pessary",
+        "frequency": "As directed",
+        "maxDailyDose": "N/A topical"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Apply twice daily (skin infections)",
+        "maxDailyDose": "N/A topical"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "Local irritation"
+    ],
+    "warnings": [
+      "For external/vaginal use only"
+    ],
+    "pregnancy": "Topical use considered safe.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 74,
+    "genericName": "Nystatin",
+    "brandNames": [
+      "Mycostatin"
+    ],
+    "category": "Antifungal",
+    "drugClass": "Polyene antifungal",
+    "dosageForms": [
+      "Oral suspension",
+      "Pessary"
+    ],
+    "strengths": [
+      "100,000 IU/mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Oral thrush",
+      "Vaginal candidiasis"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1 mL (100,000 IU)",
+        "frequency": "4 times daily",
+        "maxDailyDose": "400,000 IU"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "0.5–1 mL 4 times daily",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "GI upset (minimal absorption)"
+    ],
+    "warnings": [
+      "Swish before swallowing for oral thrush"
+    ],
+    "pregnancy": "Considered safe (minimal systemic absorption).",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 75,
+    "genericName": "Aciclovir",
+    "brandNames": [
+      "Zovirax"
+    ],
+    "category": "Antiviral",
+    "drugClass": "Nucleoside analogue antiviral",
+    "dosageForms": [
+      "Tablet",
+      "Cream",
+      "Injection"
+    ],
+    "strengths": [
+      "200 mg",
+      "400 mg",
+      "800 mg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Herpes simplex infections",
+      "Varicella zoster (shingles/chickenpox)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200–800 mg",
+        "frequency": "5 times daily",
+        "maxDailyDose": "4000 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 20,
+        "frequency": "4 times daily",
+        "maxDailyDose": "80 mg/kg/day"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "sideEffects": [
+      "GI upset",
+      "Headache",
+      "Renal impairment (high doses)"
+    ],
+    "warnings": [
+      "Ensure adequate hydration with IV use"
+    ],
+    "pregnancy": "Considered safe when needed.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 76,
+    "genericName": "Folic Acid",
+    "brandNames": [
+      "Folacin"
+    ],
+    "category": "Supplement",
+    "drugClass": "Vitamin (B9)",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "5 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Prevention of neural tube defects",
+      "Anaemia (with iron)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "5 mg (treatment) / 0.4-5 mg (prevention)",
+        "frequency": "Once daily",
+        "maxDailyDose": "5 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Once daily per protocol",
+        "maxDailyDose": "5 mg"
+      }
+    },
+    "contraindications": [
+      "Untreated vitamin B12 deficiency (masks symptoms)"
+    ],
+    "sideEffects": [
+      "Generally well tolerated"
+    ],
+    "warnings": [
+      "Rule out B12 deficiency before high-dose supplementation"
+    ],
+    "pregnancy": "Recommended supplement throughout pregnancy.",
+    "breastfeeding": "Compatible and often recommended."
+  },
+  {
+    "id": 77,
+    "genericName": "Ferrous Sulfate",
+    "brandNames": [
+      "Feosol"
+    ],
+    "category": "Supplement",
+    "drugClass": "Iron supplement",
+    "dosageForms": [
+      "Tablet",
+      "Syrup"
+    ],
+    "strengths": [
+      "200 mg",
+      "60 mg/5 mL"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Iron deficiency anaemia",
+      "Antenatal supplementation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200 mg",
+        "frequency": "Once to three times daily",
+        "maxDailyDose": "600 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 3,
+        "frequency": "Once daily",
+        "maxDailyDose": "6 mg/kg/day (elemental iron)"
+      }
+    },
+    "contraindications": [
+      "Haemochromatosis",
+      "Haemolytic anaemia (unless deficiency confirmed)"
+    ],
+    "sideEffects": [
+      "Constipation",
+      "Black stools",
+      "GI upset"
+    ],
+    "warnings": [
+      "Keep away from children (fatal in overdose)"
+    ],
+    "pregnancy": "Recommended antenatal supplement.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 78,
+    "genericName": "Vitamin A (Retinol)",
+    "brandNames": [
+      "Aquasol A"
+    ],
+    "category": "Supplement",
+    "drugClass": "Fat-soluble vitamin",
+    "dosageForms": [
+      "Capsule"
+    ],
+    "strengths": [
+      "100,000 IU",
+      "200,000 IU"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Vitamin A deficiency prevention",
+      "Measles management"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "200,000 IU",
+        "frequency": "Single dose (postpartum)",
+        "maxDailyDose": "200,000 IU"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "100,000-200,000 IU per national supplementation schedule",
+        "maxDailyDose": "Per age-based protocol"
+      }
+    },
+    "contraindications": [
+      "Hypervitaminosis A"
+    ],
+    "sideEffects": [
+      "Headache",
+      "Nausea (high doses)"
+    ],
+    "warnings": [
+      "Avoid excessive supplementation in pregnancy (teratogenic at high doses)"
+    ],
+    "pregnancy": "Avoid high-dose supplementation; low-dose per antenatal protocol only where indicated.",
+    "breastfeeding": "Compatible; often given postpartum."
+  },
+  {
+    "id": 79,
+    "genericName": "Calcium Carbonate",
+    "brandNames": [
+      "Caltrate"
+    ],
+    "category": "Supplement",
+    "drugClass": "Mineral supplement",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "500 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Calcium deficiency",
+      "Pre-eclampsia prevention (high-dose protocols)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "500–1500 mg",
+        "frequency": "1–3 times daily",
+        "maxDailyDose": "2500 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Per paediatric protocol",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Hypercalcaemia",
+      "Kidney stones (caution)"
+    ],
+    "sideEffects": [
+      "Constipation",
+      "Bloating"
+    ],
+    "warnings": [
+      "Space from iron supplements to avoid reduced absorption"
+    ],
+    "pregnancy": "Recommended in some antenatal protocols for pre-eclampsia prevention.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 80,
+    "genericName": "Oxytocin",
+    "brandNames": [
+      "Syntocinon"
+    ],
+    "category": "Obstetric",
+    "drugClass": "Uterotonic",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "10 IU/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Labour induction/augmentation",
+      "Prevention/treatment of postpartum haemorrhage"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "10 IU IM (PPH prevention) / titrated IV infusion (induction)",
+        "frequency": "Per obstetric protocol",
+        "maxDailyDose": "Per protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not applicable",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity",
+      "Cases where vaginal delivery contraindicated"
+    ],
+    "sideEffects": [
+      "Uterine hyperstimulation",
+      "Hypotension (rapid IV)"
+    ],
+    "warnings": [
+      "Monitor uterine activity and fetal heart rate closely"
+    ],
+    "pregnancy": "Used specifically in labour and postpartum management.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 81,
+    "genericName": "Misoprostol",
+    "brandNames": [
+      "Cytotec"
+    ],
+    "category": "Obstetric",
+    "drugClass": "Prostaglandin analogue",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "200 mcg"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Postpartum haemorrhage prevention/treatment",
+      "Labour induction",
+      "Peptic ulcer prevention (NSAID use)"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "600 mcg (PPH prevention, oral)",
+        "frequency": "Single dose",
+        "maxDailyDose": "Per protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not applicable",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Known hypersensitivity to prostaglandins"
+    ],
+    "sideEffects": [
+      "Shivering",
+      "Fever",
+      "Diarrhoea"
+    ],
+    "warnings": [
+      "Dosing varies significantly by indication - follow specific protocol"
+    ],
+    "pregnancy": "Used specifically for obstetric indications under protocol.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 82,
+    "genericName": "Combined Oral Contraceptive (Ethinylestradiol/Levonorgestrel)",
+    "brandNames": [
+      "Microgynon"
+    ],
+    "category": "Contraceptive",
+    "drugClass": "Hormonal contraceptive",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "30 mcg/150 mcg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Contraception",
+      "Menstrual cycle regulation"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1 tablet",
+        "frequency": "Once daily for 21 days, then 7-day break",
+        "maxDailyDose": "1 tablet/day"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not applicable",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "History of VTE",
+      "Migraine with aura",
+      "Smokers over 35"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Breakthrough bleeding",
+      "VTE risk"
+    ],
+    "warnings": [
+      "Increased thrombosis risk with smoking"
+    ],
+    "pregnancy": "Not used during pregnancy.",
+    "breastfeeding": "Avoid in early breastfeeding; progestin-only preferred."
+  },
+  {
+    "id": 83,
+    "genericName": "Medroxyprogesterone Acetate (Depo-Provera)",
+    "brandNames": [
+      "Depo-Provera"
+    ],
+    "category": "Contraceptive",
+    "drugClass": "Progestin-only injectable contraceptive",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "150 mg/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Contraception"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "150 mg IM",
+        "frequency": "Every 3 months",
+        "maxDailyDose": "N/A"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "Not applicable",
+        "maxDailyDose": "N/A"
+      }
+    },
+    "contraindications": [
+      "Undiagnosed vaginal bleeding",
+      "Active breast cancer"
+    ],
+    "sideEffects": [
+      "Irregular bleeding",
+      "Weight gain",
+      "Delayed return to fertility"
+    ],
+    "warnings": [
+      "Bone density reduction with prolonged use"
+    ],
+    "pregnancy": "Not used during pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 84,
+    "genericName": "Levonorgestrel (Emergency Contraceptive)",
+    "brandNames": [
+      "Postinor-2"
+    ],
+    "category": "Contraceptive",
+    "drugClass": "Emergency contraceptive",
+    "dosageForms": [
+      "Tablet"
+    ],
+    "strengths": [
+      "0.75 mg (x2) / 1.5 mg"
+    ],
+    "prescriptionOnly": false,
+    "essentialMedicine": true,
+    "indications": [
+      "Emergency contraception after unprotected intercourse"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1.5 mg",
+        "frequency": "Single dose within 72 hours",
+        "maxDailyDose": "1.5 mg"
+      },
+      "paediatric": {
+        "mgPerKg": 0,
+        "frequency": "As per adult dosing if applicable",
+        "maxDailyDose": "1.5 mg"
+      }
+    },
+    "contraindications": [
+      "Known pregnancy (does not terminate existing pregnancy)"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Menstrual irregularity",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Most effective when taken as soon as possible after exposure"
+    ],
+    "pregnancy": "Not for use in confirmed pregnancy.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 85,
+    "genericName": "Lidocaine",
+    "brandNames": [
+      "Xylocaine"
+    ],
+    "category": "Anaesthetic",
+    "drugClass": "Local anaesthetic",
+    "dosageForms": [
+      "Injection",
+      "Gel",
+      "Spray"
+    ],
+    "strengths": [
+      "1%",
+      "2%"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Local anaesthesia for minor procedures",
+      "Suturing"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "Up to 4.5 mg/kg (without adrenaline)",
+        "frequency": "As needed for procedure",
+        "maxDailyDose": "300 mg (without adrenaline)"
+      },
+      "paediatric": {
+        "mgPerKg": 4,
+        "frequency": "As needed for procedure",
+        "maxDailyDose": "4.5 mg/kg"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity to amide anaesthetics"
+    ],
+    "sideEffects": [
+      "Local irritation",
+      "Systemic toxicity (overdose): seizures, arrhythmia"
+    ],
+    "warnings": [
+      "Aspirate before injection to avoid intravascular administration"
+    ],
+    "pregnancy": "Considered safe when needed.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 86,
+    "genericName": "Ketamine",
+    "brandNames": [
+      "Ketalar"
+    ],
+    "category": "Anaesthetic",
+    "drugClass": "Dissociative anaesthetic",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "50 mg/mL"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Procedural sedation",
+      "Induction of general anaesthesia"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "1–2 mg/kg IV / 4-10 mg/kg IM",
+        "frequency": "Single dose, titrated",
+        "maxDailyDose": "Per anaesthetic protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 1,
+        "frequency": "Per weight-based protocol",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "Severe uncontrolled hypertension",
+      "Raised intracranial pressure (relative)"
+    ],
+    "sideEffects": [
+      "Hallucinations/emergence reactions",
+      "Hypertension",
+      "Tachycardia"
+    ],
+    "warnings": [
+      "Controlled substance; risk of misuse"
+    ],
+    "pregnancy": "Used with caution when needed for anaesthesia.",
+    "breastfeeding": "Compatible with breastfeeding after recovery."
+  },
+  {
+    "id": 87,
+    "genericName": "Adrenaline (Epinephrine)",
+    "brandNames": [
+      "Adrenaline"
+    ],
+    "category": "Emergency",
+    "drugClass": "Sympathomimetic",
+    "dosageForms": [
+      "Injection"
+    ],
+    "strengths": [
+      "1 mg/mL (1:1000)",
+      "1 mg/10 mL (1:10,000)"
+    ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": [
+      "Anaphylaxis",
+      "Cardiac arrest"
+    ],
+    "dosing": {
+      "adult": {
+        "dose": "0.5 mg IM (anaphylaxis) / 1 mg IV (cardiac arrest)",
+        "frequency": "Repeat every 5 min (anaphylaxis) / every 3-5 min (arrest)",
+        "maxDailyDose": "Per resuscitation protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 0.01,
+        "frequency": "Per resuscitation/anaphylaxis protocol",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [
+      "None absolute in emergency use"
+    ],
+    "sideEffects": [
+      "Tachycardia",
+      "Anxiety",
+      "Hypertension"
+    ],
+    "warnings": [
+      "First-line for anaphylaxis - do not delay administration"
+    ],
+    "pregnancy": "Used in emergencies regardless of pregnancy status.",
+    "breastfeeding": "Compatible with breastfeeding."
+  },
+  {
+    "id": 88,
+    "genericName": "Atropine",
+    "brandNames": ["Atropine Sulfate"],
+    "category": "Emergency",
+    "drugClass": "Anticholinergic",
+    "dosageForms": [ "Injection",  "Eye drops"  ],
+    "strengths": [  "0.6 mg/mL", "1%"  ],
+    "prescriptionOnly": true,
+    "essentialMedicine": true,
+    "indications": ["Bradycardia",  "Organophosphate poisoning" ],
+    "dosing": {
+      "adult": {
+        "dose": "0.5–1 mg IV (bradycardia) / higher doses for poisoning",
+        "frequency": "Repeat per protocol",
+        "maxDailyDose": "Per resuscitation/poisoning protocol"
+      },
+      "paediatric": {
+        "mgPerKg": 0.02,
+        "frequency": "Per protocol",
+        "maxDailyDose": "Per protocol"
+      }
+    },
+    "contraindications": [ "Narrow-angle glaucoma (relative in emergencies)" ],
+    "sideEffects": [
+      "Dry mouth",
+      "Tachycardia",
+      "Blurred vision"
+    ],
+    "warnings": [
+      "Large doses required and safe in organophosphate poisoning"
+    ],
+    "pregnancy": "Used in emergencies regardless of pregnancy status.",
+    "breastfeeding": "Compatible with breastfeeding."
   }
 ]

@@ -7,10 +7,9 @@
 content="width=device-width,initial-scale=1.0">
 <title>Create Account | Net-Health</title>
 
-<link rel="stylesheet"
-href="../css/variables.css">
-<link rel="stylesheet"
-href="../css/style.css">
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 
 </head>
 
@@ -25,45 +24,33 @@ Start your Net-Health journey.
 <form id="register-form">
 <input
 type="text"
+id="full-name"
 placeholder="Full Name"
 required>
 <input
 type="email"
+id="email"
 placeholder="Email Address"
 required>
 <input
 type="password"
+id="password"
 placeholder="Password"
 required>
 <select required>
 <option value="">
 Select Your Role
 </option>
-<option>
-Student
-</option>
-<option>
-Doctor
-</option>
-<option>
-Nurse
-</option>
-<option>
-Pharmacist
-</option>
-<option>
-Clinical Officer
-</option>
-<option>
-Patient
-</option>
-<option>
-Educator
-</option>
+<option value="student">Student</option>
+<option value="doctor">Doctor</option>
+<option value="nurse">Nurse</option>
+<option value="pharmacist">Pharmacist</option>
+<option value="clinical-officer">Clinical Officer</option>
+<option value="patient">Patient</option>
+<option value="educator">Educator</option>
 </select>
 
-<button
-class="btn-primary">
+<button type="submit" class="btn-primary">
 
 Create Account
 

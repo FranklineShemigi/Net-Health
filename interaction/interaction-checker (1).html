@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Drug Interaction Checker | Net-Health
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../css/variables.css">
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="../css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="dashboard-header">
+
+    <button
+        class="menu-btn"
+        type="button">
+        &#9776;
+    </button>
+
+    <h1 class="logo">
+        Interaction Checker
+    </h1>
+
+    <button
+        class="profile-btn"
+        type="button">
+        👤
+    </button>
+
+</header>
+
+
+<!-- =========================
+     SIDEBAR
+========================= -->
+
+<div
+    class="sidebar"
+    id="sidebar">
+
+    <div class="sidebar-header">
+
+        <h2>
+            Menu
+        </h2>
+
+        <button
+            class="close-btn"
+            type="button">
+            &times;
+        </button>
+
+    </div>
+
+
+    <a href="../dashboard/dashboard.html">
+        🏠 Dashboard
+    </a>
+
+    <a href="../drugs/drug-library.html">
+        💊 Drug Library
+    </a>
+
+    <a href="../calculator/dose-calculator.html">
+        🧮 Dose Calculator
+    </a>
+
+    <a href="../interaction/interaction-checker.html">
+        ⚠ Drug Interaction Checker
+    </a>
+
+    <a
+        href="#"
+        onclick="alert('Coming soon!')">
+        🤖 AI Tutor
+    </a>
+
+    <a
+        href="#"
+        onclick="alert('Coming soon!')">
+        🩺 Clinical Simulator
+    </a>
+
+    <a
+        href="#"
+        onclick="alert('Coming soon!')">
+        👨‍⚕️ Book Consultation
+    </a>
+
+    <a
+        href="#"
+        onclick="alert('Coming soon!')">
+        ⚙ Settings
+    </a>
+
+    <a href="../index.html">
+        🚪 Logout
+    </a>
+
+</div>
+
+
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+
+<main class="dashboard">
+
+    <div class="interaction-container">
+
+        <h2>
+            Drug Interaction Checker
+        </h2>
+
+        <p class="page-description">
+            Search for two medicines to check
+            for possible drug interactions.
+        </p>
+
+
+        <!-- =========================
+             CHECKER CARD
+        ========================= -->
+
+        <div class="calculator-card">
+
+
+            <!-- DRUG ONE -->
+
+            <label for="drug-one-search">
+                Medicine 1
+            </label>
+
+            <div class="medicine-search-wrapper">
+
+                <input
+                    type="text"
+                    id="drug-one-search"
+                    placeholder="Search medicine..."
+                    autocomplete="off">
+
+                <div
+                    id="drug-one-list"
+                    class="medicine-dropdown">
+                </div>
+
+            </div>
+
+            <!-- Hidden selected ID -->
+
+            <input
+                type="hidden"
+                id="drug-one">
+
+
+            <!-- DRUG TWO -->
+
+            <label for="drug-two-search">
+                Medicine 2
+            </label>
+
+            <div class="medicine-search-wrapper">
+
+                <input
+                    type="text"
+                    id="drug-two-search"
+                    placeholder="Search medicine..."
+                    autocomplete="off">
+
+                <div
+                    id="drug-two-list"
+                    class="medicine-dropdown">
+                </div>
+
+            </div>
+
+            <!-- Hidden selected ID -->
+
+            <input
+                type="hidden"
+                id="drug-two">
+
+
+            <!-- BUTTON -->
+
+            <div class="calculator-buttons">
+
+                <button
+                    type="button"
+                    id="check-btn">
+
+                    Check Interaction
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             RESULT
+        ========================= -->
+
+        <div class="result-card">
+
+            <h3>
+                Interaction Result
+            </h3>
+
+            <div
+                id="interaction-result"
+                aria-live="polite">
+
+                <p>
+                    Search for two medicines
+                    and press
+                    <strong>
+                        Check Interaction
+                    </strong>.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script src="../data/interactions.js"></script>
+
+<script src="../js/navigation.js"></script>
+
+<script src="../js/interaction-checker.js"></script>
+
+
+</body>
+
+</html>

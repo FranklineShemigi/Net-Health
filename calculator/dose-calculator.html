@@ -18,12 +18,8 @@
 
 <header class="dashboard-header">
     <button class="menu-btn">&#9776;</button>
-    <h1 class="logo">Net-Health</h1>
+    <h1 class="logo">Dose Calculator</h1>
     <button class="profile-btn">👤</button>
-    <nav>
-        <a href="../dashboard/dashboard.html">Dashboard</a>
-        <a href="../drugs/drug-library.html">Drug Library</a>
-    </nav>
 </header>
       
          <!-- Sidebar -->
@@ -36,13 +32,12 @@
       <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
 <a href="../drugs/drug-library.html">💊 Drug Library</a>
 <a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
-<a href="../interaction/interaction-checker.html">⚠ Drug Interaction Checker</a>
 <a href="#" onclick="alert('Coming soon!')">
 🤖 AI Tutor</a>
 <a href="#" onclick="alert('Coming soon!')">
 🩺 Clinical Simulator</a>
-<a href="#" onclick="alert('Coming soon!')">
- 👨‍⚕️ Book Consultation</a>
+<a href="../consultation/book-consultation.html">👨‍⚕️ Book Consultation</a>
+
 <a href="#" onclick="alert('Coming soon!')">
 ⚙ Settings</a>
 <a href="../index.html">🚪 Logout</a>
@@ -64,17 +59,30 @@
 
         <div class="calculator-card">
 
-            <label for="medicine">Medicine</label>
+            <label for="medicine-search">Medicine</label>
 
-            <select id="medicine">
-                <option value="">Select Medicine</option>
-            </select>
+<div class="medicine-search-container">
+<input
+    type="text"
+    id="medicine-search"
+    placeholder="Search medicine...">
 
+<div
+    id="medicine-list"
+    class="medicine-dropdown">
+</div>
+</div>
+
+<input
+    type="hidden"
+    id="medicine">
             <label for="weight">Weight (kg)</label>
 
             <input
                 type="number"
                 id="weight"
+                min="0"
+                step="0.1"
                 placeholder="Enter patient's weight">
 
             <label for="age">Age (years)</label>
@@ -82,15 +90,17 @@
             <input
                 type="number"
                 id="age"
+                min="0"
+                step="1"
                 placeholder="Enter patient's age">
 
             <div class="calculator-buttons">
 
-                <button id="calculate-btn">
+                <button type="button" id="calculate-btn">
                     Calculate Dose
                 </button>
 
-                <button id="reset-btn">
+                <button type="button" id="reset-btn">
                     Reset
                 </button>
 
@@ -98,7 +108,9 @@
 
         </div>
 
-        <div id="result" class="result-card">
+        <div id="result"
+             class="result-card"
+             aria-live="polite">
 
             <h2>Result</h2>
 
@@ -110,7 +122,6 @@
 
 </main>
 
-<script src="../data/drugs.js"></script>
 <script src="../js/dose-calculator.js"></script>
 <script src="../js/navigation.js"></script>
 </body>
