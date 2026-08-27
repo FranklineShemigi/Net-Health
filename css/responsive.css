@@ -152,6 +152,92 @@
     line-height:1.6;
 }
     
+    
+    /* ==========================================
+   HOMEPAGE MOBILE NAVIGATION
+========================================== */
+
+@media (max-width: 768px) {
+
+    header nav {
+        position: relative;
+    }
+
+    #menu-btn {
+        display: block;
+
+        background: none;
+        border: none;
+
+        color: var(--primary);
+
+        font-size: 2rem;
+
+        cursor: pointer;
+    }
+
+    #nav-links {
+        display: none;
+
+        position: absolute;
+
+        top: 80px;
+        left: 0;
+
+        width: 100%;
+
+        padding: 20px;
+
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 15px;
+
+        background: var(--surface);
+
+        box-shadow: var(--shadow);
+
+        z-index: 2000;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
+
+    #nav-links li {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    #nav-links a {
+        display: block;
+
+        width: 100%;
+
+        padding: 12px;
+
+        border-radius: var(--radius-md);
+    }
+
+    #nav-links a:hover {
+        background: var(--background);
+    }
+
+    .mobile-auth {
+        display: block;
+    }
+
+    .mobile-auth button {
+        width: 100%;
+    }
+
+    .desktop-auth {
+        display: none;
+    }
+
+}
+    
 /* ===== DOSE CALCULATOR ===== */
 
 /* ===== GLOBAL ===== */

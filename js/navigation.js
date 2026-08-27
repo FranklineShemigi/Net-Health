@@ -1,34 +1,81 @@
-// ===== SIDEBAR =====
+// ==========================================
+// NET-HEALTH NAVIGATION
+// ==========================================
 
-const menuBtn = document.querySelector(".menu-btn");
-const closeBtn = document.querySelector(".close-btn");
-const sidebar = document.querySelector("#sidebar");
 
-if (menuBtn && closeBtn && sidebar) {
+// ==========================================
+// HOMEPAGE MOBILE NAVIGATION
+// ==========================================
+
+const menuBtn = document.getElementById("menu-btn");
+const navLinks = document.getElementById("nav-links");
+
+if (menuBtn && navLinks) {
 
     menuBtn.addEventListener("click", () => {
-        sidebar.classList.add("active");
-    });
 
-    closeBtn.addEventListener("click", () => {
-        sidebar.classList.remove("active");
+        navLinks.classList.toggle("active");
+
     });
 
 }
 
-// ===== LOGOUT =====
 
-const logoutBtn = document.querySelector("#logout-btn");
+// ==========================================
+// DASHBOARD SIDEBAR
+// ==========================================
 
-if (logoutBtn) {
+const sidebar = document.getElementById("sidebar");
 
-    logoutBtn.addEventListener("click", (event) => {
+const sidebarMenuBtn =
+    document.querySelector(".dashboard-header .menu-btn");
 
-        event.preventDefault();
+const closeBtn =
+    document.querySelector(".close-btn");
 
-        localStorage.removeItem("loggedIn");
 
-        window.location.href = "../index.html";
+// ===== OPEN SIDEBAR =====
+
+if (sidebarMenuBtn && sidebar) {
+
+    sidebarMenuBtn.addEventListener("click", () => {
+
+        sidebar.classList.add("active");
+
+    });
+
+}
+
+
+// ===== CLOSE SIDEBAR =====
+
+if (closeBtn && sidebar) {
+
+    closeBtn.addEventListener("click", () => {
+
+        sidebar.classList.remove("active");
+
+    });
+
+}
+
+
+// ==========================================
+// CLOSE SIDEBAR WHEN LINK IS CLICKED
+// ==========================================
+
+if (sidebar) {
+
+    const sidebarLinks =
+        sidebar.querySelectorAll("a");
+
+    sidebarLinks.forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            sidebar.classList.remove("active");
+
+        });
 
     });
 
