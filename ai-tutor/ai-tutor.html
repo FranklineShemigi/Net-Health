@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Tutor | Net-Health</title>
+
+    <!-- ===== CSS ===== -->
+
+    <link
+        rel="stylesheet"
+        href="../css/variables.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../css/responsive.css"
+    >
+    
+    <link rel="stylesheet" href="../css/ai-tutor.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================
+     HEADER
+========================================== -->
+
+<header class="dashboard-header">
+
+    <button
+        class="menu-btn"
+        type="button"
+        id="menu-btn"
+    >
+        ☰
+    </button>
+
+
+    <h1 class="logo">
+        Net-Health
+    </h1>
+
+
+    <button
+        class="profile-btn"
+        type="button"
+    >
+        👤
+    </button>
+
+</header>
+
+
+
+<!-- ==========================================
+     SIDEBAR
+========================================== -->
+
+<div
+    class="sidebar"
+    id="sidebar"
+>
+
+    <div class="sidebar-header">
+
+        <h2>
+            Net-Health
+        </h2>
+
+
+        <button
+            class="close-btn"
+            type="button"
+            id="close-btn"
+        >
+            &times;
+        </button>
+
+    </div>
+
+   <a href="../dashboard/dashboard.html"> 🏠 Dashboard </a>
+    <a href="../drugs/drug-library.html"> 💊 Drug Library  </a>
+    <a href="../calculator/dose-calculator.html">  🧮 Dose Calculator  </a>
+    <a href="../symptoms/symptoms-checker.html"> 🩺 Symptoms Checker </a>
+    <a href="../consultation/book-consultation.html">👨‍⚕️ Book Consultation  </a>
+     <a href="../ai-tutor/ai-tutor.html"> 🤖 AI Tutor</a>
+    <a href="#" onclick="alert('Coming soon!')">
+        🧪 Clinical Simulator
+    </a>
+    <a href="../about/about.html"> ℹ️ About Net-Health </a>
+    <a href="../index.html">  🚪 Logout </a>
+
+    
+</div>
+
+
+
+<!-- ==========================================
+     AI TUTOR
+========================================== -->
+
+<main class="dashboard ai-tutor-page">
+
+
+    <!-- ===== PAGE INTRO ===== -->
+
+    <section class="ai-tutor-intro">
+
+        <span class="hero-badge">
+            🤖 AI-Powered Learning
+        </span>
+
+
+        <h1>
+            Net-Health AI Tutor
+        </h1>
+
+
+        <p>
+            Ask questions, explore clinical concepts,
+            and strengthen your healthcare knowledge
+            with an interactive learning assistant.
+        </p>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         TUTOR CARD
+    ========================================== -->
+
+    <section class="ai-tutor-container">
+
+        <div class="ai-tutor-card">
+
+
+            <!-- ===== CHAT HEADER ===== -->
+
+            <div class="ai-tutor-header">
+
+                <div>
+
+                    <h2>
+                        🤖 AI Clinical Tutor
+                    </h2>
+
+                    <p>
+                        Ask a healthcare learning question
+                    </p>
+
+                </div>
+
+
+                <span class="ai-status">
+                    ● Ready
+                </span>
+
+            </div>
+
+
+
+            <!-- ===== CHAT AREA ===== -->
+
+            <div
+                class="chat-area"
+                id="chat-area"
+            >
+
+                <!-- Welcome message -->
+
+                <div class="chat-message tutor-message">
+
+                    <div class="message-avatar">
+                        🤖
+                    </div>
+
+
+                    <div class="message-content">
+
+                        <strong>
+                            AI Tutor
+                        </strong>
+
+                        <p>
+                            Hello! I'm your Net-Health AI Tutor.
+                            Ask me about medicines, anatomy,
+                            physiology, pharmacology, clinical
+                            concepts, or other healthcare topics.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ======================================
+                 SUGGESTED QUESTIONS
+            ====================================== -->
+
+            <div class="suggested-questions">
+
+                <p>
+                    Try asking:
+                </p>
+
+
+                <button
+                    type="button"
+                    class="suggestion-btn"
+                >
+                    What is pharmacokinetics?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion-btn"
+                >
+                    Explain hypertension
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion-btn"
+                >
+                    What are the signs of dehydration?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion-btn"
+                >
+                    Explain antibiotics
+                </button>
+
+            </div>
+
+
+
+            <!-- ======================================
+                 MESSAGE INPUT
+            ====================================== -->
+
+            <form
+                class="chat-input-container"
+                id="chat-form"
+            >
+
+                <textarea
+                    id="chat-input"
+                    name="message"
+                    placeholder="Ask your healthcare question..."
+                    rows="1"
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    id="send-btn"
+                >
+                    Send
+                </button>
+
+            </form>
+
+
+            <!-- ===== DISCLAIMER ===== -->
+
+            <div class="ai-disclaimer">
+
+                ⚠️
+
+                <p>
+                    The AI Tutor is designed for educational
+                    purposes. It does not replace qualified
+                    healthcare professionals, clinical
+                    guidelines, diagnosis, or medical advice.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         LEARNING AREAS
+    ========================================== -->
+
+    <section class="ai-learning-section">
+
+        <div class="section-title">
+
+            <h2>
+                What Can You Learn?
+            </h2>
+
+            <p>
+                Use the AI Tutor to strengthen your
+                understanding of healthcare concepts.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <div class="feature-card">
+
+                <h3>
+                    💊 Pharmacology
+                </h3>
+
+                <p>
+                    Learn about drug classes, mechanisms
+                    of action, adverse effects and clinical
+                    considerations.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <h3>
+                    🫀 Anatomy & Physiology
+                </h3>
+
+                <p>
+                    Explore how body structures and
+                    physiological systems work.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <h3>
+                    🩺 Clinical Reasoning
+                </h3>
+
+                <p>
+                    Work through clinical concepts and
+                    practise structured reasoning.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <h3>
+                    📚 Exam Preparation
+                </h3>
+
+                <p>
+                    Review concepts, ask questions and
+                    practise understanding difficult topics.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<!-- ==========================================
+     JAVASCRIPT
+========================================== -->
+
+<script src="../js/navigation.js"></script>
+
+<script src="../js/ai-tutor.js"></script>
+
+
+</body>
+
+</html>
