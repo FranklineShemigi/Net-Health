@@ -3,52 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-
     <title>Net-Health</title>
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-
 </head>
 
 <body>
-
 <header>
-
 <nav>
-
-<div class="logo">
-    Net-Health
-</div>
-
+<div class="logo"> Net-Health</div>
 <button class="menu-btn" id="menu-btn">
-    ☰
-</button>
+    ☰ </button>
 
 <ul id="nav-links">
- <li><a href="index.html">Home</a></li>
-<li><a href="drugs/drug-library.html">Learn</a></li>
-<li><a href="dashboard/dashboard.html">Practice</a></li>
-<li><a href="#">Consult</a></li>
-<li><a href="#">About</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="drugs/drug-library.html">Learn</a></li>
+    <li><a href="dashboard/dashboard.html">Practice</a></li>
+    <li><a href="#">Consult</a></li>
+    <li><a href="#">About</a></li>
+
+    <li class="mobile-auth">
+        <button
+            class="login"
+            onclick="location.href='auth/login.html'">
+            Login
+        </button>
+    </li>
+    <li class="mobile-auth">
+        <button
+            class="signup"
+            onclick="location.href='auth/register.html'">
+            Sign Up
+        </button>
+    </li>
 </ul>
 
-<div class="buttons">
-  <button
-    class="login"
-    onclick="location.href='auth/login.html'">
-    Login
-</button>
-<button
-    class="signup"
-    onclick="location.href='auth/register.html'">
-    Sign Up
-</button>
+<div class="buttons desktop-auth">
+    <button
+        class="login"
+        onclick="location.href='auth/login.html'">
+        Login
+    </button>
 
-
+    <button
+        class="signup"
+        onclick="location.href='auth/register.html'">
+        Sign Up
+    </button>
 </div>
 
 </nav>
@@ -58,8 +62,8 @@
 <main>
 
 <section class="hero">
-    <div class="hero__content">
-        <span class="hero__badge">
+    <div class="hero-content">
+        <span class="hero-badge">
             AI-Powered Clinical Learning Platform
         </span>
         <h1>
@@ -72,8 +76,9 @@
             calculate doses, and connect patients with verified
             healthcare professionals.
         </p>
-        <div class="hero__buttons">
-            <button class="btn-primary">
+        <div class="hero-buttons">
+            <button class="btn-primary"
+              onclick="location.href='auth/login.html'">
                 Start Learning
             </button>
             <button class="btn-secondary">
@@ -81,8 +86,8 @@
             </button>
         </div>
     </div>
-    <div class="hero__image">
-        <img src="assets/images/doctor.svg"
+    <div class="hero-image">
+        <img src=
              alt="Doctor Illustration">
     </div>
 </section>
