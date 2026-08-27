@@ -926,3 +926,101 @@ footer p{
     line-height:1.6;
     font-size:.95rem;
 }
+
+/* ======================================
+   DRUG INTERACTION CHECKER
+====================================== */
+
+.interaction-container{
+    max-width:700px;
+    margin:0 auto;
+}
+
+.interaction-card,
+.interaction-result-card{
+    margin-bottom:25px;
+    padding:30px;
+
+    background:var(--surface);
+
+    border-radius:var(--radius-lg);
+    box-shadow:var(--shadow);
+}
+
+.interaction-card label{
+    display:block;
+    margin:20px 0 8px;
+    font-weight:600;
+}
+
+.interaction-card select{
+    width:100%;
+    padding:16px;
+
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+
+    background:var(--surface);
+    color:var(--text);
+
+    font-size:16px;
+}
+
+.interaction-card select:focus{
+    outline:none;
+    border-color:var(--primary);
+}
+
+#check-btn{
+    width:100%;
+    margin-top:25px;
+    padding:16px;
+
+    border:none;
+    border-radius:var(--radius-md);
+
+    background:var(--primary);
+    color:white;
+
+    font-size:1rem;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+#check-btn:hover{
+    opacity:.9;
+}
+
+#interaction-result{
+    margin-top:20px;
+    line-height:1.7;
+}
+
+.severity{
+    display:inline-block;
+
+    margin-bottom:15px;
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    color:white;
+    font-weight:600;
+}
+
+.severity.major{
+    background:#DC2626;
+}
+
+.severity.moderate{
+    background:#D97706;
+}
+
+.severity.minor{
+    background:#2563EB;
+}
+
+.severity.none{
+    background:#16A34A;
+}
