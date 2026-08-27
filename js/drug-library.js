@@ -14,7 +14,30 @@ const searchInput = document.getElementById("search");
 let drugs = [];
 
 
-// ===== DISPLAY DRUGS =====
+// ==========================================
+// SORT DRUGS A-Z
+// ==========================================
+
+function sortDrugsAlphabetically(drugArray) {
+
+    return [...drugArray].sort((a, b) => {
+
+        const nameA =
+            a.genericName?.trim().toLowerCase() || "";
+
+        const nameB =
+            b.genericName?.trim().toLowerCase() || "";
+
+        return nameA.localeCompare(nameB);
+
+    });
+
+}
+
+
+// ==========================================
+// DISPLAY DRUGS
+// ==========================================
 
 function displayDrugs(drugArray) {
 
@@ -39,7 +62,52 @@ function displayDrugs(drugArray) {
     }
 
 
-    drugArray.forEach(drug => {
+    // Sort medicines A-Z
+
+    const sortedDrugs =
+        sortDrugsAlphabetically(drugArray);
+
+
+    // Track the current alphabetical letter
+
+    let currentLetter = "";
+
+
+    sortedDrugs.forEach(drug => {
+
+        const medicineName =
+            drug.genericName?.trim() || "Unknown";
+
+
+        // Get first letter
+
+        const firstLetter =
+            medicineName.charAt(0).toUpperCase();
+
+
+        // Create alphabetical heading
+        // whenever the letter changes
+
+        if (firstLetter !== currentLetter) {
+
+            currentLetter = firstLetter;
+
+            drugList.innerHTML += `
+
+                <div class="drug-letter-heading">
+
+                    <span>
+                        ${currentLetter}
+                    </span>
+
+                </div>
+
+            `;
+
+        }
+
+
+        // Add medicine card
 
         drugList.innerHTML += `
 
@@ -54,7 +122,11 @@ function displayDrugs(drugArray) {
                         ${drug.genericName}
                     </h3>
 
-                    <span class="${drug.prescriptionOnly ? "rx" : "otc"}">
+                    <span class="${
+                        drug.prescriptionOnly
+                            ? "rx"
+                            : "otc"
+                    }">
 
                         ${
                             drug.prescriptionOnly
@@ -104,7 +176,9 @@ function displayDrugs(drugArray) {
 }
 
 
-// ===== SEARCH =====
+// ==========================================
+// SEARCH
+// ==========================================
 
 searchInput.addEventListener("input", () => {
 
@@ -114,53 +188,76 @@ searchInput.addEventListener("input", () => {
             .toLowerCase();
 
 
+    // Show everything when search is empty
+
     if (searchTerm === "") {
 
         displayDrugs(drugs);
 
         return;
+
     }
 
 
-    const filteredDrugs = drugs.filter(drug => {
+    // Search database
 
-        const genericName =
-            drug.genericName?.toLowerCase() || "";
+    const filteredDrugs =
+        drugs.filter(drug => {
 
-        const brandNames =
-            drug.brandNames?.join(" ").toLowerCase() || "";
+            const genericName =
+                drug.genericName?.toLowerCase() || "";
 
-        const category =
-            drug.category?.toLowerCase() || "";
+            const brandNames =
+                drug.brandNames
+                    ?.join(" ")
+                    .toLowerCase() || "";
 
-        const drugClass =
-            drug.drugClass?.toLowerCase() || "";
+            const category =
+                drug.category?.toLowerCase() || "";
 
-        const dosageForms =
-            drug.dosageForms?.join(" ").toLowerCase() || "";
+            const drugClass =
+                drug.drugClass?.toLowerCase() || "";
 
-        const strengths =
-            drug.strengths?.join(" ").toLowerCase() || "";
+            const dosageForms =
+                drug.dosageForms
+                    ?.join(" ")
+                    .toLowerCase() || "";
+
+            const strengths =
+                drug.strengths
+                    ?.join(" ")
+                    .toLowerCase() || "";
 
 
-        return (
-            genericName.includes(searchTerm) ||
-            brandNames.includes(searchTerm) ||
-            category.includes(searchTerm) ||
-            drugClass.includes(searchTerm) ||
-            dosageForms.includes(searchTerm) ||
-            strengths.includes(searchTerm)
-        );
+            return (
 
-    });
+                genericName.includes(searchTerm) ||
 
+                brandNames.includes(searchTerm) ||
+
+                category.includes(searchTerm) ||
+
+                drugClass.includes(searchTerm) ||
+
+                dosageForms.includes(searchTerm) ||
+
+                strengths.includes(searchTerm)
+
+            );
+
+        });
+
+
+    // Search results also appear A-Z
 
     displayDrugs(filteredDrugs);
 
 });
 
 
-// ===== OPEN DRUG DETAILS =====
+// ==========================================
+// OPEN DRUG DETAILS
+// ==========================================
 
 function openDrug(id) {
 
@@ -170,7 +267,9 @@ function openDrug(id) {
 }
 
 
-// ===== LOAD DATABASE =====
+// ==========================================
+// LOAD DATABASE
+// ==========================================
 
 async function loadDrugs() {
 
@@ -178,6 +277,7 @@ async function loadDrugs() {
 
         const response =
             await fetch("../data/drugs.json");
+
 
         if (!response.ok) {
 
@@ -187,9 +287,20 @@ async function loadDrugs() {
 
         }
 
+
         drugs = await response.json();
 
+
+        // Sort database
+
+        drugs =
+            sortDrugsAlphabetically(drugs);
+
+
+        // Display medicines
+
         displayDrugs(drugs);
+
 
     } catch (error) {
 
@@ -198,16 +309,21 @@ async function loadDrugs() {
             error
         );
 
+
         drugList.innerHTML = `
+
             <div class="no-results">
 
-                <h3>Unable to load medicines</h3>
+                <h3>
+                    Unable to load medicines
+                </h3>
 
                 <p>
                     The drug database could not be loaded.
                 </p>
 
             </div>
+
         `;
 
     }
@@ -215,6 +331,8 @@ async function loadDrugs() {
 }
 
 
-// ===== START =====
+// ==========================================
+// START
+// ==========================================
 
 loadDrugs();

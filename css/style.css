@@ -1,12 +1,12 @@
-/* ======================================
+/* ==========================================
    NET-HEALTH
    MAIN STYLESHEET
-====================================== */
+========================================== */
 
 
-/* ======================================
+/* ==========================================
    1. RESET & GLOBAL
-====================================== */
+========================================== */
 
 * {
     margin: 0;
@@ -36,23 +36,84 @@ button {
     cursor: pointer;
 }
 
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
 }
 
 
-/* ======================================
-   2. MAIN NAVIGATION
-====================================== */
+/* ==========================================
+   2. GENERAL BUTTONS
+========================================== */
+
+.btn-primary {
+    display: inline-block;
+
+    padding: 16px 32px;
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    background: var(--primary);
+    color: white;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    display: inline-block;
+
+    padding: 16px 32px;
+
+    border: 2px solid var(--primary);
+    border-radius: var(--radius-md);
+
+    background: transparent;
+    color: var(--primary);
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+}
+
+
+/* ==========================================
+   3. MAIN WEBSITE NAVIGATION
+========================================== */
 
 header {
     position: fixed;
+
     top: 0;
     left: 0;
+
     width: 100%;
 
     background: var(--surface);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+    box-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.08);
 
     z-index: 1000;
 }
@@ -60,6 +121,7 @@ header {
 nav {
     width: 90%;
     max-width: 1200px;
+
     height: 80px;
 
     margin: auto;
@@ -74,12 +136,14 @@ nav {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
+
     color: var(--primary);
 }
 
 nav ul {
     display: flex;
     align-items: center;
+
     gap: 30px;
 
     list-style: none;
@@ -91,7 +155,9 @@ nav ul li {
 
 nav a {
     color: var(--text);
+
     font-weight: 600;
+
     transition: 0.3s;
 }
 
@@ -100,9 +166,9 @@ nav a:hover {
 }
 
 
-/* ======================================
-   3. AUTH NAVIGATION
-====================================== */
+/* ==========================================
+   4. AUTH NAVIGATION
+========================================== */
 
 .desktop-auth {
     display: flex;
@@ -148,56 +214,9 @@ nav a:hover {
 }
 
 
-/* ======================================
-   4. MENU BUTTON
-====================================== */
-
-.menu-btn {
-    background: none;
-    border: none;
-
-    font-size: 2rem;
-    color: var(--primary);
-}
-
-
-/* ======================================
-   5. BUTTONS
-====================================== */
-
-.btn-primary {
-    padding: 16px 32px;
-
-    border: none;
-    border-radius: var(--radius-md);
-
-    background: var(--primary);
-    color: white;
-}
-
-.btn-primary:hover {
-    opacity: 0.9;
-}
-
-.btn-secondary {
-    padding: 16px 32px;
-
-    border: 2px solid var(--primary);
-    border-radius: var(--radius-md);
-
-    background: transparent;
-    color: var(--primary);
-}
-
-.btn-secondary:hover {
-    background: var(--primary);
-    color: white;
-}
-
-
-/* ======================================
-   6. HERO
-====================================== */
+/* ==========================================
+   5. HERO
+========================================== */
 
 .hero {
     display: flex;
@@ -242,6 +261,7 @@ nav a:hover {
     margin-bottom: 35px;
 
     font-size: 20px;
+
     color: var(--muted);
 }
 
@@ -263,9 +283,9 @@ nav a:hover {
 }
 
 
-/* ======================================
-   7. FEATURES
-====================================== */
+/* ==========================================
+   6. FEATURES
+========================================== */
 
 .features {
     padding: 100px 8%;
@@ -291,6 +311,7 @@ nav a:hover {
 
 .section-title p {
     font-size: 18px;
+
     color: var(--muted);
 }
 
@@ -321,18 +342,20 @@ nav a:hover {
 
 .feature-card h3 {
     margin-bottom: 15px;
+
     color: var(--primary);
 }
 
 .feature-card p {
     color: var(--muted);
+
     line-height: 1.7;
 }
 
 
-/* ======================================
-   8. WHY NET-HEALTH
-====================================== */
+/* ==========================================
+   7. WHY NET-HEALTH
+========================================== */
 
 .why {
     padding: 100px 8%;
@@ -369,23 +392,26 @@ nav a:hover {
 
 .why-card h3 {
     margin-bottom: 15px;
+
     color: var(--primary);
 }
 
 .why-card p {
     color: var(--muted);
+
     line-height: 1.7;
 }
 
 
-/* ======================================
-   9. CALL TO ACTION
-====================================== */
+/* ==========================================
+   8. CALL TO ACTION
+========================================== */
 
 .cta {
     padding: 100px 8%;
 
     background: var(--primary);
+
     color: white;
 
     text-align: center;
@@ -393,16 +419,19 @@ nav a:hover {
 
 .cta-content {
     max-width: 700px;
+
     margin: auto;
 }
 
 .cta h2 {
     margin-bottom: 20px;
+
     font-size: 48px;
 }
 
 .cta p {
     margin-bottom: 35px;
+
     font-size: 20px;
 }
 
@@ -412,9 +441,9 @@ nav a:hover {
 }
 
 
-/* ======================================
-   10. FOOTER
-====================================== */
+/* ==========================================
+   9. FOOTER
+========================================== */
 
 footer {
     padding: 50px 20px;
@@ -422,11 +451,13 @@ footer {
     text-align: center;
 
     background: var(--text);
+
     color: white;
 }
 
 .footer-content {
     max-width: 700px;
+
     margin: auto;
 }
 
@@ -436,13 +467,14 @@ footer h2 {
 
 footer p {
     margin-bottom: 10px;
+
     color: #CBD5E1;
 }
 
 
-/* ======================================
-   11. AUTHENTICATION
-====================================== */
+/* ==========================================
+   10. AUTHENTICATION
+========================================== */
 
 .auth {
     min-height: 100vh;
@@ -475,6 +507,7 @@ footer p {
 
 .auth-card p {
     margin-bottom: 25px;
+
     color: var(--muted);
 }
 
@@ -492,6 +525,7 @@ footer p {
     padding: 16px;
 
     border: 1px solid var(--border);
+
     border-radius: var(--radius-md);
 
     background: var(--surface);
@@ -505,6 +539,7 @@ footer p {
 
 .auth-card a {
     color: var(--primary);
+
     font-weight: 600;
 }
 
@@ -513,14 +548,9 @@ footer p {
 }
 
 
-/* ======================================
-   12. DASHBOARD
-====================================== */
-
-.dashboard {
-    margin-top: 80px;
-    padding: 50px 8%;
-}
+/* ==========================================
+   11. DASHBOARD HEADER
+========================================== */
 
 .dashboard-header {
     display: flex;
@@ -537,18 +567,35 @@ footer p {
 .dashboard-header .menu-btn,
 .dashboard-header .profile-btn {
     background: none;
+
     border: none;
 
     font-size: 2rem;
+
     color: var(--text);
 }
 
 .profile-btn {
     background: none;
+
     border: none;
 
     font-size: 2rem;
+
     color: var(--text);
+}
+
+
+/* ==========================================
+   12. DASHBOARD
+========================================== */
+
+.dashboard {
+    min-height: 100vh;
+
+    margin-top: 80px;
+
+    padding: 50px 8%;
 }
 
 .welcome-card {
@@ -557,6 +604,7 @@ footer p {
     padding: 40px;
 
     background: var(--primary);
+
     color: white;
 
     border-radius: var(--radius-lg);
@@ -569,7 +617,8 @@ footer p {
 .action-grid {
     display: grid;
 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:
+        repeat(2, 1fr);
 
     gap: 18px;
 }
@@ -588,6 +637,7 @@ footer p {
     background: var(--surface);
 
     border: none;
+
     border-radius: 20px;
 
     box-shadow: var(--shadow);
@@ -600,9 +650,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    13. SIDEBAR
-====================================== */
+========================================== */
 
 .sidebar {
     position: fixed;
@@ -661,6 +711,7 @@ footer p {
 
 .close-btn {
     background: none;
+
     border: none;
 
     font-size: 2rem;
@@ -669,9 +720,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    14. DRUG LIBRARY
-====================================== */
+========================================== */
 
 #search {
     width: 100%;
@@ -681,9 +732,11 @@ footer p {
     padding: 16px;
 
     border: 1px solid var(--border);
+
     border-radius: var(--radius-md);
 
     background: var(--surface);
+
     color: var(--text);
 
     font-size: 16px;
@@ -691,11 +744,13 @@ footer p {
 
 #search:focus {
     outline: none;
+
     border-color: var(--primary);
 }
 
 #drug-list {
     display: grid;
+
     gap: 20px;
 }
 
@@ -728,6 +783,7 @@ footer p {
 
 .drug-card h3 {
     margin-bottom: 10px;
+
     color: var(--primary);
 }
 
@@ -736,9 +792,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    15. DRUG DETAILS
-====================================== */
+========================================== */
 
 .drug-details-card {
     max-width: 800px;
@@ -833,10 +889,97 @@ footer p {
     margin-bottom: 10px;
 }
 
+/* ==========================================
+   DRUG LIBRARY A-Z GROUPS
+========================================== */
 
-/* ======================================
+.drug-letter {
+
+    width: 100%;
+
+    margin-top: 35px;
+    margin-bottom: 15px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 2px solid var(--border);
+
+}
+
+
+/* ===== FIRST LETTER ===== */
+
+.drug-letter h2 {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+
+    margin: 0;
+
+    background: var(--primary);
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 1.3rem;
+
+    box-shadow: var(--shadow);
+
+}
+
+
+/* ===== FIRST LETTER DOESN'T NEED LARGE TOP GAP ===== */
+
+#drug-list .drug-letter:first-child {
+
+    margin-top: 10px;
+
+}
+
+
+/* ===== DRUG CARDS AFTER LETTER ===== */
+
+.drug-letter + .drug-card {
+
+    margin-top: 0;
+
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+
+    .drug-letter {
+
+        margin-top: 25px;
+
+        margin-bottom: 12px;
+
+    }
+
+
+    .drug-letter h2 {
+
+        width: 40px;
+
+        height: 40px;
+
+        font-size: 1.1rem;
+
+    }
+
+}
+
+/* ==========================================
    16. STATUS BADGES
-====================================== */
+========================================== */
 
 .rx,
 .otc,
@@ -868,13 +1011,14 @@ footer p {
     padding: 8px 14px;
 
     background: #CCFBF1;
+
     color: var(--primary);
 }
 
 
-/* ======================================
-   17. WARNING
-====================================== */
+/* ==========================================
+   17. WARNINGS
+========================================== */
 
 .warning-box {
     margin: 25px 0;
@@ -897,9 +1041,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    18. NO RESULTS
-====================================== */
+========================================== */
 
 .no-results {
     padding: 40px;
@@ -925,9 +1069,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    19. BACK & PRINT BUTTONS
-====================================== */
+========================================== */
 
 .back-btn {
     display: inline-block;
@@ -935,11 +1079,13 @@ footer p {
     margin-bottom: 25px;
 
     background: none;
+
     border: none;
 
     color: var(--primary);
 
     font-size: 1rem;
+
     font-weight: 600;
 }
 
@@ -957,9 +1103,11 @@ footer p {
     padding: 14px 24px;
 
     border: none;
+
     border-radius: var(--radius-md);
 
     background: var(--primary);
+
     color: white;
 
     transition: 0.3s;
@@ -970,9 +1118,9 @@ footer p {
 }
 
 
-/* ======================================
+/* ==========================================
    20. DOSE CALCULATOR
-====================================== */
+========================================== */
 
 .dose-calculator {
     min-height: 100vh;
@@ -1016,7 +1164,8 @@ footer p {
 }
 
 .calculator-card input,
-.calculator-card select {
+.calculator-card select,
+.calculator-card textarea {
     width: 100%;
 
     padding: 14px;
@@ -1033,11 +1182,17 @@ footer p {
 }
 
 .calculator-card input:focus,
-.calculator-card select:focus {
+.calculator-card select:focus,
+.calculator-card textarea:focus {
     outline: none;
 
     border-color: var(--primary);
 }
+
+
+/* ==========================================
+   21. CALCULATOR BUTTONS
+========================================== */
 
 .calculator-buttons {
     display: flex;
@@ -1064,6 +1219,7 @@ footer p {
 #calculate-btn,
 #book-consultation-btn {
     background: var(--primary);
+
     color: white;
 }
 
@@ -1085,9 +1241,15 @@ footer p {
 }
 
 
-/* ======================================
-   21. SEARCHABLE MEDICINE DROPDOWN
-====================================== */
+/* ==========================================
+   22. MEDICINE SEARCH
+========================================== */
+
+.medicine-search-container {
+    position: relative;
+
+    width: 100%;
+}
 
 #medicine-search {
     width: 100%;
@@ -1112,15 +1274,16 @@ footer p {
 }
 
 .medicine-dropdown {
-    position: relative;
+    position: absolute;
+
+    top: calc(100% + 5px);
+    left: 0;
 
     width: 100%;
 
     max-height: 250px;
 
     overflow-y: auto;
-
-    margin-top: 5px;
 
     background: var(--surface);
 
@@ -1130,7 +1293,7 @@ footer p {
 
     box-shadow: var(--shadow);
 
-    z-index: 100;
+    z-index: 500;
 }
 
 .medicine-option {
@@ -1152,9 +1315,9 @@ footer p {
 }
 
 
-/* ======================================
-   22. DOSE RESULTS
-====================================== */
+/* ==========================================
+   23. DOSE RESULTS
+========================================== */
 
 .dose-result {
     display: flex;
@@ -1222,9 +1385,9 @@ footer p {
 }
 
 
-/* ======================================
-   23. DRUG INTERACTION CHECKER
-====================================== */
+/* ==========================================
+   24. INTERACTION CHECKER
+========================================== */
 
 .interaction-container {
     max-width: 700px;
@@ -1338,1177 +1501,23 @@ footer p {
 }
 
 
-/* ======================================
-   24. CONSULTATION BOOKING
-====================================== */
-
-.consultation-container {
-    width: 100%;
-
-    max-width: 900px;
-
-    margin: 0 auto;
-}
-
-.consultation-container .calculator-card {
-    margin-top: 30px;
-}
-
-.consultation-container label {
-    display: block;
-
-    margin-top: 18px;
-    margin-bottom: 8px;
-
-    font-weight: 600;
-}
-
-.consultation-container input,
-.consultation-container select,
-.consultation-container textarea {
-    width: 100%;
-
-    padding: 14px 16px;
-
-    border: 1px solid var(--border);
-
-    border-radius: 10px;
-
-    background: var(--surface);
-
-    color: var(--text);
-
-    font-family: inherit;
-
-    font-size: 1rem;
-
-    outline: none;
-
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-.consultation-container input:focus,
-.consultation-container select:focus,
-.consultation-container textarea:focus {
-    border-color: var(--primary);
-
-    box-shadow:
-        0 0 0 3px
-        rgba(0, 128, 128, 0.12);
-}
-
-.consultation-container textarea {
-    resize: vertical;
-
-    min-height: 130px;
-}
-
-.consultation-container .calculator-buttons {
-    display: flex;
-
-    gap: 15px;
-
-    margin-top: 25px;
-
-    flex-wrap: wrap;
-}
-
-#book-consultation-btn {
-    flex: 1;
-
-    min-width: 180px;
-}
-
-#reset-consultation-btn {
-    flex: 0 0 auto;
-}
-
-#consultation-result {
-    margin-top: 30px;
-}
-
-.consultation-success {
-    padding: 10px;
-}
-
-.consultation-success h3 {
-    margin-bottom: 15px;
-}
-
-.consultation-success .result-item {
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-
-    gap: 20px;
-
-    padding: 15px 0;
-
-    border-bottom: 1px solid var(--border);
-}
-
-.consultation-success .result-item:last-of-type {
-    border-bottom: none;
-}
-
-
-/* ======================================
-   25. GENERAL FORM SAFETY
-====================================== */
-
-input,
-select,
-textarea {
-    max-width: 100%;
-}
-
-button:disabled {
-    opacity: 0.6;
-
-    cursor: not-allowed;
-}
-
-
-/* ======================================
-   26. MOBILE OVERRIDES
-====================================== */
-
-@media (max-width: 768px) {
-
-    /* ===== NAVIGATION ===== */
-
-    nav {
-        width: 92%;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    nav ul.active {
-        display: flex;
-
-        flex-direction: column;
-
-        position: absolute;
-
-        top: 80px;
-        left: 0;
-
-        width: 100%;
-
-        padding: 20px;
-
-        gap: 20px;
-
-        background: var(--surface);
-
-        box-shadow: var(--shadow);
-    }
-
-    .desktop-auth {
-        display: none;
-    }
-
-    .mobile-auth {
-        display: block;
-
-        width: 100%;
-    }
-
-    .mobile-auth button {
-        width: 100%;
-
-        margin-top: 10px;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-    }
-
-
-    /* ===== HERO ===== */
-
-    .hero {
-        flex-direction: column;
-
-        text-align: center;
-
-        padding: 120px 8% 60px;
-    }
-
-    .hero-content {
-        width: 100%;
-    }
-
-    .hero h1 {
-        font-size: 2.3rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-
-        align-items: center;
-    }
-
-    .hero-buttons button {
-        width: 100%;
-
-        max-width: 320px;
-    }
-
-    .hero-image {
-        width: 100%;
-
-        margin-top: 40px;
-    }
-
-    .hero-image img {
-        width: 80%;
-
-        max-width: 350px;
-    }
-
-
-    /* ===== FEATURES ===== */
-
-    .features {
-        padding: 60px 8%;
-    }
-
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .feature-card {
-        text-align: center;
-    }
-
-
-    /* ===== WHY ===== */
-
-    .why {
-        padding: 60px 8%;
-    }
-
-    .why-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .why-card {
-        text-align: center;
-    }
-
-
-    /* ===== CTA ===== */
-
-    .cta {
-        padding: 60px 8%;
-    }
-
-    .cta h2 {
-        font-size: 2.2rem;
-    }
-
-    .cta p {
-        font-size: 1rem;
-    }
-
-
-    /* ===== SECTION TITLES ===== */
-
-    .section-title h2 {
-        font-size: 2rem;
-    }
-
-    .section-title p {
-        font-size: 1rem;
-    }
-
-
-    /* ===== DASHBOARD ===== */
-
-    .dashboard {
-        margin-top: 80px;
-
-        padding: 30px 5%;
-    }
-
-    .dashboard-header {
-        padding: 18px;
-    }
-
-    .dashboard-header nav {
-        display: none;
-    }
-
-    .welcome-card {
-        padding: 25px;
-    }
-
-    .welcome-card h2 {
-        font-size: 1.8rem;
-    }
-
-    .welcome-card p {
-        font-size: 1rem;
-    }
-
-    .action-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .action-card {
-        padding: 20px;
-    }
-
-
-    /* ===== DRUG LIBRARY ===== */
-
-    .drug-card {
-        padding: 20px;
-    }
-
-    .drug-card-header {
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 10px;
-    }
-
-
-    /* ===== DRUG DETAILS ===== */
-
-    .drug-details-card {
-        width: 100%;
-
-        padding: 25px;
-
-        margin: 20px auto;
-    }
-
-    .drug-details-card h1 {
-        font-size: 2rem;
-    }
-
-    .drug-details-card p {
-        font-size: 1rem;
-
-        line-height: 1.8;
-    }
-
-    .detail-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .detail-header h1 {
-        font-size: 2rem;
-    }
-
-    .detail-badges {
-        justify-content: center;
-    }
-
-
-    /* ===== BUTTONS ===== */
-
-    .back-btn,
-    .print-btn {
-        width: 100%;
-    }
-
-
-    /* ===== CALCULATOR ===== */
-
-    .dose-calculator {
-        padding: 110px 5% 40px;
-    }
-
-    .calculator-card,
-    .result-card {
-        padding: 20px;
-    }
-
-    .calculator-buttons {
-        flex-direction: column;
-    }
-
-    .calculator-buttons button {
-        width: 100%;
-    }
-
-
-    /* ===== RESULT ===== */
-
-    .result-item {
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 5px;
-    }
-
-
-    /* ===== INTERACTION ===== */
-
-    .interaction-container {
-        width: 100%;
-    }
-
-    .interaction-container .calculator-card,
-    .interaction-container .result-card {
-        padding: 20px;
-    }
-
-
-    /* ===== CONSULTATION ===== */
-
-    .consultation-container {
-        width: 100%;
-    }
-
-    .consultation-container .calculator-card {
-        padding: 20px;
-    }
-
-    .consultation-container .calculator-buttons {
-        flex-direction: column;
-    }
-
-    #book-consultation-btn,
-    #reset-consultation-btn {
-        width: 100%;
-    }
-
-    .consultation-success .result-item {
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 5px;
-    }
-
-
-    /* ===== GLOBAL MOBILE ===== */
-
-    body {
-        overflow-x: hidden;
-    }
-
-    section {
-        overflow: hidden;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    button,
-    input,
-    select,
-    textarea {
-        min-height: 48px;
-    }
-}
-
 /* ==========================================
-   CONSULTATION BOOKING
+   25. CONSULTATION
 ========================================== */
 
-.consultation-container {
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-
-/* ===== PAGE TITLE ===== */
-
-.consultation-container > h2 {
-    margin-bottom: 10px;
-    color: var(--text);
-    font-size: 2rem;
-}
-
-.consultation-container .page-description {
-    margin-bottom: 30px;
-    color: var(--muted);
-}
-
-
-/* ===== FORM CARD ===== */
-
-.consultation-container .calculator-card {
-    width: 100%;
-    padding: 35px;
-    margin-bottom: 30px;
-
-    background: var(--surface);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
-}
-
-.consultation-container .calculator-card h3 {
-    margin-bottom: 25px;
-    color: var(--primary);
-    font-size: 1.3rem;
-}
-
-
-/* ===== LABELS ===== */
-
-.consultation-container label {
-    display: block;
-
-    margin-top: 20px;
-    margin-bottom: 8px;
-
-    color: var(--text);
-    font-weight: 600;
-}
-
-
-/* ===== INPUTS ===== */
-
-.consultation-container input,
-.consultation-container select,
-.consultation-container textarea {
-
-    display: block;
-
-    width: 100%;
-
-    padding: 14px 16px;
-
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-
-    background: var(--surface);
-    color: var(--text);
-
-    font-family: inherit;
-    font-size: 1rem;
-
-    outline: none;
-
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
-}
-
-
-/* ===== INPUT FOCUS ===== */
-
-.consultation-container input:focus,
-.consultation-container select:focus,
-.consultation-container textarea:focus {
-
-    border-color: var(--primary);
-
-    box-shadow:
-        0 0 0 3px
-        rgba(0, 128, 128, 0.12);
-}
-
-
-/* ===== SELECT ===== */
-
-.consultation-container select {
-    cursor: pointer;
-}
-
-
-/* ===== TEXTAREA ===== */
-
-.consultation-container textarea {
-
-    min-height: 140px;
-
-    resize: vertical;
-
-    line-height: 1.6;
-}
-
-
-/* ===== BUTTON CONTAINER ===== */
-
-.consultation-container .calculator-buttons {
-
-    display: flex;
-
-    gap: 15px;
-
-    margin-top: 30px;
-}
-
-
-/* ===== BOOK BUTTON ===== */
-
-#book-consultation-btn {
-
-    flex: 1;
-
-    padding: 15px 20px;
-
-    border: none;
-    border-radius: var(--radius-md);
-
-    background: var(--primary);
-    color: white;
-
-    font-weight: 600;
-    font-size: 1rem;
-
-    transition:
-        transform 0.2s ease,
-        opacity 0.2s ease;
-}
-
-#book-consultation-btn:hover {
-
-    opacity: 0.9;
-
-    transform: translateY(-2px);
-}
-
-
-/* ===== RESET BUTTON ===== */
-
-#reset-consultation-btn {
-
-    flex: 0 0 140px;
-
-    padding: 15px 20px;
-
-    border: none;
-    border-radius: var(--radius-md);
-
-    background: #E5E7EB;
-    color: var(--text);
-
-    font-weight: 600;
-
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease;
-}
-
-#reset-consultation-btn:hover {
-
-    background: #D1D5DB;
-
-    transform: translateY(-2px);
-}
-
-/* ==========================================
-   ABOUT PAGE
-========================================== */
-
-.about-page {
-    min-height: 100vh;
-    padding: 140px 8% 70px;
-    background: var(--background);
-}
 
 
 /* ==========================================
-   ABOUT HERO
+   26. CONSULTATION RESULT
 ========================================== */
 
-.about-hero {
-    max-width: 850px;
-    margin: 0 auto 60px;
-    text-align: center;
-}
-
-.about-badge {
-    display: inline-block;
-
-    padding: 8px 16px;
-    margin-bottom: 20px;
-
-    background: #CCFBF1;
-    color: var(--primary);
-
-    border-radius: 999px;
-
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
-.about-hero h1 {
-    margin-bottom: 20px;
-
-    color: var(--primary);
-
-    font-size: 3rem;
-    line-height: 1.2;
-}
-
-.about-hero p {
-    max-width: 750px;
-
-    margin: 0 auto;
-
-    color: var(--muted);
-
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
 
 
 /* ==========================================
-   ABOUT SECTIONS
+   27. ABOUT PAGE
 ========================================== */
-
-.about-section {
-    width: 100%;
-    max-width: 1100px;
-
-    margin: 0 auto 50px;
-}
 
 
 /* ==========================================
-   ABOUT CARD
+   END OF MAIN STYLESHEET
 ========================================== */
-
-.about-card {
-    padding: 40px;
-
-    background: var(--surface);
-
-    border-radius: var(--radius-lg);
-
-    box-shadow: var(--shadow);
-}
-
-.about-card h2 {
-    margin-bottom: 20px;
-
-    color: var(--primary);
-
-    font-size: 2rem;
-}
-
-.about-card p {
-    margin-bottom: 18px;
-
-    color: var(--text);
-
-    line-height: 1.8;
-}
-
-.about-card p:last-child {
-    margin-bottom: 0;
-}
-
-
-/* ==========================================
-   ABOUT GRID
-========================================== */
-
-.about-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(250px, 1fr));
-
-    gap: 25px;
-}
-
-
-/* ==========================================
-   ABOUT FEATURE CARD
-========================================== */
-
-.about-feature-card {
-    padding: 30px;
-
-    background: var(--surface);
-
-    border-radius: var(--radius-lg);
-
-    box-shadow: var(--shadow);
-
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-}
-
-.about-feature-card:hover {
-    transform: translateY(-6px);
-
-    box-shadow:
-        0 12px 30px rgba(0, 0, 0, 0.10);
-}
-
-.about-feature-card h3 {
-    margin-bottom: 12px;
-
-    color: var(--primary);
-
-    font-size: 1.3rem;
-}
-
-.about-feature-card p {
-    color: var(--muted);
-
-    line-height: 1.7;
-}
-
-
-/* ==========================================
-   ABOUT ICON
-========================================== */
-
-.about-icon {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    width: 55px;
-    height: 55px;
-
-    margin-bottom: 20px;
-
-    background: #CCFBF1;
-
-    border-radius: 14px;
-
-    font-size: 1.6rem;
-}
-
-
-/* ==========================================
-   VISION
-========================================== */
-
-.vision-card {
-    text-align: center;
-}
-
-.vision-card .about-badge {
-    margin-bottom: 20px;
-}
-
-.vision-card h2 {
-    max-width: 750px;
-
-    margin: 0 auto 20px;
-
-    font-size: 2.3rem;
-}
-
-.vision-card p {
-    max-width: 800px;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* ==========================================
-   MEDICAL WARNING
-========================================== */
-
-.about-warning {
-    padding: 30px;
-
-    background: var(--danger-bg);
-
-    border-left: 5px solid var(--danger);
-
-    border-radius: var(--radius-md);
-
-    color: #991B1B;
-}
-
-.about-warning h2 {
-    margin-bottom: 18px;
-
-    color: #B91C1C;
-
-    font-size: 1.5rem;
-}
-
-.about-warning p {
-    margin-bottom: 15px;
-
-    line-height: 1.7;
-}
-
-.about-warning p:last-child {
-    margin-bottom: 0;
-}
-
-
-/* ==========================================
-   ABOUT CLOSING
-========================================== */
-
-.about-closing {
-    max-width: 900px;
-
-    margin: 0 auto;
-
-    padding: 60px 30px;
-
-    text-align: center;
-}
-
-.about-closing h2 {
-    margin-bottom: 12px;
-
-    color: var(--primary);
-
-    font-size: 2rem;
-}
-
-.about-closing p {
-    margin-bottom: 25px;
-
-    color: var(--muted);
-
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-
-/* ==========================================
-   ABOUT MOBILE
-========================================== */
-
-@media (max-width: 768px) {
-
-    .about-page {
-        padding: 110px 5% 50px;
-    }
-
-    .about-hero {
-        margin-bottom: 40px;
-    }
-
-    .about-hero h1 {
-        font-size: 2.2rem;
-    }
-
-    .about-hero p {
-        font-size: 1rem;
-    }
-
-    .about-section {
-        margin-bottom: 35px;
-    }
-
-    .about-card {
-        padding: 25px;
-    }
-
-    .about-card h2 {
-        font-size: 1.6rem;
-    }
-
-    .about-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .about-feature-card {
-        padding: 25px;
-    }
-
-    .vision-card h2 {
-        font-size: 1.8rem;
-    }
-
-    .about-warning {
-        padding: 22px;
-    }
-
-    .about-closing {
-        padding: 40px 20px;
-    }
-
-    .about-closing h2 {
-        font-size: 1.7rem;
-    }
-
-}
-
-
-/* ==========================================
-   CONSULTATION RESULT
-========================================== */
-
-#consultation-result {
-
-    width: 100%;
-
-    padding: 30px;
-
-    margin-top: 0;
-
-    background: var(--surface);
-
-    border-radius: var(--radius-lg);
-
-    box-shadow: var(--shadow);
-}
-
-
-#consultation-result h3 {
-
-    margin-bottom: 15px;
-
-    color: var(--primary);
-
-    font-size: 1.3rem;
-}
-
-
-#consultation-result > p {
-
-    color: var(--muted);
-
-    line-height: 1.7;
-}
-
-
-/* ==========================================
-   SUCCESS RESULT
-========================================== */
-
-.consultation-success {
-
-    padding: 0;
-}
-
-
-.consultation-success h3 {
-
-    margin-bottom: 20px;
-
-    color: var(--success);
-}
-
-
-/* ===== RESULT ROW ===== */
-
-.consultation-success .result-item {
-
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-
-    gap: 20px;
-
-    padding: 15px 0;
-
-    border-bottom: 1px solid var(--border-light);
-}
-
-
-.consultation-success .result-item:last-child {
-
-    border-bottom: none;
-}
-
-
-.consultation-success .result-item strong {
-
-    color: var(--text);
-}
-
-
-.consultation-success .result-item span {
-
-    color: var(--primary);
-
-    font-weight: 600;
-
-    text-align: right;
-}
-
-
-/* ==========================================
-   CONSULTATION MOBILE
-========================================== */
-
-@media (max-width: 768px) {
-
-    .consultation-container {
-
-        width: 100%;
-        max-width: 100%;
-    }
-
-
-    .consultation-container > h2 {
-
-        font-size: 1.7rem;
-    }
-
-
-    .consultation-container .calculator-card {
-
-        padding: 22px;
-
-        border-radius: var(--radius-md);
-    }
-
-
-    #consultation-result {
-
-        padding: 22px;
-
-        border-radius: var(--radius-md);
-    }
-
-
-    .consultation-container .calculator-buttons {
-
-        flex-direction: column;
-
-        gap: 12px;
-    }
-
-
-    #book-consultation-btn,
-    #reset-consultation-btn {
-
-        width: 100%;
-
-        flex: none;
-
-        min-height: 50px;
-    }
-
-
-    .consultation-success .result-item {
-
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 6px;
-    }
-
-
-    .consultation-success .result-item span {
-
-        text-align: left;
-    }
-
-}

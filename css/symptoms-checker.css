@@ -1,0 +1,816 @@
+/* ==========================================
+   NET-HEALTH
+   SYMPTOMS CHECKER
+========================================== */
+
+
+/* ==========================================
+   PAGE
+========================================== */
+
+.symptoms-page {
+    padding-top: 120px;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.symptoms-hero {
+    max-width: 850px;
+
+    margin: 0 auto 50px;
+
+    text-align: center;
+}
+
+.symptoms-hero h1 {
+    margin-bottom: 18px;
+
+    color: var(--primary);
+
+    font-size: 3rem;
+
+    line-height: 1.2;
+}
+
+.symptoms-hero p {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    color: var(--muted);
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   MAIN CONTAINER
+========================================== */
+
+.symptoms-container {
+    width: 100%;
+
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+
+/* ==========================================
+   CHECKER CARD
+========================================== */
+
+.symptoms-container .calculator-card {
+    width: 100%;
+
+    padding: 35px;
+
+    margin-bottom: 25px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+.symptoms-container .calculator-card h2 {
+    margin-bottom: 10px;
+
+    color: var(--primary);
+
+    font-size: 1.6rem;
+}
+
+.symptoms-container .page-description {
+    margin-bottom: 25px;
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   SEARCH
+========================================== */
+
+#symptom-search {
+    display: block;
+
+    width: 100%;
+
+    padding: 15px 16px;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-md);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-family: inherit;
+
+    font-size: 1rem;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#symptom-search:focus {
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(15, 118, 110, 0.12);
+}
+
+
+/* ==========================================
+   SYMPTOM OPTIONS
+========================================== */
+
+.symptom-options {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    max-height: 260px;
+
+    margin-top: 15px;
+
+    padding: 15px;
+
+    overflow-y: auto;
+
+    background: var(--background);
+
+    border: 1px solid var(--border-light);
+
+    border-radius: var(--radius-md);
+}
+
+
+/* ==========================================
+   SYMPTOM OPTION BUTTON
+========================================== */
+
+.symptom-option {
+    padding: 10px 14px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 999px;
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    font-size: 0.95rem;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.symptom-option:hover {
+    background: var(--primary);
+
+    border-color: var(--primary);
+
+    color: white;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   NO SYMPTOMS
+========================================== */
+
+.no-symptoms {
+    width: 100%;
+
+    padding: 15px;
+
+    text-align: center;
+
+    color: var(--muted);
+}
+
+
+/* ==========================================
+   SELECTED SYMPTOMS SECTION
+========================================== */
+
+.selected-symptoms-section {
+    margin-top: 30px;
+}
+
+.selected-symptoms-section h3 {
+    margin-bottom: 12px;
+
+    color: var(--text);
+
+    font-size: 1.1rem;
+}
+
+
+/* ==========================================
+   SELECTED SYMPTOMS
+========================================== */
+
+.selected-symptoms {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    min-height: 55px;
+
+    padding: 12px;
+
+    background: var(--background);
+
+    border: 1px solid var(--border-light);
+
+    border-radius: var(--radius-md);
+}
+
+
+/* ==========================================
+   SELECTED SYMPTOM TAG
+========================================== */
+
+.selected-symptom {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 8px 10px 8px 14px;
+
+    background: var(--primary);
+
+    color: white;
+
+    border-radius: 999px;
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+}
+
+.selected-symptom button {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 24px;
+
+    height: 24px;
+
+    padding: 0;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.2);
+
+    color: white;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease;
+}
+
+.selected-symptom button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+/* ==========================================
+   EMPTY STATE
+========================================== */
+
+.empty-symptoms {
+    width: 100%;
+
+    padding: 8px;
+
+    color: var(--muted);
+
+    font-size: 0.9rem;
+
+    text-align: center;
+}
+
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.symptoms-container .calculator-buttons {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+#check-symptoms-btn,
+#reset-symptoms-btn {
+    flex: 1;
+
+    padding: 15px 20px;
+
+    border: none;
+
+    border-radius: var(--radius-md);
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+
+/* ===== CHECK ===== */
+
+#check-symptoms-btn {
+    background: var(--primary);
+
+    color: white;
+}
+
+#check-symptoms-btn:hover {
+    opacity: 0.9;
+
+    transform: translateY(-2px);
+}
+
+
+/* ===== RESET ===== */
+
+#reset-symptoms-btn {
+    background: #E5E7EB;
+
+    color: var(--text);
+}
+
+#reset-symptoms-btn:hover {
+    background: #D1D5DB;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   RESULTS CARD
+========================================== */
+
+#symptom-results {
+    width: 100%;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow);
+}
+
+#symptom-results > h2 {
+    margin-bottom: 10px;
+
+    color: var(--primary);
+
+    font-size: 1.6rem;
+}
+
+.results-introduction {
+    margin-bottom: 25px;
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   CONDITION RESULT
+========================================== */
+
+.condition-result {
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    background: var(--background);
+
+    border: 1px solid var(--border-light);
+
+    border-radius: var(--radius-lg);
+}
+
+.condition-result:last-of-type {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   CONDITION HEADER
+========================================== */
+
+.condition-header {
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 15px;
+}
+
+.condition-header h3 {
+    display: inline;
+
+    margin-left: 8px;
+
+    color: var(--text);
+
+    font-size: 1.3rem;
+}
+
+.condition-rank {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 32px;
+
+    height: 32px;
+
+    border-radius: 50%;
+
+    background: var(--primary);
+
+    color: white;
+
+    font-size: 0.85rem;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   URGENCY
+========================================== */
+
+.urgency {
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 999px;
+
+    color: white;
+
+    font-size: 0.75rem;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    white-space: nowrap;
+}
+
+.urgency.low {
+    background: var(--success);
+}
+
+.urgency.moderate {
+    background: var(--warning);
+
+    color: #422006;
+}
+
+.urgency.high {
+    background: var(--danger);
+}
+
+.urgency.emergency {
+    background: #991B1B;
+}
+
+
+/* ==========================================
+   CONDITION DESCRIPTION
+========================================== */
+
+.condition-description {
+    margin-bottom: 20px;
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   MATCHED SYMPTOMS
+========================================== */
+
+.matched-section {
+    padding: 15px;
+
+    margin-bottom: 15px;
+
+    background: var(--surface);
+
+    border-radius: var(--radius-md);
+}
+
+.matched-section strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--text);
+}
+
+.matched-symptoms {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.matched-symptoms span {
+    padding: 6px 10px;
+
+    background: #CCFBF1;
+
+    color: var(--primary);
+
+    border-radius: 999px;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   WARNING SIGNS
+========================================== */
+
+.condition-result .warning-box {
+    margin: 15px 0;
+
+    padding: 18px;
+
+    background: var(--danger-bg);
+
+    border-left: 5px solid var(--danger);
+
+    border-radius: var(--radius-md);
+}
+
+.condition-result .warning-box h4 {
+    margin-bottom: 10px;
+
+    color: #B91C1C;
+}
+
+.condition-result .warning-box ul {
+    margin-left: 20px;
+}
+
+.condition-result .warning-box li {
+    margin-bottom: 6px;
+
+    color: #991B1B;
+}
+
+
+/* ==========================================
+   CARE ADVICE
+========================================== */
+
+.care-advice {
+    padding: 18px;
+
+    background: var(--surface);
+
+    border-left: 4px solid var(--primary);
+
+    border-radius: var(--radius-md);
+}
+
+.care-advice strong {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--primary);
+}
+
+.care-advice p {
+    color: var(--text);
+
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   DISCLAIMER
+========================================== */
+
+.symptom-disclaimer {
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background: var(--warning-bg);
+
+    border-left: 5px solid var(--warning);
+
+    border-radius: var(--radius-md);
+
+    color: #7C5A00;
+
+    line-height: 1.7;
+
+    font-size: 0.95rem;
+}
+
+
+/* ==========================================
+   NO RESULTS
+========================================== */
+
+#symptom-results .no-results {
+    padding: 20px;
+
+    background: var(--background);
+
+    box-shadow: none;
+}
+
+#symptom-results .no-results h3,
+#symptom-results .no-results h2 {
+    margin-bottom: 10px;
+
+    color: var(--primary);
+}
+
+#symptom-results .no-results p {
+    margin-bottom: 10px;
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .symptoms-page {
+        padding-top: 105px;
+    }
+
+
+    .symptoms-hero {
+        margin-bottom: 35px;
+    }
+
+
+    .symptoms-hero h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .symptoms-hero p {
+        font-size: 1rem;
+    }
+
+
+    .symptoms-container {
+        width: 100%;
+    }
+
+
+    .symptoms-container .calculator-card {
+        padding: 22px;
+
+        border-radius: var(--radius-md);
+    }
+
+
+    .symptom-options {
+        max-height: 230px;
+
+        padding: 12px;
+    }
+
+
+    .symptom-option {
+        font-size: 0.85rem;
+
+        padding: 9px 11px;
+    }
+
+
+    .symptoms-container .calculator-buttons {
+        flex-direction: column;
+    }
+
+
+    #check-symptoms-btn,
+    #reset-symptoms-btn {
+        width: 100%;
+
+        min-height: 50px;
+
+        flex: none;
+    }
+
+
+    #symptom-results {
+        padding: 22px;
+
+        border-radius: var(--radius-md);
+    }
+
+
+    .condition-result {
+        padding: 18px;
+
+        border-radius: var(--radius-md);
+    }
+
+
+    .condition-header {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+
+    .condition-header h3 {
+        font-size: 1.15rem;
+    }
+
+
+    .urgency {
+        align-self: flex-start;
+    }
+
+
+    .condition-result .warning-box {
+        padding: 15px;
+    }
+
+}
+

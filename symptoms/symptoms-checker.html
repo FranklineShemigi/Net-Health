@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Symptoms Checker | Net-Health</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/symptoms-checker.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================
+     HEADER
+========================================== -->
+
+<header class="dashboard-header">
+
+    <button
+        class="menu-btn"
+        type="button">
+
+        &#9776;
+
+    </button>
+
+
+    <h1 class="logo">
+        Symptoms Checker
+    </h1>
+
+
+    <button
+        class="profile-btn"
+        type="button">
+
+        👤
+
+    </button>
+
+</header>
+
+
+
+<!-- ==========================================
+     SIDEBAR
+========================================== -->
+
+<div
+    class="sidebar"
+    id="sidebar">
+
+
+    <div class="sidebar-header">
+
+        <h2>
+            Net-Health
+        </h2>
+
+
+        <button
+            class="close-btn"
+            type="button">
+
+            &times;
+
+        </button>
+
+    </div>
+
+
+    <a href="../dashboard/dashboard.html"> 🏠 Dashboard </a>
+    <a href="../drugs/drug-library.html"> 💊 Drug Library  </a>
+    <a href="../calculator/dose-calculator.html">  🧮 Dose Calculator  </a>
+    <a href="../symptoms/symptoms-checker.html"> 🩺 Symptoms Checker </a>
+    <a href="../consultation/book-consultation.html">👨‍⚕️ Book Consultation  </a>
+    <a href="#" onclick="alert('Coming soon!')">
+        🤖 AI Tutor
+    </a>
+    <a href="#" onclick="alert('Coming soon!')">
+        🧪 Clinical Simulator
+    </a>
+    <a href="../about/about.html"> ℹ️ About Net-Health </a>
+    <a href="../index.html">  🚪 Logout </a>
+</div>
+
+
+
+<!-- ==========================================
+     MAIN CONTENT
+========================================== -->
+
+<main class="dashboard symptoms-page">
+
+
+    <!-- ======================================
+         PAGE INTRODUCTION
+    ====================================== -->
+
+    <section class="symptoms-hero">
+
+        <span class="about-badge">
+            🩺 Health Assessment Tool
+        </span>
+
+
+        <h1>
+            Symptoms Checker
+        </h1>
+
+
+        <p>
+            Enter the symptoms the patient is experiencing
+            to explore possible health conditions that
+            may be associated with them.
+        </p>
+
+    </section>
+
+
+
+    <!-- ======================================
+         SYMPTOM CHECKER
+    ====================================== -->
+
+    <section class="symptoms-container">
+
+
+        <div class="calculator-card">
+
+
+            <h2>
+                🔎 Enter Your Symptoms
+            </h2>
+
+
+            <p class="page-description">
+                Select one or more symptoms that best
+                describe what you are experiencing.
+            </p>
+
+
+
+            <!-- ==============================
+                 SYMPTOM SEARCH
+            =============================== -->
+
+            <label for="symptom-search">
+                Search Symptoms
+            </label>
+
+
+            <input
+                type="text"
+                id="symptom-search"
+                placeholder="e.g. fever, headache, cough..."
+                autocomplete="off"
+            >
+
+
+
+            <!-- ==============================
+                 SYMPTOM OPTIONS
+            =============================== -->
+
+            <div
+                id="symptom-options"
+                class="symptom-options">
+            </div>
+
+
+
+            <!-- ==============================
+                 SELECTED SYMPTOMS
+            =============================== -->
+
+            <div class="selected-symptoms-section">
+
+                <h3>
+                    Selected Symptoms
+                </h3>
+
+
+                <div
+                    id="selected-symptoms"
+                    class="selected-symptoms">
+
+                    <p class="empty-symptoms">
+                        No symptoms selected yet.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==============================
+                 CHECK BUTTONS
+            =============================== -->
+
+            <div class="calculator-buttons">
+
+                <button
+                    id="check-symptoms-btn"
+                    type="button">
+
+                    🔍 Check Symptoms
+
+                </button>
+
+
+                <button
+                    id="reset-symptoms-btn"
+                    type="button">
+
+                    Reset
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ==================================
+             RESULTS
+        ================================== -->
+
+        <div
+            id="symptom-results"
+            class="result-card">
+
+
+            <h2>
+                Possible Conditions
+            </h2>
+
+
+            <p>
+                Your possible results will appear here
+                after you select your symptoms.
+            </p>
+
+        </div>
+
+
+
+        <!-- ==================================
+             MEDICAL DISCLAIMER
+        ================================== -->
+
+        <div class="about-warning">
+
+
+            <h2>
+                ⚠️ Important
+            </h2>
+
+
+            <p>
+                This tool provides educational information
+                about possible conditions associated with
+                selected symptoms. It does not diagnose
+                diseases and should not replace examination
+                or advice from a qualified healthcare
+                professional.
+            </p>
+
+
+            <p>
+                If you have severe or rapidly worsening
+                symptoms, seek professional medical care
+                immediately.
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<!-- ==========================================
+     JAVASCRIPT
+========================================== -->
+
+<script src="../js/symptoms-checker.js"></script>
+
+<script src="../js/navigation.js"></script>
+
+
+</body>
+
+</html>
