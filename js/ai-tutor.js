@@ -33,7 +33,7 @@ const suggestionButtons =
 // ==========================================
 
 const API_URL =
-    "http://localhost:3000/api/ai/chat";
+    "https://net-health-api.onrender.com/api/ai/chat";
 
 
 // ==========================================
