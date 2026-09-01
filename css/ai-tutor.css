@@ -387,6 +387,163 @@
     margin: 80px auto 0;
 }
 
+/* ==========================================
+    USER CHAT MESSAGE
+========================================== */
+
+.user-message {
+    justify-content: flex-end;
+}
+
+
+.user-message .message-content {
+    background: var(--primary);
+
+    color: white;
+
+    border-radius: 14px 0 14px 14px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(15, 23, 42, 0.08);
+}
+
+
+.user-message .message-content strong {
+    color: white;
+}
+
+
+.user-message .message-content p {
+    color: white;
+}
+
+
+/* ==========================================
+   15. TUTOR MESSAGE
+========================================== */
+
+.tutor-message {
+    justify-content: flex-start;
+}
+
+
+/* ==========================================
+   16. TYPING INDICATOR
+========================================== */
+
+#typing-indicator .message-content {
+    opacity: 0.75;
+}
+
+
+#typing-indicator .message-content p {
+    font-style: italic;
+}
+
+
+/* ==========================================
+   17. SEND BUTTON DISABLED
+========================================== */
+
+#send-btn:disabled {
+    opacity: 0.5;
+
+    cursor: not-allowed;
+
+    transform: none;
+}
+
+
+/* ==========================================
+   18. CHAT SCROLLBAR
+========================================== */
+
+.chat-area::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+.chat-area::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+.chat-area::-webkit-scrollbar-thumb {
+    background: var(--border);
+
+    border-radius: 10px;
+}
+
+
+.chat-area::-webkit-scrollbar-thumb:hover {
+    background: var(--muted);
+}
+
+
+/* ==========================================
+   19. SUGGESTION BUTTON ACTIVE STATE
+========================================== */
+
+.suggestion-btn:active {
+    transform: scale(0.97);
+}
+
+/* ==========================================
+   21. AI TUTOR HEADER ACTIONS
+========================================== */
+
+.ai-tutor-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+/* ==========================================
+   22. NEW CHAT BUTTON
+========================================== */
+
+.new-chat-btn {
+    border: 1px solid var(--border);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    padding: 8px 12px;
+
+    border-radius: var(--radius-sm);
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.new-chat-btn:hover {
+    background: var(--background);
+
+    border-color: var(--primary);
+
+    color: var(--primary);
+}
+
+
+.new-chat-btn:active {
+    transform: scale(0.97);
+}
+
+
 
 /* ==========================================
    13. MOBILE
@@ -463,5 +620,55 @@
     .ai-learning-section {
         margin-top: 60px;
     }
+    
+    .chat-message {
+        gap: 8px;
+    }
+
+
+    .message-avatar {
+        width: 36px;
+        height: 36px;
+
+        font-size: 1rem;
+    }
+
+
+    .message-content {
+        max-width: 82%;
+
+        padding: 12px 14px;
+    }
+
+
+    .message-content p {
+        font-size: 0.95rem;
+
+        line-height: 1.6;
+    }
+
+
+    .suggestion-btn {
+        width: 100%;
+
+        text-align: left;
+    }
+    
+    .ai-tutor-actions {
+        gap: 6px;
+
+        flex-direction: column;
+
+        align-items: flex-end;
+    }
+
+
+    .new-chat-btn {
+        font-size: 0.78rem;
+
+        padding: 7px 9px;
+    }
+
+
 
 }

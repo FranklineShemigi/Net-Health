@@ -1,21 +1,55 @@
 // ==========================================
 // NET-HEALTH AI TUTOR
+// ACESO
 // ==========================================
 
 
 // ===== DOM ELEMENTS =====
 
-const chatArea = document.getElementById("chat-area");
-const chatForm = document.getElementById("chat-form");
-const chatInput = document.getElementById("chat-input");
-const sendButton = document.getElementById("send-btn");
+const chatArea =
+    document.getElementById("chat-area");
+
+const chatForm =
+    document.getElementById("chat-form");
+
+const chatInput =
+    document.getElementById("chat-input");
+
+const sendButton =
+    document.getElementById("send-btn");
+
+const newChatButton =
+    document.getElementById("new-chat-btn");
+
+const aiStatus =
+    document.querySelector(".ai-status");
 
 const suggestionButtons =
     document.querySelectorAll(".suggestion-btn");
 
 
 // ==========================================
-// ADD MESSAGE TO CHAT
+// BACKEND URL
+// ==========================================
+
+const API_URL =
+    "http://localhost:3000/api/ai/chat";
+
+
+// ==========================================
+// UPDATE SEND BUTTON
+// ==========================================
+
+function updateSendButton() {
+
+    sendButton.disabled =
+        chatInput.value.trim() === "";
+
+}
+
+
+// ==========================================
+// ADD MESSAGE
 // ==========================================
 
 function addMessage(message, sender) {
@@ -28,27 +62,33 @@ function addMessage(message, sender) {
     );
 
 
+    const messageContent =
+        document.createElement("div");
+
+    messageContent.classList.add(
+        "message-content"
+    );
+
+
+    const senderName =
+        document.createElement("strong");
+
+
+    const messageText =
+        document.createElement("p");
+
+
     if (sender === "user") {
 
         messageElement.classList.add(
             "user-message"
         );
 
-        messageElement.innerHTML = `
+        senderName.textContent =
+            "You";
 
-            <div class="message-content">
-
-                <strong>
-                    You
-                </strong>
-
-                <p>
-                    ${message}
-                </p>
-
-            </div>
-
-        `;
+        messageText.textContent =
+            message;
 
     } else {
 
@@ -56,42 +96,60 @@ function addMessage(message, sender) {
             "tutor-message"
         );
 
-        messageElement.innerHTML = `
 
-            <div class="message-avatar">
-                🤖
-            </div>
+        const avatar =
+            document.createElement("div");
 
-            <div class="message-content">
+        avatar.classList.add(
+            "message-avatar"
+        );
 
-                <strong>
-                    AI Tutor
-                </strong>
+        avatar.textContent =
+            "🤖";
 
-                <p>
-                    ${message}
-                </p>
 
-            </div>
+        senderName.textContent =
+            "Aceso";
 
-        `;
+
+        messageText.innerHTML =
+            message;
+
+
+        messageElement.appendChild(
+            avatar
+        );
 
     }
 
 
-    chatArea.appendChild(messageElement);
+    messageContent.appendChild(
+        senderName
+    );
+
+    messageContent.appendChild(
+        messageText
+    );
 
 
-    // Scroll to newest message
+    messageElement.appendChild(
+        messageContent
+    );
+
+
+    chatArea.appendChild(
+        messageElement
+    );
+
 
     chatArea.scrollTop =
         chatArea.scrollHeight;
+
 }
 
 
-
 // ==========================================
-// SHOW TYPING INDICATOR
+// TYPING INDICATOR
 // ==========================================
 
 function showTypingIndicator() {
@@ -117,7 +175,7 @@ function showTypingIndicator() {
         <div class="message-content">
 
             <strong>
-                AI Tutor
+                Aceso
             </strong>
 
             <p>
@@ -129,13 +187,15 @@ function showTypingIndicator() {
     `;
 
 
-    chatArea.appendChild(typingElement);
+    chatArea.appendChild(
+        typingElement
+    );
 
 
     chatArea.scrollTop =
         chatArea.scrollHeight;
-}
 
+}
 
 
 // ==========================================
@@ -159,91 +219,70 @@ function removeTypingIndicator() {
 }
 
 
-
 // ==========================================
-// TEMPORARY TUTOR RESPONSE
+// ASK ACESO
 // ==========================================
 
-function getTutorResponse(question) {
+async function askAceso(question) {
 
-    const text =
-        question.toLowerCase();
+    const response =
+        await fetch(
+            API_URL,
+            {
 
+                method: "POST",
 
-    if (text.includes("pharmacokinetic")) {
+                headers: {
 
-        return `
-            Pharmacokinetics describes what the body
-            does to a medicine. It is commonly explained
-            using ADME: absorption, distribution,
-            metabolism and excretion.
-        `;
+                    "Content-Type":
+                        "application/json"
 
-    }
+                },
 
+                body: JSON.stringify({
 
-    if (text.includes("hypertension")) {
+                    message:
+                        question
 
-        return `
-            Hypertension is persistently elevated blood
-            pressure. Understanding it involves looking
-            at blood pressure measurements, risk factors,
-            complications and appropriate clinical
-            management.
-        `;
+                })
 
-    }
+            }
+        );
 
 
-    if (
-        text.includes("dehydration")
-    ) {
+    const data =
+        await response.json();
 
-        return `
-            Common features of dehydration can include
-            thirst, dry mouth, reduced urine output,
-            dizziness and weakness. Severity and the
-            underlying cause need to be assessed clinically.
-        `;
+
+    if (!response.ok) {
+
+        throw new Error(
+            data.error ||
+            "Aceso server error"
+        );
 
     }
 
 
-    if (
-        text.includes("antibiotic")
-    ) {
+    if (!data.reply) {
 
-        return `
-            Antibiotics are medicines used to treat
-            susceptible bacterial infections. They do not
-            treat viral infections such as most common
-            colds and influenza.
-        `;
+        throw new Error(
+            "Aceso returned no response"
+        );
 
     }
 
 
-    return `
-        That's a good healthcare learning question.
-
-        I'm currently running in demonstration mode.
-        The full AI Tutor will later connect to an AI
-        model that can provide a more detailed educational
-        explanation.
-
-        Try asking about pharmacology, anatomy,
-        physiology, medicines or clinical concepts.
-    `;
+    return data.reply;
 
 }
-
 
 
 // ==========================================
 // HANDLE QUESTION
 // ==========================================
 
-function handleQuestion(question) {
+async function handleQuestion(question) {
 
     const cleanedQuestion =
         question.trim();
@@ -256,7 +295,7 @@ function handleQuestion(question) {
     }
 
 
-    // Add user's message
+    // Add user message
 
     addMessage(
         cleanedQuestion,
@@ -269,27 +308,29 @@ function handleQuestion(question) {
     chatInput.value = "";
 
 
-    // Disable send button
+    // Disable button while processing
 
-    sendButton.disabled = true;
+    sendButton.disabled =
+        true;
 
 
-    // Show thinking state
+    // Show thinking
 
     showTypingIndicator();
 
+    aiStatus.textContent =
+        "● Thinking...";
 
-    // Simulate tutor thinking
 
-    setTimeout(() => {
-
-        removeTypingIndicator();
-
+    try {
 
         const response =
-            getTutorResponse(
+            await askAceso(
                 cleanedQuestion
             );
+
+
+        removeTypingIndicator();
 
 
         addMessage(
@@ -298,14 +339,50 @@ function handleQuestion(question) {
         );
 
 
-        sendButton.disabled = false;
+        aiStatus.textContent =
+            "● Ready";
+
+    }
+
+
+    catch (error) {
+
+        console.error(
+            "Aceso error:",
+            error
+        );
+
+
+        removeTypingIndicator();
+
+
+        addMessage(
+            `
+            Sorry, I couldn't connect to
+            Aceso right now.
+
+            Please make sure the Aceso
+            backend is running.
+            `,
+            "tutor"
+        );
+
+
+        aiStatus.textContent =
+            "● Offline";
+
+    }
+
+
+    finally {
+
+        updateSendButton();
 
         chatInput.focus();
 
-    }, 900);
+    }
 
 }
-
 
 
 // ==========================================
@@ -318,7 +395,6 @@ chatForm.addEventListener(
 
         event.preventDefault();
 
-
         handleQuestion(
             chatInput.value
         );
@@ -327,32 +403,46 @@ chatForm.addEventListener(
 );
 
 
+// ==========================================
+// INPUT
+// ==========================================
+
+chatInput.addEventListener(
+    "input",
+    updateSendButton
+);
+
 
 // ==========================================
-// SUGGESTION BUTTONS
+// SUGGESTED QUESTIONS
 // ==========================================
 
-suggestionButtons.forEach(button => {
+suggestionButtons.forEach(
+    button => {
 
-    button.addEventListener(
-        "click",
-        () => {
+        button.addEventListener(
+            "click",
+            () => {
 
-            const question =
-                button.textContent.trim();
-
-
-            chatInput.value =
-                question;
+                const question =
+                    button.textContent.trim();
 
 
-            handleQuestion(question);
+                chatInput.value =
+                    question;
 
-        }
-    );
 
-});
+                // Directly send suggestion
 
+                handleQuestion(
+                    question
+                );
+
+            }
+        );
+
+    }
+);
 
 
 // ==========================================
@@ -370,10 +460,59 @@ chatInput.addEventListener(
 
             event.preventDefault();
 
-
             chatForm.requestSubmit();
 
         }
 
     }
 );
+
+
+// ==========================================
+// NEW CHAT
+// ==========================================
+
+if (newChatButton) {
+
+    newChatButton.addEventListener(
+        "click",
+        () => {
+
+            chatArea.innerHTML = "";
+
+
+            addMessage(
+                `
+                Hello! I'm Aceso, your Net-Health
+                Clinical Learning Assistant.
+
+                Ask me about medicines, anatomy,
+                physiology, pharmacology, clinical
+                concepts, or other healthcare topics.
+                `,
+                "tutor"
+            );
+
+
+            chatInput.value = "";
+
+            updateSendButton();
+
+
+            aiStatus.textContent =
+                "● Ready";
+
+
+            chatInput.focus();
+
+        }
+    );
+
+}
+
+
+// ==========================================
+// INITIAL STATE
+// ==========================================
+
+updateSendButton();
