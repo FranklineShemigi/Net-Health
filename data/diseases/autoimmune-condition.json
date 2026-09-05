@@ -1,0 +1,509 @@
+[
+  {
+    "name": "Systemic Lupus Erythematosus",
+    "category": "Autoimmune disease",
+    "subCategory": "Systemic autoimmune disease",
+    "anatomicalSite": "Multiple organs and systems",
+    "etiology": "Autoimmune",
+    "description": "A chronic autoimmune disease in which the immune system attacks tissues and organs throughout the body.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Joint pain",
+      "Joint swelling",
+      "Skin rash",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Hair loss",
+      "Mouth ulcers",
+      "Chest pain",
+      "Swelling of the legs",
+      "Headache"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Joint pain",
+      "Characteristic skin rash"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history",
+      "Genetic susceptibility",
+      "Certain environmental triggers"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe chest pain",
+      "Severe shortness of breath",
+      "New neurological symptoms",
+      "Marked swelling or reduced urine output"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent unexplained joint, skin, constitutional, or organ-related symptoms."
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune joint disease",
+    "anatomicalSite": "Joints and surrounding tissues",
+    "etiology": "Autoimmune",
+    "description": "A chronic autoimmune disease that causes inflammation of the joints and can affect other organs.",
+    "commonSymptoms": [
+      "Joint pain",
+      "Joint swelling",
+      "Morning stiffness",
+      "Fatigue",
+      "Reduced joint movement"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Loss of appetite",
+      "Nodules under the skin",
+      "Eye dryness"
+    ],
+    "keySymptoms": [
+      "Symmetrical joint swelling",
+      "Prolonged morning stiffness",
+      "Joint pain"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Smoking",
+      "Female sex",
+      "Older age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly worsening joint swelling",
+      "Severe weakness",
+      "Chest pain",
+      "Difficulty breathing"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent joint swelling, pain, or prolonged morning stiffness."
+  },
+  {
+    "name": "Type 1 Diabetes Mellitus",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune endocrine disease",
+    "anatomicalSite": "Pancreatic beta cells",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disease in which immune-mediated destruction of pancreatic beta cells causes severe insulin deficiency.",
+    "commonSymptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Increased hunger",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Blurred vision",
+      "Nausea",
+      "Vomiting",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Unintentional weight loss"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility",
+      "Certain environmental factors"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting",
+      "Abdominal pain",
+      "Rapid breathing",
+      "Confusion",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Urgent medical assessment is required when symptoms suggest new-onset type 1 diabetes or diabetic ketoacidosis."
+  },
+  {
+    "name": "Hashimoto's Thyroiditis",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune endocrine disease",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disorder in which the immune system attacks the thyroid gland and may cause hypothyroidism.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Cold intolerance",
+      "Weight gain",
+      "Constipation",
+      "Dry skin"
+    ],
+    "lessCommonSymptoms": [
+      "Hair thinning",
+      "Depression",
+      "Muscle aches",
+      "Heavy menstrual periods"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Cold intolerance",
+      "Weight gain"
+    ],
+    "riskFactors": [
+      "Family history of autoimmune disease",
+      "Female sex",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe weakness",
+      "Confusion",
+      "Marked swelling"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms suggestive of thyroid dysfunction."
+  },
+  {
+    "name": "Graves' Disease",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune endocrine disease",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disorder in which antibodies stimulate the thyroid gland to produce excessive thyroid hormone.",
+    "commonSymptoms": [
+      "Weight loss",
+      "Rapid heartbeat",
+      "Heat intolerance",
+      "Increased sweating",
+      "Anxiety",
+      "Tremor"
+    ],
+    "lessCommonSymptoms": [
+      "Eye irritation",
+      "Bulging eyes",
+      "Increased bowel movements",
+      "Muscle weakness"
+    ],
+    "keySymptoms": [
+      "Weight loss",
+      "Palpitations",
+      "Heat intolerance",
+      "Tremor"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Female sex",
+      "Smoking",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe rapid heartbeat",
+      "Confusion",
+      "High fever",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for symptoms of hyperthyroidism; emergency care is needed for severe systemic symptoms."
+  },
+  {
+    "name": "Multiple Sclerosis",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune neurological disease",
+    "anatomicalSite": "Central nervous system",
+    "etiology": "Autoimmune",
+    "description": "A chronic immune-mediated disease that damages myelin and other structures in the central nervous system.",
+    "commonSymptoms": [
+      "Visual disturbances",
+      "Numbness",
+      "Weakness",
+      "Balance problems",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle stiffness",
+      "Tremor",
+      "Bladder problems",
+      "Cognitive difficulties"
+    ],
+    "keySymptoms": [
+      "Neurological symptoms separated in time or affecting different areas",
+      "Visual disturbance",
+      "Numbness or weakness"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain genetic factors",
+      "Previous Epstein-Barr virus infection",
+      "Low vitamin D exposure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe weakness",
+      "Sudden vision loss",
+      "New difficulty walking",
+      "Loss of bladder or bowel control"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for new or unexplained neurological symptoms."
+  },
+  {
+    "name": "Myasthenia Gravis",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune neurological disease",
+    "anatomicalSite": "Neuromuscular junction",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disorder that disrupts communication between nerves and muscles, causing fluctuating muscle weakness.",
+    "commonSymptoms": [
+      "Muscle weakness",
+      "Drooping eyelids",
+      "Double vision",
+      "Difficulty chewing",
+      "Difficulty swallowing"
+    ],
+    "lessCommonSymptoms": [
+      "Slurred speech",
+      "Neck weakness",
+      "Limb weakness",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Fluctuating muscle weakness",
+      "Drooping eyelids",
+      "Double vision"
+    ],
+    "riskFactors": [
+      "Other autoimmune diseases",
+      "Thymus abnormalities",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe difficulty breathing",
+      "Severe difficulty swallowing",
+      "Rapidly worsening generalized weakness"
+    ],
+    "whenToSeekCare": "Emergency medical care is required for severe breathing or swallowing difficulty."
+  },
+  {
+    "name": "Celiac Disease",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune gastrointestinal disease",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Autoimmune triggered by gluten exposure",
+    "description": "An autoimmune disorder in which ingestion of gluten causes immune-mediated damage to the small intestinal lining.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal bloating",
+      "Abdominal pain",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Constipation",
+      "Anemia",
+      "Bone pain",
+      "Skin rash"
+    ],
+    "keySymptoms": [
+      "Chronic diarrhea",
+      "Bloating",
+      "Malabsorption"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility",
+      "Type 1 diabetes",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Significant weight loss",
+      "Severe nutritional deficiency"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent gastrointestinal symptoms or unexplained malabsorption."
+  },
+  {
+    "name": "Autoimmune Hepatitis",
+    "category": "Autoimmune disease",
+    "subCategory": "Autoimmune liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Autoimmune",
+    "description": "A chronic inflammatory liver disease caused by an abnormal immune response against liver cells.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Abdominal discomfort",
+      "Joint pain",
+      "Jaundice"
+    ],
+    "lessCommonSymptoms": [
+      "Itching",
+      "Nausea",
+      "Loss of appetite",
+      "Dark urine"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Abnormal liver function",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history of autoimmune disease",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe jaundice",
+      "Confusion",
+      "Bleeding",
+      "Severe abdominal swelling"
+    ],
+    "whenToSeekCare": "Medical evaluation is required for suspected autoimmune hepatitis, particularly when jaundice or signs of liver dysfunction occur."
+  },
+  {
+    "name": "Sjögren Syndrome",
+    "category": "Autoimmune disease",
+    "subCategory": "Systemic autoimmune disease",
+    "anatomicalSite": "Exocrine glands and multiple organs",
+    "etiology": "Autoimmune",
+    "description": "A systemic autoimmune disease that primarily affects tear and saliva-producing glands.",
+    "commonSymptoms": [
+      "Dry eyes",
+      "Dry mouth",
+      "Fatigue",
+      "Joint pain"
+    ],
+    "lessCommonSymptoms": [
+      "Dry skin",
+      "Swollen salivary glands",
+      "Cough",
+      "Numbness"
+    ],
+    "keySymptoms": [
+      "Persistent dry eyes",
+      "Persistent dry mouth"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe difficulty swallowing",
+      "Persistent gland swelling",
+      "New neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent dryness, gland swelling, or systemic symptoms."
+  },
+  {
+    "name": "Systemic Sclerosis",
+    "category": "Autoimmune disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Skin, blood vessels, and internal organs",
+    "etiology": "Autoimmune",
+    "description": "A systemic autoimmune connective-tissue disease characterized by abnormal fibrosis and vascular changes.",
+    "commonSymptoms": [
+      "Skin thickening",
+      "Raynaud phenomenon",
+      "Joint pain",
+      "Swelling of fingers"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Heartburn",
+      "Shortness of breath",
+      "Muscle weakness"
+    ],
+    "keySymptoms": [
+      "Skin thickening",
+      "Raynaud phenomenon",
+      "Swollen fingers"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history",
+      "Genetic susceptibility"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Chest pain",
+      "Severe hypertension",
+      "Rapidly worsening kidney function"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent Raynaud symptoms, skin thickening, or organ-related symptoms."
+  },
+  {
+    "name": "Psoriasis",
+    "category": "Autoimmune disease",
+    "subCategory": "Immune-mediated skin disease",
+    "anatomicalSite": "Skin and nails",
+    "etiology": "Immune-mediated",
+    "description": "A chronic immune-mediated inflammatory disease causing accelerated growth of skin cells and characteristic plaques.",
+    "commonSymptoms": [
+      "Red skin plaques",
+      "Scaling",
+      "Itching",
+      "Dry skin"
+    ],
+    "lessCommonSymptoms": [
+      "Nail changes",
+      "Joint pain",
+      "Joint swelling"
+    ],
+    "keySymptoms": [
+      "Well-demarcated scaly plaques",
+      "Chronic or recurrent skin lesions"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Obesity",
+      "Smoking",
+      "Alcohol use",
+      "Stress"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Extensive skin involvement",
+      "Severe joint swelling",
+      "Fever with widespread skin redness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent or extensive skin lesions or symptoms suggesting psoriatic arthritis."
+  },
+  {
+    "name": "Inflammatory Bowel Disease",
+    "category": "Autoimmune disease",
+    "subCategory": "Immune-mediated gastrointestinal disease",
+    "anatomicalSite": "Gastrointestinal tract",
+    "etiology": "Immune-mediated",
+    "description": "A group of chronic inflammatory disorders of the gastrointestinal tract, primarily Crohn's disease and ulcerative colitis.",
+    "commonSymptoms": [
+      "Chronic diarrhea",
+      "Abdominal pain",
+      "Fatigue",
+      "Weight loss",
+      "Blood in stool"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Joint pain",
+      "Skin lesions",
+      "Eye inflammation"
+    ],
+    "keySymptoms": [
+      "Persistent diarrhea",
+      "Abdominal pain",
+      "Blood in stool"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Heavy rectal bleeding",
+      "Severe abdominal pain",
+      "High fever",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent diarrhea, abdominal pain, blood in stool, or unexplained weight loss."
+  }
+]

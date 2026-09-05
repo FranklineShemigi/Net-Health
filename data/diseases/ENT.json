@@ -1,0 +1,543 @@
+[
+  {
+    "name": "Otitis Externa",
+    "category": "Otolaryngologic disease",
+    "subCategory": "External ear disorder",
+    "anatomicalSite": "External auditory canal",
+    "etiology": "Infectious or inflammatory",
+    "description": "Inflammation or infection of the external auditory canal, commonly known as swimmer's ear.",
+    "commonSymptoms": [
+      "Ear pain",
+      "Ear canal itching",
+      "Ear discharge",
+      "Ear tenderness"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced hearing",
+      "Ear canal swelling",
+      "Redness"
+    ],
+    "keySymptoms": [
+      "Ear pain worsened by touching or moving the outer ear",
+      "Ear canal inflammation"
+    ],
+    "riskFactors": [
+      "Swimming",
+      "Ear canal trauma",
+      "Use of cotton swabs",
+      "Hearing aids"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe pain",
+      "Fever",
+      "Facial weakness",
+      "Spreading redness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent ear pain, discharge, or significant swelling."
+  },
+  {
+    "name": "Otitis Media",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Middle ear disorder",
+    "anatomicalSite": "Middle ear",
+    "etiology": "Infectious or inflammatory",
+    "description": "Inflammation and fluid accumulation in the middle ear, often occurring after an upper respiratory infection.",
+    "commonSymptoms": [
+      "Ear pain",
+      "Reduced hearing",
+      "Fever",
+      "Irritability"
+    ],
+    "lessCommonSymptoms": [
+      "Ear discharge",
+      "Balance problems",
+      "Headache"
+    ],
+    "keySymptoms": [
+      "Ear pain",
+      "Middle-ear fluid",
+      "Reduced hearing"
+    ],
+    "riskFactors": [
+      "Young age",
+      "Recent upper respiratory infection",
+      "Daycare attendance",
+      "Exposure to tobacco smoke"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe persistent pain",
+      "Swelling behind the ear",
+      "High fever",
+      "Facial weakness"
+    ],
+    "whenToSeekCare": "Seek medical assessment for persistent ear pain, fever, hearing changes, or ear discharge."
+  },
+  {
+    "name": "Mastoiditis",
+    "category": "Infectious disease",
+    "subCategory": "Ear infection complication",
+    "anatomicalSite": "Mastoid bone",
+    "etiology": "Bacterial",
+    "description": "A serious bacterial infection of the mastoid bone that can occur as a complication of middle ear infection.",
+    "commonSymptoms": [
+      "Ear pain",
+      "Fever",
+      "Swelling behind the ear",
+      "Ear discharge"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Hearing loss",
+      "Irritability"
+    ],
+    "keySymptoms": [
+      "Tender swelling behind the ear",
+      "Ear infection symptoms"
+    ],
+    "riskFactors": [
+      "Recent or untreated middle ear infection"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Swelling pushing the ear outward",
+      "Severe headache",
+      "High fever",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Immediate medical assessment is required because mastoiditis can spread to surrounding structures."
+  },
+  {
+    "name": "Ménière's Disease",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Inner ear disorder",
+    "anatomicalSite": "Inner ear",
+    "etiology": "Multifactorial",
+    "description": "A disorder of the inner ear characterized by recurrent episodes of vertigo, fluctuating hearing loss, tinnitus, and ear pressure.",
+    "commonSymptoms": [
+      "Vertigo",
+      "Hearing loss",
+      "Tinnitus",
+      "Ear fullness"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Balance problems"
+    ],
+    "keySymptoms": [
+      "Recurrent vertigo",
+      "Fluctuating hearing loss",
+      "Tinnitus"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inner-ear disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden permanent hearing loss",
+      "New neurological symptoms",
+      "Severe persistent vertigo"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for recurrent vertigo or hearing loss. Sudden hearing loss requires urgent assessment."
+  },
+  {
+    "name": "Tinnitus",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Auditory disorder",
+    "anatomicalSite": "Auditory system",
+    "etiology": "Multifactorial",
+    "description": "Perception of sound such as ringing, buzzing, or hissing without an external sound source.",
+    "commonSymptoms": [
+      "Ringing in the ears",
+      "Buzzing",
+      "Hissing"
+    ],
+    "lessCommonSymptoms": [
+      "Sleep disturbance",
+      "Difficulty concentrating",
+      "Anxiety"
+    ],
+    "keySymptoms": [
+      "Persistent or recurrent phantom sound"
+    ],
+    "riskFactors": [
+      "Loud noise exposure",
+      "Hearing loss",
+      "Certain medications",
+      "Ear disorders"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden hearing loss",
+      "Pulsatile tinnitus",
+      "Neurological symptoms",
+      "One-sided persistent tinnitus"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent, unilateral, pulsatile, or sudden-onset tinnitus."
+  },
+  {
+    "name": "Allergic Rhinitis",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Nasal disorder",
+    "anatomicalSite": "Nasal mucosa",
+    "etiology": "Allergic",
+    "description": "An allergic inflammatory condition of the nasal passages triggered by exposure to allergens.",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Nasal congestion",
+      "Itchy nose"
+    ],
+    "lessCommonSymptoms": [
+      "Watery eyes",
+      "Postnasal drip",
+      "Reduced sense of smell"
+    ],
+    "keySymptoms": [
+      "Sneezing",
+      "Clear runny nose",
+      "Nasal itching"
+    ],
+    "riskFactors": [
+      "Family history of allergies",
+      "Dust exposure",
+      "Pollen exposure",
+      "Animal dander"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Facial swelling",
+      "Persistent unilateral nasal obstruction"
+    ],
+    "whenToSeekCare": "Seek medical evaluation if symptoms are persistent, severe, or difficult to control."
+  },
+  {
+    "name": "Nasal Polyps",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Nasal structural disorder",
+    "anatomicalSite": "Nasal cavity and paranasal sinuses",
+    "etiology": "Inflammatory",
+    "description": "Non-cancerous growths arising from chronically inflamed nasal or sinus mucosa.",
+    "commonSymptoms": [
+      "Nasal congestion",
+      "Reduced sense of smell",
+      "Runny nose",
+      "Postnasal drip"
+    ],
+    "lessCommonSymptoms": [
+      "Facial pressure",
+      "Headache",
+      "Snoring"
+    ],
+    "keySymptoms": [
+      "Persistent nasal obstruction",
+      "Reduced sense of smell"
+    ],
+    "riskFactors": [
+      "Chronic rhinosinusitis",
+      "Asthma",
+      "Aspirin sensitivity",
+      "Allergic conditions"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "One-sided nasal obstruction",
+      "Nosebleeds",
+      "Vision changes",
+      "Rapid growth"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent nasal obstruction or loss of smell."
+  },
+  {
+    "name": "Deviated Nasal Septum",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Nasal structural disorder",
+    "anatomicalSite": "Nasal septum",
+    "etiology": "Structural or traumatic",
+    "description": "Displacement of the nasal septum that can obstruct airflow through one or both nasal passages.",
+    "commonSymptoms": [
+      "Nasal obstruction",
+      "Difficulty breathing through the nose",
+      "Snoring"
+    ],
+    "lessCommonSymptoms": [
+      "Recurrent nosebleeds",
+      "Facial pressure",
+      "Recurrent sinus symptoms"
+    ],
+    "keySymptoms": [
+      "Persistent nasal blockage",
+      "Unequal nasal airflow"
+    ],
+    "riskFactors": [
+      "Nasal trauma",
+      "Congenital structural variation"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe obstruction",
+      "Recurrent significant nosebleeds",
+      "Rapidly developing nasal deformity"
+    ],
+    "whenToSeekCare": "Seek ENT evaluation for persistent nasal obstruction affecting breathing or sleep."
+  },
+  {
+    "name": "Epistaxis",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Nasal bleeding disorder",
+    "anatomicalSite": "Nasal mucosa",
+    "etiology": "Traumatic, vascular, inflammatory, medication-related, or structural",
+    "description": "Bleeding from blood vessels within the nasal passages.",
+    "commonSymptoms": [
+      "Nosebleed",
+      "Blood from the nostril"
+    ],
+    "lessCommonSymptoms": [
+      "Blood draining into the throat",
+      "Dizziness after significant bleeding"
+    ],
+    "keySymptoms": [
+      "Nasal bleeding"
+    ],
+    "riskFactors": [
+      "Dry nasal mucosa",
+      "Nose picking",
+      "Nasal trauma",
+      "Blood-thinning medications",
+      "High blood pressure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Heavy uncontrolled bleeding",
+      "Dizziness",
+      "Fainting",
+      "Bleeding lasting despite appropriate first aid"
+    ],
+    "whenToSeekCare": "Seek urgent medical care for heavy, persistent, or recurrent nosebleeds or symptoms of significant blood loss."
+  },
+  {
+    "name": "Acute Sinusitis",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Sinonasal disorder",
+    "anatomicalSite": "Paranasal sinuses",
+    "etiology": "Usually viral; sometimes bacterial",
+    "description": "Acute inflammation of the paranasal sinuses, commonly occurring after an upper respiratory infection.",
+    "commonSymptoms": [
+      "Nasal congestion",
+      "Facial pressure",
+      "Runny nose",
+      "Headache"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced sense of smell",
+      "Cough",
+      "Fever",
+      "Upper tooth pain"
+    ],
+    "keySymptoms": [
+      "Nasal congestion",
+      "Facial pressure",
+      "Purulent nasal discharge"
+    ],
+    "riskFactors": [
+      "Recent upper respiratory infection",
+      "Allergic rhinitis",
+      "Nasal structural abnormalities"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Swelling around the eye",
+      "Vision changes",
+      "Severe headache",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation if symptoms are severe, persistent, worsening after initial improvement, or associated with complications."
+  },
+  {
+    "name": "Tonsillitis",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Throat disorder",
+    "anatomicalSite": "Palatine tonsils",
+    "etiology": "Usually viral; sometimes bacterial",
+    "description": "Inflammation of the tonsils, commonly caused by viral or bacterial infection.",
+    "commonSymptoms": [
+      "Sore throat",
+      "Difficulty swallowing",
+      "Fever",
+      "Swollen tonsils"
+    ],
+    "lessCommonSymptoms": [
+      "Bad breath",
+      "Swollen neck lymph nodes",
+      "White patches on tonsils"
+    ],
+    "keySymptoms": [
+      "Sore throat",
+      "Swollen inflamed tonsils",
+      "Painful swallowing"
+    ],
+    "riskFactors": [
+      "Close contact",
+      "Childhood and adolescence",
+      "Exposure to respiratory infections"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Drooling",
+      "Unable to swallow fluids",
+      "Muffled voice"
+    ],
+    "whenToSeekCare": "Seek urgent assessment for breathing difficulty, inability to swallow, drooling, or rapidly worsening throat swelling."
+  },
+  {
+    "name": "Peritonsillar Abscess",
+    "category": "Infectious disease",
+    "subCategory": "Deep throat infection",
+    "anatomicalSite": "Peritonsillar tissues",
+    "etiology": "Bacterial",
+    "description": "A collection of pus in the tissues beside a tonsil, often developing as a complication of tonsillitis.",
+    "commonSymptoms": [
+      "Severe sore throat",
+      "Difficulty swallowing",
+      "Fever",
+      "One-sided throat pain"
+    ],
+    "lessCommonSymptoms": [
+      "Muffled voice",
+      "Drooling",
+      "Difficulty opening the mouth",
+      "Ear pain"
+    ],
+    "keySymptoms": [
+      "Severe unilateral throat pain",
+      "Muffled voice",
+      "Difficulty opening the mouth"
+    ],
+    "riskFactors": [
+      "Recent tonsillitis",
+      "Poor dental health",
+      "Smoking"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Drooling",
+      "Airway obstruction",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Immediate medical assessment is required because the infection can threaten the airway."
+  },
+  {
+    "name": "Laryngitis",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Laryngeal disorder",
+    "anatomicalSite": "Larynx and vocal cords",
+    "etiology": "Usually viral, irritant, or voice overuse",
+    "description": "Inflammation of the larynx that commonly causes hoarseness or temporary loss of voice.",
+    "commonSymptoms": [
+      "Hoarseness",
+      "Voice loss",
+      "Sore throat",
+      "Dry cough"
+    ],
+    "lessCommonSymptoms": [
+      "Throat irritation",
+      "Difficulty speaking"
+    ],
+    "keySymptoms": [
+      "Hoarse voice",
+      "Voice changes"
+    ],
+    "riskFactors": [
+      "Upper respiratory infection",
+      "Excessive voice use",
+      "Smoking",
+      "Irritant exposure"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Coughing blood",
+      "Persistent hoarseness",
+      "Neck mass"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent hoarseness or any associated breathing difficulty."
+  },
+  {
+    "name": "Obstructive Sleep Apnea",
+    "category": "Respiratory disease",
+    "subCategory": "Sleep-related breathing disorder",
+    "anatomicalSite": "Upper airway",
+    "etiology": "Structural and functional airway obstruction",
+    "description": "A sleep-related breathing disorder characterized by repeated episodes of upper airway obstruction during sleep.",
+    "commonSymptoms": [
+      "Loud snoring",
+      "Daytime sleepiness",
+      "Pauses in breathing during sleep",
+      "Morning headaches"
+    ],
+    "lessCommonSymptoms": [
+      "Poor concentration",
+      "Irritability",
+      "Nighttime urination"
+    ],
+    "keySymptoms": [
+      "Loud snoring",
+      "Witnessed breathing pauses",
+      "Excessive daytime sleepiness"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Large tonsils",
+      "Upper airway abnormalities",
+      "Older age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe daytime sleepiness",
+      "Breathing pauses with cyanosis",
+      "Episodes of falling asleep while driving"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for suspected sleep apnea because untreated disease increases cardiovascular and accident risk."
+  },
+  {
+    "name": "Hearing Loss",
+    "category": "Otolaryngologic disease",
+    "subCategory": "Auditory disorder",
+    "anatomicalSite": "External, middle, or inner ear",
+    "etiology": "Conductive, sensorineural, mixed, genetic, infectious, traumatic, or age-related",
+    "description": "Partial or complete reduction in the ability to hear sounds.",
+    "commonSymptoms": [
+      "Reduced hearing",
+      "Difficulty understanding speech",
+      "Frequently asking others to repeat themselves"
+    ],
+    "lessCommonSymptoms": [
+      "Tinnitus",
+      "Balance problems",
+      "Social withdrawal"
+    ],
+    "keySymptoms": [
+      "Reduced ability to hear or understand speech"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Loud noise exposure",
+      "Ear infections",
+      "Ototoxic medications",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden hearing loss",
+      "Hearing loss with neurological symptoms",
+      "Severe dizziness"
+    ],
+    "whenToSeekCare": "Sudden hearing loss requires urgent medical assessment because early treatment may improve outcomes."
+  }
+]

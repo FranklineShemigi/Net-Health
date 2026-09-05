@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disease Library | Net-Health</title>
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/disease-library.css">
+</head>
+<body>
+<header class="dashboard-header">
+    <button class="menu-btn" type="button">&#9776;</button>
+    <h1 class="logo">Disease Library</h1>
+    <button class="profile-btn" type="button">👤</button>
+</header>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-header"><h2>Net-Health</h2><button class="close-btn" type="button">&times;</button></div>
+    <a href="../dashboard/dashboard.html">🏠 Dashboard</a>
+    <a href="../drugs/drug-library.html">💊 Drug Library</a>
+    <a href="../calculator/dose-calculator.html">🧮 Dose Calculator</a>
+    <a href="../symptoms/symptoms-checker.html">🩺 Symptoms Checker</a>
+    <a class="active" href="disease-library.html">🧬 Disease Library</a>
+    <a href="../consultation/book-consultation.html">👨‍⚕️ Book Consultation</a>
+    <a href="../ai-tutor/ai-tutor.html">🤖 AI Tutor</a>
+    <a href="#" onclick="alert('Coming soon!')">🧪 Clinical Simulator</a>
+    <a href="../about/about.html">ℹ️ About Net-Health</a>
+    <a href="../index.html">🚪 Logout</a>
+</div>
+<main class="dashboard disease-page">
+    <section class="disease-hero">
+        <span class="about-badge">🧬 Clinical Reference</span>
+        <h1>Disease Library</h1>
+        <p>Explore diseases by name, category, sub-category, anatomical site, etiology and urgency.</p>
+    </section>
+
+    <section class="disease-toolbar">
+        <div class="disease-search-wrap">
+            <label for="disease-search">Search diseases</label>
+            <input id="disease-search" type="search" placeholder="e.g. malaria, pneumonia, diabetes..." autocomplete="off">
+        </div>
+        <div class="filter-grid">
+            <div><label for="category-filter">Category</label><select id="category-filter"><option value="">All categories</option></select></div>
+            <div><label for="subcategory-filter">Sub-category</label><select id="subcategory-filter"><option value="">All sub-categories</option></select></div>
+            <div><label for="site-filter">Anatomical site</label><select id="site-filter"><option value="">All anatomical sites</option></select></div>
+            <div><label for="etiology-filter">Etiology</label><select id="etiology-filter"><option value="">All etiologies</option></select></div>
+            <div><label for="urgency-filter">Urgency</label><select id="urgency-filter"><option value="">All urgency levels</option></select></div>
+        </div>
+        <div class="library-actions"><span id="disease-count">Loading diseases...</span><button id="clear-filters" type="button">Clear filters</button></div>
+    </section>
+
+    <section id="disease-grid" class="disease-grid" aria-live="polite"></section>
+
+    <section id="disease-detail" class="disease-detail" hidden></section>
+</main>
+<script src="../js/dashboard.js"></script>
+<script src="../js/disease-data.js"></script>
+<script src="../js/disease-library.js"></script>
+<script src="../js/navigation.js"></script>
+</body>
+</html>

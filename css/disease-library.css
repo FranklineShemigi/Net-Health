@@ -1,0 +1,40 @@
+/* ==========================================
+   NET-HEALTH DISEASE LIBRARY
+========================================== */
+.disease-page { padding-top: 120px; max-width: 1180px; margin: 0 auto; }
+.disease-hero { text-align: center; margin: 0 auto 35px; max-width: 850px; }
+.disease-hero h1 { color: var(--primary); font-size: 3rem; margin: 15px 0; }
+.disease-hero p { color: var(--muted); line-height: 1.7; }
+.disease-toolbar { background: var(--surface); border-radius: var(--radius-lg); box-shadow: var(--shadow); padding: 25px; margin-bottom: 25px; }
+.disease-toolbar label { display:block; margin-bottom:8px; font-weight:600; color:var(--text); }
+.disease-search-wrap input, .filter-grid select { width:100%; padding:13px 14px; border:1px solid var(--border); border-radius:var(--radius-md); background:var(--surface); color:var(--text); font:inherit; }
+.disease-search-wrap { margin-bottom:18px; }
+.filter-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+.library-actions { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-top:18px; color:var(--muted); }
+.library-actions button, .view-disease, .back-library { border:0; border-radius:var(--radius-md); padding:11px 16px; background:var(--primary); color:white; cursor:pointer; font:inherit; }
+.disease-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.disease-card, .disease-detail { background:var(--surface); border-radius:var(--radius-lg); box-shadow:var(--shadow); padding:25px; }
+.disease-card-top, .detail-heading { display:flex; justify-content:space-between; gap:15px; align-items:flex-start; }
+.disease-number { width:30px; height:30px; border-radius:50%; display:grid; place-items:center; background:var(--background); color:var(--muted); font-size:.85rem; }
+.disease-card h2 { color:var(--primary); margin:16px 0 10px; }
+.disease-description, .detail-description { color:var(--muted); line-height:1.65; }
+.urgency { display:inline-block; padding:5px 10px; border-radius:999px; font-size:.78rem; text-transform:capitalize; background:var(--background); color:var(--text); }
+.urgency.high, .urgency.critical { font-weight:700; }
+.disease-meta { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:18px 0; }
+.disease-meta span, .classification-grid div { display:flex; flex-direction:column; gap:4px; padding:10px; background:var(--background); border-radius:var(--radius-md); color:var(--muted); font-size:.9rem; }
+.disease-meta b, .classification-grid b { color:var(--text); font-size:.78rem; text-transform:uppercase; }
+.view-disease { width:100%; }
+.library-empty { grid-column:1/-1; text-align:center; padding:50px 20px; background:var(--surface); border-radius:var(--radius-lg); box-shadow:var(--shadow); }
+.library-empty h2 { color:var(--primary); }
+.disease-detail { margin-bottom:30px; }
+.back-library { margin-bottom:25px; background:transparent; color:var(--primary); border:1px solid var(--border); }
+.detail-heading h1 { color:var(--primary); font-size:2.5rem; margin:15px 0; }
+.classification-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:25px 0; }
+.detail-section { border-top:1px solid var(--border-light); padding:22px 0; }
+.detail-section h3, .care-panel h3 { color:var(--primary); }
+.detail-section li { margin:7px 0; color:var(--muted); }
+.care-panel { padding:18px; background:var(--background); border-radius:var(--radius-md); margin:10px 0 20px; }
+.care-panel p { color:var(--muted); line-height:1.65; }
+.symptom-disclaimer { margin-top:20px; padding:16px; border-radius:var(--radius-md); background:var(--background); color:var(--muted); line-height:1.6; }
+@media (max-width: 900px) { .filter-grid { grid-template-columns:repeat(2,1fr); } .classification-grid { grid-template-columns:repeat(2,1fr); } .disease-grid { grid-template-columns:1fr; } }
+@media (max-width: 560px) { .filter-grid, .classification-grid, .disease-meta { grid-template-columns:1fr; } .disease-page { padding-left:15px; padding-right:15px; } .disease-hero h1 { font-size:2.3rem; } }

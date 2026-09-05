@@ -41,29 +41,18 @@ let selectedSymptoms = [];
 
 
 // ==========================================
-// LOAD SYMPTOM DATABASE
+// LOAD DISEASE DATABASE
 // ==========================================
 
 async function loadSymptoms() {
 
     try {
 
-        const response =
-            await fetch("../data/symptoms.json");
-
-        if (!response.ok) {
-
-            throw new Error(
-                `HTTP error: ${response.status}`
-            );
-
-        }
-
-        conditions = await response.json();
+        conditions = await window.NetHealthDiseaseData.load();
 
         console.log(
-            "Symptoms database loaded:",
-            conditions
+            "Disease database available to Symptoms Checker:",
+            conditions.length
         );
 
         createSymptomList();
@@ -71,7 +60,7 @@ async function loadSymptoms() {
     } catch (error) {
 
         console.error(
-            "Failed to load symptoms database:",
+            "Failed to load disease database:",
             error
         );
 
@@ -80,12 +69,12 @@ async function loadSymptoms() {
             <div class="no-results">
 
                 <h2>
-                    Unable to load symptom database
+                    Unable to load disease database
                 </h2>
 
                 <p>
-                    The symptoms database could not be
-                    loaded. Please try again later.
+                    The disease database could not be loaded.
+                    Please check the data files and try again.
                 </p>
 
             </div>
@@ -124,6 +113,18 @@ function createSymptomList() {
         if (Array.isArray(condition.lessCommonSymptoms)) {
 
             condition.lessCommonSymptoms.forEach(symptom => {
+
+                symptoms.add(
+                    symptom.toLowerCase().trim()
+                );
+
+            });
+
+        }
+
+        if (Array.isArray(condition.keySymptoms)) {
+
+            condition.keySymptoms.forEach(symptom => {
 
                 symptoms.add(
                     symptom.toLowerCase().trim()
@@ -252,6 +253,18 @@ function getAllSymptoms() {
         if (Array.isArray(condition.lessCommonSymptoms)) {
 
             condition.lessCommonSymptoms.forEach(symptom => {
+
+                symptoms.add(
+                    symptom.toLowerCase().trim()
+                );
+
+            });
+
+        }
+
+        if (Array.isArray(condition.keySymptoms)) {
+
+            condition.keySymptoms.forEach(symptom => {
 
                 symptoms.add(
                     symptom.toLowerCase().trim()

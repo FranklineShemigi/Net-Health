@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Urinary Tract Infection",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Urinary tract",
+    "etiology": "Usually bacterial",
+    "description": "An infection affecting any part of the urinary tract, including the urethra, bladder, ureters, or kidneys.",
+    "commonSymptoms": [
+      "Burning during urination",
+      "Frequent urination",
+      "Urgent need to urinate",
+      "Lower abdominal discomfort",
+      "Cloudy urine"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Strong-smelling urine",
+      "Fatigue",
+      "Fever"
+    ],
+    "keySymptoms": [
+      "Dysuria",
+      "Urinary frequency",
+      "Urinary urgency"
+    ],
+    "riskFactors": [
+      "Female anatomy",
+      "Previous UTI",
+      "Sexual activity",
+      "Urinary catheter use",
+      "Urinary tract abnormalities",
+      "Incomplete bladder emptying"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "High fever",
+      "Flank pain",
+      "Vomiting",
+      "Confusion",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when UTI symptoms occur, especially when fever, flank pain, vomiting, pregnancy, or recurrent infections are present."
+  },
+  {
+    "name": "Urethritis",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Urethra",
+    "etiology": "Bacterial or viral",
+    "description": "Inflammation and infection of the urethra, commonly caused by sexually transmitted infections but also by other organisms.",
+    "commonSymptoms": [
+      "Burning during urination",
+      "Urethral discomfort",
+      "Urethral discharge",
+      "Frequent urination"
+    ],
+    "lessCommonSymptoms": [
+      "Itching around the urethral opening",
+      "Pelvic discomfort",
+      "Testicular discomfort"
+    ],
+    "keySymptoms": [
+      "Dysuria",
+      "Urethral discharge",
+      "Urethral irritation"
+    ],
+    "riskFactors": [
+      "Unprotected sexual activity",
+      "Multiple sexual partners",
+      "Previous sexually transmitted infection"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fever",
+      "Severe pelvic pain",
+      "Testicular pain or swelling",
+      "Blood in urine"
+    ],
+    "whenToSeekCare": "Seek medical evaluation and appropriate testing when urethritis symptoms occur, particularly when sexually transmitted infection is possible."
+  },
+  {
+    "name": "Acute Cystitis",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Bladder",
+    "etiology": "Usually bacterial",
+    "description": "An acute infection and inflammation of the urinary bladder, commonly caused by bacteria entering through the urethra.",
+    "commonSymptoms": [
+      "Burning during urination",
+      "Frequent urination",
+      "Urinary urgency",
+      "Lower abdominal pain",
+      "Cloudy urine"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Strong-smelling urine"
+    ],
+    "keySymptoms": [
+      "Dysuria",
+      "Urinary frequency",
+      "Urinary urgency",
+      "Suprapubic discomfort"
+    ],
+    "riskFactors": [
+      "Female anatomy",
+      "Previous UTI",
+      "Sexual activity",
+      "Spermicide use",
+      "Urinary catheter",
+      "Incomplete bladder emptying"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Fever",
+      "Flank pain",
+      "Vomiting",
+      "Severe illness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation if symptoms are severe, persistent, recurrent, or accompanied by fever or flank pain."
+  },
+  {
+    "name": "Recurrent Urinary Tract Infection",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Urinary tract",
+    "etiology": "Usually bacterial",
+    "description": "Repeated episodes of urinary tract infection occurring over a defined period.",
+    "commonSymptoms": [
+      "Burning during urination",
+      "Frequent urination",
+      "Urinary urgency",
+      "Lower abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Cloudy urine",
+      "Strong-smelling urine"
+    ],
+    "keySymptoms": [
+      "Repeated UTI episodes",
+      "Dysuria",
+      "Urinary frequency"
+    ],
+    "riskFactors": [
+      "Previous UTI",
+      "Sexual activity",
+      "Urinary tract abnormalities",
+      "Incomplete bladder emptying",
+      "Menopause",
+      "Urinary catheter use"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Recurrent fever",
+      "Flank pain",
+      "Blood in urine",
+      "Repeated kidney infections"
+    ],
+    "whenToSeekCare": "Recurrent UTIs should be medically evaluated to identify contributing factors and determine appropriate management."
+  },
+  {
+    "name": "Acute Pyelonephritis",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Kidney and upper urinary tract",
+    "etiology": "Usually bacterial",
+    "description": "An acute bacterial infection of the kidney, often developing when bacteria spread upward from the bladder.",
+    "commonSymptoms": [
+      "Fever",
+      "Chills",
+      "Flank pain",
+      "Painful urination",
+      "Frequent urination",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Blood in urine",
+      "Fatigue",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Flank pain",
+      "Chills",
+      "Urinary symptoms"
+    ],
+    "riskFactors": [
+      "Recent UTI",
+      "Urinary obstruction",
+      "Kidney stones",
+      "Pregnancy",
+      "Urinary tract abnormalities",
+      "Urinary catheter use"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Persistent vomiting",
+      "Confusion",
+      "Low blood pressure",
+      "Severe weakness",
+      "Signs of sepsis"
+    ],
+    "whenToSeekCare": "Suspected acute pyelonephritis requires prompt medical assessment because kidney infection can progress to sepsis."
+  },
+  {
+    "name": "Complicated Urinary Tract Infection",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Urinary tract",
+    "etiology": "Usually bacterial",
+    "description": "A urinary tract infection occurring in the presence of factors that increase the risk of treatment failure or complications.",
+    "commonSymptoms": [
+      "Burning during urination",
+      "Frequent urination",
+      "Urinary urgency",
+      "Abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Flank pain",
+      "Blood in urine",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Urinary symptoms",
+      "UTI with an underlying complicating factor"
+    ],
+    "riskFactors": [
+      "Urinary obstruction",
+      "Kidney stones",
+      "Urinary catheter",
+      "Urinary tract abnormalities",
+      "Kidney disease",
+      "Male urinary tract infection"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "High fever",
+      "Flank pain",
+      "Vomiting",
+      "Confusion",
+      "Low blood pressure"
+    ],
+    "whenToSeekCare": "Medical evaluation is recommended because complicated UTIs may require investigation for obstruction, structural abnormalities, or resistant organisms."
+  },
+  {
+    "name": "Asymptomatic Bacteriuria",
+    "category": "Infectious disease",
+    "subCategory": "Urinary tract infection",
+    "anatomicalSite": "Urinary tract",
+    "etiology": "Usually bacterial",
+    "description": "The presence of bacteria in the urine without symptoms of a urinary tract infection.",
+    "commonSymptoms": [
+      "Usually no urinary symptoms"
+    ],
+    "lessCommonSymptoms": [],
+    "keySymptoms": [
+      "Bacteria detected in urine",
+      "Absence of UTI symptoms"
+    ],
+    "riskFactors": [
+      "Pregnancy",
+      "Older age",
+      "Diabetes",
+      "Urinary catheter use",
+      "Urinary tract abnormalities"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Development of fever",
+      "Flank pain",
+      "Painful urination",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Clinical evaluation is important because treatment is appropriate only in specific situations, such as pregnancy or before certain urological procedures."
+  }
+]

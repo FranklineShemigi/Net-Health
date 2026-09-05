@@ -1,0 +1,657 @@
+[
+  {
+    "name": "Down Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Chromosomal disorder",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Chromosomal",
+    "description": "A genetic condition caused by an extra copy of chromosome 21 and associated with characteristic physical features, developmental differences, and variable medical complications.",
+    "commonSymptoms": [
+      "Developmental delay",
+      "Characteristic facial features",
+      "Low muscle tone",
+      "Learning difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Heart defects",
+      "Hearing problems",
+      "Vision problems",
+      "Thyroid disorders"
+    ],
+    "keySymptoms": [
+      "Developmental differences",
+      "Characteristic physical features"
+    ],
+    "riskFactors": [
+      "Increasing maternal age",
+      "Previous pregnancy affected by a chromosomal abnormality"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Breathing difficulty",
+      "Feeding difficulty",
+      "Severe congenital heart symptoms"
+    ],
+    "whenToSeekCare": "Individuals with Down syndrome require appropriate developmental, cardiac, hearing, vision, and general health assessment."
+  },
+  {
+    "name": "Turner Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Chromosomal disorder",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Chromosomal",
+    "description": "A chromosomal condition in which a female has complete or partial absence of one X chromosome.",
+    "commonSymptoms": [
+      "Short stature",
+      "Delayed puberty",
+      "Ovarian insufficiency",
+      "Infertility"
+    ],
+    "lessCommonSymptoms": [
+      "Heart abnormalities",
+      "Kidney abnormalities",
+      "Hearing problems",
+      "Lymphedema"
+    ],
+    "keySymptoms": [
+      "Short stature",
+      "Gonadal insufficiency"
+    ],
+    "riskFactors": [
+      "Chromosomal abnormality"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Cardiac symptoms",
+      "Severe hypertension",
+      "Significant hearing loss"
+    ],
+    "whenToSeekCare": "Suspected Turner syndrome requires genetic and multidisciplinary medical assessment."
+  },
+  {
+    "name": "Klinefelter Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Chromosomal disorder",
+    "anatomicalSite": "Reproductive and endocrine systems",
+    "etiology": "Chromosomal",
+    "description": "A chromosomal condition in which a male typically has an additional X chromosome, commonly resulting in impaired testicular function.",
+    "commonSymptoms": [
+      "Small testes",
+      "Infertility",
+      "Reduced testosterone",
+      "Tall stature"
+    ],
+    "lessCommonSymptoms": [
+      "Gynecomastia",
+      "Reduced muscle mass",
+      "Learning difficulties",
+      "Low bone density"
+    ],
+    "keySymptoms": [
+      "Testicular dysfunction",
+      "Infertility",
+      "Low testosterone"
+    ],
+    "riskFactors": [
+      "Chromosomal abnormality"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe hormonal abnormalities",
+      "Significant bone disease"
+    ],
+    "whenToSeekCare": "Delayed puberty, infertility, or unexplained testicular dysfunction should be medically evaluated."
+  },
+  {
+    "name": "Fragile X Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Single-gene neurodevelopmental disorder",
+    "anatomicalSite": "Nervous system",
+    "etiology": "Genetic",
+    "description": "An inherited genetic disorder associated with intellectual disability, developmental differences, and behavioral features.",
+    "commonSymptoms": [
+      "Developmental delay",
+      "Intellectual disability",
+      "Speech and language difficulties",
+      "Learning difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Anxiety",
+      "Attention difficulties",
+      "Seizures",
+      "Autistic features"
+    ],
+    "keySymptoms": [
+      "Developmental delay",
+      "Intellectual disability"
+    ],
+    "riskFactors": [
+      "Family history",
+      "FMR1 gene expansion"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Seizures",
+      "Severe developmental regression"
+    ],
+    "whenToSeekCare": "Developmental concerns should prompt appropriate developmental and genetic assessment."
+  },
+  {
+    "name": "Marfan Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited connective tissue disorder",
+    "anatomicalSite": "Connective tissue, cardiovascular system, eyes, and skeleton",
+    "etiology": "Genetic",
+    "description": "An inherited connective tissue disorder that can affect the cardiovascular system, eyes, skeleton, and other organs.",
+    "commonSymptoms": [
+      "Tall stature",
+      "Long limbs and fingers",
+      "Joint hypermobility",
+      "Vision problems"
+    ],
+    "lessCommonSymptoms": [
+      "Chest deformity",
+      "Scoliosis",
+      "Heart valve abnormalities"
+    ],
+    "keySymptoms": [
+      "Characteristic skeletal features",
+      "Aortic disease risk"
+    ],
+    "riskFactors": [
+      "Family history",
+      "FBN1 gene variant"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden severe chest or back pain",
+      "Shortness of breath",
+      "Fainting"
+    ],
+    "whenToSeekCare": "People with suspected Marfan syndrome require cardiovascular and ophthalmic assessment."
+  },
+  {
+    "name": "Ehlers-Danlos Syndrome",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited connective tissue disorder",
+    "anatomicalSite": "Connective tissue, skin, joints, and blood vessels",
+    "etiology": "Genetic",
+    "description": "A group of inherited connective tissue disorders characterized by varying degrees of joint hypermobility, tissue fragility, and abnormal skin elasticity.",
+    "commonSymptoms": [
+      "Joint hypermobility",
+      "Joint pain",
+      "Easy bruising",
+      "Abnormally stretchy skin"
+    ],
+    "lessCommonSymptoms": [
+      "Joint dislocations",
+      "Poor wound healing",
+      "Chronic fatigue"
+    ],
+    "keySymptoms": [
+      "Joint hypermobility",
+      "Connective tissue fragility"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Pathogenic connective-tissue gene variants"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Major bleeding",
+      "Sudden severe chest or abdominal pain",
+      "Spontaneous organ or vessel complications"
+    ],
+    "whenToSeekCare": "Significant joint instability, unexplained tissue fragility, or suspected vascular complications requires medical assessment."
+  },
+  {
+    "name": "Neurofibromatosis",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited neurocutaneous disorder",
+    "anatomicalSite": "Nervous system and skin",
+    "etiology": "Genetic",
+    "description": "A group of genetic disorders characterized by abnormalities involving nerves, skin, and other tissues.",
+    "commonSymptoms": [
+      "Skin pigmentation changes",
+      "Neurofibromas",
+      "Headaches",
+      "Learning difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Vision problems",
+      "Bone abnormalities",
+      "Hearing loss",
+      "Seizures"
+    ],
+    "keySymptoms": [
+      "Characteristic skin findings",
+      "Peripheral nerve tumors"
+    ],
+    "riskFactors": [
+      "Family history",
+      "NF1 or NF2 gene variants"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly enlarging tumor",
+      "New neurological deficits",
+      "Vision loss",
+      "Severe pain"
+    ],
+    "whenToSeekCare": "New or rapidly changing neurological or tumor-related symptoms require medical evaluation."
+  },
+  {
+    "name": "Cystic Fibrosis",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited multisystem disorder",
+    "anatomicalSite": "Lungs, pancreas, and multiple organ systems",
+    "etiology": "Genetic",
+    "description": "An inherited disorder caused by CFTR gene variants resulting in abnormal secretions affecting the respiratory and digestive systems.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Recurrent respiratory infections",
+      "Poor weight gain",
+      "Digestive problems"
+    ],
+    "lessCommonSymptoms": [
+      "Wheezing",
+      "Fatigue",
+      "Male infertility"
+    ],
+    "keySymptoms": [
+      "Chronic respiratory disease",
+      "Multisystem involvement"
+    ],
+    "riskFactors": [
+      "Family history",
+      "CFTR gene variants"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Coughing blood",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Cystic fibrosis requires specialist multidisciplinary care."
+  },
+  {
+    "name": "Sickle Cell Disease",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited hematologic disorder",
+    "anatomicalSite": "Blood and multiple organ systems",
+    "etiology": "Genetic",
+    "description": "An inherited hemoglobin disorder in which red blood cells can become rigid and sickle-shaped, causing anemia, vascular obstruction, and organ complications.",
+    "commonSymptoms": [
+      "Anemia",
+      "Pain episodes",
+      "Fatigue",
+      "Jaundice"
+    ],
+    "lessCommonSymptoms": [
+      "Swelling of hands and feet",
+      "Recurrent infections",
+      "Shortness of breath",
+      "Delayed growth"
+    ],
+    "keySymptoms": [
+      "Hemolytic anemia",
+      "Recurrent vaso-occlusive pain"
+    ],
+    "riskFactors": [
+      "Inherited hemoglobin variants",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pain",
+      "Chest pain",
+      "Difficulty breathing",
+      "Sudden neurological symptoms",
+      "Severe infection"
+    ],
+    "whenToSeekCare": "Severe pain, breathing difficulty, fever, or neurological symptoms require urgent medical assessment."
+  },
+  {
+    "name": "Thalassemia",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited hematologic disorder",
+    "anatomicalSite": "Blood and bone marrow",
+    "etiology": "Genetic",
+    "description": "A group of inherited blood disorders caused by reduced production of alpha or beta globin chains of hemoglobin.",
+    "commonSymptoms": [
+      "Anemia",
+      "Fatigue",
+      "Pale skin",
+      "Weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Bone abnormalities",
+      "Enlarged spleen",
+      "Growth problems"
+    ],
+    "keySymptoms": [
+      "Chronic anemia",
+      "Inherited hemoglobin disorder"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited globin gene variants"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe anemia",
+      "Breathing difficulty",
+      "Heart complications"
+    ],
+    "whenToSeekCare": "Significant anemia or suspected inherited hemoglobin disease requires medical assessment."
+  },
+  {
+    "name": "Hemophilia",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited bleeding disorder",
+    "anatomicalSite": "Blood coagulation system",
+    "etiology": "Genetic",
+    "description": "An inherited bleeding disorder caused by deficiency or dysfunction of specific clotting factors.",
+    "commonSymptoms": [
+      "Easy bruising",
+      "Prolonged bleeding",
+      "Joint bleeding",
+      "Muscle bleeding"
+    ],
+    "lessCommonSymptoms": [
+      "Nosebleeds",
+      "Blood in urine",
+      "Gastrointestinal bleeding"
+    ],
+    "keySymptoms": [
+      "Abnormal bleeding",
+      "Recurrent joint bleeding"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited clotting-factor deficiency"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Head injury",
+      "Severe bleeding",
+      "Blood in urine",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Significant bleeding or suspected bleeding into the brain or other organs requires emergency assessment."
+  },
+  {
+    "name": "Polycystic Kidney Disease",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Inherited renal disorder",
+    "anatomicalSite": "Kidneys",
+    "etiology": "Genetic",
+    "description": "An inherited disorder characterized by development of multiple fluid-filled cysts in the kidneys and potential involvement of other organs.",
+    "commonSymptoms": [
+      "High blood pressure",
+      "Abdominal or flank pain",
+      "Blood in urine",
+      "Kidney dysfunction"
+    ],
+    "lessCommonSymptoms": [
+      "Kidney stones",
+      "Recurrent urinary infections",
+      "Headache"
+    ],
+    "keySymptoms": [
+      "Multiple renal cysts",
+      "Progressive kidney disease"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited PKD gene variant"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe flank pain",
+      "Heavy blood in urine",
+      "Severe hypertension",
+      "Sudden severe headache"
+    ],
+    "whenToSeekCare": "People with suspected or known polycystic kidney disease require renal and blood-pressure monitoring."
+  },
+  {
+    "name": "Congenital Heart Disease",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital cardiovascular disorder",
+    "anatomicalSite": "Heart and major blood vessels",
+    "etiology": "Congenital and multifactorial",
+    "description": "A group of structural abnormalities of the heart or major blood vessels that are present at birth.",
+    "commonSymptoms": [
+      "Heart murmur",
+      "Breathing difficulty",
+      "Poor feeding",
+      "Poor growth"
+    ],
+    "lessCommonSymptoms": [
+      "Cyanosis",
+      "Fatigue",
+      "Recurrent respiratory infections",
+      "Exercise intolerance"
+    ],
+    "keySymptoms": [
+      "Congenital cardiac structural abnormality"
+    ],
+    "riskFactors": [
+      "Genetic factors",
+      "Maternal conditions",
+      "Certain prenatal exposures",
+      "Family history"
+    ],
+    "urgency": "variable",
+    "warningSigns": [
+      "Cyanosis",
+      "Severe breathing difficulty",
+      "Poor circulation",
+      "Fainting"
+    ],
+    "whenToSeekCare": "Suspected congenital heart disease requires cardiovascular assessment."
+  },
+  {
+    "name": "Cleft Lip and Palate",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital craniofacial disorder",
+    "anatomicalSite": "Lip, palate, and craniofacial structures",
+    "etiology": "Congenital and multifactorial",
+    "description": "A congenital craniofacial condition in which the lip, palate, or both fail to fuse completely during development.",
+    "commonSymptoms": [
+      "Visible cleft of the lip",
+      "Opening in the palate",
+      "Feeding difficulty"
+    ],
+    "lessCommonSymptoms": [
+      "Speech difficulties",
+      "Hearing problems",
+      "Dental abnormalities",
+      "Recurrent ear infections"
+    ],
+    "keySymptoms": [
+      "Cleft involving the lip or palate"
+    ],
+    "riskFactors": [
+      "Genetic factors",
+      "Family history",
+      "Certain prenatal exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe feeding difficulty",
+      "Breathing problems",
+      "Dehydration"
+    ],
+    "whenToSeekCare": "Infants with cleft lip or palate require multidisciplinary assessment for feeding, hearing, dental, and surgical care."
+  },
+  {
+    "name": "Spina Bifida",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital neural tube defect",
+    "anatomicalSite": "Spinal cord and vertebral column",
+    "etiology": "Congenital and multifactorial",
+    "description": "A neural tube defect in which the spinal column does not completely form around the spinal cord.",
+    "commonSymptoms": [
+      "Lower-limb weakness",
+      "Sensory abnormalities",
+      "Bladder dysfunction",
+      "Bowel dysfunction"
+    ],
+    "lessCommonSymptoms": [
+      "Hydrocephalus",
+      "Orthopedic abnormalities",
+      "Difficulty walking"
+    ],
+    "keySymptoms": [
+      "Congenital spinal defect",
+      "Neurological deficits"
+    ],
+    "riskFactors": [
+      "Folate deficiency",
+      "Maternal risk factors",
+      "Genetic susceptibility"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe neurological deficits",
+      "Bladder dysfunction",
+      "Signs of hydrocephalus"
+    ],
+    "whenToSeekCare": "Suspected neural tube defects require specialist pediatric and neurological assessment."
+  },
+  {
+    "name": "Hirschsprung Disease",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital gastrointestinal disorder",
+    "anatomicalSite": "Colon and enteric nervous system",
+    "etiology": "Congenital and genetic",
+    "description": "A congenital disorder in which nerve cells are absent from part of the intestine, causing impaired bowel movement.",
+    "commonSymptoms": [
+      "Failure to pass meconium",
+      "Abdominal distension",
+      "Constipation",
+      "Vomiting"
+    ],
+    "lessCommonSymptoms": [
+      "Poor feeding",
+      "Poor growth",
+      "Fever"
+    ],
+    "keySymptoms": [
+      "Severe constipation",
+      "Delayed passage of meconium"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic syndromes"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal distension",
+      "Fever",
+      "Persistent vomiting",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Suspected Hirschsprung disease requires urgent pediatric and surgical evaluation."
+  },
+  {
+    "name": "Congenital Cataract",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital eye disorder",
+    "anatomicalSite": "Lens of the eye",
+    "etiology": "Genetic, metabolic, infectious, or congenital",
+    "description": "A clouding of the lens that is present at birth or develops during early infancy.",
+    "commonSymptoms": [
+      "Cloudy pupil",
+      "Poor vision",
+      "Abnormal eye movements"
+    ],
+    "lessCommonSymptoms": [
+      "Strabismus",
+      "Reduced visual development"
+    ],
+    "keySymptoms": [
+      "Lens opacity present during infancy"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic disorders",
+      "Certain congenital infections",
+      "Metabolic disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "White pupil",
+      "Severe visual impairment",
+      "Abnormal eye alignment"
+    ],
+    "whenToSeekCare": "Any abnormal white appearance of the pupil in an infant requires urgent ophthalmic assessment."
+  },
+  {
+    "name": "Congenital Talipes Equinovarus",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Congenital musculoskeletal disorder",
+    "anatomicalSite": "Foot and ankle",
+    "etiology": "Congenital and multifactorial",
+    "description": "A congenital deformity in which one or both feet are turned inward and downward.",
+    "commonSymptoms": [
+      "Foot deformity",
+      "Abnormal foot position",
+      "Limited foot movement"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty walking if untreated",
+      "Calf muscle underdevelopment"
+    ],
+    "keySymptoms": [
+      "Inward and downward turning of the foot"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Skin injury",
+      "Severe functional limitation"
+    ],
+    "whenToSeekCare": "Early orthopedic assessment is recommended because early treatment can improve functional outcomes."
+  },
+  {
+    "name": "Achondroplasia",
+    "category": "Genetic and congenital disease",
+    "subCategory": "Skeletal dysplasia",
+    "anatomicalSite": "Bones and skeletal system",
+    "etiology": "Genetic",
+    "description": "A genetic skeletal disorder characterized by disproportionate short stature caused by abnormal bone growth.",
+    "commonSymptoms": [
+      "Short stature",
+      "Short limbs",
+      "Large head",
+      "Characteristic facial features"
+    ],
+    "lessCommonSymptoms": [
+      "Spinal curvature",
+      "Joint problems",
+      "Sleep-disordered breathing"
+    ],
+    "keySymptoms": [
+      "Disproportionate short stature",
+      "Skeletal abnormalities"
+    ],
+    "riskFactors": [
+      "FGFR3 gene variant",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Breathing difficulty",
+      "Weakness",
+      "Severe spinal cord compression symptoms"
+    ],
+    "whenToSeekCare": "People with achondroplasia require monitoring for neurological, respiratory, orthopedic, and sleep-related complications."
+  }
+]

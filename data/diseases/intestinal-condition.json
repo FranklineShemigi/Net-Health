@@ -1,0 +1,601 @@
+[
+  {
+    "name": "Gastroenteritis",
+    "category": "Infectious disease",
+    "subCategory": "Intestinal infection",
+    "anatomicalSite": "Small and large intestines",
+    "etiology": "Viral, bacterial, or parasitic",
+    "description": "Infection and inflammation of the gastrointestinal tract that commonly causes diarrhea, vomiting, and abdominal cramps.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Nausea",
+      "Vomiting",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Body aches",
+      "Loss of appetite",
+      "Dehydration"
+    ],
+    "keySymptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Nausea or vomiting"
+    ],
+    "riskFactors": [
+      "Contaminated food or water",
+      "Contact with an infected person",
+      "Poor hand hygiene",
+      "Travel"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe dehydration",
+      "Blood in stool",
+      "Persistent vomiting",
+      "Severe abdominal pain",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Seek medical care when symptoms are severe, persistent, or associated with dehydration, blood in stool, or severe abdominal pain."
+  },
+  {
+    "name": "Acute Infectious Diarrhea",
+    "category": "Infectious disease",
+    "subCategory": "Intestinal infection",
+    "anatomicalSite": "Intestines",
+    "etiology": "Viral, bacterial, or parasitic",
+    "description": "Sudden onset of frequent loose or watery stools caused by an intestinal infection.",
+    "commonSymptoms": [
+      "Loose stools",
+      "Watery diarrhea",
+      "Abdominal cramps",
+      "Nausea",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Blood in stool",
+      "Mucus in stool",
+      "Weakness"
+    ],
+    "keySymptoms": [
+      "Acute diarrhea",
+      "Abdominal cramps",
+      "Increased stool frequency"
+    ],
+    "riskFactors": [
+      "Contaminated food",
+      "Contaminated water",
+      "Poor sanitation",
+      "Travel",
+      "Contact with infected individuals"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe dehydration",
+      "Bloody diarrhea",
+      "High fever",
+      "Severe abdominal pain",
+      "Reduced urine output"
+    ],
+    "whenToSeekCare": "Seek medical care if diarrhea is severe, bloody, prolonged, or associated with significant dehydration."
+  },
+  {
+    "name": "Cholera",
+    "category": "Infectious disease",
+    "subCategory": "Intestinal infection",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Bacterial",
+    "description": "An acute intestinal infection caused by Vibrio cholerae that can produce severe watery diarrhea and rapid dehydration.",
+    "commonSymptoms": [
+      "Profuse watery diarrhea",
+      "Vomiting",
+      "Thirst",
+      "Weakness",
+      "Muscle cramps"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal discomfort",
+      "Restlessness",
+      "Reduced urine output"
+    ],
+    "keySymptoms": [
+      "Profuse watery diarrhea",
+      "Rapid dehydration",
+      "Vomiting"
+    ],
+    "riskFactors": [
+      "Unsafe drinking water",
+      "Poor sanitation",
+      "Contaminated food",
+      "Living in or visiting areas with outbreaks"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe dehydration",
+      "Very low urine output",
+      "Confusion",
+      "Weak pulse",
+      "Low blood pressure"
+    ],
+    "whenToSeekCare": "Suspected cholera requires urgent medical treatment because severe dehydration can develop rapidly."
+  },
+  {
+    "name": "Salmonellosis",
+    "category": "Infectious disease",
+    "subCategory": "Intestinal infection",
+    "anatomicalSite": "Intestines",
+    "etiology": "Bacterial",
+    "description": "An intestinal infection caused by Salmonella bacteria, commonly acquired through contaminated food or water.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Fever",
+      "Abdominal cramps",
+      "Nausea",
+      "Vomiting"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Blood in stool",
+      "Dehydration"
+    ],
+    "keySymptoms": [
+      "Diarrhea",
+      "Fever",
+      "Abdominal cramps"
+    ],
+    "riskFactors": [
+      "Contaminated food",
+      "Undercooked poultry or eggs",
+      "Contact with infected animals",
+      "Poor food hygiene"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Bloody diarrhea",
+      "Severe dehydration",
+      "Persistent high fever",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Seek medical care when symptoms are severe or persistent, particularly with dehydration or bloody diarrhea."
+  },
+  {
+    "name": "Shigellosis",
+    "category": "Infectious disease",
+    "subCategory": "Intestinal infection",
+    "anatomicalSite": "Large intestine",
+    "etiology": "Bacterial",
+    "description": "An intestinal infection caused by Shigella bacteria that can cause inflammatory diarrhea.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Fever",
+      "Urgent need to pass stool"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in stool",
+      "Mucus in stool",
+      "Nausea",
+      "Vomiting"
+    ],
+    "keySymptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Fever",
+      "Urgency to defecate"
+    ],
+    "riskFactors": [
+      "Poor sanitation",
+      "Contaminated food or water",
+      "Close person-to-person contact",
+      "Poor hand hygiene"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Bloody diarrhea",
+      "Severe dehydration",
+      "High fever",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Seek medical assessment for severe or bloody diarrhea, significant dehydration, or persistent fever."
+  },
+  {
+    "name": "Amebiasis",
+    "category": "Infectious disease",
+    "subCategory": "Parasitic intestinal infection",
+    "anatomicalSite": "Large intestine",
+    "etiology": "Parasitic",
+    "description": "An intestinal infection caused by Entamoeba histolytica, which can cause diarrhea and intestinal inflammation.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal pain",
+      "Abdominal cramps",
+      "Loose stools"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in stool",
+      "Fever",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Diarrhea",
+      "Abdominal pain",
+      "Blood or mucus in stool"
+    ],
+    "riskFactors": [
+      "Contaminated food or water",
+      "Poor sanitation",
+      "Travel to areas with inadequate sanitation",
+      "Close household contact"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Bloody diarrhea",
+      "Severe abdominal pain",
+      "High fever",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent diarrhea, bloody stools, or significant abdominal pain."
+  },
+  {
+    "name": "Irritable Bowel Syndrome",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Functional intestinal disorder",
+    "anatomicalSite": "Large intestine and gastrointestinal tract",
+    "etiology": "Functional",
+    "description": "A common disorder characterized by recurrent abdominal pain associated with changes in bowel habits without an identifiable structural disease.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Bloating",
+      "Diarrhea",
+      "Constipation",
+      "Changes in bowel habits"
+    ],
+    "lessCommonSymptoms": [
+      "Mucus in stool",
+      "Urgency to defecate",
+      "Feeling of incomplete bowel movement"
+    ],
+    "keySymptoms": [
+      "Recurrent abdominal pain",
+      "Diarrhea and/or constipation",
+      "Bloating"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Previous gastrointestinal infection",
+      "Food-related triggers",
+      "Family history"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Blood in stool",
+      "Unexplained weight loss",
+      "Fever",
+      "Anemia",
+      "Symptoms beginning at older age"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when bowel symptoms are persistent or accompanied by bleeding, weight loss, fever, or other warning signs."
+  },
+  {
+    "name": "Inflammatory Bowel Disease",
+    "category": "Inflammatory disease",
+    "subCategory": "Chronic intestinal disease",
+    "anatomicalSite": "Intestines",
+    "etiology": "Immune-mediated",
+    "description": "A group of chronic inflammatory disorders of the gastrointestinal tract, primarily including Crohn's disease and ulcerative colitis.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal pain",
+      "Fatigue",
+      "Weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in stool",
+      "Fever",
+      "Reduced appetite",
+      "Joint pain"
+    ],
+    "keySymptoms": [
+      "Chronic diarrhea",
+      "Abdominal pain",
+      "Weight loss",
+      "Blood in stool in some cases"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Smoking",
+      "Immune factors",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Heavy rectal bleeding",
+      "High fever",
+      "Severe dehydration",
+      "Rapid weight loss"
+    ],
+    "whenToSeekCare": "Persistent diarrhea, abdominal pain, weight loss, or blood in stool requires medical evaluation."
+  },
+  {
+    "name": "Crohn's Disease",
+    "category": "Inflammatory disease",
+    "subCategory": "Chronic intestinal disease",
+    "anatomicalSite": "Any part of the gastrointestinal tract, commonly terminal ileum and colon",
+    "etiology": "Immune-mediated",
+    "description": "A chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract and often causes patchy, transmural inflammation.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Persistent diarrhea",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Blood in stool",
+      "Mouth ulcers",
+      "Joint pain",
+      "Reduced appetite"
+    ],
+    "keySymptoms": [
+      "Chronic diarrhea",
+      "Abdominal pain",
+      "Weight loss"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Smoking",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Intestinal obstruction symptoms",
+      "Heavy bleeding",
+      "Severe dehydration",
+      "High fever"
+    ],
+    "whenToSeekCare": "Persistent gastrointestinal symptoms require medical evaluation. Severe pain, obstruction symptoms, heavy bleeding, or dehydration require urgent care."
+  },
+  {
+    "name": "Ulcerative Colitis",
+    "category": "Inflammatory disease",
+    "subCategory": "Chronic intestinal disease",
+    "anatomicalSite": "Colon and rectum",
+    "etiology": "Immune-mediated",
+    "description": "A chronic inflammatory bowel disease causing continuous inflammation of the inner lining of the colon and rectum.",
+    "commonSymptoms": [
+      "Bloody diarrhea",
+      "Abdominal pain",
+      "Urgency to defecate",
+      "Frequent bowel movements"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Weight loss",
+      "Joint pain"
+    ],
+    "keySymptoms": [
+      "Bloody diarrhea",
+      "Rectal urgency",
+      "Abdominal cramps"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Immune factors",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Heavy rectal bleeding",
+      "Severe abdominal pain",
+      "High fever",
+      "Severe dehydration",
+      "Rapid abdominal swelling"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent bloody diarrhea. Severe bleeding, severe abdominal pain, fever, or abdominal swelling requires urgent assessment."
+  },
+  {
+    "name": "Diverticulosis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Colonic disorder",
+    "anatomicalSite": "Large intestine",
+    "etiology": "Structural",
+    "description": "The presence of small pouches called diverticula in the wall of the colon.",
+    "commonSymptoms": [
+      "Often no symptoms"
+    ],
+    "lessCommonSymptoms": [
+      "Mild abdominal discomfort",
+      "Bloating",
+      "Changes in bowel habits"
+    ],
+    "keySymptoms": [
+      "Usually asymptomatic",
+      "Diverticula identified during examination"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Low dietary fiber intake",
+      "Obesity",
+      "Physical inactivity"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Rectal bleeding",
+      "Severe abdominal pain",
+      "Fever"
+    ],
+    "whenToSeekCare": "Seek medical assessment if abdominal pain, fever, or rectal bleeding develops."
+  },
+  {
+    "name": "Diverticulitis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Colonic inflammation",
+    "anatomicalSite": "Large intestine",
+    "etiology": "Inflammatory",
+    "description": "Inflammation of one or more diverticula in the colon, sometimes complicated by infection, abscess, or perforation.",
+    "commonSymptoms": [
+      "Lower abdominal pain",
+      "Fever",
+      "Nausea",
+      "Changes in bowel habits"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Constipation",
+      "Diarrhea",
+      "Urinary symptoms"
+    ],
+    "keySymptoms": [
+      "Persistent lower abdominal pain",
+      "Fever",
+      "Change in bowel habits"
+    ],
+    "riskFactors": [
+      "Diverticulosis",
+      "Increasing age",
+      "Obesity",
+      "Smoking"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "High fever",
+      "Persistent vomiting",
+      "Abdominal rigidity",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Suspected diverticulitis should be medically assessed, particularly when pain or fever is significant."
+  },
+  {
+    "name": "Intestinal Obstruction",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Intestinal obstruction",
+    "anatomicalSite": "Small or large intestine",
+    "etiology": "Mechanical or functional",
+    "description": "Partial or complete blockage that prevents the normal passage of intestinal contents.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Abdominal swelling",
+      "Vomiting",
+      "Constipation",
+      "Inability to pass gas"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Dehydration",
+      "Rapid heart rate"
+    ],
+    "keySymptoms": [
+      "Abdominal pain",
+      "Vomiting",
+      "Abdominal distension",
+      "Inability to pass stool or gas"
+    ],
+    "riskFactors": [
+      "Previous abdominal surgery",
+      "Hernias",
+      "Tumors",
+      "Inflammatory bowel disease",
+      "Intestinal adhesions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe persistent abdominal pain",
+      "Persistent vomiting",
+      "Severe abdominal swelling",
+      "Fever",
+      "Shock symptoms"
+    ],
+    "whenToSeekCare": "Suspected intestinal obstruction requires urgent medical assessment."
+  },
+  {
+    "name": "Appendicitis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Intestinal inflammation",
+    "anatomicalSite": "Appendix",
+    "etiology": "Inflammatory, usually due to obstruction",
+    "description": "Acute inflammation of the appendix that can progress to perforation if untreated.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Loss of appetite",
+      "Nausea",
+      "Vomiting",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Diarrhea",
+      "Constipation",
+      "Abdominal bloating"
+    ],
+    "keySymptoms": [
+      "Pain that often moves toward the right lower abdomen",
+      "Loss of appetite",
+      "Nausea",
+      "Fever"
+    ],
+    "riskFactors": [
+      "Young age",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe worsening abdominal pain",
+      "Abdominal rigidity",
+      "High fever",
+      "Persistent vomiting",
+      "Signs of shock"
+    ],
+    "whenToSeekCare": "Suspected appendicitis requires urgent medical assessment."
+  },
+  {
+    "name": "Colorectal Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Intestinal malignancy",
+    "anatomicalSite": "Colon and rectum",
+    "etiology": "Malignant neoplasm",
+    "description": "A malignant tumor arising from the colon or rectum.",
+    "commonSymptoms": [
+      "Change in bowel habits",
+      "Blood in stool",
+      "Abdominal discomfort",
+      "Unexplained weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Constipation",
+      "Diarrhea",
+      "Narrow stools",
+      "Abdominal bloating"
+    ],
+    "keySymptoms": [
+      "Blood in stool",
+      "Persistent change in bowel habits",
+      "Unexplained weight loss",
+      "Unexplained anemia"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Inflammatory bowel disease",
+      "Obesity",
+      "Smoking",
+      "Low physical activity"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Significant rectal bleeding",
+      "Unexplained weight loss",
+      "Severe abdominal pain",
+      "Persistent vomiting",
+      "Symptoms of intestinal obstruction"
+    ],
+    "whenToSeekCare": "Persistent changes in bowel habits, blood in stool, unexplained weight loss, or unexplained anemia require medical evaluation."
+  }
+]

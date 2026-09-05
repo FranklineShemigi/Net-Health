@@ -1,0 +1,89 @@
+[
+  {
+    "file": "ENT.json"
+  },
+  {
+    "file": "STI-condition.json"
+  },
+  {
+    "file": "UTI-condition.json"
+  },
+  {
+    "file": "autoimmune-condition.json"
+  },
+  {
+    "file": "blood-hematologic.json"
+  },
+  {
+    "file": "central-nervous-system.json"
+  },
+  {
+    "file": "emergency.json"
+  },
+  {
+    "file": "endocrine.json"
+  },
+  {
+    "file": "etiological.json"
+  },
+  {
+    "file": "eye.json"
+  },
+  {
+    "file": "heart-conditions.json"
+  },
+  {
+    "file": "hepatobiliary-condition.json"
+  },
+  {
+    "file": "immune-deficiency.json"
+  },
+  {
+    "file": "intestinal-condition.json"
+  },
+  {
+    "file": "kidney.json"
+  },
+  {
+    "file": "lower-respiratory.json"
+  },
+  {
+    "file": "mental-behavioural.json"
+  },
+  {
+    "file": "musculoskeletal.json"
+  },
+  {
+    "file": "neoplastic.json"
+  },
+  {
+    "file": "neurological.json"
+  },
+  {
+    "file": "oral-dental.json"
+  },
+  {
+    "file": "parasitic.json"
+  },
+  {
+    "file": "reproductive.json"
+  },
+  {
+    "file": "respiratory.json"
+  },
+  {
+    "file": "rheumatologic.json"
+  },
+  {
+    "file": "skin.json"
+  },
+  {
+    "file": "stomach-conditions.json"
+  },
+  {
+    "file": "upper-respiratory.json"
+  },
+  {
+    "file": "vascular.json"
+  }
+]

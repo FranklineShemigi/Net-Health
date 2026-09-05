@@ -1,0 +1,681 @@
+[
+  {
+    "name": "Peripheral Artery Disease",
+    "category": "Vascular disease",
+    "subCategory": "Peripheral arterial disease",
+    "anatomicalSite": "Peripheral arteries, especially lower limbs",
+    "etiology": "Atherosclerotic",
+    "description": "A condition caused by narrowing or blockage of peripheral arteries, most commonly affecting the legs.",
+    "commonSymptoms": [
+      "Leg pain with walking",
+      "Leg fatigue",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Cold feet",
+      "Numbness",
+      "Weak pulses",
+      "Skin changes"
+    ],
+    "keySymptoms": [
+      "Intermittent claudication",
+      "Reduced peripheral pulses"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Diabetes",
+      "High blood pressure",
+      "High cholesterol",
+      "Older age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe leg pain",
+      "Pale or blue limb",
+      "Cold limb",
+      "Loss of pulses"
+    ],
+    "whenToSeekCare": "Persistent leg pain with walking should be medically evaluated. Sudden loss of blood flow to a limb requires emergency care."
+  },
+  {
+    "name": "Acute Limb Ischemia",
+    "category": "Vascular disease",
+    "subCategory": "Peripheral arterial emergency",
+    "anatomicalSite": "Peripheral arteries and affected limb",
+    "etiology": "Arterial occlusion",
+    "description": "A sudden reduction in arterial blood flow to a limb that can rapidly threaten tissue viability.",
+    "commonSymptoms": [
+      "Sudden limb pain",
+      "Pale skin",
+      "Cold limb",
+      "Numbness"
+    ],
+    "lessCommonSymptoms": [
+      "Weakness",
+      "Absent pulses",
+      "Tingling"
+    ],
+    "keySymptoms": [
+      "Sudden severe limb pain",
+      "Pallor",
+      "Pulselessness",
+      "Coldness",
+      "Sensory or motor loss"
+    ],
+    "riskFactors": [
+      "Atrial fibrillation",
+      "Peripheral artery disease",
+      "Atherosclerosis",
+      "Recent vascular procedure"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Loss of pulses",
+      "Severe numbness",
+      "Limb paralysis",
+      "Cold or blue limb"
+    ],
+    "whenToSeekCare": "Acute limb ischemia is a vascular emergency requiring immediate hospital assessment."
+  },
+  {
+    "name": "Aortic Aneurysm",
+    "category": "Vascular disease",
+    "subCategory": "Arterial aneurysm",
+    "anatomicalSite": "Aorta",
+    "etiology": "Degenerative and multifactorial",
+    "description": "An abnormal enlargement of a segment of the aorta that can enlarge progressively and may rupture.",
+    "commonSymptoms": [
+      "Often asymptomatic"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal pain",
+      "Back pain",
+      "Chest discomfort",
+      "Pulsating abdominal sensation"
+    ],
+    "keySymptoms": [
+      "Often asymptomatic until complications occur"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Older age",
+      "Atherosclerosis",
+      "Family history",
+      "Hypertension"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden severe abdominal pain",
+      "Sudden severe back pain",
+      "Fainting",
+      "Shock"
+    ],
+    "whenToSeekCare": "Known aneurysms require medical monitoring. Sudden severe chest, abdominal, or back pain requires emergency care."
+  },
+  {
+    "name": "Aortic Dissection",
+    "category": "Vascular disease",
+    "subCategory": "Acute aortic syndrome",
+    "anatomicalSite": "Aorta",
+    "etiology": "Aortic wall disruption",
+    "description": "A life-threatening condition in which blood enters the wall of the aorta through a tear in the inner layer.",
+    "commonSymptoms": [
+      "Sudden severe chest pain",
+      "Sudden severe back pain"
+    ],
+    "lessCommonSymptoms": [
+      "Shortness of breath",
+      "Fainting",
+      "Weakness",
+      "Neurological symptoms"
+    ],
+    "keySymptoms": [
+      "Abrupt severe chest or back pain"
+    ],
+    "riskFactors": [
+      "Hypertension",
+      "Aortic aneurysm",
+      "Connective tissue disorders",
+      "Bicuspid aortic valve",
+      "Older age"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden severe chest pain",
+      "Unequal pulses",
+      "Fainting",
+      "Stroke-like symptoms",
+      "Shock"
+    ],
+    "whenToSeekCare": "Suspected aortic dissection requires immediate emergency medical assessment."
+  },
+  {
+    "name": "Chronic Venous Insufficiency",
+    "category": "Vascular disease",
+    "subCategory": "Chronic venous disease",
+    "anatomicalSite": "Lower limb veins",
+    "etiology": "Venous valve dysfunction",
+    "description": "A condition in which impaired venous return causes blood to pool in the lower limbs.",
+    "commonSymptoms": [
+      "Leg swelling",
+      "Leg heaviness",
+      "Aching legs",
+      "Varicose veins"
+    ],
+    "lessCommonSymptoms": [
+      "Itching",
+      "Skin discoloration",
+      "Leg cramps",
+      "Skin thickening"
+    ],
+    "keySymptoms": [
+      "Dependent leg swelling",
+      "Varicose veins",
+      "Skin changes around the ankles"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Prolonged standing",
+      "Obesity",
+      "Previous deep vein thrombosis",
+      "Pregnancy"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden unilateral leg swelling",
+      "Severe leg pain",
+      "New shortness of breath"
+    ],
+    "whenToSeekCare": "Persistent leg swelling or skin changes should be medically evaluated."
+  },
+  {
+    "name": "Varicose Veins",
+    "category": "Vascular disease",
+    "subCategory": "Superficial venous disorder",
+    "anatomicalSite": "Superficial veins of the legs",
+    "etiology": "Venous valve dysfunction",
+    "description": "Enlarged, twisted superficial veins caused by impaired venous return.",
+    "commonSymptoms": [
+      "Visible enlarged veins",
+      "Leg aching",
+      "Leg heaviness"
+    ],
+    "lessCommonSymptoms": [
+      "Itching",
+      "Swelling",
+      "Night cramps",
+      "Skin discoloration"
+    ],
+    "keySymptoms": [
+      "Visible tortuous superficial veins"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Pregnancy",
+      "Prolonged standing",
+      "Obesity",
+      "Older age"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden painful swelling",
+      "Bleeding from a varicose vein",
+      "Skin ulceration"
+    ],
+    "whenToSeekCare": "Medical evaluation is recommended for painful, bleeding, or complicated varicose veins."
+  },
+  {
+    "name": "Deep Vein Thrombosis",
+    "category": "Vascular disease",
+    "subCategory": "Venous thromboembolism",
+    "anatomicalSite": "Deep veins, usually of the lower limbs",
+    "etiology": "Venous thrombosis",
+    "description": "A blood clot forming in a deep vein, most commonly in the leg.",
+    "commonSymptoms": [
+      "Leg swelling",
+      "Leg pain",
+      "Tenderness",
+      "Warmth"
+    ],
+    "lessCommonSymptoms": [
+      "Skin discoloration",
+      "Heaviness",
+      "Visible superficial veins"
+    ],
+    "keySymptoms": [
+      "Unilateral leg swelling",
+      "Leg pain or tenderness"
+    ],
+    "riskFactors": [
+      "Recent surgery",
+      "Prolonged immobility",
+      "Cancer",
+      "Pregnancy",
+      "Previous thrombosis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden shortness of breath",
+      "Chest pain",
+      "Coughing blood",
+      "Fainting"
+    ],
+    "whenToSeekCare": "Suspected DVT requires prompt medical assessment because the clot can travel to the lungs."
+  },
+  {
+    "name": "Pulmonary Embolism",
+    "category": "Vascular disease",
+    "subCategory": "Venous thromboembolism",
+    "anatomicalSite": "Pulmonary arteries",
+    "etiology": "Thromboembolic",
+    "description": "A blockage of a pulmonary artery, usually caused by a blood clot that has traveled from a deep vein.",
+    "commonSymptoms": [
+      "Sudden shortness of breath",
+      "Chest pain",
+      "Rapid heart rate"
+    ],
+    "lessCommonSymptoms": [
+      "Cough",
+      "Coughing blood",
+      "Dizziness",
+      "Leg pain or swelling"
+    ],
+    "keySymptoms": [
+      "Sudden unexplained shortness of breath",
+      "Pleuritic chest pain",
+      "Tachycardia"
+    ],
+    "riskFactors": [
+      "Deep vein thrombosis",
+      "Recent surgery",
+      "Prolonged immobility",
+      "Cancer",
+      "Pregnancy"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Fainting",
+      "Low blood pressure",
+      "Severe chest pain"
+    ],
+    "whenToSeekCare": "Suspected pulmonary embolism requires immediate emergency medical assessment."
+  },
+  {
+    "name": "Superficial Thrombophlebitis",
+    "category": "Vascular disease",
+    "subCategory": "Superficial venous disorder",
+    "anatomicalSite": "Superficial veins",
+    "etiology": "Venous inflammation and thrombosis",
+    "description": "Inflammation and clot formation in a superficial vein, commonly affecting the legs.",
+    "commonSymptoms": [
+      "Localized vein pain",
+      "Redness",
+      "Tenderness",
+      "Warmth"
+    ],
+    "lessCommonSymptoms": [
+      "Swelling",
+      "Firm cord-like vein"
+    ],
+    "keySymptoms": [
+      "Tender inflamed superficial vein"
+    ],
+    "riskFactors": [
+      "Varicose veins",
+      "Recent intravenous catheter",
+      "Immobility",
+      "Previous thrombosis"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly spreading swelling",
+      "Severe leg pain",
+      "Shortness of breath"
+    ],
+    "whenToSeekCare": "Medical evaluation may be needed to distinguish superficial thrombophlebitis from DVT."
+  },
+  {
+    "name": "Lymphedema",
+    "category": "Vascular disease",
+    "subCategory": "Lymphatic disorder",
+    "anatomicalSite": "Lymphatic system and affected limbs",
+    "etiology": "Lymphatic dysfunction",
+    "description": "Persistent swelling caused by impaired lymphatic drainage.",
+    "commonSymptoms": [
+      "Limb swelling",
+      "Heaviness",
+      "Tightness of the skin"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced range of motion",
+      "Skin thickening",
+      "Recurrent skin infections"
+    ],
+    "keySymptoms": [
+      "Persistent limb swelling",
+      "Progressive tissue thickening"
+    ],
+    "riskFactors": [
+      "Lymph node surgery",
+      "Cancer treatment",
+      "Parasitic infection",
+      "Congenital lymphatic abnormalities"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly increasing swelling",
+      "Fever",
+      "Redness",
+      "Severe pain"
+    ],
+    "whenToSeekCare": "Persistent or progressive limb swelling should be medically evaluated."
+  },
+  {
+    "name": "Lymphatic Filariasis",
+    "category": "Parasitic disease",
+    "subCategory": "Lymphatic helminth infection",
+    "anatomicalSite": "Lymphatic system",
+    "etiology": "Parasitic",
+    "description": "A mosquito-borne parasitic infection that damages lymphatic vessels and can cause chronic lymphedema.",
+    "commonSymptoms": [
+      "Limb swelling",
+      "Fever",
+      "Lymph node swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Genital swelling",
+      "Skin thickening",
+      "Pain"
+    ],
+    "keySymptoms": [
+      "Chronic limb or genital swelling"
+    ],
+    "riskFactors": [
+      "Mosquito exposure",
+      "Living in endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe swelling",
+      "Secondary bacterial infection",
+      "Severe genital involvement"
+    ],
+    "whenToSeekCare": "Persistent swelling in an endemic area should be medically evaluated."
+  },
+  {
+    "name": "Raynaud Phenomenon",
+    "category": "Vascular disease",
+    "subCategory": "Peripheral vasospastic disorder",
+    "anatomicalSite": "Small arteries of fingers and toes",
+    "etiology": "Vasospasm",
+    "description": "Episodes of reduced blood flow to the fingers or toes triggered by cold or emotional stress.",
+    "commonSymptoms": [
+      "Color changes of fingers or toes",
+      "Numbness",
+      "Cold sensation"
+    ],
+    "lessCommonSymptoms": [
+      "Tingling",
+      "Pain",
+      "Throbbing during rewarming"
+    ],
+    "keySymptoms": [
+      "Episodic color changes triggered by cold or stress"
+    ],
+    "riskFactors": [
+      "Cold exposure",
+      "Connective tissue disease",
+      "Certain medications",
+      "Smoking"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Persistent finger discoloration",
+      "Skin ulcers",
+      "Severe finger pain",
+      "Tissue loss"
+    ],
+    "whenToSeekCare": "Severe, painful, or persistent attacks require medical assessment for an underlying vascular or connective-tissue disorder."
+  },
+  {
+    "name": "Thromboangiitis Obliterans",
+    "category": "Vascular disease",
+    "subCategory": "Inflammatory peripheral vascular disease",
+    "anatomicalSite": "Small and medium arteries and veins of the limbs",
+    "etiology": "Tobacco-associated inflammatory disease",
+    "description": "An inflammatory vascular disease strongly associated with tobacco exposure that can cause limb ischemia.",
+    "commonSymptoms": [
+      "Pain in hands or feet",
+      "Pain with walking",
+      "Cold fingers or toes"
+    ],
+    "lessCommonSymptoms": [
+      "Numbness",
+      "Skin ulcers",
+      "Color changes"
+    ],
+    "keySymptoms": [
+      "Distal limb ischemia",
+      "History of tobacco exposure"
+    ],
+    "riskFactors": [
+      "Tobacco use",
+      "Young age with peripheral ischemic symptoms"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rest pain",
+      "Digital ulcers",
+      "Gangrene",
+      "Severe limb ischemia"
+    ],
+    "whenToSeekCare": "Progressive limb ischemia requires urgent vascular assessment."
+  },
+  {
+    "name": "Vasculitic Ulcer",
+    "category": "Rheumatologic disease",
+    "subCategory": "Vascular inflammatory disorder",
+    "anatomicalSite": "Small and medium blood vessels of the skin",
+    "etiology": "Immune-mediated",
+    "description": "Skin ulceration caused by inflammation and damage to blood vessels, usually as a manifestation of systemic or cutaneous vasculitis.",
+    "commonSymptoms": [
+      "Painful skin lesions",
+      "Skin ulcers",
+      "Purpura"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Joint pain",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Painful purpuric lesions",
+      "Skin ulceration"
+    ],
+    "riskFactors": [
+      "Systemic vasculitis",
+      "Autoimmune disease",
+      "Certain medications",
+      "Infections"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly spreading ulcers",
+      "Severe pain",
+      "Systemic symptoms",
+      "Organ involvement"
+    ],
+    "whenToSeekCare": "Unexplained painful ulcers or purpura require medical evaluation."
+  },
+  {
+    "name": "Portal Hypertension",
+    "category": "Vascular disease",
+    "subCategory": "Portal venous disorder",
+    "anatomicalSite": "Portal venous system",
+    "etiology": "Increased portal vascular resistance",
+    "description": "Abnormally increased pressure within the portal venous system, most commonly due to chronic liver disease.",
+    "commonSymptoms": [
+      "Often asymptomatic initially",
+      "Abdominal swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Enlarged spleen",
+      "Vomiting blood",
+      "Black stools",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Signs of portal hypertension",
+      "Varices",
+      "Ascites"
+    ],
+    "riskFactors": [
+      "Cirrhosis",
+      "Chronic liver disease",
+      "Portal vein thrombosis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black tarry stools",
+      "Severe confusion",
+      "Severe abdominal swelling"
+    ],
+    "whenToSeekCare": "Gastrointestinal bleeding or altered consciousness requires emergency medical care."
+  },
+  {
+    "name": "Portal Vein Thrombosis",
+    "category": "Vascular disease",
+    "subCategory": "Portal venous thrombosis",
+    "anatomicalSite": "Portal vein",
+    "etiology": "Venous thrombosis",
+    "description": "A blood clot within the portal vein that can impair blood flow to the liver and increase portal venous pressure.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "Abdominal pain"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Abdominal swelling",
+      "Gastrointestinal bleeding"
+    ],
+    "keySymptoms": [
+      "Portal venous obstruction",
+      "Abdominal symptoms"
+    ],
+    "riskFactors": [
+      "Cirrhosis",
+      "Abdominal infection",
+      "Abdominal cancer",
+      "Blood clotting disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Gastrointestinal bleeding",
+      "Shock"
+    ],
+    "whenToSeekCare": "Suspected portal vein thrombosis requires medical evaluation."
+  },
+  {
+    "name": "Renal Artery Stenosis",
+    "category": "Vascular disease",
+    "subCategory": "Renal vascular disorder",
+    "anatomicalSite": "Renal arteries",
+    "etiology": "Atherosclerotic or fibromuscular dysplasia",
+    "description": "Narrowing of one or more renal arteries that can reduce kidney blood flow and contribute to hypertension.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "High blood pressure"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced kidney function",
+      "Fluid retention"
+    ],
+    "keySymptoms": [
+      "Difficult-to-control hypertension",
+      "Evidence of reduced renal perfusion"
+    ],
+    "riskFactors": [
+      "Atherosclerosis",
+      "Older age",
+      "Smoking",
+      "Fibromuscular dysplasia"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe hypertension",
+      "Acute kidney dysfunction",
+      "Sudden pulmonary edema"
+    ],
+    "whenToSeekCare": "Resistant hypertension or unexplained deterioration in kidney function should be medically evaluated."
+  },
+  {
+    "name": "Carotid Artery Stenosis",
+    "category": "Vascular disease",
+    "subCategory": "Cerebrovascular arterial disease",
+    "anatomicalSite": "Carotid arteries",
+    "etiology": "Atherosclerotic",
+    "description": "Narrowing of the carotid arteries that can increase the risk of ischemic stroke or transient ischemic attack.",
+    "commonSymptoms": [
+      "Often asymptomatic"
+    ],
+    "lessCommonSymptoms": [
+      "Transient weakness",
+      "Transient speech difficulty",
+      "Temporary vision loss"
+    ],
+    "keySymptoms": [
+      "Transient neurological symptoms",
+      "Carotid bruit may be present"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Diabetes",
+      "Hypertension",
+      "High cholesterol",
+      "Atherosclerosis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden weakness",
+      "Sudden facial droop",
+      "Sudden speech difficulty",
+      "Sudden vision loss"
+    ],
+    "whenToSeekCare": "Any sudden neurological deficit requires emergency assessment."
+  },
+  {
+    "name": "Fibromuscular Dysplasia",
+    "category": "Vascular disease",
+    "subCategory": "Non-atherosclerotic arterial disease",
+    "anatomicalSite": "Renal and carotid arteries",
+    "etiology": "Non-atherosclerotic arterial disorder",
+    "description": "A vascular disorder causing abnormal development of arterial walls, commonly affecting renal and carotid arteries.",
+    "commonSymptoms": [
+      "High blood pressure",
+      "Headache"
+    ],
+    "lessCommonSymptoms": [
+      "Neck pain",
+      "Pulsatile tinnitus",
+      "Dizziness"
+    ],
+    "keySymptoms": [
+      "Hypertension in a relatively young person",
+      "Arterial abnormalities"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe headache",
+      "Stroke-like symptoms",
+      "Severe hypertension"
+    ],
+    "whenToSeekCare": "Suspected arterial disease requires vascular evaluation."
+  }
+]

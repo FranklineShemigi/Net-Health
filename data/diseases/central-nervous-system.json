@@ -1,0 +1,583 @@
+[
+  {
+    "name": "Meningitis",
+    "category": "Neurological disease",
+    "subCategory": "Central nervous system infection",
+    "anatomicalSite": "Meninges of the brain and spinal cord",
+    "etiology": "Viral, bacterial, fungal, or other",
+    "description": "Inflammation of the membranes surrounding the brain and spinal cord, commonly caused by infection.",
+    "commonSymptoms": [
+      "Severe headache",
+      "Fever",
+      "Neck stiffness",
+      "Nausea",
+      "Vomiting",
+      "Sensitivity to light"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Drowsiness",
+      "Seizures",
+      "Rash"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Severe headache",
+      "Neck stiffness"
+    ],
+    "riskFactors": [
+      "Close contact with an infected person",
+      "Immunosuppression",
+      "Lack of vaccination",
+      "Crowded living conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Altered consciousness",
+      "Seizures",
+      "Rapidly worsening headache",
+      "Severe confusion",
+      "Shock",
+      "Non-blanching rash"
+    ],
+    "whenToSeekCare": "Suspected meningitis requires immediate medical assessment because it can progress rapidly and become life-threatening."
+  },
+  {
+    "name": "Encephalitis",
+    "category": "Neurological disease",
+    "subCategory": "Central nervous system inflammation",
+    "anatomicalSite": "Brain",
+    "etiology": "Usually viral, autoimmune, or other",
+    "description": "Inflammation of the brain that may result from infection or an abnormal immune response.",
+    "commonSymptoms": [
+      "Fever",
+      "Headache",
+      "Confusion",
+      "Drowsiness",
+      "Seizures"
+    ],
+    "lessCommonSymptoms": [
+      "Weakness",
+      "Speech difficulties",
+      "Memory problems",
+      "Behavioral changes",
+      "Sensitivity to light"
+    ],
+    "keySymptoms": [
+      "Altered mental status",
+      "Fever",
+      "Headache",
+      "Seizures"
+    ],
+    "riskFactors": [
+      "Viral infections",
+      "Autoimmune disorders",
+      "Immunosuppression",
+      "Exposure to certain mosquito- or tick-borne infections"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Seizures",
+      "Loss of consciousness",
+      "Severe confusion",
+      "Difficulty breathing",
+      "Rapid neurological deterioration"
+    ],
+    "whenToSeekCare": "Suspected encephalitis requires emergency medical assessment."
+  },
+  {
+    "name": "Epilepsy",
+    "category": "Neurological disease",
+    "subCategory": "Seizure disorder",
+    "anatomicalSite": "Brain",
+    "etiology": "Genetic, structural, metabolic, infectious, or unknown",
+    "description": "A neurological disorder characterized by a predisposition to recurrent unprovoked seizures.",
+    "commonSymptoms": [
+      "Recurrent seizures",
+      "Temporary loss of awareness",
+      "Unusual movements",
+      "Temporary confusion"
+    ],
+    "lessCommonSymptoms": [
+      "Sensory disturbances",
+      "Memory problems",
+      "Post-seizure headache",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Recurrent unprovoked seizures",
+      "Temporary alteration of consciousness"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Previous brain injury",
+      "Stroke",
+      "Brain infection",
+      "Brain tumor",
+      "Developmental disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Seizure lasting more than 5 minutes",
+      "Repeated seizures without recovery",
+      "First-ever seizure",
+      "Severe injury during seizure",
+      "Difficulty breathing after seizure"
+    ],
+    "whenToSeekCare": "A first seizure requires medical assessment. Emergency care is required for prolonged or repeated seizures without recovery."
+  },
+  {
+    "name": "Migraine",
+    "category": "Neurological disease",
+    "subCategory": "Primary headache disorder",
+    "anatomicalSite": "Brain and associated nervous system pathways",
+    "etiology": "Neurological",
+    "description": "A recurrent neurological disorder characterized by attacks of headache and associated symptoms.",
+    "commonSymptoms": [
+      "Moderate to severe headache",
+      "Nausea",
+      "Sensitivity to light",
+      "Sensitivity to sound"
+    ],
+    "lessCommonSymptoms": [
+      "Visual aura",
+      "Tingling",
+      "Dizziness",
+      "Vomiting",
+      "Difficulty concentrating"
+    ],
+    "keySymptoms": [
+      "Recurrent headache",
+      "Sensitivity to light or sound",
+      "Nausea"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Hormonal changes",
+      "Sleep disruption",
+      "Stress",
+      "Certain foods or environmental triggers"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden extremely severe headache",
+      "New neurological weakness",
+      "New speech difficulty",
+      "Loss of consciousness",
+      "New headache with fever and neck stiffness"
+    ],
+    "whenToSeekCare": "Seek urgent medical assessment for a sudden severe headache or a new neurological deficit."
+  },
+  {
+    "name": "Ischemic Stroke",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrovascular disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Vascular",
+    "description": "Brain injury caused by interruption of blood flow to part of the brain, usually due to a blood clot or blocked artery.",
+    "commonSymptoms": [
+      "Sudden weakness",
+      "Sudden numbness",
+      "Facial drooping",
+      "Difficulty speaking",
+      "Difficulty walking"
+    ],
+    "lessCommonSymptoms": [
+      "Sudden vision problems",
+      "Dizziness",
+      "Severe headache",
+      "Loss of coordination"
+    ],
+    "keySymptoms": [
+      "Sudden facial weakness",
+      "Sudden arm or leg weakness",
+      "Sudden speech difficulty"
+    ],
+    "riskFactors": [
+      "High blood pressure",
+      "Diabetes",
+      "Smoking",
+      "Atrial fibrillation",
+      "High cholesterol",
+      "Previous stroke"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden weakness or numbness",
+      "Sudden speech difficulty",
+      "Sudden vision loss",
+      "Sudden severe dizziness",
+      "Loss of consciousness"
+    ],
+    "whenToSeekCare": "Suspected stroke is a medical emergency. Emergency services should be contacted immediately."
+  },
+  {
+    "name": "Hemorrhagic Stroke",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrovascular disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Vascular",
+    "description": "A stroke caused by bleeding from a ruptured blood vessel in or around the brain.",
+    "commonSymptoms": [
+      "Sudden severe headache",
+      "Weakness",
+      "Difficulty speaking",
+      "Vomiting",
+      "Loss of consciousness"
+    ],
+    "lessCommonSymptoms": [
+      "Seizures",
+      "Vision problems",
+      "Dizziness",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Sudden severe headache",
+      "Sudden neurological deficit",
+      "Altered consciousness"
+    ],
+    "riskFactors": [
+      "High blood pressure",
+      "Blood-thinning medications",
+      "Brain vascular abnormalities",
+      "Smoking",
+      "Previous stroke"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden severe headache",
+      "Loss of consciousness",
+      "Seizure",
+      "Rapid neurological deterioration",
+      "Repeated vomiting"
+    ],
+    "whenToSeekCare": "Suspected hemorrhagic stroke requires immediate emergency medical assessment."
+  },
+  {
+    "name": "Transient Ischemic Attack",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrovascular disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Vascular",
+    "description": "A temporary episode of neurological dysfunction caused by reduced blood flow to part of the brain without persistent infarction.",
+    "commonSymptoms": [
+      "Sudden weakness",
+      "Sudden numbness",
+      "Difficulty speaking",
+      "Temporary vision loss",
+      "Dizziness"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of coordination",
+      "Facial weakness",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Sudden neurological symptoms",
+      "Symptoms that resolve completely"
+    ],
+    "riskFactors": [
+      "High blood pressure",
+      "Diabetes",
+      "Smoking",
+      "Atrial fibrillation",
+      "High cholesterol"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden weakness",
+      "Sudden speech difficulty",
+      "Sudden vision loss",
+      "Sudden facial drooping"
+    ],
+    "whenToSeekCare": "A suspected TIA requires urgent medical assessment because it can precede a major stroke."
+  },
+  {
+    "name": "Parkinson's Disease",
+    "category": "Neurological disease",
+    "subCategory": "Neurodegenerative disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Neurodegenerative",
+    "description": "A progressive neurological disorder characterized primarily by movement abnormalities associated with loss of dopamine-producing neurons.",
+    "commonSymptoms": [
+      "Resting tremor",
+      "Slowness of movement",
+      "Muscle rigidity",
+      "Balance problems"
+    ],
+    "lessCommonSymptoms": [
+      "Constipation",
+      "Sleep disturbances",
+      "Depression",
+      "Reduced sense of smell",
+      "Speech changes"
+    ],
+    "keySymptoms": [
+      "Resting tremor",
+      "Bradykinesia",
+      "Rigidity"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain environmental exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Frequent falls",
+      "Severe swallowing difficulty",
+      "Marked confusion",
+      "Sudden major functional decline"
+    ],
+    "whenToSeekCare": "Progressive movement symptoms should be evaluated by a healthcare professional."
+  },
+  {
+    "name": "Alzheimer's Disease",
+    "category": "Neurological disease",
+    "subCategory": "Neurodegenerative disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Neurodegenerative",
+    "description": "A progressive neurodegenerative disorder and common cause of dementia, characterized by progressive cognitive and functional decline.",
+    "commonSymptoms": [
+      "Memory loss",
+      "Difficulty with problem solving",
+      "Difficulty performing familiar tasks",
+      "Confusion about time or place"
+    ],
+    "lessCommonSymptoms": [
+      "Personality changes",
+      "Language difficulties",
+      "Wandering",
+      "Mood changes"
+    ],
+    "keySymptoms": [
+      "Progressive memory impairment",
+      "Cognitive decline",
+      "Declining ability to perform daily activities"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Cardiovascular risk factors",
+      "Previous brain injury"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly progressive confusion",
+      "Sudden neurological changes",
+      "Loss of ability to perform basic activities",
+      "Safety-threatening behavior"
+    ],
+    "whenToSeekCare": "Progressive cognitive changes should be medically evaluated to determine the cause."
+  },
+  {
+    "name": "Multiple Sclerosis",
+    "category": "Neurological disease",
+    "subCategory": "Demyelinating disease",
+    "anatomicalSite": "Brain and spinal cord",
+    "etiology": "Autoimmune",
+    "description": "A chronic immune-mediated disease in which the immune system damages myelin and other structures in the central nervous system.",
+    "commonSymptoms": [
+      "Vision problems",
+      "Numbness",
+      "Weakness",
+      "Balance problems",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle stiffness",
+      "Bladder problems",
+      "Speech difficulties",
+      "Cognitive changes",
+      "Tremor"
+    ],
+    "keySymptoms": [
+      "Neurological symptoms separated in time and location",
+      "Visual disturbances",
+      "Numbness or weakness"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain genetic factors",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe weakness",
+      "Major vision loss",
+      "Severe difficulty walking",
+      "New loss of bladder or bowel control"
+    ],
+    "whenToSeekCare": "New or worsening neurological symptoms require medical assessment."
+  },
+  {
+    "name": "Brain Tumor",
+    "category": "Neoplastic disease",
+    "subCategory": "Central nervous system neoplasm",
+    "anatomicalSite": "Brain",
+    "etiology": "Neoplastic",
+    "description": "An abnormal growth of cells within or around the brain that may be benign or malignant.",
+    "commonSymptoms": [
+      "Headache",
+      "Seizures",
+      "Nausea",
+      "Vomiting",
+      "Changes in vision"
+    ],
+    "lessCommonSymptoms": [
+      "Personality changes",
+      "Memory problems",
+      "Speech difficulties",
+      "Weakness",
+      "Balance problems"
+    ],
+    "keySymptoms": [
+      "New or progressively worsening neurological symptoms",
+      "Seizures",
+      "Persistent headaches"
+    ],
+    "riskFactors": [
+      "Previous radiation exposure",
+      "Certain inherited genetic conditions",
+      "Family history of specific tumor syndromes"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "First seizure",
+      "Progressive weakness",
+      "Loss of consciousness",
+      "Persistent vomiting",
+      "Rapidly worsening neurological symptoms"
+    ],
+    "whenToSeekCare": "New seizures or progressive neurological symptoms require prompt medical assessment."
+  },
+  {
+    "name": "Traumatic Brain Injury",
+    "category": "Neurological disease",
+    "subCategory": "Central nervous system trauma",
+    "anatomicalSite": "Brain",
+    "etiology": "Traumatic",
+    "description": "Brain dysfunction or injury resulting from an external force such as a fall, road traffic collision, or blow to the head.",
+    "commonSymptoms": [
+      "Headache",
+      "Dizziness",
+      "Confusion",
+      "Memory problems",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Loss of consciousness",
+      "Seizures",
+      "Vision problems",
+      "Behavioral changes"
+    ],
+    "keySymptoms": [
+      "History of head trauma",
+      "Headache",
+      "Confusion",
+      "Memory impairment"
+    ],
+    "riskFactors": [
+      "Road traffic accidents",
+      "Falls",
+      "Contact sports",
+      "Physical assault",
+      "Occupational hazards"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Repeated vomiting",
+      "Loss of consciousness",
+      "Seizure",
+      "Worsening headache",
+      "Unequal pupils",
+      "Increasing confusion",
+      "Weakness"
+    ],
+    "whenToSeekCare": "Significant head injury or any warning sign requires urgent medical assessment."
+  },
+  {
+    "name": "Spinal Cord Injury",
+    "category": "Neurological disease",
+    "subCategory": "Central nervous system trauma",
+    "anatomicalSite": "Spinal cord",
+    "etiology": "Traumatic",
+    "description": "Damage to the spinal cord that can cause temporary or permanent impairment of movement, sensation, or autonomic function.",
+    "commonSymptoms": [
+      "Weakness",
+      "Numbness",
+      "Back or neck pain",
+      "Loss of movement",
+      "Changes in sensation"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of bladder control",
+      "Loss of bowel control",
+      "Difficulty breathing",
+      "Abnormal blood pressure"
+    ],
+    "keySymptoms": [
+      "Weakness or paralysis",
+      "Loss of sensation",
+      "Spinal pain after trauma"
+    ],
+    "riskFactors": [
+      "Road traffic accidents",
+      "Falls",
+      "Sports injuries",
+      "Violence"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "New paralysis",
+      "Loss of sensation",
+      "Difficulty breathing",
+      "Loss of bladder or bowel control",
+      "Severe neck or back pain after trauma"
+    ],
+    "whenToSeekCare": "Suspected spinal cord injury requires immediate emergency medical assessment and spinal protection."
+  },
+  {
+    "name": "Hydrocephalus",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrospinal fluid disorder",
+    "anatomicalSite": "Brain and ventricular system",
+    "etiology": "Obstructive, impaired absorption, congenital, or other",
+    "description": "Abnormal accumulation of cerebrospinal fluid within the brain's ventricular system.",
+    "commonSymptoms": [
+      "Headache",
+      "Nausea",
+      "Vomiting",
+      "Balance problems",
+      "Cognitive changes"
+    ],
+    "lessCommonSymptoms": [
+      "Vision problems",
+      "Urinary problems",
+      "Drowsiness",
+      "Difficulty walking"
+    ],
+    "keySymptoms": [
+      "Progressive headache",
+      "Gait disturbance",
+      "Cognitive changes"
+    ],
+    "riskFactors": [
+      "Brain tumors",
+      "Brain hemorrhage",
+      "Meningitis",
+      "Congenital abnormalities",
+      "Head injury"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Reduced consciousness",
+      "Repeated vomiting",
+      "Rapidly worsening headache",
+      "Seizures",
+      "Sudden neurological deterioration"
+    ],
+    "whenToSeekCare": "Suspected hydrocephalus requires medical assessment because increased intracranial pressure can become life-threatening."
+  }
+]

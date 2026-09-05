@@ -1,0 +1,468 @@
+[
+  {
+    "name": "Dental Caries",
+    "category": "Oral and dental disease",
+    "subCategory": "Tooth disorder",
+    "anatomicalSite": "Teeth",
+    "etiology": "Infectious and multifactorial",
+    "description": "Progressive damage to tooth enamel and deeper tooth structures caused by acid-producing bacteria and other contributing factors.",
+    "commonSymptoms": [
+      "Toothache",
+      "Tooth sensitivity",
+      "Visible tooth cavities"
+    ],
+    "lessCommonSymptoms": [
+      "Pain when eating sweet foods",
+      "Pain with hot or cold foods",
+      "Tooth discoloration"
+    ],
+    "keySymptoms": [
+      "Tooth pain",
+      "Tooth sensitivity",
+      "Visible cavity"
+    ],
+    "riskFactors": [
+      "Poor oral hygiene",
+      "Frequent sugary food or drink consumption",
+      "Inadequate fluoride exposure",
+      "Dry mouth"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe persistent tooth pain",
+      "Facial swelling",
+      "Fever",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "See a dental professional for persistent tooth pain, sensitivity, or suspected cavities."
+  },
+  {
+    "name": "Gingivitis",
+    "category": "Oral and dental disease",
+    "subCategory": "Gum disorder",
+    "anatomicalSite": "Gingiva",
+    "etiology": "Inflammatory, usually plaque-related",
+    "description": "Inflammation of the gums, most commonly caused by accumulation of dental plaque.",
+    "commonSymptoms": [
+      "Red gums",
+      "Swollen gums",
+      "Bleeding gums"
+    ],
+    "lessCommonSymptoms": [
+      "Bad breath",
+      "Gum tenderness"
+    ],
+    "keySymptoms": [
+      "Bleeding gums",
+      "Red or swollen gums"
+    ],
+    "riskFactors": [
+      "Poor oral hygiene",
+      "Smoking",
+      "Diabetes",
+      "Hormonal changes"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Persistent gum bleeding",
+      "Severe gum swelling",
+      "Loose teeth"
+    ],
+    "whenToSeekCare": "Seek dental evaluation if gum inflammation or bleeding persists despite improved oral hygiene."
+  },
+  {
+    "name": "Periodontitis",
+    "category": "Oral and dental disease",
+    "subCategory": "Periodontal disease",
+    "anatomicalSite": "Gingiva and supporting tissues of the teeth",
+    "etiology": "Inflammatory and infectious",
+    "description": "A chronic inflammatory disease affecting the tissues that support the teeth and potentially leading to tooth loss.",
+    "commonSymptoms": [
+      "Bleeding gums",
+      "Swollen gums",
+      "Bad breath",
+      "Receding gums"
+    ],
+    "lessCommonSymptoms": [
+      "Loose teeth",
+      "Pain when chewing",
+      "Pus around the gums"
+    ],
+    "keySymptoms": [
+      "Persistent gum bleeding",
+      "Gum recession",
+      "Loose teeth"
+    ],
+    "riskFactors": [
+      "Poor oral hygiene",
+      "Smoking",
+      "Diabetes",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly loosening teeth",
+      "Facial swelling",
+      "Severe gum infection",
+      "Fever"
+    ],
+    "whenToSeekCare": "Dental assessment is recommended for persistent bleeding, gum recession, or loose teeth."
+  },
+  {
+    "name": "Dental Abscess",
+    "category": "Infectious disease",
+    "subCategory": "Oral infection",
+    "anatomicalSite": "Tooth or surrounding dental tissues",
+    "etiology": "Bacterial",
+    "description": "A localized collection of pus caused by bacterial infection of a tooth or surrounding tissues.",
+    "commonSymptoms": [
+      "Severe toothache",
+      "Gum swelling",
+      "Facial swelling",
+      "Tooth sensitivity"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Bad taste in the mouth",
+      "Difficulty chewing"
+    ],
+    "keySymptoms": [
+      "Severe tooth pain",
+      "Localized swelling",
+      "Pus formation"
+    ],
+    "riskFactors": [
+      "Untreated dental caries",
+      "Periodontal disease",
+      "Dental trauma",
+      "Poor oral hygiene"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Facial swelling",
+      "Difficulty breathing",
+      "Difficulty swallowing",
+      "Fever",
+      "Rapidly spreading swelling"
+    ],
+    "whenToSeekCare": "Urgent dental or medical assessment is required for significant swelling, fever, or difficulty swallowing or breathing."
+  },
+  {
+    "name": "Oral Thrush",
+    "category": "Infectious disease",
+    "subCategory": "Oral fungal infection",
+    "anatomicalSite": "Oral cavity",
+    "etiology": "Fungal",
+    "description": "A fungal infection of the mouth, most commonly caused by Candida species.",
+    "commonSymptoms": [
+      "White patches in the mouth",
+      "Sore mouth",
+      "Burning sensation"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Loss of taste",
+      "Cracked corners of the mouth"
+    ],
+    "keySymptoms": [
+      "Creamy white oral patches",
+      "Oral soreness"
+    ],
+    "riskFactors": [
+      "Recent antibiotic use",
+      "Diabetes",
+      "Dentures",
+      "Immune suppression",
+      "Inhaled corticosteroid use"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Persistent infection",
+      "Recurrent episodes"
+    ],
+    "whenToSeekCare": "Seek medical or dental assessment for persistent, recurrent, or extensive oral thrush."
+  },
+  {
+    "name": "Oral Herpes",
+    "category": "Infectious disease",
+    "subCategory": "Oral viral infection",
+    "anatomicalSite": "Lips and oral cavity",
+    "etiology": "Viral",
+    "description": "An oral infection caused by herpes simplex virus, commonly producing painful blisters or ulcers around the lips and mouth.",
+    "commonSymptoms": [
+      "Painful blisters",
+      "Mouth or lip sores",
+      "Burning or tingling"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Swollen gums",
+      "Difficulty eating"
+    ],
+    "keySymptoms": [
+      "Grouped painful blisters or ulcers",
+      "Tingling before lesions appear"
+    ],
+    "riskFactors": [
+      "Exposure to herpes simplex virus",
+      "Close physical contact",
+      "Immune suppression"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Eye involvement",
+      "Severe dehydration",
+      "Extensive lesions",
+      "Severe immune suppression"
+    ],
+    "whenToSeekCare": "Seek medical care for severe, recurrent, extensive, or eye-associated lesions."
+  },
+  {
+    "name": "Oral Candidiasis",
+    "category": "Infectious disease",
+    "subCategory": "Oral fungal infection",
+    "anatomicalSite": "Oral cavity",
+    "etiology": "Fungal",
+    "description": "A Candida infection affecting the mucous membranes of the mouth.",
+    "commonSymptoms": [
+      "White patches",
+      "Mouth soreness",
+      "Burning sensation"
+    ],
+    "lessCommonSymptoms": [
+      "Altered taste",
+      "Difficulty eating",
+      "Difficulty swallowing"
+    ],
+    "keySymptoms": [
+      "White plaques in the mouth",
+      "Oral discomfort"
+    ],
+    "riskFactors": [
+      "Antibiotic use",
+      "Dentures",
+      "Diabetes",
+      "Immune suppression"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Persistent symptoms",
+      "Recurrent infection"
+    ],
+    "whenToSeekCare": "Seek medical or dental evaluation when symptoms persist or repeatedly recur."
+  },
+  {
+    "name": "Oral Ulcers",
+    "category": "Oral and dental disease",
+    "subCategory": "Oral mucosal disorder",
+    "anatomicalSite": "Oral mucosa",
+    "etiology": "Inflammatory, traumatic, infectious, or systemic",
+    "description": "Open sores affecting the mucous membranes of the mouth.",
+    "commonSymptoms": [
+      "Painful mouth sores",
+      "Burning sensation",
+      "Difficulty eating"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Swollen lymph nodes"
+    ],
+    "keySymptoms": [
+      "Painful ulcerated areas inside the mouth"
+    ],
+    "riskFactors": [
+      "Local trauma",
+      "Stress",
+      "Nutritional deficiencies",
+      "Certain systemic diseases"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Ulcer lasting more than two weeks",
+      "Large or multiple ulcers",
+      "Unexplained weight loss",
+      "Neck swelling"
+    ],
+    "whenToSeekCare": "Seek professional evaluation for persistent, recurrent, unusually large, or unexplained oral ulcers."
+  },
+  {
+    "name": "Halitosis",
+    "category": "Oral and dental disease",
+    "subCategory": "Oral hygiene disorder",
+    "anatomicalSite": "Oral cavity",
+    "etiology": "Multifactorial",
+    "description": "Persistent unpleasant odor from the mouth, commonly associated with oral bacteria, gum disease, or other underlying conditions.",
+    "commonSymptoms": [
+      "Persistent bad breath",
+      "Unpleasant taste"
+    ],
+    "lessCommonSymptoms": [
+      "Dry mouth",
+      "Coated tongue"
+    ],
+    "keySymptoms": [
+      "Persistent unpleasant breath odor"
+    ],
+    "riskFactors": [
+      "Poor oral hygiene",
+      "Gum disease",
+      "Dry mouth",
+      "Smoking",
+      "Certain foods"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Persistent unexplained halitosis",
+      "Oral ulcers",
+      "Bleeding gums",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "Dental assessment is recommended when bad breath persists despite good oral hygiene."
+  },
+  {
+    "name": "Bruxism",
+    "category": "Oral and dental disease",
+    "subCategory": "Temporomandibular and jaw disorder",
+    "anatomicalSite": "Teeth and jaw muscles",
+    "etiology": "Multifactorial",
+    "description": "Repeated clenching or grinding of the teeth, often occurring during sleep.",
+    "commonSymptoms": [
+      "Teeth grinding",
+      "Jaw pain",
+      "Tooth wear"
+    ],
+    "lessCommonSymptoms": [
+      "Morning headache",
+      "Facial muscle pain",
+      "Tooth sensitivity"
+    ],
+    "keySymptoms": [
+      "Teeth grinding or clenching",
+      "Jaw discomfort",
+      "Abnormal tooth wear"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Anxiety",
+      "Sleep disorders",
+      "Certain medications"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe tooth damage",
+      "Persistent jaw pain",
+      "Difficulty opening the mouth"
+    ],
+    "whenToSeekCare": "Seek dental assessment for persistent grinding, tooth damage, or jaw pain."
+  },
+  {
+    "name": "Temporomandibular Disorder",
+    "category": "Oral and dental disease",
+    "subCategory": "Jaw joint disorder",
+    "anatomicalSite": "Temporomandibular joint and jaw muscles",
+    "etiology": "Multifactorial",
+    "description": "A group of disorders affecting the temporomandibular joint and muscles responsible for jaw movement.",
+    "commonSymptoms": [
+      "Jaw pain",
+      "Clicking or popping of the jaw",
+      "Difficulty opening the mouth"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Ear discomfort",
+      "Facial pain"
+    ],
+    "keySymptoms": [
+      "Jaw pain",
+      "Pain or limitation with jaw movement",
+      "Jaw clicking"
+    ],
+    "riskFactors": [
+      "Bruxism",
+      "Jaw injury",
+      "Stress",
+      "Arthritis"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Jaw locking",
+      "Severe swelling",
+      "Inability to open or close the mouth"
+    ],
+    "whenToSeekCare": "Seek dental or medical evaluation for persistent jaw pain, locking, or significant difficulty opening the mouth."
+  },
+  {
+    "name": "Cleft Lip and Palate",
+    "category": "Congenital disease",
+    "subCategory": "Craniofacial disorder",
+    "anatomicalSite": "Lip and palate",
+    "etiology": "Congenital and multifactorial",
+    "description": "A congenital condition in which the tissues of the lip and/or palate do not completely fuse during fetal development.",
+    "commonSymptoms": [
+      "Opening in the lip",
+      "Opening in the palate",
+      "Feeding difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Speech difficulties",
+      "Dental abnormalities",
+      "Recurrent ear infections"
+    ],
+    "keySymptoms": [
+      "Cleft of the lip and/or palate"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain maternal exposures",
+      "Some genetic conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe feeding difficulty",
+      "Breathing problems",
+      "Poor weight gain"
+    ],
+    "whenToSeekCare": "Early multidisciplinary assessment is recommended for feeding, hearing, dental, and surgical management."
+  },
+  {
+    "name": "Oral Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Oral malignancy",
+    "anatomicalSite": "Oral cavity",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising in tissues of the mouth, including the lips, tongue, gums, cheeks, and other oral structures.",
+    "commonSymptoms": [
+      "Persistent mouth sore",
+      "Mouth lump",
+      "Unexplained oral pain"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Difficulty speaking",
+      "Loose teeth",
+      "Neck swelling"
+    ],
+    "keySymptoms": [
+      "Persistent oral ulcer or lesion",
+      "Unexplained lump",
+      "Persistent oral pain"
+    ],
+    "riskFactors": [
+      "Tobacco use",
+      "Alcohol use",
+      "Human papillomavirus infection",
+      "Sun exposure for lip cancer"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Oral lesion lasting more than two weeks",
+      "Unexplained bleeding",
+      "Neck lump",
+      "Difficulty swallowing",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent or unexplained oral lesions should be evaluated promptly by a dental or medical professional."
+  }
+]

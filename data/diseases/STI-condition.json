@@ -1,0 +1,365 @@
+[
+  {
+    "name": "Chlamydia",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital tract, rectum, and throat",
+    "etiology": "Bacterial",
+    "description": "A common sexually transmitted infection caused by Chlamydia trachomatis.",
+    "commonSymptoms": [
+      "Painful urination",
+      "Abnormal genital discharge",
+      "Pelvic pain"
+    ],
+    "lessCommonSymptoms": [
+      "Testicular pain",
+      "Rectal pain",
+      "Rectal discharge",
+      "Sore throat"
+    ],
+    "keySymptoms": [
+      "Abnormal genital discharge",
+      "Painful urination"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Multiple sexual partners",
+      "Previous STI",
+      "Sexual contact with an infected partner"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "Fever",
+      "Testicular swelling or severe pain"
+    ],
+    "whenToSeekCare": "Seek medical evaluation and testing when symptoms occur or after potential exposure to chlamydia."
+  },
+  {
+    "name": "Gonorrhea",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital tract, rectum, throat, and eyes",
+    "etiology": "Bacterial",
+    "description": "A sexually transmitted infection caused by Neisseria gonorrhoeae.",
+    "commonSymptoms": [
+      "Painful urination",
+      "Genital discharge",
+      "Pelvic pain"
+    ],
+    "lessCommonSymptoms": [
+      "Rectal discharge",
+      "Rectal pain",
+      "Sore throat",
+      "Testicular pain"
+    ],
+    "keySymptoms": [
+      "Purulent genital discharge",
+      "Painful urination"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Multiple sexual partners",
+      "Previous STI",
+      "Sexual contact with an infected partner"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "Fever",
+      "Joint pain with fever",
+      "Eye pain or vision changes"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation and testing when gonorrhea is suspected."
+  },
+  {
+    "name": "Syphilis",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Skin, mucous membranes, nervous system, cardiovascular system, and multiple organs",
+    "etiology": "Bacterial",
+    "description": "A sexually transmitted infection caused by Treponema pallidum that progresses through distinct clinical stages if untreated.",
+    "commonSymptoms": [
+      "Painless genital ulcer",
+      "Skin rash",
+      "Swollen lymph nodes"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Fatigue",
+      "Sore throat",
+      "Headache",
+      "Muscle aches"
+    ],
+    "keySymptoms": [
+      "Painless ulcer",
+      "Characteristic rash involving the palms or soles"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Multiple sexual partners",
+      "Previous STI",
+      "Sexual contact with an infected partner"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vision changes",
+      "Hearing changes",
+      "Severe headache",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek medical testing and treatment promptly when syphilis is suspected or exposure has occurred."
+  },
+  {
+    "name": "Trichomoniasis",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Vagina, vulva, urethra, and penis",
+    "etiology": "Parasitic",
+    "description": "A sexually transmitted infection caused by the parasite Trichomonas vaginalis.",
+    "commonSymptoms": [
+      "Genital itching",
+      "Genital irritation",
+      "Abnormal vaginal discharge",
+      "Painful urination"
+    ],
+    "lessCommonSymptoms": [
+      "Genital redness",
+      "Discomfort during sexual intercourse",
+      "Penile discharge"
+    ],
+    "keySymptoms": [
+      "Genital irritation",
+      "Abnormal genital discharge"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Multiple sexual partners",
+      "Previous STI"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "Fever",
+      "Pregnancy with significant symptoms"
+    ],
+    "whenToSeekCare": "Seek testing and treatment when symptoms occur or after exposure to an infected partner."
+  },
+  {
+    "name": "Genital Herpes",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital and perianal skin and mucous membranes",
+    "etiology": "Viral",
+    "description": "A sexually transmitted infection caused primarily by herpes simplex virus type 2 or type 1.",
+    "commonSymptoms": [
+      "Painful genital blisters",
+      "Genital ulcers",
+      "Itching",
+      "Burning"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Headache",
+      "Painful urination",
+      "Swollen lymph nodes"
+    ],
+    "keySymptoms": [
+      "Painful grouped blisters",
+      "Painful genital ulcers"
+    ],
+    "riskFactors": [
+      "Sexual contact with an infected person",
+      "Multiple sexual partners",
+      "Previous exposure to herpes simplex virus"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe widespread lesions",
+      "Difficulty urinating",
+      "Neurological symptoms",
+      "Eye involvement"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for new genital blisters or ulcers, particularly during a first episode."
+  },
+  {
+    "name": "Human Papillomavirus Infection",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital tract, anus, mouth, and throat",
+    "etiology": "Viral",
+    "description": "A common viral infection transmitted through intimate skin-to-skin and sexual contact; some types cause genital warts while others can cause cancers.",
+    "commonSymptoms": [
+      "Often no symptoms",
+      "Genital warts"
+    ],
+    "lessCommonSymptoms": [
+      "Anal warts",
+      "Oral or throat lesions"
+    ],
+    "keySymptoms": [
+      "Usually asymptomatic",
+      "Genital warts in some infections"
+    ],
+    "riskFactors": [
+      "Sexual contact",
+      "Multiple sexual partners",
+      "Unvaccinated status",
+      "Smoking"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Persistent genital lesions",
+      "Abnormal cervical screening results",
+      "Unexplained bleeding"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent genital lesions and follow recommended HPV vaccination and screening programs."
+  },
+  {
+    "name": "HIV Infection",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Immune system and multiple organs",
+    "etiology": "Viral",
+    "description": "A chronic viral infection caused by human immunodeficiency virus that progressively damages the immune system without effective treatment.",
+    "commonSymptoms": [
+      "Fever",
+      "Fatigue",
+      "Swollen lymph nodes",
+      "Sore throat",
+      "Skin rash"
+    ],
+    "lessCommonSymptoms": [
+      "Night sweats",
+      "Weight loss",
+      "Recurrent infections",
+      "Chronic diarrhea"
+    ],
+    "keySymptoms": [
+      "May be asymptomatic",
+      "Flu-like illness during acute infection",
+      "Recurrent infections in advanced disease"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Sharing contaminated needles",
+      "Exposure to infected blood",
+      "Perinatal transmission"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe or recurrent infections",
+      "Rapid unexplained weight loss",
+      "Severe persistent diarrhea",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek HIV testing after a potential exposure and medical care for symptoms suggestive of HIV infection."
+  },
+  {
+    "name": "Chancroid",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital skin and mucous membranes",
+    "etiology": "Bacterial",
+    "description": "A sexually transmitted bacterial infection caused by Haemophilus ducreyi that produces painful genital ulcers.",
+    "commonSymptoms": [
+      "Painful genital ulcers",
+      "Tender swollen lymph nodes"
+    ],
+    "lessCommonSymptoms": [
+      "Groin swelling",
+      "Ulcer drainage"
+    ],
+    "keySymptoms": [
+      "Painful genital ulcer",
+      "Tender inguinal lymph nodes"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Sexual contact with an infected partner",
+      "Multiple sexual partners"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly worsening genital ulcers",
+      "Severe groin swelling",
+      "Fever"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for painful genital ulcers or swollen groin lymph nodes."
+  },
+  {
+    "name": "Lymphogranuloma Venereum",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection",
+    "anatomicalSite": "Genital tract, rectum, and lymphatic system",
+    "etiology": "Bacterial",
+    "description": "A sexually transmitted infection caused by specific invasive strains of Chlamydia trachomatis.",
+    "commonSymptoms": [
+      "Genital ulcer or lesion",
+      "Swollen lymph nodes",
+      "Rectal pain"
+    ],
+    "lessCommonSymptoms": [
+      "Rectal bleeding",
+      "Rectal discharge",
+      "Fever",
+      "Pelvic pain"
+    ],
+    "keySymptoms": [
+      "Tender lymph node swelling",
+      "Proctitis symptoms"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Sexual contact with an infected partner",
+      "Multiple sexual partners"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe rectal pain",
+      "Rectal bleeding",
+      "Severe lymph node swelling"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation for persistent genital lesions, rectal symptoms, or unexplained groin swelling."
+  },
+  {
+    "name": "Pelvic Inflammatory Disease",
+    "category": "Infectious disease",
+    "subCategory": "Sexually transmitted infection complication",
+    "anatomicalSite": "Uterus, fallopian tubes, ovaries, and pelvic structures",
+    "etiology": "Usually ascending bacterial infection, commonly associated with Chlamydia trachomatis or Neisseria gonorrhoeae",
+    "description": "An infection and inflammation of the upper female reproductive tract that can develop as a complication of untreated sexually transmitted infections.",
+    "commonSymptoms": [
+      "Lower abdominal pain",
+      "Pelvic pain",
+      "Abnormal vaginal discharge",
+      "Pain during sexual intercourse",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Abnormal vaginal bleeding",
+      "Painful urination",
+      "Nausea",
+      "Vomiting"
+    ],
+    "keySymptoms": [
+      "Lower abdominal or pelvic pain",
+      "Abnormal genital discharge",
+      "Cervical or pelvic tenderness"
+    ],
+    "riskFactors": [
+      "Untreated chlamydia",
+      "Untreated gonorrhea",
+      "Multiple sexual partners",
+      "Previous pelvic inflammatory disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "High fever",
+      "Vomiting",
+      "Pregnancy with pelvic pain"
+    ],
+    "whenToSeekCare": "Seek prompt medical assessment for pelvic pain, abnormal discharge, or fever because untreated pelvic inflammatory disease can cause serious reproductive complications."
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "name": "Gastritis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Stomach disorder",
+    "anatomicalSite": "Stomach",
+    "etiology": "Inflammatory",
+    "description": "Inflammation of the stomach lining that may be acute or chronic.",
+    "commonSymptoms": [
+      "Upper abdominal pain",
+      "Nausea",
+      "Vomiting",
+      "Indigestion",
+      "Bloating",
+      "Loss of appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting blood",
+      "Black stools",
+      "Early satiety"
+    ],
+    "keySymptoms": [
+      "Upper abdominal discomfort",
+      "Nausea",
+      "Indigestion"
+    ],
+    "riskFactors": [
+      "Helicobacter pylori infection",
+      "Long-term NSAID use",
+      "Heavy alcohol use",
+      "Severe physical stress",
+      "Autoimmune disease"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black or tarry stools",
+      "Severe persistent abdominal pain",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Seek medical care if symptoms persist, worsen, or are accompanied by bleeding, severe pain, or unexplained weight loss."
+  },
+  {
+    "name": "Peptic Ulcer Disease",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Stomach disorder",
+    "anatomicalSite": "Stomach or duodenum",
+    "etiology": "Infectious, medication-related, or other",
+    "description": "An open sore that develops in the lining of the stomach or upper small intestine.",
+    "commonSymptoms": [
+      "Burning upper abdominal pain",
+      "Indigestion",
+      "Bloating",
+      "Nausea",
+      "Feeling full quickly"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Loss of appetite",
+      "Unexplained weight loss"
+    ],
+    "keySymptoms": [
+      "Burning upper abdominal pain",
+      "Recurrent indigestion"
+    ],
+    "riskFactors": [
+      "Helicobacter pylori infection",
+      "NSAID use",
+      "Previous peptic ulcer",
+      "Smoking"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black stools",
+      "Sudden severe abdominal pain",
+      "Fainting or severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent ulcer-like symptoms. Emergency care is required if there are signs of bleeding or perforation."
+  },
+  {
+    "name": "Helicobacter pylori Infection",
+    "category": "Infectious disease",
+    "subCategory": "Stomach infection",
+    "anatomicalSite": "Stomach",
+    "etiology": "Bacterial",
+    "description": "A bacterial infection of the stomach lining that can cause gastritis and peptic ulcers.",
+    "commonSymptoms": [
+      "Upper abdominal discomfort",
+      "Bloating",
+      "Nausea",
+      "Indigestion",
+      "Frequent belching"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of appetite",
+      "Unintentional weight loss",
+      "Vomiting"
+    ],
+    "keySymptoms": [
+      "Persistent indigestion",
+      "Upper abdominal discomfort"
+    ],
+    "riskFactors": [
+      "Household exposure",
+      "Crowded living conditions",
+      "Poor sanitation",
+      "Contaminated food or water"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black stools",
+      "Severe abdominal pain",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms or suspected H. pylori infection, especially when ulcer symptoms or warning signs are present."
+  },
+  {
+    "name": "Gastroenteritis",
+    "category": "Infectious disease",
+    "subCategory": "Gastrointestinal infection",
+    "anatomicalSite": "Stomach and intestines",
+    "etiology": "Viral, bacterial, or parasitic",
+    "description": "Inflammation and infection of the stomach and intestines, commonly causing vomiting and diarrhea.",
+    "commonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Abdominal cramps",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Body aches",
+      "Loss of appetite"
+    ],
+    "keySymptoms": [
+      "Vomiting",
+      "Diarrhea",
+      "Abdominal cramps"
+    ],
+    "riskFactors": [
+      "Contaminated food or water",
+      "Contact with an infected person",
+      "Poor hand hygiene",
+      "Travel"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe dehydration",
+      "Blood in stool",
+      "Persistent vomiting",
+      "Severe abdominal pain",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Seek care if symptoms are severe, persistent, or associated with dehydration, blood in stool, or severe abdominal pain."
+  },
+  {
+    "name": "Gastroesophageal Reflux Disease",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Upper gastrointestinal disorder",
+    "anatomicalSite": "Esophagus and stomach",
+    "etiology": "Functional or structural",
+    "description": "A chronic condition in which stomach contents repeatedly flow back into the esophagus.",
+    "commonSymptoms": [
+      "Heartburn",
+      "Acid regurgitation",
+      "Chest discomfort",
+      "Difficulty swallowing"
+    ],
+    "lessCommonSymptoms": [
+      "Chronic cough",
+      "Hoarseness",
+      "Sore throat",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Heartburn",
+      "Acid regurgitation"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Pregnancy",
+      "Smoking",
+      "Large meals",
+      "Certain foods",
+      "Hiatal hernia"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Painful swallowing",
+      "Vomiting blood",
+      "Unexplained weight loss",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when reflux is frequent, persistent, or associated with difficulty swallowing, bleeding, weight loss, or persistent vomiting."
+  },
+  {
+    "name": "Functional Dyspepsia",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Functional stomach disorder",
+    "anatomicalSite": "Upper gastrointestinal tract",
+    "etiology": "Functional",
+    "description": "Persistent or recurrent indigestion symptoms without an identifiable structural cause.",
+    "commonSymptoms": [
+      "Upper abdominal discomfort",
+      "Bloating",
+      "Early fullness",
+      "Belching",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Heartburn",
+      "Loss of appetite"
+    ],
+    "keySymptoms": [
+      "Persistent indigestion",
+      "Early fullness",
+      "Upper abdominal discomfort"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Anxiety",
+      "Previous gastrointestinal infection",
+      "Certain foods"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Unexplained weight loss",
+      "Gastrointestinal bleeding",
+      "Persistent vomiting",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when indigestion is persistent, recurrent, or associated with warning signs."
+  },
+  {
+    "name": "Gastroparesis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Stomach motility disorder",
+    "anatomicalSite": "Stomach",
+    "etiology": "Neurological, metabolic, medication-related, or other",
+    "description": "Delayed emptying of stomach contents without a mechanical obstruction.",
+    "commonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Early satiety",
+      "Bloating",
+      "Upper abdominal pain"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of appetite",
+      "Weight loss",
+      "Heartburn",
+      "Blood glucose fluctuations"
+    ],
+    "keySymptoms": [
+      "Early satiety",
+      "Nausea",
+      "Vomiting",
+      "Delayed gastric emptying"
+    ],
+    "riskFactors": [
+      "Diabetes",
+      "Previous stomach surgery",
+      "Certain medications",
+      "Neurological disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Persistent vomiting",
+      "Severe dehydration",
+      "Significant weight loss",
+      "Vomiting blood"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when symptoms are persistent or interfere with eating and hydration."
+  },
+  {
+    "name": "Hiatal Hernia",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Structural upper gastrointestinal disorder",
+    "anatomicalSite": "Stomach and diaphragm",
+    "etiology": "Structural",
+    "description": "A condition in which part of the stomach moves upward through an opening in the diaphragm.",
+    "commonSymptoms": [
+      "Heartburn",
+      "Acid reflux",
+      "Regurgitation",
+      "Chest or upper abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Feeling full quickly",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Heartburn",
+      "Acid reflux",
+      "Upper abdominal or chest discomfort"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Obesity",
+      "Pregnancy",
+      "Chronic coughing",
+      "Straining"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe chest pain",
+      "Difficulty swallowing",
+      "Persistent vomiting",
+      "Vomiting blood"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms or warning signs."
+  },
+  {
+    "name": "Stomach Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gastric malignancy",
+    "anatomicalSite": "Stomach",
+    "etiology": "Malignant neoplasm",
+    "description": "A malignant tumor arising from the tissues of the stomach.",
+    "commonSymptoms": [
+      "Persistent indigestion",
+      "Upper abdominal discomfort",
+      "Early satiety",
+      "Loss of appetite",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Difficulty swallowing",
+      "Fatigue",
+      "Gastrointestinal bleeding"
+    ],
+    "keySymptoms": [
+      "Unexplained weight loss",
+      "Persistent indigestion",
+      "Early satiety",
+      "Upper abdominal discomfort"
+    ],
+    "riskFactors": [
+      "Helicobacter pylori infection",
+      "Smoking",
+      "Family history",
+      "Certain inherited conditions",
+      "High-salt diet",
+      "Chronic gastritis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black stools",
+      "Unexplained weight loss",
+      "Persistent vomiting",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "Persistent or unexplained upper gastrointestinal symptoms, especially with weight loss, bleeding, or difficulty swallowing, require prompt medical evaluation."
+  }
+]

@@ -1,0 +1,798 @@
+[
+  {
+    "name": "Rheumatoid Arthritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory arthritis",
+    "anatomicalSite": "Multiple joints and connective tissues",
+    "etiology": "Autoimmune",
+    "description": "A chronic systemic autoimmune disease that primarily causes inflammatory arthritis and can affect multiple organs.",
+    "commonSymptoms": [
+      "Joint pain",
+      "Joint swelling",
+      "Morning stiffness",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Loss of appetite",
+      "Rheumatoid nodules",
+      "Eye inflammation"
+    ],
+    "keySymptoms": [
+      "Symmetrical joint inflammation",
+      "Prolonged morning stiffness",
+      "Persistent joint pain and swelling"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Smoking",
+      "Female sex",
+      "Older age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe joint swelling",
+      "Chest pain",
+      "Shortness of breath",
+      "Sudden neurological symptoms"
+    ],
+    "whenToSeekCare": "Persistent joint swelling or prolonged morning stiffness should be medically evaluated."
+  },
+  {
+    "name": "Systemic Lupus Erythematosus",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Autoimmune",
+    "description": "A systemic autoimmune disease that can affect the skin, joints, kidneys, nervous system, blood, heart, and lungs.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Joint pain",
+      "Joint swelling",
+      "Skin rash"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Hair loss",
+      "Mouth ulcers",
+      "Chest pain"
+    ],
+    "keySymptoms": [
+      "Multisystem symptoms",
+      "Inflammatory joint symptoms",
+      "Characteristic skin manifestations"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Female sex",
+      "Certain environmental triggers"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Chest pain",
+      "Seizures",
+      "Reduced urine output"
+    ],
+    "whenToSeekCare": "New or worsening multisystem symptoms require medical assessment, especially when kidney, neurological, or cardiopulmonary involvement is suspected."
+  },
+  {
+    "name": "Systemic Sclerosis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Skin, blood vessels, gastrointestinal tract, lungs, heart, and kidneys",
+    "etiology": "Autoimmune",
+    "description": "A chronic autoimmune connective tissue disease characterized by fibrosis and vascular abnormalities affecting the skin and internal organs.",
+    "commonSymptoms": [
+      "Skin thickening",
+      "Raynaud phenomenon",
+      "Joint pain",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Heartburn",
+      "Shortness of breath",
+      "Skin ulcers"
+    ],
+    "keySymptoms": [
+      "Skin thickening",
+      "Raynaud phenomenon",
+      "Progressive connective tissue involvement"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Female sex",
+      "Certain occupational or environmental exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Chest pain",
+      "Severe hypertension",
+      "Sudden kidney dysfunction"
+    ],
+    "whenToSeekCare": "New respiratory, cardiac, or kidney symptoms in someone with systemic sclerosis require prompt medical assessment."
+  },
+  {
+    "name": "Sjögren Syndrome",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Exocrine glands and multiple organ systems",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disease primarily affecting moisture-producing glands and potentially multiple organs.",
+    "commonSymptoms": [
+      "Dry eyes",
+      "Dry mouth",
+      "Fatigue",
+      "Joint pain"
+    ],
+    "lessCommonSymptoms": [
+      "Dry skin",
+      "Swollen salivary glands",
+      "Cough",
+      "Numbness"
+    ],
+    "keySymptoms": [
+      "Persistent dry eyes",
+      "Persistent dry mouth"
+    ],
+    "riskFactors": [
+      "Family history of autoimmune disease",
+      "Female sex",
+      "Other autoimmune diseases"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Vision problems",
+      "Severe difficulty swallowing",
+      "Neurological symptoms",
+      "Persistent gland enlargement"
+    ],
+    "whenToSeekCare": "Persistent dryness or systemic symptoms should be evaluated, particularly when associated with other autoimmune disease."
+  },
+  {
+    "name": "Mixed Connective Tissue Disease",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Autoimmune",
+    "description": "A systemic autoimmune disorder with overlapping features of several connective tissue diseases.",
+    "commonSymptoms": [
+      "Raynaud phenomenon",
+      "Joint pain",
+      "Hand swelling",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle weakness",
+      "Skin changes",
+      "Difficulty swallowing",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Raynaud phenomenon",
+      "Inflammatory joint symptoms",
+      "Overlapping connective tissue disease features"
+    ],
+    "riskFactors": [
+      "Family history of autoimmune disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Breathing difficulty",
+      "Chest pain",
+      "Severe muscle weakness",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Suspected systemic connective tissue disease requires rheumatologic evaluation."
+  },
+  {
+    "name": "Polymyositis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory myopathy",
+    "anatomicalSite": "Skeletal muscles",
+    "etiology": "Autoimmune",
+    "description": "An inflammatory muscle disease causing progressive muscle weakness.",
+    "commonSymptoms": [
+      "Muscle weakness",
+      "Difficulty climbing stairs",
+      "Difficulty rising from a chair",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle pain",
+      "Difficulty swallowing",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Progressive proximal muscle weakness"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Family history of autoimmune conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Breathing difficulty",
+      "Rapidly progressive weakness"
+    ],
+    "whenToSeekCare": "Progressive unexplained muscle weakness requires medical evaluation."
+  },
+  {
+    "name": "Dermatomyositis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory myopathy",
+    "anatomicalSite": "Skeletal muscles and skin",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune inflammatory disease characterized by muscle weakness and characteristic skin manifestations.",
+    "commonSymptoms": [
+      "Muscle weakness",
+      "Skin rash",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Muscle pain",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Proximal muscle weakness",
+      "Characteristic inflammatory skin rash"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Breathing difficulty",
+      "Rapidly progressive weakness"
+    ],
+    "whenToSeekCare": "New muscle weakness with characteristic skin changes should be medically evaluated."
+  },
+  {
+    "name": "Polymyalgia Rheumatica",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory musculoskeletal disorder",
+    "anatomicalSite": "Shoulders, hips, and proximal muscles",
+    "etiology": "Immune-mediated",
+    "description": "An inflammatory disorder causing pain and stiffness around the shoulders and hips, usually in older adults.",
+    "commonSymptoms": [
+      "Shoulder pain",
+      "Hip pain",
+      "Morning stiffness",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Low-grade fever",
+      "Loss of appetite",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "New bilateral shoulder stiffness",
+      "Hip girdle stiffness",
+      "Marked morning stiffness"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Female sex"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "New severe headache",
+      "Jaw pain while chewing",
+      "Vision changes"
+    ],
+    "whenToSeekCare": "New symptoms suggestive of polymyalgia rheumatica require medical evaluation because of its association with giant cell arteritis."
+  },
+  {
+    "name": "Giant Cell Arteritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Large-vessel vasculitis",
+    "anatomicalSite": "Large and medium-sized arteries, especially temporal arteries",
+    "etiology": "Immune-mediated",
+    "description": "An inflammatory disease of medium and large arteries that can cause serious complications, including permanent vision loss.",
+    "commonSymptoms": [
+      "New headache",
+      "Scalp tenderness",
+      "Jaw pain",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Weight loss",
+      "Vision disturbances",
+      "Shoulder stiffness"
+    ],
+    "keySymptoms": [
+      "New headache in an older adult",
+      "Jaw claudication",
+      "Visual symptoms"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Association with polymyalgia rheumatica"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden vision loss",
+      "Double vision",
+      "Severe headache",
+      "Jaw claudication"
+    ],
+    "whenToSeekCare": "Suspected giant cell arteritis requires urgent medical assessment because untreated disease can cause permanent blindness."
+  },
+  {
+    "name": "Takayasu Arteritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Large-vessel vasculitis",
+    "anatomicalSite": "Aorta and major arteries",
+    "etiology": "Immune-mediated",
+    "description": "A large-vessel inflammatory disease primarily affecting the aorta and its major branches.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Weakness",
+      "Limb pain with activity"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Headache",
+      "Chest pain",
+      "Blood pressure differences between limbs"
+    ],
+    "keySymptoms": [
+      "Reduced pulses",
+      "Unequal blood pressure between limbs",
+      "Large-vessel symptoms"
+    ],
+    "riskFactors": [
+      "Younger age",
+      "Female sex"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Chest pain",
+      "Fainting",
+      "Severe limb ischemia",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Suspected large-vessel vasculitis requires specialist medical evaluation."
+  },
+  {
+    "name": "Granulomatosis with Polyangiitis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Small-vessel vasculitis",
+    "anatomicalSite": "Respiratory tract, kidneys, blood vessels, and multiple organs",
+    "etiology": "Autoimmune",
+    "description": "A systemic inflammatory vasculitis that commonly affects the upper and lower respiratory tracts and kidneys.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Sinus symptoms",
+      "Joint pain"
+    ],
+    "lessCommonSymptoms": [
+      "Cough",
+      "Nosebleeds",
+      "Blood in urine",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Persistent respiratory symptoms",
+      "Systemic inflammation",
+      "Possible kidney involvement"
+    ],
+    "riskFactors": [
+      "Autoimmune susceptibility"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Coughing blood",
+      "Rapid kidney dysfunction",
+      "Severe breathing difficulty",
+      "Vision problems"
+    ],
+    "whenToSeekCare": "Suspected systemic vasculitis requires prompt specialist assessment."
+  },
+  {
+    "name": "Microscopic Polyangiitis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Small-vessel vasculitis",
+    "anatomicalSite": "Kidneys, lungs, skin, and blood vessels",
+    "etiology": "Autoimmune",
+    "description": "A systemic small-vessel vasculitis that commonly affects the kidneys and lungs.",
+    "commonSymptoms": [
+      "Fever",
+      "Fatigue",
+      "Weight loss",
+      "Joint pain"
+    ],
+    "lessCommonSymptoms": [
+      "Skin rash",
+      "Cough",
+      "Shortness of breath",
+      "Blood in urine"
+    ],
+    "keySymptoms": [
+      "Systemic inflammatory symptoms",
+      "Kidney involvement",
+      "Possible pulmonary involvement"
+    ],
+    "riskFactors": [
+      "Autoimmune susceptibility"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Coughing blood",
+      "Rapid kidney dysfunction",
+      "Severe breathing difficulty"
+    ],
+    "whenToSeekCare": "Suspected microscopic polyangiitis requires prompt medical assessment."
+  },
+  {
+    "name": "IgA Vasculitis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Small-vessel vasculitis",
+    "anatomicalSite": "Skin, gastrointestinal tract, joints, and kidneys",
+    "etiology": "Immune-mediated",
+    "description": "A small-vessel vasculitis characterized by IgA deposition and commonly affecting the skin, joints, gastrointestinal tract, and kidneys.",
+    "commonSymptoms": [
+      "Purpuric rash",
+      "Joint pain",
+      "Abdominal pain"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Swelling",
+      "Nausea",
+      "Vomiting"
+    ],
+    "keySymptoms": [
+      "Palpable purpura",
+      "Joint symptoms",
+      "Abdominal pain"
+    ],
+    "riskFactors": [
+      "Recent infection",
+      "Childhood age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Gastrointestinal bleeding",
+      "Reduced urine output"
+    ],
+    "whenToSeekCare": "Medical evaluation is recommended when purpura occurs with abdominal, joint, or kidney symptoms."
+  },
+  {
+    "name": "Behçet Disease",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic inflammatory vasculitis",
+    "anatomicalSite": "Blood vessels, oral and genital mucosa, eyes, skin, and nervous system",
+    "etiology": "Immune-mediated",
+    "description": "A chronic inflammatory disorder involving blood vessels and multiple organ systems.",
+    "commonSymptoms": [
+      "Recurrent oral ulcers",
+      "Genital ulcers",
+      "Eye inflammation",
+      "Skin lesions"
+    ],
+    "lessCommonSymptoms": [
+      "Joint pain",
+      "Headache",
+      "Abdominal pain",
+      "Neurological symptoms"
+    ],
+    "keySymptoms": [
+      "Recurrent oral ulcers",
+      "Genital ulcers",
+      "Eye inflammation"
+    ],
+    "riskFactors": [
+      "Genetic susceptibility",
+      "Geographic ancestry associated with higher prevalence"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Vision loss",
+      "Severe headache",
+      "Chest pain",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Recurrent mucosal ulcers with systemic or eye symptoms require medical evaluation."
+  },
+  {
+    "name": "Antiphospholipid Syndrome",
+    "category": "Rheumatologic disease",
+    "subCategory": "Autoimmune thrombotic disorder",
+    "anatomicalSite": "Blood vessels and placenta",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disorder characterized by antiphospholipid antibodies and an increased risk of abnormal blood clotting and pregnancy complications.",
+    "commonSymptoms": [
+      "Often asymptomatic until thrombosis occurs",
+      "Leg swelling",
+      "Chest pain",
+      "Shortness of breath"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Skin mottling",
+      "Neurological symptoms"
+    ],
+    "keySymptoms": [
+      "Recurrent thrombosis",
+      "Pregnancy complications",
+      "Persistent antiphospholipid antibodies"
+    ],
+    "riskFactors": [
+      "Systemic lupus erythematosus",
+      "Autoimmune disease",
+      "Previous thrombosis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden chest pain",
+      "Sudden shortness of breath",
+      "Sudden neurological deficit",
+      "Painful swollen limb"
+    ],
+    "whenToSeekCare": "Symptoms suggesting an acute blood clot require emergency medical assessment."
+  },
+  {
+    "name": "Ankylosing Spondylitis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory spondyloarthritis",
+    "anatomicalSite": "Spine and sacroiliac joints",
+    "etiology": "Immune-mediated",
+    "description": "A chronic inflammatory arthritis primarily affecting the spine and sacroiliac joints.",
+    "commonSymptoms": [
+      "Chronic low back pain",
+      "Morning stiffness",
+      "Buttock pain",
+      "Reduced spinal mobility"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Heel pain",
+      "Eye inflammation",
+      "Hip pain"
+    ],
+    "keySymptoms": [
+      "Inflammatory back pain",
+      "Morning stiffness",
+      "Improvement with activity"
+    ],
+    "riskFactors": [
+      "Family history",
+      "HLA-B27 association",
+      "Young age at onset"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe eye pain",
+      "Severe neurological symptoms",
+      "Loss of bladder or bowel control"
+    ],
+    "whenToSeekCare": "Persistent inflammatory back pain should be evaluated for possible spondyloarthritis."
+  },
+  {
+    "name": "Psoriatic Arthritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Inflammatory spondyloarthritis",
+    "anatomicalSite": "Joints, tendons, and entheses",
+    "etiology": "Immune-mediated",
+    "description": "An inflammatory arthritis associated with psoriasis that can affect peripheral joints, the spine, and tendon attachment sites.",
+    "commonSymptoms": [
+      "Joint pain",
+      "Joint swelling",
+      "Morning stiffness",
+      "Psoriasis"
+    ],
+    "lessCommonSymptoms": [
+      "Dactylitis",
+      "Heel pain",
+      "Back pain",
+      "Nail changes"
+    ],
+    "keySymptoms": [
+      "Inflammatory joint symptoms",
+      "Psoriasis or nail disease",
+      "Swollen entire digits"
+    ],
+    "riskFactors": [
+      "Psoriasis",
+      "Family history",
+      "Obesity"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe eye pain",
+      "Rapidly worsening joint swelling",
+      "Severe functional limitation"
+    ],
+    "whenToSeekCare": "Persistent inflammatory joint symptoms in a person with psoriasis should be medically evaluated."
+  },
+  {
+    "name": "Reactive Arthritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Post-infectious inflammatory arthritis",
+    "anatomicalSite": "Joints, eyes, and genitourinary system",
+    "etiology": "Immune-mediated",
+    "description": "An inflammatory arthritis that can develop after certain gastrointestinal or genitourinary infections.",
+    "commonSymptoms": [
+      "Joint pain",
+      "Joint swelling",
+      "Heel pain"
+    ],
+    "lessCommonSymptoms": [
+      "Eye inflammation",
+      "Painful urination",
+      "Skin lesions",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Acute inflammatory arthritis after infection"
+    ],
+    "riskFactors": [
+      "Recent gastrointestinal infection",
+      "Recent genitourinary infection",
+      "Genetic susceptibility"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe eye pain",
+      "Major joint swelling",
+      "High fever"
+    ],
+    "whenToSeekCare": "New inflammatory joint symptoms following an infection should be medically assessed."
+  },
+  {
+    "name": "Gout",
+    "category": "Rheumatologic disease",
+    "subCategory": "Crystal arthropathy",
+    "anatomicalSite": "Joints and surrounding tissues",
+    "etiology": "Metabolic",
+    "description": "An inflammatory arthritis caused by deposition of monosodium urate crystals in joints and tissues.",
+    "commonSymptoms": [
+      "Sudden severe joint pain",
+      "Joint swelling",
+      "Redness",
+      "Warmth"
+    ],
+    "lessCommonSymptoms": [
+      "Tophi",
+      "Joint stiffness",
+      "Kidney stones"
+    ],
+    "keySymptoms": [
+      "Sudden severe joint pain",
+      "Red swollen joint",
+      "Often affects the first metatarsophalangeal joint"
+    ],
+    "riskFactors": [
+      "Hyperuricemia",
+      "Obesity",
+      "Kidney disease",
+      "Certain medications",
+      "High alcohol intake"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fever with a hot swollen joint",
+      "Severe systemic illness",
+      "Inability to bear weight"
+    ],
+    "whenToSeekCare": "A first episode of a hot swollen joint should be medically evaluated because joint infection can mimic gout."
+  },
+  {
+    "name": "Calcium Pyrophosphate Deposition Disease",
+    "category": "Rheumatologic disease",
+    "subCategory": "Crystal arthropathy",
+    "anatomicalSite": "Joints",
+    "etiology": "Metabolic",
+    "description": "A crystal deposition disorder caused by calcium pyrophosphate crystals in joints.",
+    "commonSymptoms": [
+      "Acute joint pain",
+      "Joint swelling",
+      "Joint stiffness"
+    ],
+    "lessCommonSymptoms": [
+      "Redness",
+      "Warmth",
+      "Chronic joint pain"
+    ],
+    "keySymptoms": [
+      "Acute inflammatory arthritis",
+      "Crystal deposition in joints"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Osteoarthritis",
+      "Metabolic disorders",
+      "Previous joint injury"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fever",
+      "Severe joint swelling",
+      "Severe systemic illness"
+    ],
+    "whenToSeekCare": "A new acutely swollen joint requires medical assessment to exclude infection."
+  },
+  {
+    "name": "Fibromyalgia",
+    "category": "Rheumatologic disease",
+    "subCategory": "Chronic widespread pain disorder",
+    "anatomicalSite": "Musculoskeletal system",
+    "etiology": "Multifactorial",
+    "description": "A chronic pain disorder characterized by widespread pain, fatigue, sleep disturbance, and cognitive symptoms.",
+    "commonSymptoms": [
+      "Widespread pain",
+      "Fatigue",
+      "Sleep disturbance",
+      "Cognitive difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Irritable bowel symptoms",
+      "Sensitivity to touch",
+      "Mood symptoms"
+    ],
+    "keySymptoms": [
+      "Chronic widespread pain",
+      "Fatigue",
+      "Non-restorative sleep"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Physical or emotional stress",
+      "Certain chronic pain conditions"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "New neurological deficits",
+      "Unexplained weight loss",
+      "Persistent fever",
+      "Progressive weakness"
+    ],
+    "whenToSeekCare": "Persistent widespread pain should be assessed to exclude other underlying conditions."
+  },
+  {
+    "name": "Relapsing Polychondritis",
+    "category": "Rheumatologic disease",
+    "subCategory": "Systemic connective tissue disease",
+    "anatomicalSite": "Cartilage of ears, nose, airway, and joints",
+    "etiology": "Immune-mediated",
+    "description": "A rare inflammatory disorder causing recurrent inflammation and destruction of cartilage.",
+    "commonSymptoms": [
+      "Painful ear swelling",
+      "Joint pain",
+      "Nasal pain"
+    ],
+    "lessCommonSymptoms": [
+      "Hearing problems",
+      "Eye inflammation",
+      "Hoarseness",
+      "Cough"
+    ],
+    "keySymptoms": [
+      "Recurrent painful cartilage inflammation",
+      "Ear cartilage involvement"
+    ],
+    "riskFactors": [
+      "Associated autoimmune diseases"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Hoarseness",
+      "Sudden hearing loss",
+      "Severe eye inflammation"
+    ],
+    "whenToSeekCare": "Airway, eye, or hearing involvement requires prompt medical assessment."
+  }
+]

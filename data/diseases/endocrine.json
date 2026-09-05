@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Type 1 Diabetes Mellitus",
+    "category": "Endocrine disease",
+    "subCategory": "Pancreatic endocrine disorder",
+    "anatomicalSite": "Pancreatic beta cells",
+    "etiology": "Autoimmune",
+    "description": "A chronic endocrine disorder caused by autoimmune destruction of pancreatic beta cells, resulting in severe insulin deficiency.",
+    "commonSymptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Increased hunger",
+      "Unintentional weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Blurred vision",
+      "Nausea",
+      "Vomiting",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Unintentional weight loss"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility",
+      "Certain environmental factors"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting",
+      "Abdominal pain",
+      "Rapid breathing",
+      "Confusion",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Urgent medical assessment is required when symptoms suggest new-onset type 1 diabetes or diabetic ketoacidosis."
+  },
+  {
+    "name": "Type 2 Diabetes Mellitus",
+    "category": "Endocrine disease",
+    "subCategory": "Pancreatic endocrine disorder",
+    "anatomicalSite": "Pancreas and insulin-sensitive tissues",
+    "etiology": "Metabolic",
+    "description": "A chronic metabolic and endocrine disorder characterized by insulin resistance and progressive impairment of insulin secretion.",
+    "commonSymptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Blurred vision",
+      "Slow wound healing"
+    ],
+    "lessCommonSymptoms": [
+      "Unexplained weight loss",
+      "Recurrent infections",
+      "Tingling in the hands or feet"
+    ],
+    "keySymptoms": [
+      "Often asymptomatic initially",
+      "Increased thirst",
+      "Frequent urination"
+    ],
+    "riskFactors": [
+      "Overweight or obesity",
+      "Physical inactivity",
+      "Family history",
+      "Older age",
+      "Previous gestational diabetes"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Confusion",
+      "Vomiting",
+      "Marked weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms of diabetes or abnormal blood glucose. Urgent care is required for severe dehydration or altered consciousness."
+  },
+  {
+    "name": "Hypothyroidism",
+    "category": "Endocrine disease",
+    "subCategory": "Thyroid disorder",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Autoimmune, iodine deficiency, medication-related, or structural",
+    "description": "A condition in which the thyroid gland does not produce enough thyroid hormones.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Cold intolerance",
+      "Weight gain",
+      "Constipation",
+      "Dry skin"
+    ],
+    "lessCommonSymptoms": [
+      "Hair thinning",
+      "Depression",
+      "Muscle aches",
+      "Slow heart rate",
+      "Heavy menstrual periods"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Cold intolerance",
+      "Weight gain"
+    ],
+    "riskFactors": [
+      "Autoimmune thyroid disease",
+      "Family history",
+      "Previous thyroid surgery",
+      "Certain medications",
+      "Iodine deficiency"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe confusion",
+      "Extreme drowsiness",
+      "Very low body temperature",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms suggestive of thyroid dysfunction."
+  },
+  {
+    "name": "Hyperthyroidism",
+    "category": "Endocrine disease",
+    "subCategory": "Thyroid disorder",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Autoimmune, thyroid nodules, thyroiditis, or other causes",
+    "description": "A condition in which the thyroid gland produces excessive amounts of thyroid hormones.",
+    "commonSymptoms": [
+      "Weight loss",
+      "Rapid heartbeat",
+      "Heat intolerance",
+      "Increased sweating",
+      "Anxiety",
+      "Tremor"
+    ],
+    "lessCommonSymptoms": [
+      "Increased bowel movements",
+      "Muscle weakness",
+      "Sleep difficulties",
+      "Menstrual changes"
+    ],
+    "keySymptoms": [
+      "Weight loss",
+      "Palpitations",
+      "Heat intolerance",
+      "Tremor"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Autoimmune disease",
+      "Female sex",
+      "Thyroid nodules"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Very rapid heartbeat",
+      "High fever",
+      "Confusion",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent symptoms of hyperthyroidism. Severe systemic symptoms require emergency care."
+  },
+  {
+    "name": "Goiter",
+    "category": "Endocrine disease",
+    "subCategory": "Thyroid disorder",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Iodine deficiency, autoimmune disease, thyroid nodules, or other causes",
+    "description": "Abnormal enlargement of the thyroid gland.",
+    "commonSymptoms": [
+      "Neck swelling",
+      "Feeling of pressure in the neck"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Difficulty breathing",
+      "Hoarseness",
+      "Cough"
+    ],
+    "keySymptoms": [
+      "Visible or palpable thyroid enlargement"
+    ],
+    "riskFactors": [
+      "Iodine deficiency",
+      "Thyroid disease",
+      "Family history",
+      "Certain medications"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Difficulty swallowing",
+      "Rapid enlargement",
+      "Persistent hoarseness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for new or enlarging neck swelling."
+  },
+  {
+    "name": "Cushing Syndrome",
+    "category": "Endocrine disease",
+    "subCategory": "Adrenal disorder",
+    "anatomicalSite": "Adrenal glands and hypothalamic-pituitary-adrenal axis",
+    "etiology": "Excess cortisol, often medication-related or caused by an endocrine tumor",
+    "description": "A disorder caused by prolonged exposure to excessive levels of cortisol.",
+    "commonSymptoms": [
+      "Weight gain",
+      "Round facial appearance",
+      "High blood pressure",
+      "Muscle weakness",
+      "Easy bruising"
+    ],
+    "lessCommonSymptoms": [
+      "Purple stretch marks",
+      "Mood changes",
+      "Irregular menstrual periods",
+      "Increased thirst",
+      "Increased urination"
+    ],
+    "keySymptoms": [
+      "Central weight gain",
+      "Skin changes",
+      "Muscle weakness"
+    ],
+    "riskFactors": [
+      "Long-term corticosteroid use",
+      "Pituitary tumor",
+      "Adrenal tumor",
+      "Certain other tumors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe hypertension",
+      "Severe weakness",
+      "Confusion",
+      "Severe infection"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for symptoms suggesting prolonged cortisol excess."
+  },
+  {
+    "name": "Addison's Disease",
+    "category": "Endocrine disease",
+    "subCategory": "Adrenal insufficiency",
+    "anatomicalSite": "Adrenal cortex",
+    "etiology": "Usually autoimmune; may also result from infection, hemorrhage, or other adrenal damage",
+    "description": "A chronic disorder in which the adrenal glands produce insufficient amounts of cortisol and often aldosterone.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Weakness",
+      "Weight loss",
+      "Low blood pressure",
+      "Skin darkening"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Abdominal pain",
+      "Salt craving",
+      "Dizziness"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Low blood pressure",
+      "Hyperpigmentation",
+      "Weight loss"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Adrenal infection",
+      "Adrenal injury",
+      "Certain medications"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe vomiting",
+      "Severe abdominal pain",
+      "Confusion",
+      "Very low blood pressure",
+      "Loss of consciousness"
+    ],
+    "whenToSeekCare": "Adrenal crisis is a medical emergency requiring immediate treatment."
+  },
+  {
+    "name": "Primary Hyperaldosteronism",
+    "category": "Endocrine disease",
+    "subCategory": "Adrenal disorder",
+    "anatomicalSite": "Adrenal cortex",
+    "etiology": "Adrenal adenoma or bilateral adrenal hyperplasia",
+    "description": "A disorder in which the adrenal glands produce excessive aldosterone, leading to sodium retention and potassium loss.",
+    "commonSymptoms": [
+      "High blood pressure",
+      "Muscle weakness",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Increased thirst",
+      "Frequent urination",
+      "Muscle cramps"
+    ],
+    "keySymptoms": [
+      "Difficult-to-control hypertension",
+      "Low potassium"
+    ],
+    "riskFactors": [
+      "Adrenal adenoma",
+      "Adrenal hyperplasia",
+      "Family history of endocrine hypertension"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe hypertension",
+      "Severe muscle weakness",
+      "Abnormal heart rhythm"
+    ],
+    "whenToSeekCare": "Medical evaluation is recommended for unexplained resistant hypertension or persistent low potassium."
+  },
+  {
+    "name": "Hyperparathyroidism",
+    "category": "Endocrine disease",
+    "subCategory": "Parathyroid disorder",
+    "anatomicalSite": "Parathyroid glands",
+    "etiology": "Primary gland disease or secondary response to chronic kidney disease or vitamin D deficiency",
+    "description": "A disorder characterized by excessive production of parathyroid hormone, affecting calcium and phosphate balance.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Bone pain",
+      "Kidney stones",
+      "Muscle weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal pain",
+      "Constipation",
+      "Depression",
+      "Excessive thirst"
+    ],
+    "keySymptoms": [
+      "Elevated parathyroid hormone",
+      "Abnormal calcium levels"
+    ],
+    "riskFactors": [
+      "Chronic kidney disease",
+      "Vitamin D deficiency",
+      "Parathyroid adenoma",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe weakness",
+      "Confusion",
+      "Severe dehydration",
+      "Abnormal heart rhythm"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent abnormalities in calcium or parathyroid hormone levels."
+  },
+  {
+    "name": "Hypoparathyroidism",
+    "category": "Endocrine disease",
+    "subCategory": "Parathyroid disorder",
+    "anatomicalSite": "Parathyroid glands",
+    "etiology": "Postsurgical, autoimmune, genetic, or other causes",
+    "description": "A disorder in which inadequate parathyroid hormone production causes low blood calcium levels.",
+    "commonSymptoms": [
+      "Muscle cramps",
+      "Tingling",
+      "Fatigue",
+      "Muscle spasms"
+    ],
+    "lessCommonSymptoms": [
+      "Seizures",
+      "Anxiety",
+      "Dry skin",
+      "Brittle nails"
+    ],
+    "keySymptoms": [
+      "Low calcium",
+      "Tingling",
+      "Muscle spasms"
+    ],
+    "riskFactors": [
+      "Neck surgery",
+      "Autoimmune disease",
+      "Genetic disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Seizures",
+      "Severe muscle spasms",
+      "Difficulty breathing",
+      "Abnormal heart rhythm"
+    ],
+    "whenToSeekCare": "Urgent care is required for severe symptoms caused by dangerously low calcium levels."
+  },
+  {
+    "name": "Acromegaly",
+    "category": "Endocrine disease",
+    "subCategory": "Pituitary disorder",
+    "anatomicalSite": "Pituitary gland",
+    "etiology": "Usually pituitary adenoma",
+    "description": "A rare endocrine disorder caused by excessive growth hormone production after normal growth has finished.",
+    "commonSymptoms": [
+      "Enlargement of hands and feet",
+      "Coarsening facial features",
+      "Headache",
+      "Excessive sweating"
+    ],
+    "lessCommonSymptoms": [
+      "Joint pain",
+      "Sleep apnea",
+      "Vision problems",
+      "Increased blood glucose"
+    ],
+    "keySymptoms": [
+      "Progressive enlargement of hands and feet",
+      "Changes in facial appearance"
+    ],
+    "riskFactors": [
+      "Pituitary adenoma",
+      "Family history of pituitary disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe headache",
+      "Vision loss",
+      "Double vision"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for progressive physical changes, persistent headaches, or visual symptoms."
+  },
+  {
+    "name": "Diabetes Insipidus",
+    "category": "Endocrine disease",
+    "subCategory": "Water-balance disorder",
+    "anatomicalSite": "Hypothalamus, pituitary gland, and kidneys",
+    "etiology": "Central hormone deficiency or renal resistance to antidiuretic hormone",
+    "description": "A disorder characterized by excessive production of dilute urine and intense thirst due to impaired antidiuretic hormone activity.",
+    "commonSymptoms": [
+      "Excessive thirst",
+      "Excessive urination",
+      "Frequent nighttime urination"
+    ],
+    "lessCommonSymptoms": [
+      "Dehydration",
+      "Fatigue",
+      "Weakness",
+      "Dizziness"
+    ],
+    "keySymptoms": [
+      "Large volumes of dilute urine",
+      "Intense thirst"
+    ],
+    "riskFactors": [
+      "Brain injury",
+      "Pituitary surgery",
+      "Brain tumors",
+      "Certain medications",
+      "Kidney disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe dehydration",
+      "Confusion",
+      "Loss of consciousness",
+      "Extreme weakness"
+    ],
+    "whenToSeekCare": "Urgent assessment is required for severe dehydration or altered consciousness."
+  },
+  {
+    "name": "Polycystic Ovary Syndrome",
+    "category": "Endocrine disease",
+    "subCategory": "Reproductive endocrine disorder",
+    "anatomicalSite": "Ovaries and hypothalamic-pituitary-ovarian axis",
+    "etiology": "Hormonal and metabolic",
+    "description": "A common endocrine disorder characterized by hormonal imbalance, irregular ovulation, and metabolic abnormalities.",
+    "commonSymptoms": [
+      "Irregular menstrual periods",
+      "Excess facial or body hair",
+      "Acne",
+      "Weight gain"
+    ],
+    "lessCommonSymptoms": [
+      "Hair thinning",
+      "Difficulty becoming pregnant",
+      "Darkened skin folds"
+    ],
+    "keySymptoms": [
+      "Irregular ovulation",
+      "Hyperandrogenism",
+      "Menstrual irregularity"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Insulin resistance",
+      "Overweight or obesity",
+      "Genetic susceptibility"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Very heavy bleeding",
+      "Severe pelvic pain",
+      "Sudden severe symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent menstrual irregularity, signs of androgen excess, or fertility difficulties."
+  }
+]

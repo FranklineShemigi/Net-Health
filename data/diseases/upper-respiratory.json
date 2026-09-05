@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Common Cold",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Upper respiratory tract",
+    "etiology": "Viral",
+    "description": "A mild viral infection affecting the nose and throat, commonly caused by rhinoviruses and other respiratory viruses.",
+    "commonSymptoms": [
+      "runny nose",
+      "nasal congestion",
+      "sneezing",
+      "sore throat",
+      "cough",
+      "mild fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "low-grade fever",
+      "headache",
+      "mild body aches",
+      "watery eyes",
+      "hoarseness",
+      "reduced sense of smell"
+    ],
+    "keySymptoms": [
+      "runny or blocked nose",
+      "sneezing",
+      "sore throat",
+      "mild cough"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "crowded environments",
+      "poor hand hygiene",
+      "exposure to respiratory viruses",
+      "weakened immune system"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "difficulty breathing",
+      "persistent high fever",
+      "chest pain",
+      "confusion",
+      "symptoms that worsen after initial improvement"
+    ],
+    "whenToSeekCare": "Most cases resolve without specific treatment. Seek medical care if symptoms are severe, prolonged, or associated with breathing difficulty or other warning signs."
+  },
+  {
+    "name": "Acute Viral Rhinitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Nasal cavity",
+    "etiology": "Viral",
+    "description": "An acute viral infection causing inflammation of the nasal passages, commonly occurring as part of the common cold.",
+    "commonSymptoms": [
+      "runny nose",
+      "nasal congestion",
+      "sneezing",
+      "nasal irritation",
+      "postnasal drip"
+    ],
+    "lessCommonSymptoms": [
+      "sore throat",
+      "cough",
+      "mild headache",
+      "low-grade fever",
+      "reduced sense of smell"
+    ],
+    "keySymptoms": [
+      "runny nose",
+      "nasal congestion",
+      "frequent sneezing"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "crowded environments",
+      "poor hand hygiene",
+      "exposure to respiratory viruses"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "difficulty breathing",
+      "persistent high fever",
+      "severe facial pain",
+      "significant dehydration"
+    ],
+    "whenToSeekCare": "Usually resolves with supportive care. Seek medical assessment if symptoms are severe, prolonged, or significantly worsen."
+  },
+  {
+    "name": "Acute Viral Pharyngitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Pharynx",
+    "etiology": "Viral",
+    "description": "Viral inflammation of the throat that commonly occurs with respiratory viral infections.",
+    "commonSymptoms": [
+      "sore throat",
+      "pain when swallowing",
+      "red throat",
+      "cough",
+      "runny nose"
+    ],
+    "lessCommonSymptoms": [
+      "fever",
+      "headache",
+      "fatigue",
+      "hoarseness",
+      "mild body aches"
+    ],
+    "keySymptoms": [
+      "sore throat",
+      "painful swallowing",
+      "red or inflamed throat",
+      "cough or runny nose"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "crowded environments",
+      "poor hand hygiene",
+      "exposure to respiratory viruses"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "difficulty breathing",
+      "inability to swallow fluids",
+      "drooling",
+      "severe neck swelling",
+      "severe dehydration"
+    ],
+    "whenToSeekCare": "Most viral cases resolve with supportive care. Seek medical assessment if symptoms are severe, persistent, or associated with warning signs."
+  },
+  {
+    "name": "Streptococcal Pharyngitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Pharynx and tonsils",
+    "etiology": "Bacterial",
+    "description": "A bacterial infection of the throat caused by group A Streptococcus.",
+    "commonSymptoms": [
+      "sudden sore throat",
+      "fever",
+      "pain when swallowing",
+      "red and swollen tonsils",
+      "tender neck lymph nodes"
+    ],
+    "lessCommonSymptoms": [
+      "headache",
+      "nausea",
+      "vomiting",
+      "abdominal pain",
+      "fine red rash"
+    ],
+    "keySymptoms": [
+      "sudden sore throat",
+      "fever",
+      "painful swallowing",
+      "swollen tonsils",
+      "tender neck lymph nodes"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "school or crowded environments",
+      "young age",
+      "household exposure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "difficulty breathing",
+      "inability to swallow",
+      "drooling",
+      "severe dehydration",
+      "rapidly increasing neck swelling"
+    ],
+    "whenToSeekCare": "Seek medical assessment and appropriate testing when streptococcal infection is suspected. Confirmed infection generally requires antibiotic treatment."
+  },
+  {
+    "name": "Acute Tonsillitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Tonsils",
+    "etiology": "Viral or bacterial",
+    "description": "Inflammation and infection of the tonsils, most commonly caused by viruses and sometimes by bacteria.",
+    "commonSymptoms": [
+      "sore throat",
+      "swollen tonsils",
+      "pain when swallowing",
+      "fever",
+      "red tonsils"
+    ],
+    "lessCommonSymptoms": [
+      "white or yellow patches on tonsils",
+      "bad breath",
+      "headache",
+      "swollen neck lymph nodes",
+      "voice changes"
+    ],
+    "keySymptoms": [
+      "swollen painful tonsils",
+      "sore throat",
+      "fever",
+      "painful swallowing"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "young age",
+      "crowded environments",
+      "recurrent respiratory infections"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "difficulty breathing",
+      "inability to swallow saliva",
+      "drooling",
+      "severe one-sided throat pain",
+      "muffled voice",
+      "difficulty opening the mouth"
+    ],
+    "whenToSeekCare": "Seek medical assessment when symptoms are severe, recurrent, or bacterial infection or complications are suspected."
+  },
+  {
+    "name": "Acute Laryngitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Larynx",
+    "etiology": "Usually viral",
+    "description": "Acute inflammation of the larynx, most commonly caused by a viral respiratory infection.",
+    "commonSymptoms": [
+      "hoarse voice",
+      "loss of voice",
+      "sore throat",
+      "dry cough",
+      "throat irritation"
+    ],
+    "lessCommonSymptoms": [
+      "fever",
+      "runny nose",
+      "nasal congestion",
+      "difficulty swallowing",
+      "mild neck discomfort"
+    ],
+    "keySymptoms": [
+      "hoarseness",
+      "voice loss",
+      "dry irritating cough"
+    ],
+    "riskFactors": [
+      "viral respiratory infection",
+      "excessive voice use",
+      "smoking",
+      "exposure to airway irritants"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "difficulty breathing",
+      "noisy breathing",
+      "inability to swallow",
+      "severe throat swelling",
+      "persistent hoarseness"
+    ],
+    "whenToSeekCare": "Most acute cases improve with supportive care. Seek medical assessment for breathing difficulty or persistent voice changes."
+  },
+  {
+    "name": "Acute Sinusitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Paranasal sinuses",
+    "etiology": "Usually viral",
+    "description": "Acute inflammation of the paranasal sinuses, most commonly occurring after a viral upper respiratory infection.",
+    "commonSymptoms": [
+      "nasal congestion",
+      "runny or thick nasal discharge",
+      "facial pressure",
+      "facial pain",
+      "postnasal drip",
+      "reduced sense of smell"
+    ],
+    "lessCommonSymptoms": [
+      "fever",
+      "headache",
+      "bad breath",
+      "tooth pain",
+      "fatigue",
+      "cough"
+    ],
+    "keySymptoms": [
+      "nasal congestion",
+      "facial pressure or pain",
+      "nasal discharge",
+      "reduced sense of smell"
+    ],
+    "riskFactors": [
+      "recent common cold",
+      "allergic rhinitis",
+      "nasal polyps",
+      "smoking or exposure to smoke",
+      "structural nasal problems"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "swelling around the eye",
+      "vision changes",
+      "severe headache",
+      "confusion",
+      "stiff neck",
+      "high or persistent fever"
+    ],
+    "whenToSeekCare": "Most acute cases are viral and improve without antibiotics. Seek medical assessment if symptoms are severe, persistent, or worsen after initially improving."
+  },
+  {
+    "name": "Acute Bacterial Sinusitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Paranasal sinuses",
+    "etiology": "Bacterial",
+    "description": "A bacterial infection of the paranasal sinuses that may develop following a viral upper respiratory infection.",
+    "commonSymptoms": [
+      "persistent nasal congestion",
+      "thick nasal discharge",
+      "facial pain or pressure",
+      "postnasal drip",
+      "reduced sense of smell",
+      "cough"
+    ],
+    "lessCommonSymptoms": [
+      "fever",
+      "headache",
+      "bad breath",
+      "tooth pain",
+      "fatigue"
+    ],
+    "keySymptoms": [
+      "persistent nasal discharge",
+      "facial pain or pressure",
+      "persistent symptoms",
+      "worsening after initial improvement"
+    ],
+    "riskFactors": [
+      "recent viral upper respiratory infection",
+      "allergic rhinitis",
+      "nasal polyps",
+      "smoking",
+      "structural nasal abnormalities"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "swelling around the eye",
+      "vision changes",
+      "severe headache",
+      "confusion",
+      "stiff neck",
+      "high fever"
+    ],
+    "whenToSeekCare": "Seek medical assessment when bacterial sinusitis is suspected. Antibiotics may be appropriate in selected cases."
+  },
+  {
+    "name": "Acute Epiglottitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Epiglottis and supraglottic airway",
+    "etiology": "Usually bacterial",
+    "description": "A potentially life-threatening infection and inflammation causing swelling of the epiglottis and surrounding upper airway structures.",
+    "commonSymptoms": [
+      "severe sore throat",
+      "difficulty swallowing",
+      "fever",
+      "painful swallowing",
+      "muffled voice"
+    ],
+    "lessCommonSymptoms": [
+      "drooling",
+      "neck pain",
+      "anxiety",
+      "rapid breathing"
+    ],
+    "keySymptoms": [
+      "severe sore throat",
+      "difficulty swallowing",
+      "drooling",
+      "muffled voice",
+      "breathing difficulty"
+    ],
+    "riskFactors": [
+      "incomplete vaccination",
+      "bacterial respiratory infection",
+      "weakened immune system"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "difficulty breathing",
+      "stridor",
+      "drooling",
+      "inability to swallow",
+      "bluish lips or skin",
+      "rapid deterioration"
+    ],
+    "whenToSeekCare": "This is a medical emergency. Seek emergency medical care immediately if epiglottitis is suspected. Do not attempt to examine the throat with a tongue depressor."
+  },
+  {
+    "name": "Croup",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Larynx and upper trachea",
+    "etiology": "Viral",
+    "description": "A viral infection causing swelling of the upper airway, most common in young children.",
+    "commonSymptoms": [
+      "barking cough",
+      "hoarse voice",
+      "runny nose",
+      "fever",
+      "noisy breathing"
+    ],
+    "lessCommonSymptoms": [
+      "irritability",
+      "fatigue",
+      "difficulty breathing",
+      "worsening symptoms at night"
+    ],
+    "keySymptoms": [
+      "barking cough",
+      "hoarse voice",
+      "stridor or noisy breathing"
+    ],
+    "riskFactors": [
+      "young age",
+      "close contact with infected people",
+      "viral exposure",
+      "crowded environments"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "stridor at rest",
+      "severe difficulty breathing",
+      "chest retractions",
+      "bluish lips or skin",
+      "extreme fatigue"
+    ],
+    "whenToSeekCare": "Mild cases often improve with supportive care. Seek urgent medical care if noisy breathing occurs at rest or breathing becomes difficult."
+  },
+  {
+    "name": "Pertussis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Upper and lower respiratory tract",
+    "etiology": "Bacterial",
+    "description": "A highly contagious respiratory infection caused by Bordetella pertussis, characterized by prolonged bouts of coughing.",
+    "commonSymptoms": [
+      "persistent cough",
+      "coughing fits",
+      "runny nose",
+      "nasal congestion",
+      "fatigue after coughing"
+    ],
+    "lessCommonSymptoms": [
+      "vomiting after coughing",
+      "whooping sound after coughing",
+      "low-grade fever",
+      "difficulty breathing",
+      "nosebleeds"
+    ],
+    "keySymptoms": [
+      "prolonged coughing fits",
+      "vomiting after coughing",
+      "whooping sound after coughing"
+    ],
+    "riskFactors": [
+      "incomplete vaccination",
+      "lack of booster vaccination",
+      "close contact with an infected person",
+      "crowded environments",
+      "young age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "breathing pauses",
+      "bluish lips or skin",
+      "severe difficulty breathing",
+      "dehydration",
+      "severe coughing in an infant"
+    ],
+    "whenToSeekCare": "Seek medical assessment for prolonged or severe coughing, especially in infants and young children. Antibiotic treatment may be required."
+  },
+  {
+    "name": "COVID-19",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Upper and lower respiratory tract",
+    "etiology": "Viral",
+    "description": "A respiratory infection caused by SARS-CoV-2 that can range from mild upper respiratory symptoms to severe respiratory disease.",
+    "commonSymptoms": [
+      "sore throat",
+      "cough",
+      "fever",
+      "fatigue",
+      "runny nose",
+      "nasal congestion",
+      "headache"
+    ],
+    "lessCommonSymptoms": [
+      "muscle aches",
+      "loss or change of taste",
+      "loss or change of smell",
+      "nausea",
+      "vomiting",
+      "diarrhea"
+    ],
+    "keySymptoms": [
+      "sore throat",
+      "cough",
+      "fever",
+      "fatigue"
+    ],
+    "riskFactors": [
+      "close contact with an infected person",
+      "crowded indoor environments",
+      "older age",
+      "chronic medical conditions",
+      "weakened immune system"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "difficulty breathing",
+      "persistent chest pain or pressure",
+      "new confusion",
+      "inability to stay awake",
+      "bluish or grayish lips or skin"
+    ],
+    "whenToSeekCare": "Most mild cases can be managed with supportive care. Seek urgent medical attention for breathing difficulty, chest pain, confusion, or other severe symptoms."
+  },
+  {
+    "name": "Influenza",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Upper and lower respiratory tract",
+    "etiology": "Viral",
+    "description": "An acute respiratory infection caused by influenza viruses that commonly produces sudden systemic symptoms.",
+    "commonSymptoms": [
+      "fever",
+      "chills",
+      "dry cough",
+      "sore throat",
+      "headache",
+      "muscle aches",
+      "marked fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "runny nose",
+      "nasal congestion",
+      "nausea",
+      "vomiting",
+      "diarrhea"
+    ],
+    "keySymptoms": [
+      "sudden fever",
+      "prominent muscle aches",
+      "dry cough",
+      "marked fatigue"
+    ],
+    "riskFactors": [
+      "close contact with infected people",
+      "crowded environments",
+      "older age",
+      "young age",
+      "pregnancy",
+      "chronic medical conditions",
+      "weakened immune system"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "difficulty breathing",
+      "chest pain",
+      "persistent dizziness or confusion",
+      "severe weakness",
+      "dehydration",
+      "symptoms that improve and then suddenly worsen"
+    ],
+    "whenToSeekCare": "Seek medical care promptly if symptoms are severe or the person is at increased risk of complications. Antiviral treatment may be useful when started early."
+  }
+]

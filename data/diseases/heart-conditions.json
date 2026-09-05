@@ -1,0 +1,517 @@
+[
+  {
+    "name": "Coronary Artery Disease",
+    "category": "Cardiovascular disease",
+    "subCategory": "Ischemic heart disease",
+    "anatomicalSite": "Coronary arteries and heart",
+    "etiology": "Atherosclerotic",
+    "description": "A condition in which plaque buildup narrows or blocks the coronary arteries, reducing blood flow to the heart muscle.",
+    "commonSymptoms": [
+      "Chest pain or pressure",
+      "Shortness of breath",
+      "Fatigue",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Sweating",
+      "Dizziness",
+      "Pain in the jaw, neck, back, or arms"
+    ],
+    "keySymptoms": [
+      "Exertional chest pressure or discomfort",
+      "Shortness of breath"
+    ],
+    "riskFactors": [
+      "High blood pressure",
+      "High cholesterol",
+      "Diabetes",
+      "Smoking",
+      "Obesity",
+      "Physical inactivity",
+      "Family history of coronary artery disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe or persistent chest pain",
+      "Chest pain with sweating or shortness of breath",
+      "Sudden collapse"
+    ],
+    "whenToSeekCare": "Seek emergency care for severe, persistent, or new chest pain, especially when associated with shortness of breath, sweating, nausea, or pain spreading to the arm, jaw, back, or neck."
+  },
+  {
+    "name": "Acute Myocardial Infarction",
+    "category": "Cardiovascular disease",
+    "subCategory": "Ischemic heart disease",
+    "anatomicalSite": "Heart muscle",
+    "etiology": "Usually atherosclerotic coronary artery occlusion",
+    "description": "Death of part of the heart muscle caused by prolonged interruption of its blood supply.",
+    "commonSymptoms": [
+      "Chest pain or pressure",
+      "Shortness of breath",
+      "Sweating",
+      "Nausea",
+      "Weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Palpitations",
+      "Pain in the jaw or back",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Sudden or persistent chest pressure",
+      "Shortness of breath",
+      "Cold sweating"
+    ],
+    "riskFactors": [
+      "Coronary artery disease",
+      "Smoking",
+      "Diabetes",
+      "High blood pressure",
+      "High cholesterol",
+      "Obesity",
+      "Older age"
+    ],
+    "urgency": "emergency",
+    "warningSigns": [
+      "Persistent chest pressure or pain",
+      "Severe shortness of breath",
+      "Fainting",
+      "Sudden weakness or collapse"
+    ],
+    "whenToSeekCare": "Seek emergency medical care immediately if a heart attack is suspected."
+  },
+  {
+    "name": "Heart Failure",
+    "category": "Cardiovascular disease",
+    "subCategory": "Heart failure",
+    "anatomicalSite": "Heart",
+    "etiology": "Multifactorial",
+    "description": "A clinical syndrome in which the heart cannot pump or fill adequately to meet the body's needs.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Leg or ankle swelling",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Persistent cough",
+      "Rapid heartbeat",
+      "Loss of appetite",
+      "Difficulty concentrating"
+    ],
+    "keySymptoms": [
+      "Breathlessness",
+      "Peripheral edema",
+      "Fatigue"
+    ],
+    "riskFactors": [
+      "Coronary artery disease",
+      "High blood pressure",
+      "Previous heart attack",
+      "Diabetes",
+      "Heart valve disease",
+      "Cardiomyopathy"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe difficulty breathing",
+      "Rapid worsening of swelling",
+      "Chest pain",
+      "Fainting",
+      "Sudden severe breathlessness"
+    ],
+    "whenToSeekCare": "Seek urgent medical care for rapidly worsening symptoms or severe breathing difficulty."
+  },
+  {
+    "name": "Cardiomyopathy",
+    "category": "Cardiovascular disease",
+    "subCategory": "Cardiac muscle disease",
+    "anatomicalSite": "Heart muscle",
+    "etiology": "Genetic, inflammatory, metabolic, toxic, or unknown",
+    "description": "A group of diseases that affect the structure and function of the heart muscle.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Chest discomfort",
+      "Palpitations",
+      "Swelling of the legs"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Fainting",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Breathlessness",
+      "Palpitations",
+      "Fainting or near-fainting"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain genetic disorders",
+      "Alcohol misuse",
+      "Certain medications or toxins",
+      "Viral infections"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fainting during exercise",
+      "Severe shortness of breath",
+      "Sustained palpitations",
+      "Sudden collapse"
+    ],
+    "whenToSeekCare": "Seek urgent evaluation for unexplained fainting, severe breathlessness, or significant palpitations."
+  },
+  {
+    "name": "Atrial Fibrillation",
+    "category": "Cardiovascular disease",
+    "subCategory": "Cardiac arrhythmia",
+    "anatomicalSite": "Atria of the heart",
+    "etiology": "Multifactorial",
+    "description": "An irregular and often rapid heart rhythm caused by disorganized electrical activity in the atria.",
+    "commonSymptoms": [
+      "Palpitations",
+      "Irregular heartbeat",
+      "Shortness of breath",
+      "Fatigue",
+      "Dizziness"
+    ],
+    "lessCommonSymptoms": [
+      "Chest discomfort",
+      "Reduced exercise tolerance",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Irregular heartbeat",
+      "Palpitations"
+    ],
+    "riskFactors": [
+      "Older age",
+      "High blood pressure",
+      "Heart failure",
+      "Coronary artery disease",
+      "Valvular heart disease",
+      "Hyperthyroidism",
+      "Obesity"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden weakness",
+      "Difficulty speaking",
+      "Severe chest pain",
+      "Severe shortness of breath",
+      "Fainting"
+    ],
+    "whenToSeekCare": "Seek emergency care if atrial fibrillation is accompanied by severe chest pain, severe breathing difficulty, fainting, or symptoms of stroke."
+  },
+  {
+    "name": "Heart Valve Disease",
+    "category": "Cardiovascular disease",
+    "subCategory": "Valvular heart disease",
+    "anatomicalSite": "Heart valves",
+    "etiology": "Degenerative, congenital, rheumatic, infectious, or other structural causes",
+    "description": "A disorder in which one or more heart valves do not open or close normally.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Chest discomfort",
+      "Palpitations",
+      "Leg swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Fainting",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Shortness of breath",
+      "Heart murmur",
+      "Fatigue"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Congenital heart disease",
+      "Rheumatic heart disease",
+      "Previous infective endocarditis"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fainting",
+      "Severe breathlessness",
+      "Chest pain",
+      "Rapid worsening of symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for new or worsening breathlessness, chest pain, fainting, or unexplained fatigue."
+  },
+  {
+    "name": "Rheumatic Heart Disease",
+    "category": "Cardiovascular disease",
+    "subCategory": "Valvular heart disease",
+    "anatomicalSite": "Heart valves",
+    "etiology": "Post-streptococcal autoimmune disease",
+    "description": "Permanent heart valve damage resulting from rheumatic fever following infection with group A Streptococcus.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Palpitations",
+      "Chest discomfort",
+      "Leg swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Fainting",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Breathlessness",
+      "Heart murmur",
+      "Symptoms of valve dysfunction"
+    ],
+    "riskFactors": [
+      "Previous rheumatic fever",
+      "Untreated or inadequately treated streptococcal throat infection",
+      "Recurrent streptococcal infections"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Fainting",
+      "Chest pain",
+      "Rapidly worsening swelling"
+    ],
+    "whenToSeekCare": "Seek medical assessment for suspected rheumatic heart disease, particularly when there are symptoms of valve dysfunction or heart failure."
+  },
+  {
+    "name": "Infective Endocarditis",
+    "category": "Cardiovascular disease",
+    "subCategory": "Cardiac infection",
+    "anatomicalSite": "Heart valves and endocardium",
+    "etiology": "Usually bacterial; occasionally fungal",
+    "description": "An infection of the inner lining of the heart, commonly involving the heart valves.",
+    "commonSymptoms": [
+      "Fever",
+      "Fatigue",
+      "Heart murmur",
+      "Shortness of breath",
+      "Chills"
+    ],
+    "lessCommonSymptoms": [
+      "Weight loss",
+      "Night sweats",
+      "Joint pain",
+      "Skin changes"
+    ],
+    "keySymptoms": [
+      "Persistent fever",
+      "Heart murmur",
+      "Systemic illness"
+    ],
+    "riskFactors": [
+      "Prosthetic heart valves",
+      "Previous infective endocarditis",
+      "Certain congenital heart diseases",
+      "Intravenous drug use",
+      "Indwelling cardiac devices"
+    ],
+    "urgency": "emergency",
+    "warningSigns": [
+      "Persistent high fever",
+      "New heart murmur",
+      "Sudden neurological symptoms",
+      "Severe shortness of breath",
+      "Signs of heart failure"
+    ],
+    "whenToSeekCare": "Urgent medical evaluation is required when infective endocarditis is suspected."
+  },
+  {
+    "name": "Pericarditis",
+    "category": "Cardiovascular disease",
+    "subCategory": "Pericardial disease",
+    "anatomicalSite": "Pericardium",
+    "etiology": "Usually viral or idiopathic; may also be bacterial, autoimmune, or other causes",
+    "description": "Inflammation of the sac surrounding the heart.",
+    "commonSymptoms": [
+      "Sharp chest pain",
+      "Pain worse with deep breathing",
+      "Pain worse when lying down",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Shortness of breath",
+      "Cough",
+      "Palpitations",
+      "Weakness"
+    ],
+    "keySymptoms": [
+      "Sharp positional chest pain",
+      "Pain that may improve when sitting forward"
+    ],
+    "riskFactors": [
+      "Recent viral infection",
+      "Autoimmune disease",
+      "Kidney failure",
+      "Previous cardiac injury"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe chest pain",
+      "Fainting",
+      "Low blood pressure",
+      "Severe shortness of breath"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation for new chest pain, especially when associated with shortness of breath or fainting."
+  },
+  {
+    "name": "Pericardial Effusion",
+    "category": "Cardiovascular disease",
+    "subCategory": "Pericardial disease",
+    "anatomicalSite": "Pericardial sac",
+    "etiology": "Infectious, inflammatory, malignant, traumatic, or other causes",
+    "description": "Accumulation of excess fluid in the space surrounding the heart.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Chest discomfort",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Cough",
+      "Difficulty swallowing",
+      "Palpitations"
+    ],
+    "keySymptoms": [
+      "Shortness of breath",
+      "Chest discomfort"
+    ],
+    "riskFactors": [
+      "Pericarditis",
+      "Cancer",
+      "Kidney disease",
+      "Autoimmune disease",
+      "Infection",
+      "Chest trauma"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Fainting",
+      "Low blood pressure",
+      "Rapid deterioration"
+    ],
+    "whenToSeekCare": "Urgent assessment is required when a significant pericardial effusion is suspected."
+  },
+  {
+    "name": "Congenital Heart Disease",
+    "category": "Cardiovascular disease",
+    "subCategory": "Congenital heart disorder",
+    "anatomicalSite": "Heart and great vessels",
+    "etiology": "Congenital",
+    "description": "A structural abnormality of the heart or major blood vessels present from birth.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Poor exercise tolerance",
+      "Cyanosis"
+    ],
+    "lessCommonSymptoms": [
+      "Palpitations",
+      "Fainting",
+      "Poor growth in children",
+      "Frequent respiratory infections"
+    ],
+    "keySymptoms": [
+      "Heart murmur",
+      "Cyanosis",
+      "Exercise intolerance"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain genetic conditions",
+      "Maternal infections during pregnancy",
+      "Certain maternal medications or exposures"
+    ],
+    "urgency": "variable",
+    "warningSigns": [
+      "Severe cyanosis",
+      "Difficulty breathing",
+      "Fainting",
+      "Poor feeding in infants"
+    ],
+    "whenToSeekCare": "Medical evaluation is needed for suspected congenital heart disease, with emergency care required for severe cyanosis or breathing difficulty."
+  },
+  {
+    "name": "Aortic Stenosis",
+    "category": "Cardiovascular disease",
+    "subCategory": "Valvular heart disease",
+    "anatomicalSite": "Aortic valve",
+    "etiology": "Degenerative, congenital, or rheumatic",
+    "description": "Narrowing of the aortic valve that obstructs blood flow from the left ventricle into the aorta.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Chest pain",
+      "Dizziness",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Fainting",
+      "Reduced exercise tolerance",
+      "Palpitations"
+    ],
+    "keySymptoms": [
+      "Exertional breathlessness",
+      "Exertional chest pain",
+      "Exertional fainting"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Bicuspid aortic valve",
+      "Rheumatic heart disease",
+      "Cardiovascular risk factors"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Fainting with exertion",
+      "Chest pain",
+      "Severe breathlessness"
+    ],
+    "whenToSeekCare": "Prompt cardiology evaluation is important when symptoms develop, particularly exertional chest pain, fainting, or breathlessness."
+  },
+  {
+    "name": "Mitral Regurgitation",
+    "category": "Cardiovascular disease",
+    "subCategory": "Valvular heart disease",
+    "anatomicalSite": "Mitral valve",
+    "etiology": "Degenerative, ischemic, rheumatic, infectious, or congenital",
+    "description": "A condition in which the mitral valve does not close completely, allowing blood to flow backward into the left atrium.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Palpitations",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Chest discomfort",
+      "Leg swelling",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Breathlessness",
+      "Heart murmur",
+      "Fatigue"
+    ],
+    "riskFactors": [
+      "Mitral valve prolapse",
+      "Rheumatic heart disease",
+      "Previous heart attack",
+      "Infective endocarditis"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathlessness",
+      "Fainting",
+      "Chest pain",
+      "Rapid worsening of symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for new or worsening symptoms suggestive of mitral valve disease."
+  }
+]

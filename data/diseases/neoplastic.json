@@ -1,0 +1,936 @@
+[
+  {
+    "name": "Lung Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Thoracic malignancy",
+    "anatomicalSite": "Lung",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from cells of the lung.",
+    "commonSymptoms": [
+      "Persistent cough",
+      "Shortness of breath",
+      "Chest pain",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Coughing blood",
+      "Hoarseness",
+      "Recurrent respiratory infections",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Persistent or worsening cough",
+      "Unexplained weight loss",
+      "Coughing blood"
+    ],
+    "riskFactors": [
+      "Tobacco smoking",
+      "Secondhand smoke exposure",
+      "Occupational exposure to carcinogens",
+      "Air pollution",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Coughing blood",
+      "Severe breathing difficulty",
+      "Persistent chest pain",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent respiratory symptoms or coughing blood require medical evaluation."
+  },
+  {
+    "name": "Breast Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Breast malignancy",
+    "anatomicalSite": "Breast",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from cells of the breast.",
+    "commonSymptoms": [
+      "Breast lump",
+      "Breast or nipple changes",
+      "Changes in breast shape"
+    ],
+    "lessCommonSymptoms": [
+      "Nipple discharge",
+      "Skin dimpling",
+      "Nipple inversion",
+      "Swelling in the armpit"
+    ],
+    "keySymptoms": [
+      "New breast lump",
+      "Persistent breast or nipple changes"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain inherited genetic variants",
+      "Hormonal factors",
+      "Previous chest radiation"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "New breast lump",
+      "Bloody nipple discharge",
+      "Skin dimpling",
+      "Persistent nipple inversion"
+    ],
+    "whenToSeekCare": "Any new or persistent breast lump or unexplained breast change should be medically assessed."
+  },
+  {
+    "name": "Colorectal Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gastrointestinal malignancy",
+    "anatomicalSite": "Colon and rectum",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the colon or rectum.",
+    "commonSymptoms": [
+      "Change in bowel habits",
+      "Blood in stool",
+      "Abdominal discomfort",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Iron deficiency anemia",
+      "Bloating",
+      "Feeling of incomplete bowel evacuation"
+    ],
+    "keySymptoms": [
+      "Blood in stool",
+      "Persistent change in bowel habits",
+      "Unexplained iron deficiency anemia"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain inherited syndromes",
+      "Inflammatory bowel disease",
+      "Smoking",
+      "Obesity"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Significant rectal bleeding",
+      "Bowel obstruction",
+      "Severe abdominal pain",
+      "Rapid unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent changes in bowel habits, rectal bleeding, or unexplained anemia require medical evaluation."
+  },
+  {
+    "name": "Stomach Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gastrointestinal malignancy",
+    "anatomicalSite": "Stomach",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the lining of the stomach.",
+    "commonSymptoms": [
+      "Persistent indigestion",
+      "Upper abdominal discomfort",
+      "Loss of appetite",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Difficulty swallowing",
+      "Anemia"
+    ],
+    "keySymptoms": [
+      "Persistent upper abdominal symptoms",
+      "Unexplained weight loss",
+      "Loss of appetite"
+    ],
+    "riskFactors": [
+      "Helicobacter pylori infection",
+      "Smoking",
+      "Family history",
+      "Certain dietary factors",
+      "Chronic atrophic gastritis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black stools",
+      "Difficulty swallowing",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent upper gastrointestinal symptoms or signs of gastrointestinal bleeding require medical assessment."
+  },
+  {
+    "name": "Esophageal Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gastrointestinal malignancy",
+    "anatomicalSite": "Esophagus",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the esophagus.",
+    "commonSymptoms": [
+      "Difficulty swallowing",
+      "Painful swallowing",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Chest discomfort",
+      "Hoarseness",
+      "Persistent cough",
+      "Vomiting"
+    ],
+    "keySymptoms": [
+      "Progressively worsening difficulty swallowing",
+      "Unexplained weight loss"
+    ],
+    "riskFactors": [
+      "Tobacco use",
+      "Alcohol use",
+      "Chronic acid reflux",
+      "Barrett's esophagus",
+      "Increasing age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Progressive difficulty swallowing",
+      "Vomiting blood",
+      "Severe weight loss"
+    ],
+    "whenToSeekCare": "Progressive difficulty swallowing or unexplained weight loss requires prompt medical evaluation."
+  },
+  {
+    "name": "Liver Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Hepatobiliary malignancy",
+    "anatomicalSite": "Liver",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor originating in the liver, most commonly hepatocellular carcinoma.",
+    "commonSymptoms": [
+      "Unexplained weight loss",
+      "Loss of appetite",
+      "Upper abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Fatigue",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Unexplained weight loss",
+      "Upper abdominal symptoms",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Chronic hepatitis B",
+      "Chronic hepatitis C",
+      "Cirrhosis",
+      "Metabolic dysfunction-associated steatotic liver disease",
+      "Heavy alcohol use"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Jaundice",
+      "Vomiting blood",
+      "Rapid abdominal swelling",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "New or worsening symptoms in a person with chronic liver disease require medical assessment."
+  },
+  {
+    "name": "Pancreatic Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gastrointestinal malignancy",
+    "anatomicalSite": "Pancreas",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the pancreas.",
+    "commonSymptoms": [
+      "Upper abdominal pain",
+      "Unexplained weight loss",
+      "Loss of appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Back pain",
+      "Nausea",
+      "New or worsening diabetes"
+    ],
+    "keySymptoms": [
+      "Unexplained weight loss",
+      "Upper abdominal or back pain",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Increasing age",
+      "Chronic pancreatitis",
+      "Family history",
+      "Certain inherited genetic conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Jaundice",
+      "Severe abdominal pain",
+      "Persistent vomiting",
+      "Rapid unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent unexplained abdominal symptoms, jaundice, or weight loss require medical evaluation."
+  },
+  {
+    "name": "Kidney Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Genitourinary malignancy",
+    "anatomicalSite": "Kidney",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from kidney tissue, most commonly renal cell carcinoma.",
+    "commonSymptoms": [
+      "Blood in urine",
+      "Flank pain",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal mass",
+      "Fever",
+      "Fatigue",
+      "Anemia"
+    ],
+    "keySymptoms": [
+      "Blood in urine",
+      "Flank pain",
+      "Unexplained weight loss"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Obesity",
+      "Hypertension",
+      "Family history",
+      "Certain inherited conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Visible blood in urine",
+      "Severe flank pain",
+      "Rapid unexplained weight loss"
+    ],
+    "whenToSeekCare": "Blood in the urine or persistent unexplained flank symptoms require medical evaluation."
+  },
+  {
+    "name": "Bladder Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Genitourinary malignancy",
+    "anatomicalSite": "Urinary bladder",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the tissues of the urinary bladder.",
+    "commonSymptoms": [
+      "Blood in urine",
+      "Frequent urination",
+      "Painful urination"
+    ],
+    "lessCommonSymptoms": [
+      "Pelvic pain",
+      "Back pain",
+      "Urgency to urinate"
+    ],
+    "keySymptoms": [
+      "Painless blood in urine",
+      "Urinary symptoms"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Occupational chemical exposure",
+      "Increasing age",
+      "Previous radiation exposure"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Visible blood in urine",
+      "Persistent urinary symptoms",
+      "Pelvic pain"
+    ],
+    "whenToSeekCare": "Visible blood in urine should be medically evaluated even when painless."
+  },
+  {
+    "name": "Prostate Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Genitourinary malignancy",
+    "anatomicalSite": "Prostate gland",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the prostate gland.",
+    "commonSymptoms": [
+      "Difficulty urinating",
+      "Weak urinary stream",
+      "Increased urinary frequency"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Blood in semen",
+      "Bone pain",
+      "Erectile dysfunction"
+    ],
+    "keySymptoms": [
+      "New urinary difficulties",
+      "Blood in urine or semen",
+      "Bone pain in advanced disease"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain inherited genetic variants",
+      "African ancestry"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Urinary retention",
+      "Severe bone pain",
+      "Leg weakness or numbness"
+    ],
+    "whenToSeekCare": "Persistent urinary changes or concerning symptoms should be evaluated by a healthcare professional."
+  },
+  {
+    "name": "Cervical Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gynecologic malignancy",
+    "anatomicalSite": "Cervix",
+    "etiology": "Neoplastic, commonly associated with persistent high-risk HPV infection",
+    "description": "A malignant tumor arising from the cervix, most commonly associated with persistent infection by high-risk human papillomavirus.",
+    "commonSymptoms": [
+      "Abnormal vaginal bleeding",
+      "Bleeding after sexual intercourse",
+      "Pelvic pain"
+    ],
+    "lessCommonSymptoms": [
+      "Unusual vaginal discharge",
+      "Pain during sexual intercourse",
+      "Urinary symptoms"
+    ],
+    "keySymptoms": [
+      "Abnormal vaginal bleeding",
+      "Postcoital bleeding"
+    ],
+    "riskFactors": [
+      "Persistent high-risk HPV infection",
+      "Lack of cervical cancer screening",
+      "Smoking",
+      "Immune suppression"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Heavy vaginal bleeding",
+      "Severe pelvic pain",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Abnormal vaginal bleeding should be medically evaluated."
+  },
+  {
+    "name": "Ovarian Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gynecologic malignancy",
+    "anatomicalSite": "Ovary",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from ovarian tissue.",
+    "commonSymptoms": [
+      "Abdominal bloating",
+      "Pelvic pain",
+      "Feeling full quickly",
+      "Increased abdominal size"
+    ],
+    "lessCommonSymptoms": [
+      "Urinary frequency",
+      "Fatigue",
+      "Changes in bowel habits",
+      "Unexplained weight change"
+    ],
+    "keySymptoms": [
+      "Persistent bloating",
+      "Pelvic or abdominal discomfort",
+      "Early satiety"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain inherited genetic variants",
+      "Endometriosis"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapid abdominal swelling",
+      "Severe abdominal pain",
+      "Persistent vomiting",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Persistent unexplained abdominal or pelvic symptoms should be medically evaluated."
+  },
+  {
+    "name": "Endometrial Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Gynecologic malignancy",
+    "anatomicalSite": "Endometrium",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the lining of the uterus.",
+    "commonSymptoms": [
+      "Abnormal uterine bleeding",
+      "Bleeding after menopause",
+      "Pelvic pain"
+    ],
+    "lessCommonSymptoms": [
+      "Unusual vaginal discharge",
+      "Fatigue",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Abnormal uterine bleeding",
+      "Postmenopausal bleeding"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Unopposed estrogen exposure",
+      "Type 2 diabetes",
+      "Increasing age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Postmenopausal bleeding",
+      "Heavy abnormal bleeding",
+      "Unexplained weight loss"
+    ],
+    "whenToSeekCare": "Any postmenopausal bleeding or persistent abnormal uterine bleeding requires medical evaluation."
+  },
+  {
+    "name": "Testicular Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Genitourinary malignancy",
+    "anatomicalSite": "Testis",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from the testicular tissues.",
+    "commonSymptoms": [
+      "Painless testicular lump",
+      "Testicular enlargement",
+      "Heaviness in the scrotum"
+    ],
+    "lessCommonSymptoms": [
+      "Dull ache in the lower abdomen",
+      "Scrotal discomfort",
+      "Back pain"
+    ],
+    "keySymptoms": [
+      "New testicular lump",
+      "Persistent testicular enlargement"
+    ],
+    "riskFactors": [
+      "History of undescended testis",
+      "Previous testicular cancer",
+      "Family history",
+      "Certain genetic conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapid testicular enlargement",
+      "Severe pain",
+      "Abdominal or back mass"
+    ],
+    "whenToSeekCare": "Any new testicular lump or persistent enlargement should be medically evaluated."
+  },
+  {
+    "name": "Brain Tumor",
+    "category": "Neoplastic disease",
+    "subCategory": "Central nervous system malignancy",
+    "anatomicalSite": "Brain",
+    "etiology": "Neoplastic",
+    "description": "An abnormal growth of cells within or around the brain, which may be benign or malignant.",
+    "commonSymptoms": [
+      "Headache",
+      "Seizures",
+      "Nausea or vomiting",
+      "Neurological changes"
+    ],
+    "lessCommonSymptoms": [
+      "Vision changes",
+      "Personality changes",
+      "Balance problems",
+      "Weakness"
+    ],
+    "keySymptoms": [
+      "New or progressive neurological symptoms",
+      "New-onset seizures",
+      "Progressive headache"
+    ],
+    "riskFactors": [
+      "Previous radiation exposure",
+      "Certain inherited genetic conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "New seizure",
+      "Sudden weakness",
+      "Loss of consciousness",
+      "Rapid neurological deterioration"
+    ],
+    "whenToSeekCare": "New seizures or progressive neurological symptoms require prompt medical assessment."
+  },
+  {
+    "name": "Leukemia",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Bone marrow and blood",
+    "etiology": "Neoplastic",
+    "description": "A group of cancers affecting blood-forming tissues and producing abnormal white blood cells.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Frequent infections",
+      "Easy bruising"
+    ],
+    "lessCommonSymptoms": [
+      "Pale skin",
+      "Bone pain",
+      "Night sweats",
+      "Unexplained weight loss"
+    ],
+    "keySymptoms": [
+      "Unexplained fatigue",
+      "Recurrent infections",
+      "Easy bruising or bleeding"
+    ],
+    "riskFactors": [
+      "Certain genetic disorders",
+      "Previous chemotherapy",
+      "Radiation exposure",
+      "Certain chemical exposures"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe bleeding",
+      "Severe infection",
+      "Extreme weakness",
+      "Rapid clinical deterioration"
+    ],
+    "whenToSeekCare": "Persistent unexplained abnormalities in blood counts or symptoms such as recurrent infections or unusual bleeding require medical evaluation."
+  },
+  {
+    "name": "Lymphoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Lymphatic system",
+    "etiology": "Neoplastic",
+    "description": "A group of cancers arising from lymphocytes and other cells of the lymphatic system.",
+    "commonSymptoms": [
+      "Painless swollen lymph nodes",
+      "Fever",
+      "Night sweats",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Itching",
+      "Recurrent infections",
+      "Abdominal swelling"
+    ],
+    "keySymptoms": [
+      "Persistent painless lymph node enlargement",
+      "Unexplained weight loss",
+      "Night sweats"
+    ],
+    "riskFactors": [
+      "Immune suppression",
+      "Certain infections",
+      "Family history",
+      "Increasing age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapidly enlarging lymph nodes",
+      "Severe breathing difficulty",
+      "Significant weight loss",
+      "Persistent high fever"
+    ],
+    "whenToSeekCare": "Persistent unexplained lymph node enlargement or systemic symptoms should be medically evaluated."
+  },
+  {
+    "name": "Multiple Myeloma",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Bone marrow",
+    "etiology": "Neoplastic",
+    "description": "A cancer of plasma cells that develops primarily in the bone marrow.",
+    "commonSymptoms": [
+      "Bone pain",
+      "Fatigue",
+      "Recurrent infections"
+    ],
+    "lessCommonSymptoms": [
+      "Kidney problems",
+      "Unexplained weight loss",
+      "Weakness",
+      "Increased thirst"
+    ],
+    "keySymptoms": [
+      "Persistent bone pain",
+      "Fatigue",
+      "Recurrent infections"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Family history",
+      "Certain precursor plasma-cell disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe bone pain",
+      "Confusion",
+      "Severe weakness",
+      "Reduced urine output"
+    ],
+    "whenToSeekCare": "Persistent unexplained bone pain, anemia, kidney dysfunction, or abnormal blood tests require medical assessment."
+  },
+  {
+    "name": "Melanoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Skin malignancy",
+    "anatomicalSite": "Skin and melanocytes",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from melanocytes, the cells responsible for producing pigment.",
+    "commonSymptoms": [
+      "Changing mole",
+      "New pigmented skin lesion",
+      "Irregularly shaped lesion"
+    ],
+    "lessCommonSymptoms": [
+      "Itching",
+      "Bleeding",
+      "Crusting"
+    ],
+    "keySymptoms": [
+      "Changing pigmented lesion",
+      "Asymmetry",
+      "Irregular borders",
+      "Multiple or changing colors"
+    ],
+    "riskFactors": [
+      "Ultraviolet radiation exposure",
+      "Fair skin",
+      "History of sunburn",
+      "Family history",
+      "Multiple atypical moles"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapidly changing mole",
+      "Bleeding lesion",
+      "New suspicious pigmented lesion"
+    ],
+    "whenToSeekCare": "Any suspicious or changing pigmented skin lesion should be assessed by a healthcare professional."
+  },
+  {
+    "name": "Basal Cell Carcinoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Skin malignancy",
+    "anatomicalSite": "Skin",
+    "etiology": "Neoplastic",
+    "description": "A common skin cancer arising from basal cells of the epidermis.",
+    "commonSymptoms": [
+      "Persistent skin lesion",
+      "Shiny or pearly bump",
+      "Non-healing sore"
+    ],
+    "lessCommonSymptoms": [
+      "Bleeding",
+      "Crusting",
+      "Ulceration"
+    ],
+    "keySymptoms": [
+      "Non-healing skin lesion",
+      "Pearly or shiny lesion"
+    ],
+    "riskFactors": [
+      "Ultraviolet radiation exposure",
+      "Fair skin",
+      "History of sun exposure",
+      "Previous skin cancer"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Persistent non-healing lesion",
+      "Bleeding lesion",
+      "Rapid growth"
+    ],
+    "whenToSeekCare": "Persistent or changing skin lesions should be assessed by a healthcare professional."
+  },
+  {
+    "name": "Squamous Cell Carcinoma of the Skin",
+    "category": "Neoplastic disease",
+    "subCategory": "Skin malignancy",
+    "anatomicalSite": "Skin",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from squamous cells of the skin.",
+    "commonSymptoms": [
+      "Persistent scaly skin lesion",
+      "Crusted lesion",
+      "Non-healing sore"
+    ],
+    "lessCommonSymptoms": [
+      "Bleeding",
+      "Tenderness",
+      "Rapid growth"
+    ],
+    "keySymptoms": [
+      "Persistent scaly or crusted lesion",
+      "Non-healing sore"
+    ],
+    "riskFactors": [
+      "Ultraviolet radiation exposure",
+      "Fair skin",
+      "Chronic wounds",
+      "Immune suppression",
+      "Certain chemical exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly growing lesion",
+      "Bleeding",
+      "Painful lesion",
+      "Persistent non-healing wound"
+    ],
+    "whenToSeekCare": "Persistent, growing, bleeding, or non-healing skin lesions should be medically evaluated."
+  },
+  {
+    "name": "Thyroid Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Endocrine malignancy",
+    "anatomicalSite": "Thyroid gland",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from cells of the thyroid gland.",
+    "commonSymptoms": [
+      "Neck lump",
+      "Neck swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Hoarseness",
+      "Difficulty swallowing",
+      "Difficulty breathing",
+      "Neck pain"
+    ],
+    "keySymptoms": [
+      "New thyroid or neck lump",
+      "Persistent neck swelling"
+    ],
+    "riskFactors": [
+      "Previous neck radiation",
+      "Family history",
+      "Certain inherited genetic conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapidly enlarging neck mass",
+      "Difficulty breathing",
+      "Difficulty swallowing",
+      "Persistent hoarseness"
+    ],
+    "whenToSeekCare": "A new or enlarging neck lump should be medically evaluated."
+  },
+  {
+    "name": "Nasopharyngeal Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Head and neck malignancy",
+    "anatomicalSite": "Nasopharynx",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising in the upper part of the throat behind the nose.",
+    "commonSymptoms": [
+      "Nasal obstruction",
+      "Hearing problems",
+      "Neck lump"
+    ],
+    "lessCommonSymptoms": [
+      "Nosebleeds",
+      "Headache",
+      "Facial numbness",
+      "Double vision"
+    ],
+    "keySymptoms": [
+      "Persistent nasal obstruction",
+      "Unilateral hearing symptoms",
+      "Persistent neck lymph node swelling"
+    ],
+    "riskFactors": [
+      "Epstein-Barr virus association",
+      "Family history",
+      "Certain dietary exposures",
+      "Geographic and ethnic factors"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Persistent unilateral nasal obstruction",
+      "Recurrent nosebleeds",
+      "Persistent neck mass",
+      "Neurological or visual symptoms"
+    ],
+    "whenToSeekCare": "Persistent nasal, ear, or neck symptoms should be medically evaluated."
+  },
+  {
+    "name": "Oral Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Head and neck malignancy",
+    "anatomicalSite": "Oral cavity",
+    "etiology": "Neoplastic",
+    "description": "A malignant tumor arising from tissues of the mouth, including the lips, tongue, gums, and inner cheeks.",
+    "commonSymptoms": [
+      "Persistent mouth ulcer",
+      "Mouth lump",
+      "Persistent oral pain"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Difficulty speaking",
+      "Loose teeth",
+      "Neck lump"
+    ],
+    "keySymptoms": [
+      "Persistent oral lesion",
+      "Unexplained oral lump",
+      "Persistent oral pain"
+    ],
+    "riskFactors": [
+      "Tobacco use",
+      "Alcohol use",
+      "High-risk HPV infection",
+      "Sun exposure for lip cancer"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Mouth lesion lasting more than two weeks",
+      "Unexplained bleeding",
+      "Neck lump",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "Persistent or unexplained oral lesions should be evaluated promptly."
+  },
+  {
+    "name": "Ovarian Germ Cell Tumor",
+    "category": "Neoplastic disease",
+    "subCategory": "Gynecologic malignancy",
+    "anatomicalSite": "Ovary",
+    "etiology": "Neoplastic",
+    "description": "A group of ovarian tumors arising from germ cells.",
+    "commonSymptoms": [
+      "Pelvic mass",
+      "Pelvic pain",
+      "Abdominal swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Abnormal vaginal bleeding"
+    ],
+    "keySymptoms": [
+      "Pelvic mass",
+      "Pelvic or abdominal pain"
+    ],
+    "riskFactors": [
+      "Young age",
+      "Certain genetic conditions"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Rapid abdominal enlargement",
+      "Acute vomiting"
+    ],
+    "whenToSeekCare": "A persistent pelvic mass or unexplained pelvic symptoms require medical evaluation."
+  }
+]

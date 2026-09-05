@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Conjunctivitis",
+    "category": "Ophthalmic disease",
+    "subCategory": "Conjunctival disorder",
+    "anatomicalSite": "Conjunctiva",
+    "etiology": "Infectious, allergic, or irritant",
+    "description": "Inflammation of the conjunctiva that may result from infection, allergy, or irritation.",
+    "commonSymptoms": [
+      "Eye redness",
+      "Eye discharge",
+      "Itching",
+      "Eye irritation"
+    ],
+    "lessCommonSymptoms": [
+      "Eyelid swelling",
+      "Light sensitivity",
+      "Watery eyes"
+    ],
+    "keySymptoms": [
+      "Red eye",
+      "Eye discharge or excessive tearing"
+    ],
+    "riskFactors": [
+      "Close contact with infected individuals",
+      "Allergies",
+      "Poor hand hygiene",
+      "Exposure to irritants"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe eye pain",
+      "Vision loss",
+      "Marked light sensitivity",
+      "Corneal opacity"
+    ],
+    "whenToSeekCare": "Seek medical evaluation if there is significant pain, vision change, severe light sensitivity, or symptoms that persist or worsen."
+  },
+  {
+    "name": "Cataract",
+    "category": "Ophthalmic disease",
+    "subCategory": "Lens disorder",
+    "anatomicalSite": "Lens",
+    "etiology": "Degenerative, age-related, traumatic, metabolic, or medication-related",
+    "description": "Clouding of the eye's natural lens that progressively reduces vision.",
+    "commonSymptoms": [
+      "Blurred vision",
+      "Reduced visual clarity",
+      "Difficulty seeing at night",
+      "Sensitivity to glare"
+    ],
+    "lessCommonSymptoms": [
+      "Double vision in one eye",
+      "Faded colors",
+      "Frequent changes in glasses prescription"
+    ],
+    "keySymptoms": [
+      "Progressive painless vision loss",
+      "Lens opacity"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Diabetes",
+      "Smoking",
+      "Previous eye injury",
+      "Long-term corticosteroid use"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden vision loss",
+      "Severe eye pain",
+      "Rapidly worsening vision"
+    ],
+    "whenToSeekCare": "Seek ophthalmic evaluation for progressive vision loss affecting daily activities."
+  },
+  {
+    "name": "Glaucoma",
+    "category": "Ophthalmic disease",
+    "subCategory": "Optic nerve disorder",
+    "anatomicalSite": "Optic nerve and anterior eye",
+    "etiology": "Multifactorial",
+    "description": "A group of eye disorders that can damage the optic nerve and cause progressive vision loss.",
+    "commonSymptoms": [
+      "Often no symptoms initially",
+      "Gradual peripheral vision loss"
+    ],
+    "lessCommonSymptoms": [
+      "Eye pain",
+      "Headache",
+      "Blurred vision",
+      "Halos around lights",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Progressive peripheral vision loss"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Family history",
+      "Elevated intraocular pressure",
+      "Diabetes",
+      "Long-term corticosteroid use"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden severe eye pain",
+      "Sudden blurred vision",
+      "Halos around lights",
+      "Nausea and vomiting"
+    ],
+    "whenToSeekCare": "Regular eye examinations are important because glaucoma may cause irreversible vision loss before symptoms appear. Sudden severe symptoms require emergency assessment."
+  },
+  {
+    "name": "Refractive Error",
+    "category": "Ophthalmic disease",
+    "subCategory": "Refractive disorder",
+    "anatomicalSite": "Cornea and lens",
+    "etiology": "Structural",
+    "description": "A group of conditions in which the eye does not focus light correctly on the retina.",
+    "commonSymptoms": [
+      "Blurred vision",
+      "Eye strain",
+      "Headache",
+      "Difficulty seeing distant or near objects"
+    ],
+    "lessCommonSymptoms": [
+      "Squinting",
+      "Difficulty concentrating on visual tasks"
+    ],
+    "keySymptoms": [
+      "Blurred vision that improves with appropriate corrective lenses"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Age",
+      "Normal variation in eye anatomy"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden vision loss",
+      "Sudden flashes or floaters",
+      "Eye pain"
+    ],
+    "whenToSeekCare": "Seek an eye examination for persistent blurred vision or difficulty seeing clearly."
+  },
+  {
+    "name": "Myopia",
+    "category": "Ophthalmic disease",
+    "subCategory": "Refractive disorder",
+    "anatomicalSite": "Eye",
+    "etiology": "Structural and genetic",
+    "description": "A refractive error in which distant objects appear blurred because light focuses in front of the retina.",
+    "commonSymptoms": [
+      "Blurred distance vision",
+      "Squinting",
+      "Eye strain"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Difficulty seeing classroom boards or distant signs"
+    ],
+    "keySymptoms": [
+      "Poor distance vision"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Childhood onset",
+      "Limited time outdoors"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden vision changes",
+      "Flashes",
+      "Sudden increase in floaters"
+    ],
+    "whenToSeekCare": "Routine eye assessment is recommended for persistent difficulty seeing distant objects."
+  },
+  {
+    "name": "Hyperopia",
+    "category": "Ophthalmic disease",
+    "subCategory": "Refractive disorder",
+    "anatomicalSite": "Eye",
+    "etiology": "Structural and genetic",
+    "description": "A refractive error in which light tends to focus behind the retina.",
+    "commonSymptoms": [
+      "Blurred near vision",
+      "Eye strain",
+      "Headache"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty focusing",
+      "Visual fatigue"
+    ],
+    "keySymptoms": [
+      "Difficulty focusing on near objects"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Normal variation in eye anatomy"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden vision loss",
+      "Severe eye pain",
+      "Sudden visual distortion"
+    ],
+    "whenToSeekCare": "Seek an eye examination for persistent difficulty focusing or blurred vision."
+  },
+  {
+    "name": "Astigmatism",
+    "category": "Ophthalmic disease",
+    "subCategory": "Refractive disorder",
+    "anatomicalSite": "Cornea or lens",
+    "etiology": "Structural",
+    "description": "A refractive error caused by irregular curvature of the cornea or lens, resulting in distorted or blurred vision.",
+    "commonSymptoms": [
+      "Blurred vision",
+      "Distorted vision",
+      "Eye strain",
+      "Headache"
+    ],
+    "lessCommonSymptoms": [
+      "Squinting",
+      "Difficulty seeing at night"
+    ],
+    "keySymptoms": [
+      "Blurred or distorted vision at multiple distances"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Eye injury",
+      "Certain corneal conditions"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden visual distortion",
+      "Sudden vision loss",
+      "Severe eye pain"
+    ],
+    "whenToSeekCare": "Seek an eye examination for persistent blurred or distorted vision."
+  },
+  {
+    "name": "Diabetic Retinopathy",
+    "category": "Endocrine disease",
+    "subCategory": "Diabetic eye disorder",
+    "anatomicalSite": "Retina",
+    "etiology": "Metabolic",
+    "description": "A retinal disorder caused by damage to retinal blood vessels associated with diabetes.",
+    "commonSymptoms": [
+      "Often no symptoms initially",
+      "Blurred vision",
+      "Difficulty seeing at night"
+    ],
+    "lessCommonSymptoms": [
+      "Floaters",
+      "Dark areas in vision",
+      "Sudden vision loss"
+    ],
+    "keySymptoms": [
+      "Progressive visual changes in a person with diabetes"
+    ],
+    "riskFactors": [
+      "Long duration of diabetes",
+      "Poor blood glucose control",
+      "High blood pressure",
+      "Kidney disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden vision loss",
+      "New floaters",
+      "Flashes",
+      "Dark curtain over vision"
+    ],
+    "whenToSeekCare": "People with diabetes should receive regular retinal screening. Sudden vision loss requires urgent assessment."
+  },
+  {
+    "name": "Age-Related Macular Degeneration",
+    "category": "Ophthalmic disease",
+    "subCategory": "Retinal disorder",
+    "anatomicalSite": "Macula",
+    "etiology": "Degenerative",
+    "description": "A degenerative disorder affecting the macula and causing progressive loss of central vision.",
+    "commonSymptoms": [
+      "Blurred central vision",
+      "Difficulty reading",
+      "Difficulty recognizing faces"
+    ],
+    "lessCommonSymptoms": [
+      "Distorted straight lines",
+      "Central blind spot"
+    ],
+    "keySymptoms": [
+      "Progressive central vision loss",
+      "Visual distortion"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Smoking",
+      "Family history",
+      "Cardiovascular risk factors"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden central vision distortion",
+      "Rapid vision loss"
+    ],
+    "whenToSeekCare": "New sudden distortion or loss of central vision requires prompt ophthalmic assessment."
+  },
+  {
+    "name": "Retinal Detachment",
+    "category": "Ophthalmic disease",
+    "subCategory": "Retinal disorder",
+    "anatomicalSite": "Retina",
+    "etiology": "Structural",
+    "description": "A serious condition in which the retina separates from its normal position within the eye.",
+    "commonSymptoms": [
+      "Flashes of light",
+      "Sudden increase in floaters",
+      "Visual field loss"
+    ],
+    "lessCommonSymptoms": [
+      "Blurred vision",
+      "Shadow or curtain across vision"
+    ],
+    "keySymptoms": [
+      "Sudden flashes",
+      "New floaters",
+      "Curtain-like visual field loss"
+    ],
+    "riskFactors": [
+      "Severe myopia",
+      "Previous eye surgery",
+      "Eye trauma",
+      "Previous retinal detachment"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Curtain over vision",
+      "Sudden vision loss",
+      "Sudden increase in floaters or flashes"
+    ],
+    "whenToSeekCare": "Immediate emergency ophthalmic assessment is required for symptoms suggestive of retinal detachment."
+  },
+  {
+    "name": "Keratitis",
+    "category": "Ophthalmic disease",
+    "subCategory": "Corneal disorder",
+    "anatomicalSite": "Cornea",
+    "etiology": "Infectious, inflammatory, or traumatic",
+    "description": "Inflammation of the cornea that may be caused by infection, injury, or other inflammatory conditions.",
+    "commonSymptoms": [
+      "Eye pain",
+      "Redness",
+      "Light sensitivity",
+      "Blurred vision"
+    ],
+    "lessCommonSymptoms": [
+      "Excessive tearing",
+      "Foreign body sensation",
+      "Eye discharge"
+    ],
+    "keySymptoms": [
+      "Painful red eye",
+      "Light sensitivity",
+      "Vision changes"
+    ],
+    "riskFactors": [
+      "Contact lens use",
+      "Eye injury",
+      "Eye infection",
+      "Poor contact lens hygiene"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe eye pain",
+      "Reduced vision",
+      "Corneal opacity",
+      "Rapid worsening"
+    ],
+    "whenToSeekCare": "Prompt ophthalmic assessment is recommended because some forms of keratitis can rapidly threaten vision."
+  },
+  {
+    "name": "Uveitis",
+    "category": "Ophthalmic disease",
+    "subCategory": "Intraocular inflammatory disorder",
+    "anatomicalSite": "Uvea",
+    "etiology": "Autoimmune, infectious, inflammatory, or idiopathic",
+    "description": "Inflammation involving the uveal tract and sometimes other internal structures of the eye.",
+    "commonSymptoms": [
+      "Eye pain",
+      "Redness",
+      "Blurred vision",
+      "Light sensitivity"
+    ],
+    "lessCommonSymptoms": [
+      "Floaters",
+      "Reduced visual acuity"
+    ],
+    "keySymptoms": [
+      "Painful red eye",
+      "Light sensitivity",
+      "Vision changes"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Infections",
+      "Previous eye inflammation"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Sudden vision loss",
+      "Severe eye pain",
+      "Marked light sensitivity"
+    ],
+    "whenToSeekCare": "Prompt ophthalmic evaluation is recommended because untreated intraocular inflammation can cause permanent vision loss."
+  },
+  {
+    "name": "Dry Eye Disease",
+    "category": "Ophthalmic disease",
+    "subCategory": "Ocular surface disorder",
+    "anatomicalSite": "Tear film and ocular surface",
+    "etiology": "Multifactorial",
+    "description": "A disorder caused by inadequate tear production, excessive tear evaporation, or abnormal tear composition.",
+    "commonSymptoms": [
+      "Dryness",
+      "Burning",
+      "Gritty sensation",
+      "Eye irritation"
+    ],
+    "lessCommonSymptoms": [
+      "Watery eyes",
+      "Blurred vision",
+      "Light sensitivity"
+    ],
+    "keySymptoms": [
+      "Dry or gritty eyes",
+      "Burning or irritation"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Prolonged screen use",
+      "Contact lens use",
+      "Certain medications",
+      "Environmental dryness"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe pain",
+      "Sudden vision loss",
+      "Marked redness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation if symptoms are persistent, severe, or associated with vision changes."
+  },
+  {
+    "name": "Amblyopia",
+    "category": "Ophthalmic disease",
+    "subCategory": "Visual development disorder",
+    "anatomicalSite": "Visual system",
+    "etiology": "Developmental",
+    "description": "Reduced vision in one or both eyes caused by abnormal visual development during childhood.",
+    "commonSymptoms": [
+      "Reduced vision in one eye",
+      "Poor depth perception"
+    ],
+    "lessCommonSymptoms": [
+      "Squinting",
+      "Difficulty with visual tasks"
+    ],
+    "keySymptoms": [
+      "Reduced vision despite absence of major structural eye abnormality"
+    ],
+    "riskFactors": [
+      "Strabismus",
+      "Significant refractive error",
+      "Childhood eye disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Abnormal eye alignment",
+      "Reduced vision in a child"
+    ],
+    "whenToSeekCare": "Early eye assessment is important because treatment effectiveness is greatest during childhood."
+  },
+  {
+    "name": "Strabismus",
+    "category": "Ophthalmic disease",
+    "subCategory": "Ocular alignment disorder",
+    "anatomicalSite": "Extraocular muscles and visual system",
+    "etiology": "Developmental, neurological, refractive, or structural",
+    "description": "A condition in which the eyes are not properly aligned and do not consistently point in the same direction.",
+    "commonSymptoms": [
+      "Misaligned eyes",
+      "Double vision",
+      "Difficulty with depth perception"
+    ],
+    "lessCommonSymptoms": [
+      "Eye strain",
+      "Headache",
+      "Abnormal head positioning"
+    ],
+    "keySymptoms": [
+      "Visible eye misalignment"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Childhood visual disorders",
+      "Neurological disease",
+      "Significant refractive error"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden onset in an adult",
+      "Double vision",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek ophthalmic assessment for persistent eye misalignment; sudden adult-onset strabismus requires prompt evaluation."
+  },
+  {
+    "name": "Retinoblastoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Ocular malignancy",
+    "anatomicalSite": "Retina",
+    "etiology": "Neoplastic and genetic",
+    "description": "A rare malignant tumor of the retina that primarily affects young children.",
+    "commonSymptoms": [
+      "White reflection in the pupil",
+      "Abnormal eye appearance",
+      "Eye misalignment"
+    ],
+    "lessCommonSymptoms": [
+      "Eye redness",
+      "Eye swelling",
+      "Vision problems"
+    ],
+    "keySymptoms": [
+      "White pupillary reflex",
+      "Abnormal eye alignment"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited RB1 mutation"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "White pupil",
+      "New eye misalignment",
+      "Abnormal eye appearance"
+    ],
+    "whenToSeekCare": "Urgent specialist assessment is required for a child with a white pupil or unexplained new eye abnormality."
+  }
+]

@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Amebiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Protozoal intestinal infection",
+    "anatomicalSite": "Colon and liver",
+    "etiology": "Protozoal",
+    "description": "An infection caused by Entamoeba histolytica, primarily affecting the intestine and sometimes the liver.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal pain",
+      "Abdominal cramps"
+    ],
+    "lessCommonSymptoms": [
+      "Bloody stool",
+      "Fever",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Persistent diarrhea",
+      "Abdominal pain",
+      "Bloody diarrhea in invasive disease"
+    ],
+    "riskFactors": [
+      "Unsafe drinking water",
+      "Poor sanitation",
+      "Contaminated food",
+      "Travel to endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Bloody diarrhea",
+      "Severe abdominal pain",
+      "High fever"
+    ],
+    "whenToSeekCare": "Seek medical assessment for persistent or bloody diarrhea or symptoms suggesting invasive infection."
+  },
+  {
+    "name": "Giardiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Protozoal intestinal infection",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Protozoal",
+    "description": "An intestinal infection caused by Giardia parasites, commonly acquired through contaminated water or food.",
+    "commonSymptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Bloating",
+      "Gas"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Fatigue",
+      "Weight loss",
+      "Greasy stools"
+    ],
+    "keySymptoms": [
+      "Persistent diarrhea",
+      "Bloating",
+      "Foul-smelling or greasy stools"
+    ],
+    "riskFactors": [
+      "Unsafe water",
+      "Poor sanitation",
+      "Childcare exposure",
+      "Travel to endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Significant weight loss",
+      "Persistent diarrhea"
+    ],
+    "whenToSeekCare": "Seek medical assessment when diarrhea persists or dehydration develops."
+  },
+  {
+    "name": "Cryptosporidiosis",
+    "category": "Parasitic disease",
+    "subCategory": "Protozoal intestinal infection",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Protozoal",
+    "description": "An intestinal infection caused by Cryptosporidium parasites and commonly transmitted through contaminated water.",
+    "commonSymptoms": [
+      "Watery diarrhea",
+      "Abdominal cramps",
+      "Nausea",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Fever",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Watery diarrhea",
+      "Abdominal cramps"
+    ],
+    "riskFactors": [
+      "Contaminated water",
+      "Poor sanitation",
+      "Swimming in contaminated water",
+      "Immune suppression"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Persistent diarrhea",
+      "Severe weight loss"
+    ],
+    "whenToSeekCare": "Seek medical care for persistent diarrhea, particularly in people with weakened immune systems."
+  },
+  {
+    "name": "Trichomoniasis",
+    "category": "Parasitic disease",
+    "subCategory": "Sexually transmitted parasitic infection",
+    "anatomicalSite": "Genitourinary tract",
+    "etiology": "Protozoal",
+    "description": "A sexually transmitted infection caused by the protozoan Trichomonas vaginalis.",
+    "commonSymptoms": [
+      "Genital irritation",
+      "Abnormal vaginal discharge",
+      "Painful urination"
+    ],
+    "lessCommonSymptoms": [
+      "Genital redness",
+      "Pain during sexual intercourse",
+      "Penile discharge"
+    ],
+    "keySymptoms": [
+      "Genital irritation",
+      "Abnormal genital discharge"
+    ],
+    "riskFactors": [
+      "Unprotected sexual contact",
+      "Multiple sexual partners",
+      "Previous sexually transmitted infection"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Pelvic pain",
+      "Pregnancy complications",
+      "Severe genital symptoms"
+    ],
+    "whenToSeekCare": "Seek testing and treatment when symptoms or exposure suggest trichomoniasis."
+  },
+  {
+    "name": "Toxoplasmosis",
+    "category": "Parasitic disease",
+    "subCategory": "Protozoal systemic infection",
+    "anatomicalSite": "Multiple organ systems, especially brain and eyes",
+    "etiology": "Protozoal",
+    "description": "An infection caused by Toxoplasma gondii that is usually mild but can cause serious disease in pregnancy or people with weakened immunity.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "Fever",
+      "Swollen lymph nodes",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle aches",
+      "Headache",
+      "Eye pain",
+      "Visual disturbances"
+    ],
+    "keySymptoms": [
+      "Often no symptoms",
+      "Lymph node swelling",
+      "Neurological or eye symptoms in severe disease"
+    ],
+    "riskFactors": [
+      "Exposure to contaminated soil",
+      "Undercooked meat",
+      "Cat feces exposure",
+      "Pregnancy",
+      "Immune suppression"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe headache",
+      "Confusion",
+      "Seizures",
+      "Visual changes"
+    ],
+    "whenToSeekCare": "Pregnant people and immunocompromised individuals with suspected toxoplasmosis should seek medical assessment."
+  },
+  {
+    "name": "Leishmaniasis",
+    "category": "Parasitic disease",
+    "subCategory": "Vector-borne protozoal infection",
+    "anatomicalSite": "Skin or internal organs",
+    "etiology": "Protozoal",
+    "description": "A group of diseases caused by Leishmania parasites and transmitted by infected sandflies.",
+    "commonSymptoms": [
+      "Skin ulcers",
+      "Fever",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Enlarged spleen",
+      "Enlarged liver",
+      "Anemia",
+      "Darkening of the skin"
+    ],
+    "keySymptoms": [
+      "Persistent skin ulcer",
+      "Prolonged fever",
+      "Organ enlargement in visceral disease"
+    ],
+    "riskFactors": [
+      "Sandfly exposure",
+      "Living in or traveling to endemic areas"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe anemia",
+      "Marked weight loss",
+      "Severe weakness",
+      "Organ enlargement"
+    ],
+    "whenToSeekCare": "Persistent skin lesions or prolonged fever after travel or residence in an endemic area require medical evaluation."
+  },
+  {
+    "name": "Trypanosomiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Vector-borne protozoal infection",
+    "anatomicalSite": "Blood, lymphatic system, and central nervous system",
+    "etiology": "Protozoal",
+    "description": "A group of parasitic diseases transmitted by insect vectors, including African sleeping sickness.",
+    "commonSymptoms": [
+      "Fever",
+      "Headache",
+      "Fatigue",
+      "Swollen lymph nodes"
+    ],
+    "lessCommonSymptoms": [
+      "Joint pain",
+      "Confusion",
+      "Sleep disturbances",
+      "Neurological changes"
+    ],
+    "keySymptoms": [
+      "Recurrent fever",
+      "Lymph node swelling",
+      "Progressive neurological symptoms"
+    ],
+    "riskFactors": [
+      "Tsetse fly exposure",
+      "Residence or travel in endemic areas"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Confusion",
+      "Abnormal sleep pattern",
+      "Seizures",
+      "Progressive neurological deterioration"
+    ],
+    "whenToSeekCare": "Suspected African trypanosomiasis requires specialist medical evaluation and treatment."
+  },
+  {
+    "name": "Schistosomiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Trematode infection",
+    "anatomicalSite": "Urinary tract or intestines",
+    "etiology": "Helminthic",
+    "description": "A parasitic disease caused by Schistosoma species and acquired through contact with contaminated freshwater.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Diarrhea",
+      "Blood in urine",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Skin rash",
+      "Fever",
+      "Cough",
+      "Liver or spleen enlargement"
+    ],
+    "keySymptoms": [
+      "Blood in urine or stool",
+      "Abdominal symptoms",
+      "Freshwater exposure"
+    ],
+    "riskFactors": [
+      "Freshwater exposure in endemic areas",
+      "Poor sanitation",
+      "Living in endemic regions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Heavy bleeding",
+      "Severe abdominal pain",
+      "Urinary obstruction",
+      "Severe liver disease"
+    ],
+    "whenToSeekCare": "Seek medical assessment after freshwater exposure when compatible urinary or gastrointestinal symptoms develop."
+  },
+  {
+    "name": "Ascariasis",
+    "category": "Parasitic disease",
+    "subCategory": "Intestinal helminth infection",
+    "anatomicalSite": "Small intestine and lungs",
+    "etiology": "Helminthic",
+    "description": "An intestinal infection caused by Ascaris lumbricoides acquired by ingesting parasite eggs from contaminated soil or food.",
+    "commonSymptoms": [
+      "Abdominal discomfort",
+      "Abdominal pain",
+      "Cough"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Poor growth in children",
+      "Wheezing"
+    ],
+    "keySymptoms": [
+      "Abdominal symptoms",
+      "Possible intestinal worms"
+    ],
+    "riskFactors": [
+      "Poor sanitation",
+      "Contaminated soil",
+      "Inadequate hand hygiene"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Intestinal obstruction",
+      "Severe abdominal pain",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Seek medical assessment when symptoms suggest heavy infection or complications."
+  },
+  {
+    "name": "Hookworm Infection",
+    "category": "Parasitic disease",
+    "subCategory": "Intestinal helminth infection",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Helminthic",
+    "description": "An intestinal parasitic infection caused by hookworms, which can cause chronic blood loss and iron deficiency anemia.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Abdominal discomfort",
+      "Weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of appetite",
+      "Weight loss",
+      "Itchy skin",
+      "Pallor"
+    ],
+    "keySymptoms": [
+      "Chronic fatigue",
+      "Anemia",
+      "Possible exposure to contaminated soil"
+    ],
+    "riskFactors": [
+      "Walking barefoot in contaminated soil",
+      "Poor sanitation",
+      "Living in endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe anemia",
+      "Marked weakness",
+      "Shortness of breath"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when anemia or significant symptoms develop."
+  },
+  {
+    "name": "Strongyloidiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Intestinal helminth infection",
+    "anatomicalSite": "Small intestine and skin",
+    "etiology": "Helminthic",
+    "description": "A parasitic infection caused by Strongyloides stercoralis, acquired when larvae penetrate the skin.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Diarrhea",
+      "Skin rash"
+    ],
+    "lessCommonSymptoms": [
+      "Cough",
+      "Wheezing",
+      "Nausea",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Recurrent gastrointestinal symptoms",
+      "Itchy skin rash"
+    ],
+    "riskFactors": [
+      "Walking barefoot on contaminated soil",
+      "Residence in endemic areas",
+      "Immune suppression"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal symptoms",
+      "Respiratory deterioration",
+      "Sepsis-like illness"
+    ],
+    "whenToSeekCare": "People with suspected infection, especially those who may become immunosuppressed, should seek medical evaluation."
+  },
+  {
+    "name": "Enterobiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Intestinal helminth infection",
+    "anatomicalSite": "Colon and perianal region",
+    "etiology": "Helminthic",
+    "description": "A common intestinal infection caused by pinworms, especially among children.",
+    "commonSymptoms": [
+      "Perianal itching",
+      "Restlessness at night"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal discomfort",
+      "Irritability",
+      "Sleep disturbance"
+    ],
+    "keySymptoms": [
+      "Night-time perianal itching"
+    ],
+    "riskFactors": [
+      "Crowded living conditions",
+      "Household exposure",
+      "Childcare settings"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Persistent severe symptoms",
+      "Secondary skin infection"
+    ],
+    "whenToSeekCare": "Seek medical assessment when symptoms persist or household transmission is suspected."
+  },
+  {
+    "name": "Trichuriasis",
+    "category": "Parasitic disease",
+    "subCategory": "Intestinal helminth infection",
+    "anatomicalSite": "Large intestine",
+    "etiology": "Helminthic",
+    "description": "An intestinal infection caused by whipworms and acquired by ingesting parasite eggs from contaminated soil or food.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Diarrhea"
+    ],
+    "lessCommonSymptoms": [
+      "Bloody stool",
+      "Weight loss",
+      "Anemia",
+      "Poor growth"
+    ],
+    "keySymptoms": [
+      "Persistent gastrointestinal symptoms"
+    ],
+    "riskFactors": [
+      "Poor sanitation",
+      "Contaminated soil",
+      "Inadequate hygiene"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe anemia",
+      "Rectal prolapse",
+      "Severe diarrhea"
+    ],
+    "whenToSeekCare": "Seek medical assessment for persistent or severe gastrointestinal symptoms."
+  },
+  {
+    "name": "Taeniasis",
+    "category": "Parasitic disease",
+    "subCategory": "Cestode intestinal infection",
+    "anatomicalSite": "Small intestine",
+    "etiology": "Helminthic",
+    "description": "An intestinal infection caused by adult tapeworms acquired by eating undercooked infected meat.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "Abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Diarrhea",
+      "Weight loss",
+      "Increased appetite"
+    ],
+    "keySymptoms": [
+      "Passage of tapeworm segments",
+      "Abdominal discomfort"
+    ],
+    "riskFactors": [
+      "Eating undercooked beef",
+      "Eating undercooked pork",
+      "Poor food hygiene"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Neurological symptoms suggesting complications"
+    ],
+    "whenToSeekCare": "Seek medical assessment when tapeworm infection is suspected."
+  },
+  {
+    "name": "Cysticercosis",
+    "category": "Parasitic disease",
+    "subCategory": "Tissue helminth infection",
+    "anatomicalSite": "Brain, muscles, eyes, and subcutaneous tissues",
+    "etiology": "Helminthic",
+    "description": "A tissue infection caused by larval Taenia solium acquired by ingesting parasite eggs.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "Headache",
+      "Seizures"
+    ],
+    "lessCommonSymptoms": [
+      "Visual disturbances",
+      "Muscle swelling",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Seizures",
+      "Neurological symptoms",
+      "Exposure risk for Taenia solium"
+    ],
+    "riskFactors": [
+      "Poor sanitation",
+      "Exposure to Taenia solium eggs",
+      "Living in endemic areas"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Seizures",
+      "Severe headache",
+      "Altered consciousness",
+      "Visual loss"
+    ],
+    "whenToSeekCare": "Neurological symptoms or seizures require medical evaluation."
+  },
+  {
+    "name": "Echinococcosis",
+    "category": "Parasitic disease",
+    "subCategory": "Tissue helminth infection",
+    "anatomicalSite": "Liver, lungs, and other organs",
+    "etiology": "Helminthic",
+    "description": "A parasitic disease caused by Echinococcus tapeworm larvae that form cysts in organs.",
+    "commonSymptoms": [
+      "Often asymptomatic",
+      "Abdominal discomfort",
+      "Cough"
+    ],
+    "lessCommonSymptoms": [
+      "Chest pain",
+      "Shortness of breath",
+      "Jaundice"
+    ],
+    "keySymptoms": [
+      "Organ cysts",
+      "Abdominal or respiratory symptoms"
+    ],
+    "riskFactors": [
+      "Dog exposure",
+      "Sheep-raising environments",
+      "Living in endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Cyst rupture",
+      "Severe abdominal pain",
+      "Breathing difficulty",
+      "Anaphylactic reaction"
+    ],
+    "whenToSeekCare": "Suspected organ involvement requires medical evaluation and specialist management."
+  },
+  {
+    "name": "Filariasis",
+    "category": "Parasitic disease",
+    "subCategory": "Vector-borne helminth infection",
+    "anatomicalSite": "Lymphatic system and subcutaneous tissues",
+    "etiology": "Helminthic",
+    "description": "A group of mosquito-borne parasitic infections caused by filarial worms.",
+    "commonSymptoms": [
+      "Limb swelling",
+      "Fever",
+      "Lymph node swelling"
+    ],
+    "lessCommonSymptoms": [
+      "Genital swelling",
+      "Skin thickening",
+      "Pain",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Chronic limb swelling",
+      "Lymphatic abnormalities"
+    ],
+    "riskFactors": [
+      "Mosquito exposure",
+      "Living in endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe limb swelling",
+      "Secondary bacterial infection",
+      "Severe genital swelling"
+    ],
+    "whenToSeekCare": "Persistent limb or genital swelling in an endemic area should be medically evaluated."
+  },
+  {
+    "name": "Onchocerciasis",
+    "category": "Parasitic disease",
+    "subCategory": "Vector-borne helminth infection",
+    "anatomicalSite": "Skin and eyes",
+    "etiology": "Helminthic",
+    "description": "A parasitic infection caused by Onchocerca volvulus and transmitted by infected blackflies.",
+    "commonSymptoms": [
+      "Itchy skin",
+      "Skin rash",
+      "Skin nodules"
+    ],
+    "lessCommonSymptoms": [
+      "Skin thickening",
+      "Eye irritation",
+      "Visual impairment"
+    ],
+    "keySymptoms": [
+      "Severe itching",
+      "Skin changes",
+      "Eye involvement"
+    ],
+    "riskFactors": [
+      "Blackfly exposure",
+      "Living near fast-flowing rivers in endemic areas"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Progressive visual impairment",
+      "Severe eye inflammation"
+    ],
+    "whenToSeekCare": "Persistent skin or eye symptoms in an endemic area require medical evaluation."
+  },
+  {
+    "name": "Dracunculiasis",
+    "category": "Parasitic disease",
+    "subCategory": "Waterborne helminth infection",
+    "anatomicalSite": "Skin and subcutaneous tissues",
+    "etiology": "Helminthic",
+    "description": "A parasitic infection caused by Guinea worm acquired by drinking water containing infected water fleas.",
+    "commonSymptoms": [
+      "Painful blister",
+      "Skin swelling",
+      "Burning sensation"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Nausea",
+      "Vomiting",
+      "Joint pain"
+    ],
+    "keySymptoms": [
+      "Emergence of a long worm through the skin",
+      "Painful blister"
+    ],
+    "riskFactors": [
+      "Drinking untreated surface water",
+      "Living in areas where transmission occurs"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Secondary bacterial infection",
+      "Severe inflammation",
+      "Joint involvement"
+    ],
+    "whenToSeekCare": "Suspected Guinea worm infection requires medical and public-health evaluation."
+  }
+]

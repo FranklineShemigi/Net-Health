@@ -1,0 +1,468 @@
+[
+  {
+    "name": "Iron Deficiency Anemia",
+    "category": "Hematologic disease",
+    "subCategory": "Red blood cell disorder",
+    "anatomicalSite": "Blood and bone marrow",
+    "etiology": "Nutritional deficiency, chronic blood loss, or impaired iron absorption",
+    "description": "A common type of anemia caused by insufficient iron for normal hemoglobin production.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Weakness",
+      "Pale skin",
+      "Shortness of breath",
+      "Dizziness"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Brittle nails",
+      "Hair loss",
+      "Craving for non-food substances"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Pallor",
+      "Reduced exercise tolerance"
+    ],
+    "riskFactors": [
+      "Chronic blood loss",
+      "Heavy menstrual bleeding",
+      "Poor dietary iron intake",
+      "Pregnancy",
+      "Gastrointestinal disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Chest pain",
+      "Fainting",
+      "Very rapid heartbeat"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for unexplained or persistent anemia, particularly when symptoms are severe."
+  },
+  {
+    "name": "Vitamin B12 Deficiency Anemia",
+    "category": "Hematologic disease",
+    "subCategory": "Red blood cell disorder",
+    "anatomicalSite": "Blood, bone marrow, and nervous system",
+    "etiology": "Nutritional deficiency or impaired absorption",
+    "description": "An anemia caused by inadequate vitamin B12, which can also cause neurological abnormalities.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Weakness",
+      "Pale skin",
+      "Shortness of breath"
+    ],
+    "lessCommonSymptoms": [
+      "Numbness",
+      "Tingling",
+      "Balance problems",
+      "Glossitis",
+      "Memory difficulties"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Anemia",
+      "Neurological symptoms"
+    ],
+    "riskFactors": [
+      "Poor dietary intake",
+      "Malabsorption",
+      "Gastrointestinal surgery",
+      "Pernicious anemia",
+      "Older age"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Progressive neurological symptoms",
+      "Severe weakness",
+      "Difficulty walking"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent anemia or unexplained neurological symptoms."
+  },
+  {
+    "name": "Sickle Cell Disease",
+    "category": "Hematologic disease",
+    "subCategory": "Inherited red blood cell disorder",
+    "anatomicalSite": "Blood and multiple organs",
+    "etiology": "Genetic",
+    "description": "An inherited blood disorder in which abnormal hemoglobin causes red blood cells to become rigid and sickle-shaped.",
+    "commonSymptoms": [
+      "Pain episodes",
+      "Fatigue",
+      "Anemia",
+      "Jaundice",
+      "Swelling of hands and feet"
+    ],
+    "lessCommonSymptoms": [
+      "Shortness of breath",
+      "Delayed growth",
+      "Frequent infections",
+      "Vision problems"
+    ],
+    "keySymptoms": [
+      "Recurrent pain crises",
+      "Chronic anemia",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Inherited sickle hemoglobin gene",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pain",
+      "Difficulty breathing",
+      "Fever",
+      "Sudden weakness",
+      "Severe abdominal swelling"
+    ],
+    "whenToSeekCare": "Seek urgent medical care for severe pain, fever, breathing difficulty, or neurological symptoms."
+  },
+  {
+    "name": "Thalassemia",
+    "category": "Hematologic disease",
+    "subCategory": "Inherited red blood cell disorder",
+    "anatomicalSite": "Blood and bone marrow",
+    "etiology": "Genetic",
+    "description": "A group of inherited disorders characterized by reduced production of normal hemoglobin.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Pale skin",
+      "Weakness",
+      "Shortness of breath"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Abdominal enlargement",
+      "Bone abnormalities",
+      "Delayed growth"
+    ],
+    "keySymptoms": [
+      "Chronic anemia",
+      "Pallor",
+      "Fatigue"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited genetic variants"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe anemia",
+      "Breathing difficulty",
+      "Chest pain",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Medical assessment is required for suspected thalassemia or worsening anemia."
+  },
+  {
+    "name": "Aplastic Anemia",
+    "category": "Hematologic disease",
+    "subCategory": "Bone marrow failure",
+    "anatomicalSite": "Bone marrow and blood",
+    "etiology": "Autoimmune, medication-related, toxic, infectious, inherited, or unknown",
+    "description": "A rare disorder in which the bone marrow fails to produce enough blood cells.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Pale skin",
+      "Frequent infections",
+      "Easy bruising",
+      "Bleeding"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Dizziness",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Pancytopenia",
+      "Fatigue",
+      "Recurrent infections",
+      "Bleeding"
+    ],
+    "riskFactors": [
+      "Certain medications",
+      "Toxic chemical exposure",
+      "Radiation",
+      "Certain viral infections",
+      "Autoimmune disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "High fever",
+      "Uncontrolled bleeding",
+      "Severe weakness",
+      "Shortness of breath"
+    ],
+    "whenToSeekCare": "Urgent medical assessment is required for suspected bone marrow failure, severe infection, or significant bleeding."
+  },
+  {
+    "name": "Hemophilia",
+    "category": "Hematologic disease",
+    "subCategory": "Bleeding disorder",
+    "anatomicalSite": "Blood coagulation system",
+    "etiology": "Genetic",
+    "description": "An inherited bleeding disorder caused by deficiency of specific clotting factors, most commonly factor VIII or IX.",
+    "commonSymptoms": [
+      "Prolonged bleeding",
+      "Easy bruising",
+      "Joint bleeding",
+      "Nosebleeds"
+    ],
+    "lessCommonSymptoms": [
+      "Blood in urine",
+      "Blood in stool",
+      "Muscle bleeding"
+    ],
+    "keySymptoms": [
+      "Prolonged bleeding",
+      "Recurrent joint bleeding"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited clotting factor deficiency"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Bleeding that does not stop",
+      "Severe headache after injury",
+      "Neck swelling",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Emergency care is required for serious bleeding or suspected bleeding into the brain or other critical organs."
+  },
+  {
+    "name": "Immune Thrombocytopenia",
+    "category": "Hematologic disease",
+    "subCategory": "Platelet disorder",
+    "anatomicalSite": "Blood and immune system",
+    "etiology": "Autoimmune",
+    "description": "An immune-mediated disorder in which platelets are destroyed or cleared more rapidly than they are produced.",
+    "commonSymptoms": [
+      "Easy bruising",
+      "Petechiae",
+      "Nosebleeds",
+      "Bleeding gums"
+    ],
+    "lessCommonSymptoms": [
+      "Heavy menstrual bleeding",
+      "Blood in urine",
+      "Blood in stool"
+    ],
+    "keySymptoms": [
+      "Low platelet count",
+      "Petechiae",
+      "Easy bleeding"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Certain infections",
+      "Certain medications"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe bleeding",
+      "Blood in vomit or stool",
+      "Severe headache",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Seek urgent medical care for significant bleeding or symptoms suggesting internal bleeding."
+  },
+  {
+    "name": "Leukemia",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Bone marrow and blood",
+    "etiology": "Neoplastic",
+    "description": "A group of cancers affecting blood-forming tissues and characterized by abnormal proliferation of blood cells.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Frequent infections",
+      "Easy bruising",
+      "Pale skin"
+    ],
+    "lessCommonSymptoms": [
+      "Bone pain",
+      "Night sweats",
+      "Weight loss",
+      "Swollen lymph nodes"
+    ],
+    "keySymptoms": [
+      "Persistent unexplained fatigue",
+      "Frequent infections",
+      "Easy bleeding or bruising"
+    ],
+    "riskFactors": [
+      "Certain genetic disorders",
+      "Previous chemotherapy",
+      "Radiation exposure",
+      "Certain chemical exposures"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe weakness",
+      "Persistent fever",
+      "Uncontrolled bleeding",
+      "Severe infection"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation for persistent unexplained blood count abnormalities, recurrent infections, or unexplained bleeding."
+  },
+  {
+    "name": "Lymphoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Lymphatic system and lymphoid tissues",
+    "etiology": "Neoplastic",
+    "description": "A group of cancers arising from lymphocytes and other cells of the lymphatic and immune systems.",
+    "commonSymptoms": [
+      "Painless swollen lymph nodes",
+      "Fever",
+      "Night sweats",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Unexplained weight loss",
+      "Itching",
+      "Cough",
+      "Abdominal swelling"
+    ],
+    "keySymptoms": [
+      "Persistent painless lymph node enlargement",
+      "Unexplained fever",
+      "Night sweats"
+    ],
+    "riskFactors": [
+      "Immune suppression",
+      "Certain infections",
+      "Family history",
+      "Older age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapidly enlarging lymph nodes",
+      "Severe breathing difficulty",
+      "Unexplained weight loss",
+      "Persistent fever"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent unexplained lymph node enlargement or systemic symptoms."
+  },
+  {
+    "name": "Multiple Myeloma",
+    "category": "Neoplastic disease",
+    "subCategory": "Hematologic malignancy",
+    "anatomicalSite": "Bone marrow and bones",
+    "etiology": "Neoplastic",
+    "description": "A cancer of plasma cells that accumulate in the bone marrow and can damage bones, kidneys, and other organs.",
+    "commonSymptoms": [
+      "Bone pain",
+      "Fatigue",
+      "Weakness",
+      "Frequent infections"
+    ],
+    "lessCommonSymptoms": [
+      "Weight loss",
+      "Nausea",
+      "Constipation",
+      "Excessive thirst"
+    ],
+    "keySymptoms": [
+      "Persistent bone pain",
+      "Anemia",
+      "Recurrent infections"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Male sex",
+      "Family history",
+      "Certain precursor plasma-cell disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe bone pain",
+      "Confusion",
+      "Reduced urine output",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent unexplained bone pain, anemia, recurrent infections, or kidney dysfunction."
+  },
+  {
+    "name": "Disseminated Intravascular Coagulation",
+    "category": "Hematologic disease",
+    "subCategory": "Coagulation disorder",
+    "anatomicalSite": "Blood coagulation system and multiple organs",
+    "etiology": "Secondary to severe infection, trauma, cancer, pregnancy complications, or other serious conditions",
+    "description": "A serious acquired disorder involving widespread activation of blood clotting that can lead to both thrombosis and severe bleeding.",
+    "commonSymptoms": [
+      "Bleeding",
+      "Bruising",
+      "Fever",
+      "Low blood pressure"
+    ],
+    "lessCommonSymptoms": [
+      "Shortness of breath",
+      "Confusion",
+      "Reduced urine output",
+      "Organ dysfunction"
+    ],
+    "keySymptoms": [
+      "Widespread bleeding or clotting",
+      "Underlying severe illness"
+    ],
+    "riskFactors": [
+      "Sepsis",
+      "Major trauma",
+      "Cancer",
+      "Obstetric complications",
+      "Severe tissue injury"
+    ],
+    "urgency": "emergency",
+    "warningSigns": [
+      "Uncontrolled bleeding",
+      "Shock",
+      "Confusion",
+      "Severe breathing difficulty",
+      "Organ failure"
+    ],
+    "whenToSeekCare": "Disseminated intravascular coagulation is a medical emergency requiring immediate hospital treatment."
+  },
+  {
+    "name": "Polycythemia Vera",
+    "category": "Neoplastic disease",
+    "subCategory": "Myeloproliferative neoplasm",
+    "anatomicalSite": "Bone marrow and blood",
+    "etiology": "Neoplastic",
+    "description": "A chronic blood cancer in which the bone marrow produces excessive numbers of red blood cells and sometimes other blood cells.",
+    "commonSymptoms": [
+      "Headache",
+      "Dizziness",
+      "Fatigue",
+      "Itching"
+    ],
+    "lessCommonSymptoms": [
+      "Blurred vision",
+      "Redness of the skin",
+      "Burning pain in hands or feet",
+      "Abdominal discomfort"
+    ],
+    "keySymptoms": [
+      "Increased red blood cell mass",
+      "Headache",
+      "Itching"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Genetic mutation",
+      "History of blood disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Chest pain",
+      "Sudden weakness",
+      "Severe headache",
+      "Leg swelling"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for unexplained elevated blood counts or symptoms suggesting thrombosis."
+  }
+]

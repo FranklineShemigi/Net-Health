@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Severe Combined Immunodeficiency",
+    "category": "Immune deficiency",
+    "subCategory": "Primary immunodeficiency",
+    "anatomicalSite": "Immune system",
+    "etiology": "Genetic",
+    "description": "A group of severe inherited disorders characterized by profound impairment of T-cell function with associated impairment of other immune functions.",
+    "commonSymptoms": [
+      "Recurrent severe infections",
+      "Persistent diarrhea",
+      "Poor growth",
+      "Fever"
+    ],
+    "lessCommonSymptoms": [
+      "Persistent oral thrush",
+      "Skin infections",
+      "Pneumonia",
+      "Chronic cough"
+    ],
+    "keySymptoms": [
+      "Severe recurrent infections",
+      "Early-onset infections",
+      "Failure to thrive"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited genetic variants"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe infection",
+      "Breathing difficulty",
+      "Sepsis",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Suspected severe combined immunodeficiency requires urgent specialist assessment."
+  },
+  {
+    "name": "Common Variable Immunodeficiency",
+    "category": "Immune deficiency",
+    "subCategory": "Primary immunodeficiency",
+    "anatomicalSite": "Immune system",
+    "etiology": "Genetic or multifactorial",
+    "description": "A primary immunodeficiency characterized by impaired antibody production and recurrent infections.",
+    "commonSymptoms": [
+      "Recurrent respiratory infections",
+      "Sinus infections",
+      "Ear infections",
+      "Pneumonia"
+    ],
+    "lessCommonSymptoms": [
+      "Chronic diarrhea",
+      "Autoimmune manifestations",
+      "Enlarged lymph nodes",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Recurrent infections",
+      "Low immunoglobulin levels"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe pneumonia",
+      "Sepsis",
+      "Persistent severe infection"
+    ],
+    "whenToSeekCare": "Recurrent or unusually severe infections should prompt evaluation for an underlying immune deficiency."
+  },
+  {
+    "name": "Selective IgA Deficiency",
+    "category": "Immune deficiency",
+    "subCategory": "Primary immunodeficiency",
+    "anatomicalSite": "Immune system",
+    "etiology": "Genetic or multifactorial",
+    "description": "A primary immunodeficiency characterized by markedly reduced or absent IgA with otherwise variable preservation of immune function.",
+    "commonSymptoms": [
+      "Recurrent respiratory infections",
+      "Recurrent sinus infections",
+      "Recurrent ear infections"
+    ],
+    "lessCommonSymptoms": [
+      "Gastrointestinal infections",
+      "Diarrhea",
+      "Allergic disorders",
+      "Autoimmune disease"
+    ],
+    "keySymptoms": [
+      "Recurrent mucosal infections",
+      "Low or absent IgA"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Genetic susceptibility"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe recurrent infections",
+      "Anaphylactic reaction to blood products"
+    ],
+    "whenToSeekCare": "Frequent or unusually severe infections should be medically evaluated."
+  },
+  {
+    "name": "X-Linked Agammaglobulinemia",
+    "category": "Immune deficiency",
+    "subCategory": "Primary antibody deficiency",
+    "anatomicalSite": "B lymphocytes and immune system",
+    "etiology": "Genetic",
+    "description": "An inherited disorder characterized by markedly reduced mature B cells and very low levels of immunoglobulins.",
+    "commonSymptoms": [
+      "Recurrent bacterial infections",
+      "Recurrent sinus infections",
+      "Pneumonia",
+      "Ear infections"
+    ],
+    "lessCommonSymptoms": [
+      "Chronic diarrhea",
+      "Skin infections",
+      "Persistent enterovirus infection"
+    ],
+    "keySymptoms": [
+      "Recurrent bacterial infections",
+      "Very low immunoglobulin levels"
+    ],
+    "riskFactors": [
+      "Male sex",
+      "Family history of X-linked disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pneumonia",
+      "Sepsis",
+      "Meningitis",
+      "Persistent infection"
+    ],
+    "whenToSeekCare": "Recurrent serious bacterial infections require specialist immune evaluation."
+  },
+  {
+    "name": "Chronic Granulomatous Disease",
+    "category": "Immune deficiency",
+    "subCategory": "Primary phagocyte disorder",
+    "anatomicalSite": "Phagocytic immune cells",
+    "etiology": "Genetic",
+    "description": "An inherited disorder in which phagocytes have impaired oxidative killing of certain microorganisms.",
+    "commonSymptoms": [
+      "Recurrent bacterial infections",
+      "Recurrent fungal infections",
+      "Skin infections",
+      "Pneumonia"
+    ],
+    "lessCommonSymptoms": [
+      "Lymph node infections",
+      "Liver abscesses",
+      "Bone infections",
+      "Granuloma formation"
+    ],
+    "keySymptoms": [
+      "Recurrent unusual bacterial or fungal infections",
+      "Recurrent deep infections"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited genetic variants"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pneumonia",
+      "Sepsis",
+      "Deep organ abscess",
+      "Invasive fungal infection"
+    ],
+    "whenToSeekCare": "Recurrent severe or unusual infections require specialist immunology assessment."
+  },
+  {
+    "name": "DiGeorge Syndrome",
+    "category": "Immune deficiency",
+    "subCategory": "Primary T-cell immunodeficiency",
+    "anatomicalSite": "Thymus and immune system",
+    "etiology": "Genetic",
+    "description": "A genetic disorder, commonly associated with chromosome 22q11.2 deletion, that can cause variable impairment of T-cell immunity and congenital abnormalities.",
+    "commonSymptoms": [
+      "Recurrent infections",
+      "Low calcium",
+      "Heart abnormalities",
+      "Developmental difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Seizures",
+      "Speech difficulties",
+      "Feeding problems",
+      "Hearing problems"
+    ],
+    "keySymptoms": [
+      "Immune deficiency",
+      "Congenital abnormalities",
+      "Hypocalcemia"
+    ],
+    "riskFactors": [
+      "Chromosome 22q11.2 deletion"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe infection",
+      "Seizure",
+      "Severe hypocalcemia",
+      "Cardiac complications"
+    ],
+    "whenToSeekCare": "Suspected DiGeorge syndrome requires multidisciplinary medical assessment."
+  },
+  {
+    "name": "Wiskott-Aldrich Syndrome",
+    "category": "Immune deficiency",
+    "subCategory": "Primary combined immunodeficiency",
+    "anatomicalSite": "Immune system and blood",
+    "etiology": "Genetic",
+    "description": "An X-linked disorder characterized by immune dysfunction, recurrent infections, eczema, and low platelet counts.",
+    "commonSymptoms": [
+      "Recurrent infections",
+      "Eczema",
+      "Easy bruising",
+      "Bleeding"
+    ],
+    "lessCommonSymptoms": [
+      "Autoimmune disease",
+      "Lymphoma",
+      "Persistent diarrhea"
+    ],
+    "keySymptoms": [
+      "Recurrent infections",
+      "Eczema",
+      "Thrombocytopenia"
+    ],
+    "riskFactors": [
+      "Male sex",
+      "Family history"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe bleeding",
+      "Severe infection",
+      "Sepsis"
+    ],
+    "whenToSeekCare": "Significant bleeding or serious infection requires urgent medical assessment."
+  },
+  {
+    "name": "Ataxia-Telangiectasia",
+    "category": "Immune deficiency",
+    "subCategory": "Primary combined immunodeficiency",
+    "anatomicalSite": "Immune system and nervous system",
+    "etiology": "Genetic",
+    "description": "An inherited disorder causing progressive neurological dysfunction, telangiectasia, and variable immune deficiency.",
+    "commonSymptoms": [
+      "Poor coordination",
+      "Recurrent respiratory infections",
+      "Difficulty walking"
+    ],
+    "lessCommonSymptoms": [
+      "Slurred speech",
+      "Telangiectasia",
+      "Immune deficiency",
+      "Growth problems"
+    ],
+    "keySymptoms": [
+      "Progressive ataxia",
+      "Recurrent infections",
+      "Telangiectasia"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited ATM gene variants"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe infection",
+      "Rapid neurological deterioration",
+      "Breathing difficulty"
+    ],
+    "whenToSeekCare": "Progressive coordination problems with recurrent infections require specialist evaluation."
+  },
+  {
+    "name": "Complement Deficiency",
+    "category": "Immune deficiency",
+    "subCategory": "Primary complement disorder",
+    "anatomicalSite": "Complement system",
+    "etiology": "Genetic",
+    "description": "A group of inherited disorders caused by deficiency or dysfunction of complement proteins involved in immune defense.",
+    "commonSymptoms": [
+      "Recurrent infections",
+      "Fever",
+      "Bacterial infections"
+    ],
+    "lessCommonSymptoms": [
+      "Autoimmune manifestations",
+      "Recurrent meningitis",
+      "Severe infections"
+    ],
+    "keySymptoms": [
+      "Recurrent specific bacterial infections",
+      "Recurrent meningococcal infection in some complement deficiencies"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited complement abnormalities"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sepsis",
+      "Meningitis",
+      "Severe recurrent infection"
+    ],
+    "whenToSeekCare": "Recurrent invasive bacterial infections warrant evaluation for immune deficiency."
+  },
+  {
+    "name": "HIV Infection",
+    "category": "Infectious disease",
+    "subCategory": "Secondary immunodeficiency",
+    "anatomicalSite": "Immune system",
+    "etiology": "Viral",
+    "description": "A chronic viral infection that progressively damages immune function, particularly CD4 T lymphocytes, if untreated.",
+    "commonSymptoms": [
+      "Fever",
+      "Fatigue",
+      "Swollen lymph nodes",
+      "Weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Night sweats",
+      "Recurrent infections",
+      "Skin conditions",
+      "Diarrhea"
+    ],
+    "keySymptoms": [
+      "Progressive immune dysfunction",
+      "Recurrent or opportunistic infections"
+    ],
+    "riskFactors": [
+      "Unprotected sexual exposure",
+      "Exposure to infected blood",
+      "Perinatal transmission"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Opportunistic infection",
+      "Severe weight loss",
+      "Persistent fever",
+      "Severe respiratory symptoms"
+    ],
+    "whenToSeekCare": "Possible HIV exposure or symptoms of advanced immune suppression require medical testing and care."
+  },
+  {
+    "name": "Secondary Immunodeficiency",
+    "category": "Immune deficiency",
+    "subCategory": "Acquired immunodeficiency",
+    "anatomicalSite": "Immune system",
+    "etiology": "Acquired",
+    "description": "Impaired immune function resulting from another disease, medication, nutritional deficiency, malignancy, or other acquired condition.",
+    "commonSymptoms": [
+      "Recurrent infections",
+      "Persistent infections",
+      "Poor wound healing"
+    ],
+    "lessCommonSymptoms": [
+      "Weight loss",
+      "Fatigue",
+      "Chronic diarrhea"
+    ],
+    "keySymptoms": [
+      "Recurrent or unusually severe infections",
+      "Underlying cause of immune suppression"
+    ],
+    "riskFactors": [
+      "HIV infection",
+      "Cancer",
+      "Immunosuppressive medications",
+      "Malnutrition",
+      "Chronic diseases"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe infection",
+      "Sepsis",
+      "Opportunistic infection"
+    ],
+    "whenToSeekCare": "Recurrent or unusually severe infections should prompt evaluation for acquired immune deficiency."
+  }
+]

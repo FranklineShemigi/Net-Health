@@ -543,6 +543,79 @@
     transform: scale(0.97);
 }
 
+/* ==========================================
+   ACESO AI RESPONSE
+========================================== */
+
+.tutor-message .message-content {
+    line-height: 1.7;
+}
+
+.tutor-message .message-content h1,
+.tutor-message .message-content h2,
+.tutor-message .message-content h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.tutor-message .message-content p {
+    margin: 10px 0;
+}
+
+.tutor-message .message-content ul,
+.tutor-message .message-content ol {
+    margin: 10px 0;
+    padding-left: 24px;
+}
+
+.tutor-message .message-content li {
+    margin-bottom: 6px;
+}
+
+.tutor-message .message-content strong {
+    font-weight: 700;
+}
+
+.tutor-message .message-content blockquote {
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-left: 4px solid var(--primary-color);
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+}
+
+.tutor-message .message-content code {
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.tutor-message .message-content pre {
+    padding: 14px;
+    overflow-x: auto;
+    border-radius: 8px;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.tutor-message .message-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    overflow-x: auto;
+}
+
+.tutor-message .message-content th,
+.tutor-message .message-content td {
+    padding: 9px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tutor-message .message-content th {
+    font-weight: 700;
+}
+
 
 
 /* ==========================================

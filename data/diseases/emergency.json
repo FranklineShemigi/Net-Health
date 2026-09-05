@@ -1,0 +1,771 @@
+[
+  {
+    "name": "Cardiac Arrest",
+    "category": "Emergency/Critical condition",
+    "subCategory": "Cardiovascular emergency",
+    "anatomicalSite": "Heart and circulatory system",
+    "etiology": "Cardiac or non-cardiac",
+    "description": "Sudden cessation of effective cardiac activity resulting in loss of circulation and consciousness.",
+    "commonSymptoms": [
+      "Sudden loss of consciousness",
+      "Absence of normal breathing",
+      "Absence of responsiveness"
+    ],
+    "lessCommonSymptoms": [
+      "Abnormal gasping",
+      "Sudden collapse"
+    ],
+    "keySymptoms": [
+      "Unresponsiveness",
+      "Absent or abnormal breathing"
+    ],
+    "riskFactors": [
+      "Heart disease",
+      "Severe respiratory disease",
+      "Severe trauma",
+      "Drug toxicity"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Cardiac arrest itself is immediately life-threatening"
+    ],
+    "whenToSeekCare": "Immediate emergency response, CPR, and defibrillation when indicated are required."
+  },
+  {
+    "name": "Acute Coronary Syndrome",
+    "category": "Cardiovascular disease",
+    "subCategory": "Ischemic heart emergency",
+    "anatomicalSite": "Coronary arteries and heart",
+    "etiology": "Atherosclerotic plaque rupture and coronary thrombosis",
+    "description": "A spectrum of acute conditions caused by sudden reduction of blood flow to the heart muscle.",
+    "commonSymptoms": [
+      "Chest pain or pressure",
+      "Shortness of breath",
+      "Sweating",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Jaw pain",
+      "Arm pain",
+      "Unusual fatigue"
+    ],
+    "keySymptoms": [
+      "Acute chest discomfort",
+      "Symptoms of myocardial ischemia"
+    ],
+    "riskFactors": [
+      "Coronary artery disease",
+      "Smoking",
+      "Diabetes",
+      "Hypertension",
+      "High cholesterol"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe or persistent chest pain",
+      "Fainting",
+      "Severe shortness of breath",
+      "Cardiac arrest"
+    ],
+    "whenToSeekCare": "Suspected acute coronary syndrome requires immediate emergency medical assessment."
+  },
+  {
+    "name": "Aortic Dissection",
+    "category": "Vascular disease",
+    "subCategory": "Acute aortic syndrome",
+    "anatomicalSite": "Aorta",
+    "etiology": "Aortic wall disruption",
+    "description": "A life-threatening condition in which blood enters the wall of the aorta through a tear in the inner layer.",
+    "commonSymptoms": [
+      "Sudden severe chest pain",
+      "Sudden severe back pain"
+    ],
+    "lessCommonSymptoms": [
+      "Fainting",
+      "Shortness of breath",
+      "Neurological symptoms",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Abrupt severe chest or back pain"
+    ],
+    "riskFactors": [
+      "Hypertension",
+      "Aortic disease",
+      "Marfan syndrome",
+      "Bicuspid aortic valve"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden severe chest or back pain",
+      "Fainting",
+      "New neurological deficit",
+      "Shock"
+    ],
+    "whenToSeekCare": "Suspected aortic dissection requires immediate emergency evaluation."
+  },
+  {
+    "name": "Pulmonary Embolism",
+    "category": "Vascular disease",
+    "subCategory": "Venous thromboembolism",
+    "anatomicalSite": "Pulmonary arteries",
+    "etiology": "Thromboembolic",
+    "description": "Obstruction of a pulmonary artery or one of its branches, usually by a blood clot originating from the deep veins.",
+    "commonSymptoms": [
+      "Sudden shortness of breath",
+      "Chest pain",
+      "Rapid heartbeat"
+    ],
+    "lessCommonSymptoms": [
+      "Cough",
+      "Coughing blood",
+      "Dizziness",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Acute unexplained breathlessness",
+      "Chest pain"
+    ],
+    "riskFactors": [
+      "Deep vein thrombosis",
+      "Recent surgery",
+      "Prolonged immobility",
+      "Cancer",
+      "Pregnancy"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Fainting",
+      "Severe breathing difficulty",
+      "Low blood pressure",
+      "Cardiac arrest"
+    ],
+    "whenToSeekCare": "Suspected pulmonary embolism requires immediate emergency assessment."
+  },
+  {
+    "name": "Acute Ischemic Stroke",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrovascular emergency",
+    "anatomicalSite": "Brain",
+    "etiology": "Cerebral arterial occlusion",
+    "description": "Sudden neurological dysfunction caused by interruption of blood flow to part of the brain.",
+    "commonSymptoms": [
+      "Sudden weakness",
+      "Facial drooping",
+      "Speech difficulty",
+      "Confusion"
+    ],
+    "lessCommonSymptoms": [
+      "Vision loss",
+      "Dizziness",
+      "Severe imbalance",
+      "Numbness"
+    ],
+    "keySymptoms": [
+      "Sudden focal neurological deficit"
+    ],
+    "riskFactors": [
+      "Hypertension",
+      "Atrial fibrillation",
+      "Diabetes",
+      "Smoking",
+      "Previous stroke"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden facial weakness",
+      "Sudden arm weakness",
+      "Sudden speech difficulty",
+      "Sudden vision loss"
+    ],
+    "whenToSeekCare": "Suspected stroke requires immediate emergency evaluation because time-sensitive treatment may be possible."
+  },
+  {
+    "name": "Status Epilepticus",
+    "category": "Neurological disease",
+    "subCategory": "Seizure emergency",
+    "anatomicalSite": "Brain",
+    "etiology": "Neurological and multifactorial",
+    "description": "A prolonged seizure or repeated seizures without adequate recovery between episodes.",
+    "commonSymptoms": [
+      "Prolonged seizure",
+      "Repeated seizures",
+      "Altered consciousness"
+    ],
+    "lessCommonSymptoms": [
+      "Breathing difficulty",
+      "Confusion",
+      "Injury"
+    ],
+    "keySymptoms": [
+      "Seizure lasting approximately 5 minutes or longer",
+      "Repeated seizures without recovery"
+    ],
+    "riskFactors": [
+      "Epilepsy",
+      "Brain injury",
+      "Stroke",
+      "Central nervous system disease",
+      "Medication nonadherence"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Continuous seizure activity",
+      "Repeated seizures",
+      "Respiratory compromise",
+      "Persistent unconsciousness"
+    ],
+    "whenToSeekCare": "Status epilepticus is a medical emergency requiring immediate treatment."
+  },
+  {
+    "name": "Meningitis",
+    "category": "Infectious disease",
+    "subCategory": "Central nervous system infection",
+    "anatomicalSite": "Meninges",
+    "etiology": "Infectious",
+    "description": "Inflammation of the membranes surrounding the brain and spinal cord, which can be caused by bacteria, viruses, fungi, or other agents.",
+    "commonSymptoms": [
+      "Fever",
+      "Severe headache",
+      "Neck stiffness",
+      "Vomiting"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Sensitivity to light",
+      "Seizures",
+      "Rash"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Severe headache",
+      "Neck stiffness"
+    ],
+    "riskFactors": [
+      "Close contact with infected individuals",
+      "Immune deficiency",
+      "Certain age groups"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Altered consciousness",
+      "Seizures",
+      "Shock",
+      "Rapid deterioration"
+    ],
+    "whenToSeekCare": "Suspected meningitis requires immediate emergency medical assessment."
+  },
+  {
+    "name": "Sepsis",
+    "category": "Infectious disease",
+    "subCategory": "Systemic infection emergency",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Infectious",
+    "description": "Life-threatening organ dysfunction caused by a dysregulated response to infection.",
+    "commonSymptoms": [
+      "Fever",
+      "Rapid breathing",
+      "Rapid heart rate",
+      "Confusion"
+    ],
+    "lessCommonSymptoms": [
+      "Low blood pressure",
+      "Reduced urine output",
+      "Chills",
+      "Extreme weakness"
+    ],
+    "keySymptoms": [
+      "Suspected infection with organ dysfunction"
+    ],
+    "riskFactors": [
+      "Severe infection",
+      "Immune deficiency",
+      "Older age",
+      "Recent surgery",
+      "Chronic disease"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Low blood pressure",
+      "Confusion",
+      "Difficulty breathing",
+      "Reduced urine output"
+    ],
+    "whenToSeekCare": "Suspected sepsis requires immediate emergency treatment."
+  },
+  {
+    "name": "Anaphylaxis",
+    "category": "Immune-mediated disease",
+    "subCategory": "Severe allergic emergency",
+    "anatomicalSite": "Multiple organ systems",
+    "etiology": "Allergic immune reaction",
+    "description": "A rapid, severe systemic allergic reaction that can cause airway obstruction, breathing difficulty, and circulatory collapse.",
+    "commonSymptoms": [
+      "Difficulty breathing",
+      "Swelling",
+      "Hives",
+      "Dizziness"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Abdominal pain",
+      "Wheezing",
+      "Loss of consciousness"
+    ],
+    "keySymptoms": [
+      "Rapid allergic reaction",
+      "Airway or breathing or circulation compromise"
+    ],
+    "riskFactors": [
+      "Previous severe allergic reaction",
+      "Food allergy",
+      "Medication allergy",
+      "Insect venom allergy"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Throat swelling",
+      "Severe breathing difficulty",
+      "Low blood pressure",
+      "Loss of consciousness"
+    ],
+    "whenToSeekCare": "Anaphylaxis requires immediate emergency treatment."
+  },
+  {
+    "name": "Acute Respiratory Distress Syndrome",
+    "category": "Respiratory disease",
+    "subCategory": "Acute lung injury",
+    "anatomicalSite": "Lungs",
+    "etiology": "Inflammatory and multifactorial",
+    "description": "A severe acute lung injury causing impaired oxygen exchange and respiratory failure.",
+    "commonSymptoms": [
+      "Severe shortness of breath",
+      "Rapid breathing",
+      "Low oxygen levels"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Cough",
+      "Chest discomfort"
+    ],
+    "keySymptoms": [
+      "Severe acute hypoxemia",
+      "Respiratory failure"
+    ],
+    "riskFactors": [
+      "Severe infection",
+      "Major trauma",
+      "Aspiration",
+      "Severe systemic illness"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe hypoxemia",
+      "Severe respiratory distress",
+      "Cyanosis",
+      "Confusion"
+    ],
+    "whenToSeekCare": "ARDS is a medical emergency requiring hospital-level care."
+  },
+  {
+    "name": "Severe Hypoglycemia",
+    "category": "Endocrine disease",
+    "subCategory": "Metabolic emergency",
+    "anatomicalSite": "Endocrine/metabolic system and brain",
+    "etiology": "Metabolic",
+    "description": "A dangerously low blood glucose level that can impair brain function and cause loss of consciousness or seizures.",
+    "commonSymptoms": [
+      "Sweating",
+      "Shaking",
+      "Hunger",
+      "Confusion"
+    ],
+    "lessCommonSymptoms": [
+      "Seizures",
+      "Abnormal behavior",
+      "Loss of consciousness"
+    ],
+    "keySymptoms": [
+      "Low blood glucose",
+      "Neuroglycopenic symptoms"
+    ],
+    "riskFactors": [
+      "Diabetes treatment",
+      "Insulin use",
+      "Certain glucose-lowering medications",
+      "Prolonged fasting"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Seizure",
+      "Loss of consciousness",
+      "Severe confusion"
+    ],
+    "whenToSeekCare": "Severe hypoglycemia with altered consciousness or seizures requires immediate emergency treatment."
+  },
+  {
+    "name": "Diabetic Ketoacidosis",
+    "category": "Endocrine disease",
+    "subCategory": "Metabolic emergency",
+    "anatomicalSite": "Endocrine and metabolic system",
+    "etiology": "Metabolic",
+    "description": "A life-threatening metabolic complication characterized by severe insulin deficiency, hyperglycemia, ketosis, and metabolic acidosis.",
+    "commonSymptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Nausea",
+      "Vomiting"
+    ],
+    "lessCommonSymptoms": [
+      "Abdominal pain",
+      "Deep rapid breathing",
+      "Confusion",
+      "Fruity-smelling breath"
+    ],
+    "keySymptoms": [
+      "Hyperglycemia",
+      "Ketosis",
+      "Metabolic acidosis"
+    ],
+    "riskFactors": [
+      "Type 1 diabetes",
+      "Insulin interruption",
+      "Acute illness",
+      "Infection"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Persistent vomiting",
+      "Deep rapid breathing",
+      "Altered consciousness",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Suspected diabetic ketoacidosis requires immediate hospital treatment."
+  },
+  {
+    "name": "Hyperosmolar Hyperglycemic State",
+    "category": "Endocrine disease",
+    "subCategory": "Metabolic emergency",
+    "anatomicalSite": "Endocrine and metabolic system",
+    "etiology": "Metabolic",
+    "description": "A severe metabolic complication characterized by extreme hyperglycemia, dehydration, and altered mental status, usually occurring in type 2 diabetes.",
+    "commonSymptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Weakness",
+      "Confusion"
+    ],
+    "lessCommonSymptoms": [
+      "Seizures",
+      "Visual changes",
+      "Loss of consciousness"
+    ],
+    "keySymptoms": [
+      "Severe hyperglycemia",
+      "Severe dehydration",
+      "Altered mental status"
+    ],
+    "riskFactors": [
+      "Type 2 diabetes",
+      "Infection",
+      "Dehydration",
+      "Acute illness"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe confusion",
+      "Seizures",
+      "Loss of consciousness",
+      "Severe dehydration"
+    ],
+    "whenToSeekCare": "Suspected hyperosmolar hyperglycemic state requires immediate hospital treatment."
+  },
+  {
+    "name": "Acute Kidney Injury",
+    "category": "Renal disease",
+    "subCategory": "Acute kidney disorder",
+    "anatomicalSite": "Kidneys",
+    "etiology": "Multifactorial",
+    "description": "A sudden decline in kidney function resulting in impaired elimination of waste and disturbances in fluid and electrolyte balance.",
+    "commonSymptoms": [
+      "Reduced urine output",
+      "Swelling",
+      "Fatigue",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Shortness of breath",
+      "Chest discomfort"
+    ],
+    "keySymptoms": [
+      "Acute decline in kidney function",
+      "Changes in urine output"
+    ],
+    "riskFactors": [
+      "Severe dehydration",
+      "Sepsis",
+      "Kidney-toxic medications",
+      "Major surgery"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Very low urine output",
+      "Severe electrolyte abnormalities",
+      "Pulmonary edema",
+      "Altered consciousness"
+    ],
+    "whenToSeekCare": "Suspected acute kidney injury requires prompt medical assessment."
+  },
+  {
+    "name": "Acute Gastrointestinal Bleeding",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Gastrointestinal emergency",
+    "anatomicalSite": "Gastrointestinal tract",
+    "etiology": "Multifactorial",
+    "description": "Acute bleeding originating from the gastrointestinal tract that can range from mild blood loss to life-threatening hemorrhage.",
+    "commonSymptoms": [
+      "Vomiting blood",
+      "Black tarry stool",
+      "Bloody stool",
+      "Weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Dizziness",
+      "Abdominal pain",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Gastrointestinal blood loss"
+    ],
+    "riskFactors": [
+      "Peptic ulcer disease",
+      "Liver disease",
+      "Anticoagulant use",
+      "Gastrointestinal malignancy"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Fainting",
+      "Heavy bleeding",
+      "Low blood pressure",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Significant gastrointestinal bleeding requires urgent emergency assessment."
+  },
+  {
+    "name": "Acute Appendicitis",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Surgical abdominal emergency",
+    "anatomicalSite": "Appendix",
+    "etiology": "Inflammatory and obstructive",
+    "description": "Acute inflammation of the appendix that can progress to perforation and peritonitis.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Nausea",
+      "Vomiting",
+      "Loss of appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Diarrhea",
+      "Constipation"
+    ],
+    "keySymptoms": [
+      "Progressive abdominal pain",
+      "Right lower abdominal tenderness"
+    ],
+    "riskFactors": [
+      "Young age",
+      "Appendiceal obstruction"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Rigid abdomen",
+      "High fever",
+      "Shock"
+    ],
+    "whenToSeekCare": "Suspected appendicitis requires urgent medical evaluation."
+  },
+  {
+    "name": "Bowel Obstruction",
+    "category": "Gastrointestinal disease",
+    "subCategory": "Surgical abdominal emergency",
+    "anatomicalSite": "Small or large intestine",
+    "etiology": "Mechanical or functional",
+    "description": "Partial or complete blockage of intestinal contents that can compromise blood flow and cause bowel injury.",
+    "commonSymptoms": [
+      "Abdominal pain",
+      "Abdominal distension",
+      "Vomiting",
+      "Inability to pass stool or gas"
+    ],
+    "lessCommonSymptoms": [
+      "Dehydration",
+      "Fever",
+      "Rapid heartbeat"
+    ],
+    "keySymptoms": [
+      "Abdominal distension",
+      "Vomiting",
+      "Failure to pass stool or gas"
+    ],
+    "riskFactors": [
+      "Previous abdominal surgery",
+      "Hernia",
+      "Tumor",
+      "Inflammatory bowel disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe persistent pain",
+      "Fever",
+      "Shock",
+      "Rigid abdomen"
+    ],
+    "whenToSeekCare": "Suspected bowel obstruction requires urgent medical assessment."
+  },
+  {
+    "name": "Ectopic Pregnancy",
+    "category": "Reproductive disease",
+    "subCategory": "Obstetric emergency",
+    "anatomicalSite": "Fallopian tube or other extrauterine location",
+    "etiology": "Abnormal implantation",
+    "description": "A pregnancy implanted outside the normal uterine cavity, most commonly within a fallopian tube.",
+    "commonSymptoms": [
+      "Lower abdominal pain",
+      "Vaginal bleeding",
+      "Missed menstrual period"
+    ],
+    "lessCommonSymptoms": [
+      "Shoulder pain",
+      "Dizziness",
+      "Fainting"
+    ],
+    "keySymptoms": [
+      "Pregnancy with abdominal pain or vaginal bleeding"
+    ],
+    "riskFactors": [
+      "Previous ectopic pregnancy",
+      "Tubal disease",
+      "Previous pelvic infection",
+      "Assisted reproductive technology"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Fainting",
+      "Shock",
+      "Heavy bleeding"
+    ],
+    "whenToSeekCare": "Suspected ectopic pregnancy requires urgent medical assessment."
+  },
+  {
+    "name": "Testicular Torsion",
+    "category": "Reproductive disease",
+    "subCategory": "Urologic emergency",
+    "anatomicalSite": "Testis and spermatic cord",
+    "etiology": "Vascular compromise from spermatic cord twisting",
+    "description": "Twisting of the spermatic cord that cuts off blood supply to the testis.",
+    "commonSymptoms": [
+      "Sudden severe testicular pain",
+      "Scrotal swelling",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Lower abdominal pain",
+      "Abnormal testicular position"
+    ],
+    "keySymptoms": [
+      "Sudden severe unilateral testicular pain"
+    ],
+    "riskFactors": [
+      "Adolescence",
+      "Previous torsion",
+      "Anatomical predisposition"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden severe testicular pain",
+      "Rapid swelling",
+      "Abnormal testicular position"
+    ],
+    "whenToSeekCare": "Suspected testicular torsion requires immediate surgical evaluation."
+  },
+  {
+    "name": "Severe Asthma Exacerbation",
+    "category": "Respiratory disease",
+    "subCategory": "Obstructive airway emergency",
+    "anatomicalSite": "Lower airways",
+    "etiology": "Inflammatory airway exacerbation",
+    "description": "A severe worsening of asthma symptoms and airflow limitation that may progress to respiratory failure.",
+    "commonSymptoms": [
+      "Severe shortness of breath",
+      "Wheezing",
+      "Chest tightness",
+      "Cough"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty speaking",
+      "Rapid breathing",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Severe respiratory distress",
+      "Marked airflow limitation"
+    ],
+    "riskFactors": [
+      "Poorly controlled asthma",
+      "Respiratory triggers",
+      "Medication nonadherence",
+      "Previous severe exacerbation"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Difficulty speaking",
+      "Silent chest",
+      "Cyanosis",
+      "Exhaustion",
+      "Reduced consciousness"
+    ],
+    "whenToSeekCare": "Severe asthma exacerbation requires immediate emergency treatment."
+  },
+  {
+    "name": "Tension Pneumothorax",
+    "category": "Respiratory disease",
+    "subCategory": "Pleural emergency",
+    "anatomicalSite": "Pleural space",
+    "etiology": "Air trapping in pleural space",
+    "description": "A life-threatening form of pneumothorax in which increasing pressure in the pleural space compromises lung expansion and circulation.",
+    "commonSymptoms": [
+      "Severe shortness of breath",
+      "Sudden chest pain",
+      "Rapid heartbeat"
+    ],
+    "lessCommonSymptoms": [
+      "Low blood pressure",
+      "Distended neck veins",
+      "Cyanosis"
+    ],
+    "keySymptoms": [
+      "Acute respiratory distress",
+      "Obstructive shock"
+    ],
+    "riskFactors": [
+      "Chest trauma",
+      "Mechanical ventilation",
+      "Underlying lung disease"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe respiratory distress",
+      "Shock",
+      "Cyanosis",
+      "Rapid deterioration"
+    ],
+    "whenToSeekCare": "Suspected tension pneumothorax requires immediate emergency intervention."
+  }
+]

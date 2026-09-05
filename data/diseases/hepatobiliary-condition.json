@@ -1,0 +1,606 @@
+[
+  {
+    "name": "Viral Hepatitis A",
+    "category": "Infectious disease",
+    "subCategory": "Hepatobiliary infection",
+    "anatomicalSite": "Liver",
+    "etiology": "Viral",
+    "description": "An acute liver infection caused by hepatitis A virus.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Vomiting",
+      "Abdominal discomfort",
+      "Fever",
+      "Dark urine",
+      "Jaundice"
+    ],
+    "lessCommonSymptoms": [
+      "Joint pain",
+      "Diarrhea",
+      "Itching"
+    ],
+    "keySymptoms": [
+      "Jaundice",
+      "Dark urine",
+      "Fatigue",
+      "Loss of appetite"
+    ],
+    "riskFactors": [
+      "Contaminated food or water",
+      "Close contact with an infected person",
+      "Poor sanitation",
+      "Travel to areas with high transmission"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe vomiting",
+      "Confusion",
+      "Severe abdominal pain",
+      "Bleeding",
+      "Marked drowsiness"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when hepatitis is suspected, particularly if jaundice or severe symptoms develop."
+  },
+  {
+    "name": "Viral Hepatitis B",
+    "category": "Infectious disease",
+    "subCategory": "Hepatobiliary infection",
+    "anatomicalSite": "Liver",
+    "etiology": "Viral",
+    "description": "A liver infection caused by hepatitis B virus that can be acute or become chronic.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Abdominal discomfort",
+      "Dark urine",
+      "Jaundice"
+    ],
+    "lessCommonSymptoms": [
+      "Joint pain",
+      "Fever",
+      "Vomiting",
+      "Itching"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Jaundice",
+      "Dark urine",
+      "Upper abdominal discomfort"
+    ],
+    "riskFactors": [
+      "Unprotected sexual exposure",
+      "Exposure to infected blood",
+      "Sharing contaminated needles",
+      "Perinatal transmission",
+      "Unsterile medical or cosmetic procedures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe jaundice",
+      "Confusion",
+      "Abdominal swelling",
+      "Vomiting blood",
+      "Black stools"
+    ],
+    "whenToSeekCare": "Seek medical testing and evaluation after significant exposure or when symptoms suggest hepatitis."
+  },
+  {
+    "name": "Viral Hepatitis C",
+    "category": "Infectious disease",
+    "subCategory": "Hepatobiliary infection",
+    "anatomicalSite": "Liver",
+    "etiology": "Viral",
+    "description": "A liver infection caused by hepatitis C virus that frequently becomes chronic if untreated.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Dark urine",
+      "Joint pain",
+      "Itching"
+    ],
+    "keySymptoms": [
+      "Persistent fatigue",
+      "Abdominal discomfort",
+      "Often few or no symptoms in early infection"
+    ],
+    "riskFactors": [
+      "Exposure to infected blood",
+      "Sharing contaminated needles",
+      "Unsterile procedures",
+      "Previous blood transfusion before reliable screening"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Confusion",
+      "Vomiting blood",
+      "Black stools"
+    ],
+    "whenToSeekCare": "Testing is recommended after significant exposure or when chronic liver disease is suspected."
+  },
+  {
+    "name": "Alcohol-Associated Liver Disease",
+    "category": "Liver disease",
+    "subCategory": "Toxic liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Alcohol-related",
+    "description": "Liver injury caused by prolonged or excessive alcohol consumption, ranging from fatty liver to hepatitis and cirrhosis.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Abdominal discomfort",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Leg swelling",
+      "Weight loss",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Abdominal discomfort",
+      "Jaundice in advanced disease"
+    ],
+    "riskFactors": [
+      "Heavy alcohol consumption",
+      "Long-term alcohol use",
+      "Poor nutrition"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Jaundice",
+      "Vomiting blood",
+      "Black stools",
+      "Confusion",
+      "Severe abdominal swelling"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for suspected liver disease, particularly when jaundice, bleeding, confusion, or abdominal swelling occurs."
+  },
+  {
+    "name": "Metabolic Dysfunction-Associated Steatotic Liver Disease",
+    "category": "Liver disease",
+    "subCategory": "Metabolic liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Metabolic",
+    "description": "Accumulation of excess fat in the liver associated with metabolic risk factors and not primarily caused by excessive alcohol use.",
+    "commonSymptoms": [
+      "Often no symptoms",
+      "Fatigue",
+      "Mild upper abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Weakness",
+      "Jaundice",
+      "Abdominal swelling"
+    ],
+    "keySymptoms": [
+      "Often asymptomatic",
+      "Fatty liver detected during evaluation"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Type 2 diabetes",
+      "Insulin resistance",
+      "High blood lipid levels",
+      "Metabolic syndrome"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Confusion",
+      "Gastrointestinal bleeding"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when fatty liver is suspected or detected, particularly when symptoms of advanced liver disease develop."
+  },
+  {
+    "name": "Cirrhosis",
+    "category": "Liver disease",
+    "subCategory": "Chronic liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Chronic liver injury",
+    "description": "Advanced scarring of the liver caused by long-term liver injury.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Leg swelling",
+      "Easy bruising",
+      "Itching",
+      "Confusion"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Jaundice",
+      "Abdominal swelling",
+      "Easy bruising"
+    ],
+    "riskFactors": [
+      "Chronic viral hepatitis",
+      "Alcohol-associated liver disease",
+      "Metabolic liver disease",
+      "Autoimmune liver disease",
+      "Chronic biliary disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Vomiting blood",
+      "Black stools",
+      "Confusion",
+      "Severe abdominal swelling",
+      "Severe jaundice"
+    ],
+    "whenToSeekCare": "Cirrhosis requires ongoing medical care. Emergency evaluation is required for gastrointestinal bleeding, confusion, severe jaundice, or other signs of liver failure."
+  },
+  {
+    "name": "Acute Hepatitis",
+    "category": "Liver disease",
+    "subCategory": "Inflammatory liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Viral, autoimmune, toxic, or medication-related",
+    "description": "Sudden inflammation of the liver that may result from infection, medications, toxins, alcohol, or autoimmune disease.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Loss of appetite",
+      "Nausea",
+      "Vomiting",
+      "Abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Dark urine",
+      "Pale stools",
+      "Jaundice",
+      "Itching"
+    ],
+    "keySymptoms": [
+      "Fatigue",
+      "Nausea",
+      "Dark urine",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Viral infection",
+      "Certain medications",
+      "Toxin exposure",
+      "Heavy alcohol use",
+      "Autoimmune disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe jaundice",
+      "Confusion",
+      "Unusual bleeding",
+      "Persistent vomiting",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation when acute hepatitis is suspected."
+  },
+  {
+    "name": "Autoimmune Hepatitis",
+    "category": "Autoimmune disease",
+    "subCategory": "Inflammatory liver disease",
+    "anatomicalSite": "Liver",
+    "etiology": "Autoimmune",
+    "description": "A condition in which the immune system mistakenly attacks liver cells, causing chronic liver inflammation.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Weakness",
+      "Abdominal discomfort",
+      "Loss of appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Joint pain",
+      "Itching",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Persistent fatigue",
+      "Abnormal liver tests",
+      "Jaundice in some patients"
+    ],
+    "riskFactors": [
+      "Other autoimmune diseases",
+      "Female sex",
+      "Family history of autoimmune disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe jaundice",
+      "Confusion",
+      "Abdominal swelling",
+      "Gastrointestinal bleeding"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when persistent liver abnormalities or symptoms suggest autoimmune liver disease."
+  },
+  {
+    "name": "Gallstones",
+    "category": "Hepatobiliary disease",
+    "subCategory": "Gallbladder disorder",
+    "anatomicalSite": "Gallbladder and biliary tract",
+    "etiology": "Structural or metabolic",
+    "description": "Hardened deposits that form within the gallbladder.",
+    "commonSymptoms": [
+      "Often no symptoms",
+      "Right upper abdominal pain",
+      "Upper abdominal pain after meals",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Pain radiating to the back",
+      "Pain radiating to the right shoulder"
+    ],
+    "keySymptoms": [
+      "Right upper abdominal pain",
+      "Post-meal abdominal pain"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Rapid weight loss",
+      "Pregnancy",
+      "Female sex",
+      "Increasing age",
+      "Family history"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe persistent abdominal pain",
+      "Fever",
+      "Jaundice",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Seek medical care for persistent or severe abdominal pain, especially when accompanied by fever or jaundice."
+  },
+  {
+    "name": "Acute Cholecystitis",
+    "category": "Hepatobiliary disease",
+    "subCategory": "Gallbladder inflammation",
+    "anatomicalSite": "Gallbladder",
+    "etiology": "Usually gallstone-related",
+    "description": "Acute inflammation of the gallbladder, most commonly caused by blockage of the cystic duct by a gallstone.",
+    "commonSymptoms": [
+      "Right upper abdominal pain",
+      "Fever",
+      "Nausea",
+      "Vomiting"
+    ],
+    "lessCommonSymptoms": [
+      "Pain radiating to the right shoulder",
+      "Abdominal tenderness",
+      "Loss of appetite"
+    ],
+    "keySymptoms": [
+      "Persistent right upper abdominal pain",
+      "Fever",
+      "Nausea or vomiting"
+    ],
+    "riskFactors": [
+      "Gallstones",
+      "Older age",
+      "Obesity",
+      "Rapid weight loss"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "High fever",
+      "Jaundice",
+      "Persistent vomiting",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Suspected acute cholecystitis requires prompt medical assessment."
+  },
+  {
+    "name": "Cholangitis",
+    "category": "Hepatobiliary disease",
+    "subCategory": "Biliary tract infection",
+    "anatomicalSite": "Bile ducts",
+    "etiology": "Usually bacterial",
+    "description": "An infection and inflammation of the bile ducts, commonly occurring when bile flow is obstructed.",
+    "commonSymptoms": [
+      "Fever",
+      "Right upper abdominal pain",
+      "Jaundice",
+      "Chills",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Confusion",
+      "Low blood pressure"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Right upper abdominal pain",
+      "Jaundice"
+    ],
+    "riskFactors": [
+      "Gallstones",
+      "Bile duct obstruction",
+      "Previous biliary procedures",
+      "Biliary strictures"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Confusion",
+      "Low blood pressure",
+      "Severe fever or chills",
+      "Severe abdominal pain",
+      "Jaundice"
+    ],
+    "whenToSeekCare": "Suspected cholangitis requires urgent medical assessment because the infection can progress rapidly to sepsis."
+  },
+  {
+    "name": "Primary Biliary Cholangitis",
+    "category": "Autoimmune disease",
+    "subCategory": "Chronic biliary disease",
+    "anatomicalSite": "Small intrahepatic bile ducts",
+    "etiology": "Autoimmune",
+    "description": "A chronic autoimmune disease that progressively damages the small bile ducts within the liver.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Itching"
+    ],
+    "lessCommonSymptoms": [
+      "Dry eyes",
+      "Dry mouth",
+      "Jaundice",
+      "Abdominal discomfort"
+    ],
+    "keySymptoms": [
+      "Persistent itching",
+      "Fatigue",
+      "Cholestatic liver abnormalities"
+    ],
+    "riskFactors": [
+      "Female sex",
+      "Family history",
+      "Other autoimmune conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe jaundice",
+      "Abdominal swelling",
+      "Confusion",
+      "Gastrointestinal bleeding"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent unexplained itching, fatigue, or abnormal liver tests."
+  },
+  {
+    "name": "Primary Sclerosing Cholangitis",
+    "category": "Hepatobiliary disease",
+    "subCategory": "Chronic biliary disease",
+    "anatomicalSite": "Intrahepatic and extrahepatic bile ducts",
+    "etiology": "Inflammatory",
+    "description": "A chronic disease causing inflammation and scarring of the bile ducts, leading to narrowing and impaired bile flow.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Itching",
+      "Abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Fever",
+      "Chills",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Persistent itching",
+      "Fatigue",
+      "Cholestatic liver abnormalities"
+    ],
+    "riskFactors": [
+      "Inflammatory bowel disease",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Jaundice",
+      "Fever",
+      "Severe abdominal pain",
+      "Recurrent biliary infections"
+    ],
+    "whenToSeekCare": "Ongoing medical monitoring is required because the condition can cause progressive biliary and liver complications."
+  },
+  {
+    "name": "Hepatic Abscess",
+    "category": "Infectious disease",
+    "subCategory": "Liver infection",
+    "anatomicalSite": "Liver",
+    "etiology": "Bacterial or parasitic",
+    "description": "A localized collection of pus within the liver caused by infection.",
+    "commonSymptoms": [
+      "Fever",
+      "Right upper abdominal pain",
+      "Chills",
+      "Weakness",
+      "Loss of appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Weight loss",
+      "Jaundice"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Right upper abdominal pain",
+      "Chills"
+    ],
+    "riskFactors": [
+      "Biliary disease",
+      "Abdominal infection",
+      "Diabetes",
+      "Immunosuppression"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "High fever",
+      "Severe abdominal pain",
+      "Confusion",
+      "Low blood pressure",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Suspected hepatic abscess requires prompt medical assessment."
+  },
+  {
+    "name": "Liver Cancer",
+    "category": "Neoplastic disease",
+    "subCategory": "Hepatic malignancy",
+    "anatomicalSite": "Liver",
+    "etiology": "Malignant neoplasm",
+    "description": "A malignant tumor arising in the liver, including primary liver cancers such as hepatocellular carcinoma.",
+    "commonSymptoms": [
+      "Unexplained weight loss",
+      "Loss of appetite",
+      "Fatigue",
+      "Upper abdominal discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Jaundice",
+      "Abdominal swelling",
+      "Nausea",
+      "Vomiting",
+      "Fever"
+    ],
+    "keySymptoms": [
+      "Unexplained weight loss",
+      "Persistent upper abdominal discomfort",
+      "Loss of appetite"
+    ],
+    "riskFactors": [
+      "Cirrhosis",
+      "Chronic hepatitis B",
+      "Chronic hepatitis C",
+      "Metabolic liver disease",
+      "Alcohol-associated liver disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Jaundice",
+      "Rapid abdominal swelling",
+      "Severe weight loss",
+      "Gastrointestinal bleeding",
+      "Severe abdominal pain"
+    ],
+    "whenToSeekCare": "Persistent or unexplained liver-related symptoms require medical evaluation, especially in people with chronic liver disease."
+  }
+]

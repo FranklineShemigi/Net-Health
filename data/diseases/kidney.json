@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Acute Kidney Injury",
+    "category": "Renal disease",
+    "subCategory": "Acute kidney disorder",
+    "anatomicalSite": "Kidneys",
+    "etiology": "Multifactorial",
+    "description": "A sudden decline in kidney function resulting in impaired removal of waste products and disruption of fluid, electrolyte, and acid-base balance.",
+    "commonSymptoms": [
+      "Reduced urine output",
+      "Fatigue",
+      "Swelling",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Shortness of breath",
+      "Loss of appetite",
+      "Flank discomfort"
+    ],
+    "keySymptoms": [
+      "Sudden reduction in kidney function",
+      "Reduced urine output"
+    ],
+    "riskFactors": [
+      "Severe dehydration",
+      "Sepsis",
+      "Major surgery",
+      "Kidney-toxic medications",
+      "Urinary obstruction",
+      "Pre-existing kidney disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Very low or absent urine output",
+      "Severe swelling",
+      "Confusion",
+      "Severe shortness of breath",
+      "Chest pain"
+    ],
+    "whenToSeekCare": "Acute kidney injury requires prompt medical assessment, especially when urine output suddenly decreases or severe illness is present."
+  },
+  {
+    "name": "Chronic Kidney Disease",
+    "category": "Renal disease",
+    "subCategory": "Chronic kidney disorder",
+    "anatomicalSite": "Kidneys",
+    "etiology": "Multifactorial",
+    "description": "Persistent abnormality of kidney structure or function lasting at least three months and potentially progressing to kidney failure.",
+    "commonSymptoms": [
+      "Often no symptoms in early stages",
+      "Fatigue",
+      "Swelling",
+      "Changes in urination"
+    ],
+    "lessCommonSymptoms": [
+      "Itching",
+      "Nausea",
+      "Poor appetite",
+      "Muscle cramps",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Often asymptomatic initially",
+      "Progressive reduction in kidney function"
+    ],
+    "riskFactors": [
+      "Diabetes",
+      "High blood pressure",
+      "Cardiovascular disease",
+      "Family history of kidney disease",
+      "Previous acute kidney injury"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Marked reduction in urine output",
+      "Severe swelling",
+      "Breathing difficulty",
+      "Confusion",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Regular medical monitoring is important for chronic kidney disease. Urgent care is required for rapidly worsening symptoms or severe complications."
+  },
+  {
+    "name": "Glomerulonephritis",
+    "category": "Renal disease",
+    "subCategory": "Glomerular disease",
+    "anatomicalSite": "Renal glomeruli",
+    "etiology": "Immune-mediated, infectious, or other causes",
+    "description": "Inflammation and injury of the kidney's glomeruli, which filter blood and help form urine.",
+    "commonSymptoms": [
+      "Blood in urine",
+      "Foamy urine",
+      "Swelling",
+      "High blood pressure"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced urine output",
+      "Fatigue",
+      "Nausea",
+      "Headache"
+    ],
+    "keySymptoms": [
+      "Hematuria",
+      "Proteinuria",
+      "Edema"
+    ],
+    "riskFactors": [
+      "Recent infection",
+      "Autoimmune disease",
+      "Family history of kidney disease",
+      "Certain systemic diseases"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Rapidly decreasing urine output",
+      "Severe swelling",
+      "Severe hypertension",
+      "Shortness of breath"
+    ],
+    "whenToSeekCare": "Seek prompt medical evaluation for blood or significant protein in the urine, swelling, or unexplained deterioration in kidney function."
+  },
+  {
+    "name": "Nephrotic Syndrome",
+    "category": "Renal disease",
+    "subCategory": "Glomerular disease",
+    "anatomicalSite": "Renal glomeruli",
+    "etiology": "Primary or secondary glomerular disease",
+    "description": "A syndrome characterized by heavy protein loss in the urine, low blood albumin, and significant swelling.",
+    "commonSymptoms": [
+      "Generalized swelling",
+      "Foamy urine",
+      "Weight gain from fluid retention",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of appetite",
+      "Abdominal swelling",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Heavy proteinuria",
+      "Edema",
+      "Hypoalbuminemia"
+    ],
+    "riskFactors": [
+      "Diabetes",
+      "Autoimmune disease",
+      "Glomerular disease",
+      "Certain infections"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe swelling",
+      "Shortness of breath",
+      "Sudden leg pain or swelling",
+      "Marked reduction in urine output"
+    ],
+    "whenToSeekCare": "Medical evaluation is required for suspected nephrotic syndrome because complications can include infection, blood clots, and kidney dysfunction."
+  },
+  {
+    "name": "Nephritic Syndrome",
+    "category": "Renal disease",
+    "subCategory": "Glomerular disease",
+    "anatomicalSite": "Renal glomeruli",
+    "etiology": "Inflammatory glomerular disease",
+    "description": "A clinical syndrome caused by glomerular inflammation and characterized by blood in the urine, reduced kidney function, and high blood pressure.",
+    "commonSymptoms": [
+      "Blood in urine",
+      "Reduced urine output",
+      "Swelling",
+      "High blood pressure"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Headache",
+      "Nausea",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Hematuria",
+      "Reduced kidney function",
+      "Hypertension"
+    ],
+    "riskFactors": [
+      "Recent infection",
+      "Autoimmune disease",
+      "Glomerular disorders"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe hypertension",
+      "Rapidly decreasing urine output",
+      "Severe swelling",
+      "Breathing difficulty"
+    ],
+    "whenToSeekCare": "Prompt medical assessment is required when nephritic syndrome is suspected."
+  },
+  {
+    "name": "Kidney Stones",
+    "category": "Renal disease",
+    "subCategory": "Urinary stone disease",
+    "anatomicalSite": "Kidneys and urinary tract",
+    "etiology": "Metabolic, dietary, genetic, or other factors",
+    "description": "Hard deposits of minerals and salts that form within the kidneys and may pass through the urinary tract.",
+    "commonSymptoms": [
+      "Severe flank pain",
+      "Blood in urine",
+      "Painful urination",
+      "Nausea"
+    ],
+    "lessCommonSymptoms": [
+      "Vomiting",
+      "Urinary urgency",
+      "Groin pain",
+      "Restlessness"
+    ],
+    "keySymptoms": [
+      "Sudden severe colicky flank pain",
+      "Hematuria"
+    ],
+    "riskFactors": [
+      "Low fluid intake",
+      "Previous kidney stones",
+      "Family history",
+      "High dietary sodium",
+      "Certain metabolic disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Fever with flank pain",
+      "Unable to urinate",
+      "Severe uncontrolled pain",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Seek urgent care for severe flank pain accompanied by fever, inability to urinate, or persistent vomiting."
+  },
+  {
+    "name": "Acute Pyelonephritis",
+    "category": "Renal disease",
+    "subCategory": "Kidney infection",
+    "anatomicalSite": "Kidneys and renal pelvis",
+    "etiology": "Bacterial",
+    "description": "A bacterial infection of the kidney, usually resulting from an ascending urinary tract infection.",
+    "commonSymptoms": [
+      "Fever",
+      "Flank pain",
+      "Painful urination",
+      "Urinary frequency",
+      "Chills"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Fatigue",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Fever",
+      "Flank pain",
+      "Urinary symptoms"
+    ],
+    "riskFactors": [
+      "Urinary tract infection",
+      "Urinary obstruction",
+      "Kidney stones",
+      "Pregnancy",
+      "Urinary tract abnormalities"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "High fever",
+      "Severe flank pain",
+      "Confusion",
+      "Low blood pressure",
+      "Persistent vomiting"
+    ],
+    "whenToSeekCare": "Prompt medical treatment is required for suspected kidney infection, particularly when fever or systemic illness is present."
+  },
+  {
+    "name": "Polycystic Kidney Disease",
+    "category": "Renal disease",
+    "subCategory": "Hereditary kidney disease",
+    "anatomicalSite": "Kidneys",
+    "etiology": "Genetic",
+    "description": "An inherited disorder characterized by the development of multiple fluid-filled cysts in the kidneys that can impair kidney function.",
+    "commonSymptoms": [
+      "High blood pressure",
+      "Flank or abdominal pain",
+      "Blood in urine",
+      "Increased abdominal size"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Kidney stones",
+      "Urinary tract infections",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Multiple renal cysts",
+      "Family history",
+      "High blood pressure"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Inherited genetic mutation"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe sudden abdominal or flank pain",
+      "Blood in urine",
+      "Severe headache",
+      "Rapid deterioration in kidney function"
+    ],
+    "whenToSeekCare": "Medical monitoring is important for inherited kidney disease. Seek urgent care for severe pain, significant bleeding, or acute neurological symptoms."
+  },
+  {
+    "name": "Renal Artery Stenosis",
+    "category": "Renal disease",
+    "subCategory": "Renal vascular disease",
+    "anatomicalSite": "Renal arteries",
+    "etiology": "Atherosclerotic or fibromuscular dysplasia",
+    "description": "Narrowing of one or both renal arteries that can reduce blood flow to the kidneys and contribute to high blood pressure or kidney dysfunction.",
+    "commonSymptoms": [
+      "High blood pressure",
+      "Reduced kidney function"
+    ],
+    "lessCommonSymptoms": [
+      "Headache",
+      "Fatigue",
+      "Shortness of breath"
+    ],
+    "keySymptoms": [
+      "Difficult-to-control hypertension",
+      "Unexplained decline in kidney function"
+    ],
+    "riskFactors": [
+      "Atherosclerosis",
+      "Smoking",
+      "High blood pressure",
+      "Older age",
+      "Fibromuscular dysplasia"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe hypertension",
+      "Rapid kidney function decline",
+      "Sudden pulmonary edema"
+    ],
+    "whenToSeekCare": "Medical evaluation is recommended when hypertension is difficult to control or kidney function declines unexpectedly."
+  },
+  {
+    "name": "Renal Cell Carcinoma",
+    "category": "Neoplastic disease",
+    "subCategory": "Kidney cancer",
+    "anatomicalSite": "Kidney",
+    "etiology": "Neoplastic",
+    "description": "The most common primary malignant tumor of the adult kidney.",
+    "commonSymptoms": [
+      "Blood in urine",
+      "Flank pain",
+      "Unexplained weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Fever",
+      "Anemia",
+      "Abdominal mass"
+    ],
+    "keySymptoms": [
+      "Hematuria",
+      "Flank pain",
+      "Unexplained weight loss"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Obesity",
+      "High blood pressure",
+      "Family history",
+      "Certain inherited syndromes"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Visible blood in urine",
+      "Persistent flank pain",
+      "Unexplained weight loss",
+      "Palpable abdominal mass"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for unexplained blood in the urine, persistent flank pain, or unexplained weight loss."
+  },
+  {
+    "name": "Renal Tubular Acidosis",
+    "category": "Renal disease",
+    "subCategory": "Tubular disorder",
+    "anatomicalSite": "Renal tubules",
+    "etiology": "Inherited, autoimmune, medication-related, or acquired",
+    "description": "A group of disorders in which the kidney tubules cannot adequately regulate acid-base balance.",
+    "commonSymptoms": [
+      "Fatigue",
+      "Muscle weakness",
+      "Increased urination"
+    ],
+    "lessCommonSymptoms": [
+      "Kidney stones",
+      "Bone problems",
+      "Growth problems in children"
+    ],
+    "keySymptoms": [
+      "Metabolic acidosis",
+      "Electrolyte abnormalities"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Certain medications",
+      "Inherited disorders",
+      "Chronic kidney disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe weakness",
+      "Abnormal heart rhythm",
+      "Severe electrolyte disturbance",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Medical evaluation is required for suspected renal tubular disorders or unexplained electrolyte and acid-base abnormalities."
+  }
+]

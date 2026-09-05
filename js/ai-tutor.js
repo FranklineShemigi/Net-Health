@@ -88,7 +88,7 @@ function addMessage(message, sender) {
             "You";
 
         messageText.textContent =
-            message;
+    message;
 
     } else {
 
@@ -113,7 +113,7 @@ function addMessage(message, sender) {
 
 
         messageText.innerHTML =
-            message;
+    message;
 
 
         messageElement.appendChild(

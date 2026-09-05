@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Asthma",
+    "category": "Respiratory disease",
+    "subCategory": "Obstructive airway disease",
+    "anatomicalSite": "Bronchi and lower airways",
+    "etiology": "Inflammatory and multifactorial",
+    "description": "A chronic inflammatory airway disorder characterized by variable respiratory symptoms and reversible or variable airflow limitation.",
+    "commonSymptoms": [
+      "Wheezing",
+      "Shortness of breath",
+      "Cough",
+      "Chest tightness"
+    ],
+    "lessCommonSymptoms": [
+      "Night-time symptoms",
+      "Exercise-induced symptoms",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Variable wheezing",
+      "Episodic shortness of breath",
+      "Variable airflow limitation"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Allergies",
+      "Air pollution",
+      "Occupational exposures",
+      "Smoking"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Difficulty speaking",
+      "Blue lips",
+      "Poor response to usual reliever treatment"
+    ],
+    "whenToSeekCare": "Severe or rapidly worsening breathing difficulty requires urgent medical assessment."
+  },
+  {
+    "name": "Chronic Obstructive Pulmonary Disease",
+    "category": "Respiratory disease",
+    "subCategory": "Obstructive lung disease",
+    "anatomicalSite": "Lungs and lower airways",
+    "etiology": "Environmental and multifactorial",
+    "description": "A chronic respiratory disease characterized by persistent airflow limitation, commonly associated with long-term exposure to tobacco smoke or other inhaled irritants.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Shortness of breath",
+      "Sputum production",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Wheezing",
+      "Fatigue",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Persistent airflow limitation",
+      "Chronic respiratory symptoms"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Biomass fuel exposure",
+      "Occupational dust exposure",
+      "Air pollution"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe shortness of breath",
+      "Confusion",
+      "Blue lips",
+      "Rapid deterioration"
+    ],
+    "whenToSeekCare": "New or worsening breathing difficulty requires medical assessment."
+  },
+  {
+    "name": "Bronchiectasis",
+    "category": "Respiratory disease",
+    "subCategory": "Structural airway disease",
+    "anatomicalSite": "Bronchi",
+    "etiology": "Multifactorial",
+    "description": "A chronic condition involving permanent widening and structural damage of the bronchi, often associated with recurrent respiratory infections.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Sputum production",
+      "Shortness of breath",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Wheezing",
+      "Chest pain",
+      "Coughing blood",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Chronic productive cough",
+      "Recurrent respiratory infections"
+    ],
+    "riskFactors": [
+      "Previous severe respiratory infections",
+      "Cystic fibrosis",
+      "Immune deficiency",
+      "Primary ciliary disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Significant coughing blood",
+      "Severe breathing difficulty",
+      "High fever",
+      "Rapid deterioration"
+    ],
+    "whenToSeekCare": "Persistent productive cough or recurrent respiratory infections should be medically evaluated."
+  },
+  {
+    "name": "Cystic Fibrosis",
+    "category": "Genetic disease",
+    "subCategory": "Inherited respiratory disorder",
+    "anatomicalSite": "Lungs, pancreas, and multiple organ systems",
+    "etiology": "Genetic",
+    "description": "An inherited disorder caused by CFTR gene mutations that results in abnormal mucus and affects the respiratory and digestive systems.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Recurrent respiratory infections",
+      "Sputum production",
+      "Poor weight gain"
+    ],
+    "lessCommonSymptoms": [
+      "Wheezing",
+      "Digestive problems",
+      "Salty-tasting skin",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Chronic respiratory disease",
+      "Recurrent respiratory infections",
+      "Multisystem involvement"
+    ],
+    "riskFactors": [
+      "Family history",
+      "CFTR gene mutations"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Coughing blood",
+      "Severe dehydration",
+      "Rapid respiratory deterioration"
+    ],
+    "whenToSeekCare": "People with cystic fibrosis require specialist respiratory and multidisciplinary care."
+  },
+  {
+    "name": "Interstitial Lung Disease",
+    "category": "Respiratory disease",
+    "subCategory": "Interstitial lung disorder",
+    "anatomicalSite": "Pulmonary interstitium",
+    "etiology": "Multifactorial",
+    "description": "A group of disorders causing inflammation or scarring of the lung interstitium and impaired oxygen exchange.",
+    "commonSymptoms": [
+      "Progressive shortness of breath",
+      "Dry cough",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Weight loss",
+      "Chest discomfort"
+    ],
+    "keySymptoms": [
+      "Progressive exertional breathlessness",
+      "Persistent dry cough"
+    ],
+    "riskFactors": [
+      "Autoimmune disease",
+      "Occupational exposure",
+      "Certain medications",
+      "Environmental exposure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly worsening breathlessness",
+      "Low oxygen levels",
+      "Coughing blood",
+      "Chest pain"
+    ],
+    "whenToSeekCare": "Progressive unexplained shortness of breath requires medical evaluation."
+  },
+  {
+    "name": "Idiopathic Pulmonary Fibrosis",
+    "category": "Respiratory disease",
+    "subCategory": "Fibrosing interstitial lung disease",
+    "anatomicalSite": "Pulmonary interstitium",
+    "etiology": "Idiopathic",
+    "description": "A chronic progressive lung disease characterized by scarring of lung tissue without an identified cause.",
+    "commonSymptoms": [
+      "Progressive shortness of breath",
+      "Dry cough",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Weight loss",
+      "Clubbing of fingers",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Progressive exertional dyspnea",
+      "Persistent dry cough"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Smoking history",
+      "Family history"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapid worsening of breathing",
+      "Severe hypoxemia",
+      "Chest pain"
+    ],
+    "whenToSeekCare": "Progressive breathlessness requires specialist respiratory assessment."
+  },
+  {
+    "name": "Pneumoconiosis",
+    "category": "Respiratory disease",
+    "subCategory": "Occupational lung disease",
+    "anatomicalSite": "Lungs",
+    "etiology": "Occupational inhalational exposure",
+    "description": "A group of chronic lung diseases caused by inhalation of mineral dusts in occupational environments.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Shortness of breath",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Chest discomfort",
+      "Fatigue",
+      "Wheezing"
+    ],
+    "keySymptoms": [
+      "Chronic respiratory symptoms",
+      "Relevant occupational dust exposure"
+    ],
+    "riskFactors": [
+      "Mining",
+      "Construction",
+      "Stone cutting",
+      "Industrial dust exposure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathlessness",
+      "Low oxygen levels",
+      "Coughing blood"
+    ],
+    "whenToSeekCare": "Persistent respiratory symptoms following occupational dust exposure require medical evaluation."
+  },
+  {
+    "name": "Silicosis",
+    "category": "Respiratory disease",
+    "subCategory": "Occupational lung disease",
+    "anatomicalSite": "Lungs",
+    "etiology": "Occupational crystalline silica exposure",
+    "description": "A chronic lung disease caused by inhalation of respirable crystalline silica dust.",
+    "commonSymptoms": [
+      "Chronic cough",
+      "Shortness of breath",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Chest pain",
+      "Weight loss",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Progressive respiratory symptoms",
+      "History of silica exposure"
+    ],
+    "riskFactors": [
+      "Mining",
+      "Stone cutting",
+      "Construction",
+      "Sandblasting"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Coughing blood",
+      "Low oxygen levels"
+    ],
+    "whenToSeekCare": "Occupational exposure with persistent respiratory symptoms requires medical evaluation."
+  },
+  {
+    "name": "Asbestosis",
+    "category": "Respiratory disease",
+    "subCategory": "Occupational interstitial lung disease",
+    "anatomicalSite": "Lungs and pleura",
+    "etiology": "Occupational asbestos exposure",
+    "description": "A chronic fibrotic lung disease caused by inhalation of asbestos fibers.",
+    "commonSymptoms": [
+      "Progressive shortness of breath",
+      "Dry cough",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Chest discomfort",
+      "Fatigue",
+      "Finger clubbing"
+    ],
+    "keySymptoms": [
+      "Progressive breathlessness",
+      "History of asbestos exposure"
+    ],
+    "riskFactors": [
+      "Occupational asbestos exposure",
+      "Construction work",
+      "Industrial work"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly worsening breathlessness",
+      "Low oxygen levels",
+      "Chest pain"
+    ],
+    "whenToSeekCare": "People with significant asbestos exposure and respiratory symptoms should receive medical assessment."
+  },
+  {
+    "name": "Hypersensitivity Pneumonitis",
+    "category": "Respiratory disease",
+    "subCategory": "Immune-mediated interstitial lung disease",
+    "anatomicalSite": "Lungs",
+    "etiology": "Immune-mediated",
+    "description": "An inflammatory lung disease caused by an immune response to repeated inhalation of certain environmental or occupational antigens.",
+    "commonSymptoms": [
+      "Cough",
+      "Shortness of breath",
+      "Fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Chills",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Respiratory symptoms associated with environmental exposure"
+    ],
+    "riskFactors": [
+      "Bird exposure",
+      "Mold exposure",
+      "Agricultural work",
+      "Occupational exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Low oxygen levels",
+      "Rapid progression"
+    ],
+    "whenToSeekCare": "Persistent respiratory symptoms associated with environmental exposure require medical assessment."
+  },
+  {
+    "name": "Sarcoidosis",
+    "category": "Systemic inflammatory disease",
+    "subCategory": "Granulomatous disease",
+    "anatomicalSite": "Lungs, lymph nodes, skin, eyes, and multiple organs",
+    "etiology": "Immune-mediated",
+    "description": "A multisystem inflammatory disease characterized by formation of noncaseating granulomas in affected tissues.",
+    "commonSymptoms": [
+      "Cough",
+      "Shortness of breath",
+      "Fatigue",
+      "Chest discomfort"
+    ],
+    "lessCommonSymptoms": [
+      "Skin lesions",
+      "Eye symptoms",
+      "Joint pain",
+      "Fever"
+    ],
+    "keySymptoms": [
+      "Persistent respiratory symptoms",
+      "Multisystem inflammatory manifestations"
+    ],
+    "riskFactors": [
+      "Genetic susceptibility",
+      "Environmental exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Vision changes",
+      "Heart rhythm abnormalities",
+      "Neurological symptoms"
+    ],
+    "whenToSeekCare": "Persistent respiratory or multisystem symptoms require medical evaluation."
+  },
+  {
+    "name": "Pulmonary Hypertension",
+    "category": "Vascular disease",
+    "subCategory": "Pulmonary vascular disease",
+    "anatomicalSite": "Pulmonary arteries",
+    "etiology": "Multifactorial",
+    "description": "Abnormally elevated pressure in the pulmonary circulation that can progressively strain the right side of the heart.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Fatigue",
+      "Reduced exercise tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Chest pain",
+      "Dizziness",
+      "Fainting",
+      "Leg swelling"
+    ],
+    "keySymptoms": [
+      "Progressive exertional breathlessness",
+      "Reduced exercise tolerance"
+    ],
+    "riskFactors": [
+      "Heart disease",
+      "Chronic lung disease",
+      "Connective tissue disease",
+      "Previous pulmonary embolism"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Fainting",
+      "Severe shortness of breath",
+      "Chest pain",
+      "Rapidly worsening swelling"
+    ],
+    "whenToSeekCare": "Progressive unexplained breathlessness requires medical assessment."
+  },
+  {
+    "name": "Pleural Effusion",
+    "category": "Respiratory disease",
+    "subCategory": "Pleural disorder",
+    "anatomicalSite": "Pleural space",
+    "etiology": "Multifactorial",
+    "description": "An abnormal accumulation of fluid in the pleural space surrounding the lungs.",
+    "commonSymptoms": [
+      "Shortness of breath",
+      "Chest discomfort",
+      "Dry cough"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Rapid breathing",
+      "Reduced exercise tolerance"
+    ],
+    "keySymptoms": [
+      "Breathlessness",
+      "Pleural fluid accumulation"
+    ],
+    "riskFactors": [
+      "Heart failure",
+      "Cancer",
+      "Liver disease",
+      "Kidney disease",
+      "Inflammatory disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Chest pain",
+      "Low oxygen levels"
+    ],
+    "whenToSeekCare": "New or unexplained pleural effusion requires medical evaluation."
+  },
+  {
+    "name": "Pneumothorax",
+    "category": "Respiratory disease",
+    "subCategory": "Pleural disorder",
+    "anatomicalSite": "Pleural space",
+    "etiology": "Structural or traumatic",
+    "description": "A condition in which air enters the pleural space and causes partial or complete lung collapse.",
+    "commonSymptoms": [
+      "Sudden chest pain",
+      "Sudden shortness of breath"
+    ],
+    "lessCommonSymptoms": [
+      "Rapid heart rate",
+      "Cough",
+      "Chest tightness"
+    ],
+    "keySymptoms": [
+      "Sudden unilateral chest pain",
+      "Sudden breathlessness"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Underlying lung disease",
+      "Chest trauma",
+      "Mechanical ventilation"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Low blood pressure",
+      "Rapid deterioration",
+      "Cyanosis"
+    ],
+    "whenToSeekCare": "Sudden chest pain and shortness of breath require urgent medical assessment."
+  },
+  {
+    "name": "Obstructive Sleep Apnea",
+    "category": "Respiratory disease",
+    "subCategory": "Sleep-related breathing disorder",
+    "anatomicalSite": "Upper airway",
+    "etiology": "Mechanical upper-airway obstruction",
+    "description": "A sleep-related breathing disorder characterized by repeated episodes of upper-airway obstruction during sleep.",
+    "commonSymptoms": [
+      "Loud snoring",
+      "Daytime sleepiness",
+      "Witnessed breathing pauses",
+      "Morning headache"
+    ],
+    "lessCommonSymptoms": [
+      "Poor concentration",
+      "Mood changes",
+      "Night-time choking",
+      "Dry mouth"
+    ],
+    "keySymptoms": [
+      "Loud habitual snoring",
+      "Witnessed apneas",
+      "Daytime sleepiness"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Large neck circumference",
+      "Older age",
+      "Family history",
+      "Upper-airway abnormalities"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe daytime sleepiness",
+      "Drowsiness while driving",
+      "Uncontrolled hypertension",
+      "Severe oxygen desaturation"
+    ],
+    "whenToSeekCare": "Persistent snoring with witnessed breathing pauses or excessive daytime sleepiness should be medically evaluated."
+  },
+  {
+    "name": "Central Sleep Apnea",
+    "category": "Respiratory disease",
+    "subCategory": "Sleep-related breathing disorder",
+    "anatomicalSite": "Respiratory control centers and respiratory muscles",
+    "etiology": "Neurological or cardiopulmonary",
+    "description": "A sleep-related breathing disorder caused by reduced or absent respiratory drive during sleep.",
+    "commonSymptoms": [
+      "Sleep disturbance",
+      "Daytime sleepiness",
+      "Night-time breathing pauses"
+    ],
+    "lessCommonSymptoms": [
+      "Morning headache",
+      "Difficulty concentrating",
+      "Insomnia"
+    ],
+    "keySymptoms": [
+      "Repeated pauses in breathing during sleep",
+      "Daytime sleepiness"
+    ],
+    "riskFactors": [
+      "Heart failure",
+      "Neurological disease",
+      "Certain medications",
+      "High-altitude exposure"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe oxygen desaturation",
+      "Severe daytime sleepiness",
+      "Underlying serious cardiac or neurological disease"
+    ],
+    "whenToSeekCare": "Suspected central sleep apnea requires medical evaluation and sleep assessment."
+  },
+  {
+    "name": "Pulmonary Edema",
+    "category": "Respiratory disease",
+    "subCategory": "Pulmonary fluid disorder",
+    "anatomicalSite": "Lungs and alveoli",
+    "etiology": "Cardiogenic or non-cardiogenic",
+    "description": "Abnormal accumulation of fluid within the lungs that interferes with oxygen exchange.",
+    "commonSymptoms": [
+      "Severe shortness of breath",
+      "Rapid breathing",
+      "Cough"
+    ],
+    "lessCommonSymptoms": [
+      "Wheezing",
+      "Chest tightness",
+      "Pink frothy sputum",
+      "Anxiety"
+    ],
+    "keySymptoms": [
+      "Acute severe breathlessness",
+      "Hypoxemia"
+    ],
+    "riskFactors": [
+      "Heart failure",
+      "Acute myocardial injury",
+      "Kidney failure",
+      "Severe systemic illness"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe breathing difficulty",
+      "Low oxygen levels",
+      "Pink frothy sputum",
+      "Confusion"
+    ],
+    "whenToSeekCare": "Acute pulmonary edema is a medical emergency requiring immediate treatment."
+  },
+  {
+    "name": "Acute Respiratory Distress Syndrome",
+    "category": "Respiratory disease",
+    "subCategory": "Acute lung injury",
+    "anatomicalSite": "Lungs and alveoli",
+    "etiology": "Inflammatory and multifactorial",
+    "description": "A severe form of acute lung injury causing widespread inflammation and impaired oxygen exchange.",
+    "commonSymptoms": [
+      "Severe shortness of breath",
+      "Rapid breathing",
+      "Low oxygen levels"
+    ],
+    "lessCommonSymptoms": [
+      "Confusion",
+      "Cough",
+      "Chest discomfort"
+    ],
+    "keySymptoms": [
+      "Acute severe hypoxemic respiratory failure"
+    ],
+    "riskFactors": [
+      "Severe systemic illness",
+      "Major trauma",
+      "Aspiration",
+      "Severe inflammatory conditions"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe hypoxemia",
+      "Severe respiratory distress",
+      "Confusion",
+      "Cyanosis"
+    ],
+    "whenToSeekCare": "ARDS is a medical emergency requiring hospital and usually intensive-care management."
+  }
+]

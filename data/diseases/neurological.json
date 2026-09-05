@@ -1,0 +1,706 @@
+[
+  {
+    "name": "Epilepsy",
+    "category": "Neurological disease",
+    "subCategory": "Seizure disorder",
+    "anatomicalSite": "Brain",
+    "etiology": "Multifactorial",
+    "description": "A neurological disorder characterized by a predisposition to recurrent unprovoked seizures.",
+    "commonSymptoms": [
+      "Seizures",
+      "Temporary loss of awareness",
+      "Confusion after seizures"
+    ],
+    "lessCommonSymptoms": [
+      "Unusual sensations",
+      "Abnormal movements",
+      "Memory disturbance"
+    ],
+    "keySymptoms": [
+      "Recurrent unprovoked seizures"
+    ],
+    "riskFactors": [
+      "Previous brain injury",
+      "Stroke",
+      "Brain tumors",
+      "Genetic factors",
+      "Previous central nervous system infection"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Seizure lasting more than 5 minutes",
+      "Repeated seizures without recovery",
+      "Serious injury during seizure",
+      "Difficulty breathing after seizure"
+    ],
+    "whenToSeekCare": "A first seizure or prolonged or repeated seizure requires urgent medical assessment."
+  },
+  {
+    "name": "Migraine",
+    "category": "Neurological disease",
+    "subCategory": "Primary headache disorder",
+    "anatomicalSite": "Brain and trigeminovascular system",
+    "etiology": "Neurological and multifactorial",
+    "description": "A recurrent neurological disorder characterized by attacks of headache and associated neurological symptoms.",
+    "commonSymptoms": [
+      "Headache",
+      "Nausea",
+      "Sensitivity to light",
+      "Sensitivity to sound"
+    ],
+    "lessCommonSymptoms": [
+      "Visual aura",
+      "Vomiting",
+      "Dizziness",
+      "Neck pain"
+    ],
+    "keySymptoms": [
+      "Recurrent headache attacks",
+      "Throbbing or pulsating pain",
+      "Nausea or light sensitivity"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Hormonal changes",
+      "Stress",
+      "Sleep disturbance",
+      "Certain foods or environmental triggers"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden worst-ever headache",
+      "New neurological weakness",
+      "Confusion",
+      "Fever with severe headache"
+    ],
+    "whenToSeekCare": "A new, sudden, unusually severe, or neurologically complicated headache requires medical assessment."
+  },
+  {
+    "name": "Parkinson's Disease",
+    "category": "Neurological disease",
+    "subCategory": "Neurodegenerative disease",
+    "anatomicalSite": "Basal ganglia and substantia nigra",
+    "etiology": "Neurodegenerative and multifactorial",
+    "description": "A progressive neurodegenerative disorder associated with loss of dopaminergic neurons and characteristic movement abnormalities.",
+    "commonSymptoms": [
+      "Tremor at rest",
+      "Slowness of movement",
+      "Muscle rigidity",
+      "Balance problems"
+    ],
+    "lessCommonSymptoms": [
+      "Constipation",
+      "Reduced sense of smell",
+      "Sleep disturbance",
+      "Depression"
+    ],
+    "keySymptoms": [
+      "Bradykinesia",
+      "Resting tremor",
+      "Rigidity"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Family history",
+      "Certain environmental exposures"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Frequent falls",
+      "Severe swallowing difficulty",
+      "Severe mobility impairment"
+    ],
+    "whenToSeekCare": "Progressive tremor, slowness, or rigidity should be medically evaluated."
+  },
+  {
+    "name": "Alzheimer's Disease",
+    "category": "Neurological disease",
+    "subCategory": "Neurodegenerative disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Neurodegenerative and multifactorial",
+    "description": "A progressive neurodegenerative disease characterized by cognitive decline that interferes with daily functioning.",
+    "commonSymptoms": [
+      "Memory loss",
+      "Difficulty finding words",
+      "Difficulty with problem solving",
+      "Disorientation"
+    ],
+    "lessCommonSymptoms": [
+      "Personality changes",
+      "Behavioral changes",
+      "Difficulty performing familiar tasks"
+    ],
+    "keySymptoms": [
+      "Progressive cognitive decline",
+      "Impaired memory"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Family history",
+      "Certain genetic factors",
+      "Cardiovascular risk factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly progressive confusion",
+      "Sudden neurological changes",
+      "Unsafe inability to perform basic activities"
+    ],
+    "whenToSeekCare": "Progressive cognitive decline should be medically assessed to determine its cause."
+  },
+  {
+    "name": "Multiple Sclerosis",
+    "category": "Neurological disease",
+    "subCategory": "Demyelinating disease",
+    "anatomicalSite": "Central nervous system",
+    "etiology": "Immune-mediated",
+    "description": "A chronic immune-mediated disorder causing inflammation and damage to myelin and other structures within the central nervous system.",
+    "commonSymptoms": [
+      "Vision problems",
+      "Numbness",
+      "Weakness",
+      "Balance problems"
+    ],
+    "lessCommonSymptoms": [
+      "Fatigue",
+      "Bladder problems",
+      "Cognitive difficulties",
+      "Muscle spasms"
+    ],
+    "keySymptoms": [
+      "Neurological deficits separated in time or location"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain genetic factors",
+      "Environmental factors"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe weakness",
+      "Major vision loss",
+      "Severe coordination problems"
+    ],
+    "whenToSeekCare": "New or worsening neurological symptoms require medical assessment."
+  },
+  {
+    "name": "Amyotrophic Lateral Sclerosis",
+    "category": "Neurological disease",
+    "subCategory": "Motor neuron disease",
+    "anatomicalSite": "Brain and spinal motor neurons",
+    "etiology": "Neurodegenerative and multifactorial",
+    "description": "A progressive neurodegenerative disease affecting upper and lower motor neurons.",
+    "commonSymptoms": [
+      "Progressive muscle weakness",
+      "Muscle twitching",
+      "Difficulty speaking",
+      "Difficulty walking"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Muscle cramps",
+      "Breathing difficulty"
+    ],
+    "keySymptoms": [
+      "Progressive motor weakness"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Older age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Difficulty swallowing",
+      "Rapidly progressive weakness"
+    ],
+    "whenToSeekCare": "Progressive unexplained muscle weakness requires neurological assessment."
+  },
+  {
+    "name": "Huntington's Disease",
+    "category": "Genetic disease",
+    "subCategory": "Inherited neurodegenerative disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Genetic",
+    "description": "An inherited neurodegenerative disorder causing progressive movement, cognitive, and psychiatric abnormalities.",
+    "commonSymptoms": [
+      "Involuntary movements",
+      "Poor coordination",
+      "Cognitive decline"
+    ],
+    "lessCommonSymptoms": [
+      "Depression",
+      "Irritability",
+      "Difficulty swallowing",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Progressive involuntary movements",
+      "Cognitive and behavioral changes"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Pathogenic HTT gene variant"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe swallowing difficulty",
+      "Severe behavioral changes",
+      "Rapid functional decline"
+    ],
+    "whenToSeekCare": "Progressive movement or cognitive changes, particularly with a family history, require specialist assessment."
+  },
+  {
+    "name": "Peripheral Neuropathy",
+    "category": "Neurological disease",
+    "subCategory": "Peripheral nerve disorder",
+    "anatomicalSite": "Peripheral nerves",
+    "etiology": "Multifactorial",
+    "description": "Damage or dysfunction of peripheral nerves causing sensory, motor, or autonomic symptoms.",
+    "commonSymptoms": [
+      "Numbness",
+      "Tingling",
+      "Burning pain",
+      "Weakness"
+    ],
+    "lessCommonSymptoms": [
+      "Loss of balance",
+      "Sensitivity to touch",
+      "Autonomic symptoms"
+    ],
+    "keySymptoms": [
+      "Distal numbness",
+      "Tingling",
+      "Neuropathic pain"
+    ],
+    "riskFactors": [
+      "Diabetes",
+      "Alcohol use",
+      "Vitamin deficiencies",
+      "Certain medications",
+      "Kidney disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly progressive weakness",
+      "Difficulty breathing",
+      "Loss of bladder or bowel control"
+    ],
+    "whenToSeekCare": "New or progressive numbness, weakness, or neuropathic pain should be medically evaluated."
+  },
+  {
+    "name": "Trigeminal Neuralgia",
+    "category": "Neurological disease",
+    "subCategory": "Cranial nerve disorder",
+    "anatomicalSite": "Trigeminal nerve",
+    "etiology": "Neurovascular or structural",
+    "description": "A neurological disorder characterized by recurrent brief episodes of severe electric-shock-like facial pain.",
+    "commonSymptoms": [
+      "Severe facial pain",
+      "Brief electric-shock-like pain"
+    ],
+    "lessCommonSymptoms": [
+      "Facial sensitivity",
+      "Pain triggered by touching the face",
+      "Difficulty eating due to pain"
+    ],
+    "keySymptoms": [
+      "Sudden brief episodes of severe facial pain"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Multiple sclerosis",
+      "Structural compression of the trigeminal nerve"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "New neurological deficits",
+      "Persistent facial numbness",
+      "Severe unexplained facial pain"
+    ],
+    "whenToSeekCare": "New severe facial pain should be medically assessed to determine its cause."
+  },
+  {
+    "name": "Bell's Palsy",
+    "category": "Neurological disease",
+    "subCategory": "Peripheral facial nerve disorder",
+    "anatomicalSite": "Facial nerve",
+    "etiology": "Idiopathic or inflammatory",
+    "description": "An acute peripheral facial nerve palsy causing weakness or paralysis on one side of the face.",
+    "commonSymptoms": [
+      "One-sided facial weakness",
+      "Difficulty closing one eye",
+      "Drooping of the mouth"
+    ],
+    "lessCommonSymptoms": [
+      "Altered taste",
+      "Ear pain",
+      "Sensitivity to sound"
+    ],
+    "keySymptoms": [
+      "Acute unilateral facial weakness"
+    ],
+    "riskFactors": [
+      "Pregnancy",
+      "Diabetes",
+      "Recent viral illness"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Arm or leg weakness",
+      "Speech difficulty",
+      "Severe headache",
+      "Other neurological deficits"
+    ],
+    "whenToSeekCare": "Sudden facial weakness requires urgent assessment to distinguish Bell's palsy from stroke."
+  },
+  {
+    "name": "Guillain-Barré Syndrome",
+    "category": "Neurological disease",
+    "subCategory": "Acute immune-mediated neuropathy",
+    "anatomicalSite": "Peripheral nerves",
+    "etiology": "Immune-mediated",
+    "description": "An acute immune-mediated disorder affecting peripheral nerves, often causing rapidly progressive weakness.",
+    "commonSymptoms": [
+      "Progressive weakness",
+      "Tingling",
+      "Difficulty walking"
+    ],
+    "lessCommonSymptoms": [
+      "Facial weakness",
+      "Pain",
+      "Autonomic dysfunction"
+    ],
+    "keySymptoms": [
+      "Rapidly progressive symmetrical weakness",
+      "Reduced or absent reflexes"
+    ],
+    "riskFactors": [
+      "Recent infection",
+      "Recent surgery",
+      "Certain immune triggers"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Difficulty swallowing",
+      "Rapidly worsening weakness",
+      "Autonomic instability"
+    ],
+    "whenToSeekCare": "Suspected Guillain-Barré syndrome requires immediate hospital assessment."
+  },
+  {
+    "name": "Myasthenia Gravis",
+    "category": "Neurological disease",
+    "subCategory": "Neuromuscular junction disorder",
+    "anatomicalSite": "Neuromuscular junction",
+    "etiology": "Autoimmune",
+    "description": "An autoimmune disorder affecting neuromuscular transmission and causing fluctuating skeletal muscle weakness.",
+    "commonSymptoms": [
+      "Muscle weakness",
+      "Drooping eyelids",
+      "Double vision",
+      "Difficulty chewing"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty swallowing",
+      "Difficulty speaking",
+      "Neck weakness"
+    ],
+    "keySymptoms": [
+      "Fatigable muscle weakness",
+      "Ocular symptoms"
+    ],
+    "riskFactors": [
+      "Autoimmune predisposition",
+      "Thymic abnormalities"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Difficulty breathing",
+      "Severe swallowing difficulty",
+      "Rapidly worsening weakness"
+    ],
+    "whenToSeekCare": "Breathing or swallowing difficulty in myasthenia gravis requires emergency assessment."
+  },
+  {
+    "name": "Essential Tremor",
+    "category": "Neurological disease",
+    "subCategory": "Movement disorder",
+    "anatomicalSite": "Brain and motor pathways",
+    "etiology": "Neurological and genetic",
+    "description": "A common movement disorder characterized primarily by action or postural tremor.",
+    "commonSymptoms": [
+      "Hand tremor",
+      "Tremor during movement",
+      "Difficulty with fine motor tasks"
+    ],
+    "lessCommonSymptoms": [
+      "Head tremor",
+      "Voice tremor",
+      "Difficulty writing"
+    ],
+    "keySymptoms": [
+      "Action or postural tremor"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Older age"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden onset tremor",
+      "Associated weakness",
+      "Associated speech difficulty"
+    ],
+    "whenToSeekCare": "Persistent or progressive tremor should be evaluated, particularly if neurological symptoms accompany it."
+  },
+  {
+    "name": "Dystonia",
+    "category": "Neurological disease",
+    "subCategory": "Movement disorder",
+    "anatomicalSite": "Brain and motor pathways",
+    "etiology": "Genetic or acquired",
+    "description": "A movement disorder characterized by sustained or intermittent muscle contractions causing abnormal movements or postures.",
+    "commonSymptoms": [
+      "Involuntary muscle contractions",
+      "Abnormal postures",
+      "Repetitive movements"
+    ],
+    "lessCommonSymptoms": [
+      "Pain",
+      "Tremor",
+      "Difficulty walking"
+    ],
+    "keySymptoms": [
+      "Abnormal sustained or repetitive muscle contractions"
+    ],
+    "riskFactors": [
+      "Genetic disorders",
+      "Brain injury",
+      "Certain medications",
+      "Neurological disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Sudden severe dystonia",
+      "Difficulty breathing",
+      "Difficulty swallowing"
+    ],
+    "whenToSeekCare": "New or progressive abnormal movements require neurological assessment."
+  },
+  {
+    "name": "Huntington's Disease",
+    "category": "Genetic disease",
+    "subCategory": "Inherited neurodegenerative disease",
+    "anatomicalSite": "Brain",
+    "etiology": "Genetic",
+    "description": "An inherited neurodegenerative disorder causing progressive motor, cognitive, and behavioral changes.",
+    "commonSymptoms": [
+      "Involuntary movements",
+      "Cognitive decline",
+      "Behavioral changes"
+    ],
+    "lessCommonSymptoms": [
+      "Depression",
+      "Difficulty swallowing",
+      "Weight loss"
+    ],
+    "keySymptoms": [
+      "Progressive involuntary movements",
+      "Progressive cognitive and behavioral changes"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Pathogenic HTT gene variant"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe swallowing difficulty",
+      "Rapid functional decline",
+      "Severe behavioral changes"
+    ],
+    "whenToSeekCare": "Progressive neurological or behavioral changes with a family history require specialist assessment."
+  },
+  {
+    "name": "Hydrocephalus",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrospinal fluid disorder",
+    "anatomicalSite": "Brain and ventricular system",
+    "etiology": "Structural or cerebrospinal fluid circulation disorder",
+    "description": "An abnormal accumulation of cerebrospinal fluid within the brain's ventricular system.",
+    "commonSymptoms": [
+      "Headache",
+      "Nausea",
+      "Balance problems",
+      "Cognitive changes"
+    ],
+    "lessCommonSymptoms": [
+      "Urinary problems",
+      "Vision problems",
+      "Drowsiness"
+    ],
+    "keySymptoms": [
+      "Progressive neurological symptoms",
+      "Ventricular enlargement"
+    ],
+    "riskFactors": [
+      "Brain hemorrhage",
+      "Brain tumor",
+      "Head injury",
+      "Congenital abnormalities"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe headache",
+      "Vomiting",
+      "Reduced consciousness",
+      "Rapid neurological deterioration"
+    ],
+    "whenToSeekCare": "Suspected acute hydrocephalus requires urgent neurological or neurosurgical assessment."
+  },
+  {
+    "name": "Normal Pressure Hydrocephalus",
+    "category": "Neurological disease",
+    "subCategory": "Cerebrospinal fluid disorder",
+    "anatomicalSite": "Brain and ventricular system",
+    "etiology": "Cerebrospinal fluid circulation disorder",
+    "description": "A form of hydrocephalus typically associated with gait impairment, cognitive decline, and urinary dysfunction.",
+    "commonSymptoms": [
+      "Difficulty walking",
+      "Cognitive impairment",
+      "Urinary urgency or incontinence"
+    ],
+    "lessCommonSymptoms": [
+      "Slowness of movement",
+      "Balance problems"
+    ],
+    "keySymptoms": [
+      "Gait disturbance",
+      "Cognitive decline",
+      "Urinary dysfunction"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Previous brain injury",
+      "Subarachnoid hemorrhage"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapid deterioration",
+      "Falls",
+      "Severe confusion"
+    ],
+    "whenToSeekCare": "Progressive gait, cognitive, or urinary symptoms should be evaluated because some cases may be treatable."
+  },
+  {
+    "name": "Traumatic Brain Injury",
+    "category": "Neurological disease",
+    "subCategory": "Neurological trauma",
+    "anatomicalSite": "Brain",
+    "etiology": "Traumatic",
+    "description": "Brain dysfunction or structural injury caused by an external mechanical force.",
+    "commonSymptoms": [
+      "Headache",
+      "Dizziness",
+      "Confusion",
+      "Memory problems"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Loss of consciousness",
+      "Mood changes",
+      "Balance problems"
+    ],
+    "keySymptoms": [
+      "Neurological symptoms following head trauma"
+    ],
+    "riskFactors": [
+      "Road traffic accidents",
+      "Falls",
+      "Sports injuries",
+      "Physical trauma"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Loss of consciousness",
+      "Repeated vomiting",
+      "Seizure",
+      "Worsening headache",
+      "Unequal pupils"
+    ],
+    "whenToSeekCare": "Significant head trauma or neurological deterioration requires urgent medical assessment."
+  },
+  {
+    "name": "Spinal Cord Injury",
+    "category": "Neurological disease",
+    "subCategory": "Neurological trauma",
+    "anatomicalSite": "Spinal cord",
+    "etiology": "Traumatic",
+    "description": "Damage to the spinal cord resulting in varying degrees of sensory, motor, and autonomic dysfunction.",
+    "commonSymptoms": [
+      "Weakness",
+      "Numbness",
+      "Back or neck pain",
+      "Loss of movement"
+    ],
+    "lessCommonSymptoms": [
+      "Bladder dysfunction",
+      "Bowel dysfunction",
+      "Breathing difficulty"
+    ],
+    "keySymptoms": [
+      "Neurological deficits following spinal trauma"
+    ],
+    "riskFactors": [
+      "Road traffic accidents",
+      "Falls",
+      "Sports injuries",
+      "Violent trauma"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Paralysis",
+      "Loss of sensation",
+      "Loss of bladder or bowel control",
+      "Breathing difficulty"
+    ],
+    "whenToSeekCare": "Suspected spinal cord injury requires immediate emergency assessment and spinal protection."
+  },
+  {
+    "name": "Brain Tumor",
+    "category": "Neoplastic disease",
+    "subCategory": "Central nervous system malignancy",
+    "anatomicalSite": "Brain",
+    "etiology": "Neoplastic",
+    "description": "An abnormal growth of cells within or around the brain that may be benign or malignant.",
+    "commonSymptoms": [
+      "Headache",
+      "Seizures",
+      "Neurological deficits",
+      "Cognitive changes"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vision problems",
+      "Personality changes",
+      "Balance problems"
+    ],
+    "keySymptoms": [
+      "Progressive neurological symptoms",
+      "New-onset seizures"
+    ],
+    "riskFactors": [
+      "Certain genetic syndromes",
+      "Previous radiation exposure"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "New seizure",
+      "Progressive weakness",
+      "Reduced consciousness",
+      "Severe worsening headache"
+    ],
+    "whenToSeekCare": "New seizures or progressive neurological deficits require urgent medical assessment."
+  }
+]

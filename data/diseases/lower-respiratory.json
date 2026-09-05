@@ -1,0 +1,616 @@
+[
+  {
+    "name": "Acute Bronchitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Bronchi (lower respiratory tract)",
+    "etiology": "Usually viral",
+    "description": "Acute inflammation of the bronchi, most commonly caused by a viral respiratory infection.",
+    "commonSymptoms": [
+      "cough",
+      "sputum production",
+      "chest discomfort",
+      "fatigue",
+      "mild shortness of breath"
+    ],
+    "lessCommonSymptoms": [
+      "low-grade fever",
+      "wheezing",
+      "sore throat",
+      "runny nose",
+      "body aches",
+      "headache"
+    ],
+    "keySymptoms": [
+      "persistent cough",
+      "cough with or without mucus",
+      "chest discomfort"
+    ],
+    "riskFactors": [
+      "recent respiratory infection",
+      "smoking",
+      "secondhand smoke exposure",
+      "air pollution",
+      "occupational exposure to dust or fumes",
+      "weakened immune system"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "difficulty breathing",
+      "coughing up blood",
+      "persistent high fever",
+      "chest pain",
+      "confusion",
+      "rapid worsening"
+    ],
+    "whenToSeekCare": "Most cases are viral and improve with supportive care. Seek medical assessment if breathing difficulty, high fever, coughing up blood, or worsening symptoms occur."
+  },
+  {
+    "name": "Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Bacterial, viral, fungal, or other infectious agents",
+    "description": "An infection and inflammation of the lung tissue that can be caused by bacteria, viruses, fungi, or other microorganisms.",
+    "commonSymptoms": [
+      "cough",
+      "fever",
+      "chills",
+      "shortness of breath",
+      "chest pain",
+      "fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "sputum production",
+      "rapid breathing",
+      "headache",
+      "muscle aches",
+      "nausea",
+      "vomiting",
+      "confusion"
+    ],
+    "keySymptoms": [
+      "fever",
+      "cough",
+      "shortness of breath",
+      "chest pain",
+      "rapid breathing"
+    ],
+    "riskFactors": [
+      "young age",
+      "older age",
+      "smoking",
+      "chronic lung disease",
+      "weakened immune system",
+      "recent respiratory infection",
+      "hospitalization",
+      "malnutrition"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "bluish lips or skin",
+      "confusion",
+      "persistent chest pain",
+      "coughing up blood",
+      "very high or persistent fever",
+      "severe weakness",
+      "low oxygen level"
+    ],
+    "whenToSeekCare": "Pneumonia requires clinical assessment and may require specific treatment depending on the cause. Seek urgent care for severe breathing difficulty, confusion, bluish skin, or other serious symptoms."
+  },
+  {
+    "name": "Community-Acquired Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Bacterial, viral, or fungal",
+    "description": "Pneumonia acquired outside a healthcare facility, caused by a variety of bacteria, viruses, or fungi.",
+    "commonSymptoms": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "chills",
+      "chest pain",
+      "fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "sputum production",
+      "headache",
+      "muscle aches",
+      "nausea",
+      "vomiting",
+      "confusion"
+    ],
+    "keySymptoms": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "riskFactors": [
+      "older age",
+      "young age",
+      "smoking",
+      "chronic lung disease",
+      "diabetes",
+      "weakened immune system",
+      "recent viral respiratory infection"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "low oxygen level",
+      "confusion",
+      "bluish lips or skin",
+      "persistent chest pain",
+      "coughing up blood"
+    ],
+    "whenToSeekCare": "Medical assessment is recommended because bacterial and viral causes may require different management. Severe symptoms require urgent care."
+  },
+  {
+    "name": "Hospital-Acquired Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Usually bacterial",
+    "description": "Pneumonia that develops during or after hospitalization and is caused by healthcare-associated pathogens.",
+    "commonSymptoms": [
+      "fever",
+      "cough",
+      "shortness of breath",
+      "sputum production",
+      "low oxygen level"
+    ],
+    "lessCommonSymptoms": [
+      "chest pain",
+      "rapid breathing",
+      "confusion",
+      "chills",
+      "fatigue"
+    ],
+    "keySymptoms": [
+      "new or worsening cough",
+      "fever",
+      "increased respiratory difficulty",
+      "new or worsening lung findings"
+    ],
+    "riskFactors": [
+      "recent hospitalization",
+      "mechanical ventilation",
+      "prolonged hospital stay",
+      "weakened immune system",
+      "recent antibiotic use",
+      "underlying chronic disease"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "low oxygen level",
+      "confusion",
+      "low blood pressure",
+      "rapid deterioration",
+      "bluish lips or skin"
+    ],
+    "whenToSeekCare": "Requires prompt medical assessment and treatment, often involving antibiotics selected according to likely or confirmed healthcare-associated pathogens."
+  },
+  {
+    "name": "Viral Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Viral",
+    "description": "An infection of the lungs caused by respiratory viruses such as influenza viruses, SARS-CoV-2, RSV, and others.",
+    "commonSymptoms": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "fatigue",
+      "chills"
+    ],
+    "lessCommonSymptoms": [
+      "headache",
+      "muscle aches",
+      "sore throat",
+      "runny nose",
+      "chest discomfort",
+      "nausea"
+    ],
+    "keySymptoms": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "riskFactors": [
+      "older age",
+      "young age",
+      "chronic lung disease",
+      "weakened immune system",
+      "recent viral exposure",
+      "crowded environments"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "low oxygen level",
+      "bluish lips or skin",
+      "confusion",
+      "persistent chest pain",
+      "rapid deterioration"
+    ],
+    "whenToSeekCare": "Seek medical assessment when pneumonia is suspected. Treatment depends on the causative virus and severity."
+  },
+  {
+    "name": "Bacterial Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Bacterial",
+    "description": "An infection of the lung tissue caused by bacteria, commonly presenting with fever, cough, and breathing difficulty.",
+    "commonSymptoms": [
+      "fever",
+      "cough",
+      "sputum production",
+      "shortness of breath",
+      "chest pain",
+      "chills"
+    ],
+    "lessCommonSymptoms": [
+      "fatigue",
+      "headache",
+      "muscle aches",
+      "nausea",
+      "vomiting",
+      "confusion"
+    ],
+    "keySymptoms": [
+      "fever",
+      "productive cough",
+      "shortness of breath",
+      "chest pain",
+      "chills"
+    ],
+    "riskFactors": [
+      "older age",
+      "young age",
+      "smoking",
+      "chronic lung disease",
+      "diabetes",
+      "weakened immune system",
+      "recent respiratory infection"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "low oxygen level",
+      "confusion",
+      "bluish lips or skin",
+      "persistent chest pain",
+      "coughing up blood"
+    ],
+    "whenToSeekCare": "Suspected bacterial pneumonia requires medical assessment and may require antibiotic treatment. Severe symptoms require urgent care."
+  },
+  {
+    "name": "Bronchiolitis",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Bronchioles (lower respiratory tract)",
+    "etiology": "Viral",
+    "description": "A viral infection causing inflammation and narrowing of the small airways, most common in infants and young children.",
+    "commonSymptoms": [
+      "cough",
+      "runny nose",
+      "nasal congestion",
+      "wheezing",
+      "rapid breathing",
+      "difficulty feeding"
+    ],
+    "lessCommonSymptoms": [
+      "fever",
+      "irritability",
+      "fatigue",
+      "vomiting",
+      "decreased urine output"
+    ],
+    "keySymptoms": [
+      "cough",
+      "wheezing",
+      "rapid breathing",
+      "difficulty feeding in infants"
+    ],
+    "riskFactors": [
+      "young age",
+      "premature birth",
+      "secondhand smoke exposure",
+      "crowded living conditions",
+      "chronic heart disease",
+      "chronic lung disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "chest retractions",
+      "pauses in breathing",
+      "bluish lips or skin",
+      "inability to feed",
+      "extreme sleepiness",
+      "dehydration"
+    ],
+    "whenToSeekCare": "Most cases are viral and require supportive care. Infants with breathing difficulty, poor feeding, dehydration, or pauses in breathing require urgent medical assessment."
+  },
+  {
+    "name": "Respiratory Syncytial Virus (RSV) Infection",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lower respiratory tract",
+    "etiology": "Viral",
+    "description": "A respiratory infection caused by respiratory syncytial virus that can cause bronchiolitis or pneumonia, particularly in infants and older adults.",
+    "commonSymptoms": [
+      "cough",
+      "wheezing",
+      "difficulty breathing",
+      "fever",
+      "runny nose",
+      "nasal congestion"
+    ],
+    "lessCommonSymptoms": [
+      "poor feeding",
+      "irritability",
+      "fatigue",
+      "rapid breathing",
+      "decreased urine output"
+    ],
+    "keySymptoms": [
+      "cough",
+      "wheezing",
+      "difficulty breathing",
+      "poor feeding in infants"
+    ],
+    "riskFactors": [
+      "young age",
+      "older age",
+      "premature birth",
+      "chronic lung disease",
+      "chronic heart disease",
+      "weakened immune system"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "chest retractions",
+      "pauses in breathing",
+      "bluish lips or skin",
+      "inability to feed",
+      "dehydration"
+    ],
+    "whenToSeekCare": "Most infections are managed supportively, but infants, older adults, and high-risk individuals may develop serious disease. Seek urgent care for significant breathing difficulty."
+  },
+  {
+    "name": "Aspiration Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Bacterial or mixed infectious organisms following aspiration",
+    "description": "Pneumonia that develops when food, stomach contents, saliva, or other material is inhaled into the lower respiratory tract.",
+    "commonSymptoms": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "chest discomfort",
+      "fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "sputum production",
+      "wheezing",
+      "rapid breathing",
+      "low oxygen level",
+      "confusion"
+    ],
+    "keySymptoms": [
+      "cough after aspiration",
+      "fever",
+      "shortness of breath",
+      "chest discomfort"
+    ],
+    "riskFactors": [
+      "difficulty swallowing",
+      "reduced consciousness",
+      "stroke",
+      "neurological disorders",
+      "vomiting",
+      "alcohol or sedative use",
+      "feeding tube use",
+      "advanced age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "bluish lips or skin",
+      "confusion",
+      "low oxygen level",
+      "persistent choking",
+      "severe chest pain"
+    ],
+    "whenToSeekCare": "Aspiration pneumonia requires medical assessment and may require antibiotics and respiratory support. Seek urgent care when breathing difficulty or low oxygen occurs."
+  },
+  {
+    "name": "Tuberculosis (Pulmonary TB)",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lungs (lower respiratory tract)",
+    "etiology": "Bacterial",
+    "description": "A contagious infection caused by Mycobacterium tuberculosis that primarily affects the lungs and can cause prolonged respiratory and systemic symptoms.",
+    "commonSymptoms": [
+      "persistent cough",
+      "fatigue",
+      "weight loss",
+      "fever",
+      "night sweats"
+    ],
+    "lessCommonSymptoms": [
+      "coughing up blood",
+      "chest pain",
+      "loss of appetite",
+      "weakness",
+      "shortness of breath"
+    ],
+    "keySymptoms": [
+      "persistent cough",
+      "unexplained weight loss",
+      "night sweats",
+      "fever"
+    ],
+    "riskFactors": [
+      "close contact with a person with active TB",
+      "crowded living conditions",
+      "weakened immune system",
+      "malnutrition",
+      "diabetes",
+      "previous TB infection"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "coughing up blood",
+      "severe difficulty breathing",
+      "severe weakness",
+      "confusion",
+      "rapid deterioration"
+    ],
+    "whenToSeekCare": "Persistent cough, unexplained weight loss, fever, or night sweats require medical evaluation and TB testing. Confirmed TB requires a complete course of appropriate treatment."
+  },
+  {
+    "name": "Pneumocystis Pneumonia",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lungs (lower respiratory tract)",
+    "etiology": "Fungal",
+    "description": "A serious lung infection caused by Pneumocystis jirovecii, primarily affecting people with significantly weakened immune systems.",
+    "commonSymptoms": [
+      "progressive shortness of breath",
+      "dry cough",
+      "fever",
+      "fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "chest discomfort",
+      "rapid breathing",
+      "low oxygen level",
+      "weight loss",
+      "night sweats"
+    ],
+    "keySymptoms": [
+      "progressive shortness of breath",
+      "dry cough",
+      "fever",
+      "low oxygen level"
+    ],
+    "riskFactors": [
+      "advanced HIV infection",
+      "organ transplantation",
+      "immunosuppressive medications",
+      "cancer treatment",
+      "severely weakened immune system"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "very low oxygen level",
+      "bluish lips or skin",
+      "confusion",
+      "rapid deterioration"
+    ],
+    "whenToSeekCare": "Requires prompt medical evaluation and specific antimicrobial treatment. Severe cases may require hospitalization and oxygen therapy."
+  },
+  {
+    "name": "Legionnaires' Disease",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lungs (lower respiratory tract)",
+    "etiology": "Bacterial",
+    "description": "A serious form of pneumonia caused by Legionella bacteria, usually acquired by inhaling contaminated water droplets or aerosols.",
+    "commonSymptoms": [
+      "fever",
+      "cough",
+      "shortness of breath",
+      "headache",
+      "muscle aches"
+    ],
+    "lessCommonSymptoms": [
+      "diarrhea",
+      "nausea",
+      "vomiting",
+      "confusion",
+      "chest pain"
+    ],
+    "keySymptoms": [
+      "fever",
+      "cough",
+      "shortness of breath",
+      "gastrointestinal symptoms"
+    ],
+    "riskFactors": [
+      "older age",
+      "smoking",
+      "chronic lung disease",
+      "weakened immune system",
+      "recent hospitalization",
+      "exposure to contaminated water systems"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "severe difficulty breathing",
+      "confusion",
+      "persistent high fever",
+      "chest pain",
+      "low oxygen level",
+      "severe dehydration"
+    ],
+    "whenToSeekCare": "Requires medical evaluation and antibiotic treatment. Severe disease may require hospitalization."
+  },
+  {
+    "name": "Lung Abscess",
+    "category": "Infectious disease",
+    "subCategory": "Respiratory infection",
+    "anatomicalSite": "Lung tissue (lower respiratory tract)",
+    "etiology": "Bacterial",
+    "description": "A localized collection of pus within lung tissue caused by bacterial infection, often following aspiration or severe pneumonia.",
+    "commonSymptoms": [
+      "persistent cough",
+      "fever",
+      "fatigue",
+      "sputum production",
+      "night sweats"
+    ],
+    "lessCommonSymptoms": [
+      "foul-smelling sputum",
+      "chest pain",
+      "weight loss",
+      "shortness of breath",
+      "loss of appetite"
+    ],
+    "keySymptoms": [
+      "persistent fever",
+      "persistent cough",
+      "foul-smelling sputum",
+      "weight loss"
+    ],
+    "riskFactors": [
+      "aspiration",
+      "poor dental hygiene",
+      "alcohol misuse",
+      "impaired consciousness",
+      "lung infection",
+      "weakened immune system"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "coughing up large amounts of blood",
+      "severe difficulty breathing",
+      "persistent high fever",
+      "confusion",
+      "severe weakness"
+    ],
+    "whenToSeekCare": "Requires medical assessment and prolonged antimicrobial treatment. Hospital treatment may be necessary for severe infection or complications."
+  }
+]

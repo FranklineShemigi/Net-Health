@@ -1,0 +1,435 @@
+[
+  {
+    "name": "Polycystic Ovary Syndrome",
+    "category": "Endocrine disease",
+    "subCategory": "Reproductive endocrine disorder",
+    "anatomicalSite": "Ovaries and reproductive system",
+    "etiology": "Hormonal and metabolic",
+    "description": "A common endocrine disorder associated with irregular ovulation, androgen excess, and metabolic abnormalities.",
+    "commonSymptoms": [
+      "Irregular menstrual periods",
+      "Excess facial or body hair",
+      "Acne",
+      "Difficulty becoming pregnant"
+    ],
+    "lessCommonSymptoms": [
+      "Hair thinning",
+      "Weight gain",
+      "Darkened skin folds"
+    ],
+    "keySymptoms": [
+      "Menstrual irregularity",
+      "Hyperandrogenism",
+      "Irregular ovulation"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Insulin resistance",
+      "Genetic susceptibility",
+      "Overweight or obesity"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Very heavy bleeding",
+      "Severe pelvic pain",
+      "Sudden severe symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent menstrual irregularity, signs of androgen excess, or fertility difficulties."
+  },
+  {
+    "name": "Endometriosis",
+    "category": "Reproductive disease",
+    "subCategory": "Gynecologic disorder",
+    "anatomicalSite": "Pelvis and reproductive organs",
+    "etiology": "Multifactorial",
+    "description": "A condition in which tissue resembling the uterine lining grows outside the uterus and causes inflammation and pain.",
+    "commonSymptoms": [
+      "Pelvic pain",
+      "Painful menstruation",
+      "Pain during sexual intercourse",
+      "Heavy menstrual bleeding"
+    ],
+    "lessCommonSymptoms": [
+      "Painful bowel movements",
+      "Painful urination",
+      "Infertility",
+      "Fatigue"
+    ],
+    "keySymptoms": [
+      "Severe menstrual pain",
+      "Chronic pelvic pain"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Early menstruation",
+      "Short menstrual cycles",
+      "Heavy menstrual bleeding"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe sudden pelvic pain",
+      "Heavy uncontrolled bleeding",
+      "Fainting"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent pelvic pain, severe menstrual pain, or fertility problems."
+  },
+  {
+    "name": "Uterine Fibroids",
+    "category": "Reproductive disease",
+    "subCategory": "Uterine disorder",
+    "anatomicalSite": "Uterus",
+    "etiology": "Benign neoplastic",
+    "description": "Benign growths arising from the muscular tissue of the uterus.",
+    "commonSymptoms": [
+      "Heavy menstrual bleeding",
+      "Pelvic pressure",
+      "Pelvic pain",
+      "Prolonged menstrual periods"
+    ],
+    "lessCommonSymptoms": [
+      "Frequent urination",
+      "Constipation",
+      "Back pain",
+      "Infertility"
+    ],
+    "keySymptoms": [
+      "Heavy menstrual bleeding",
+      "Pelvic pressure"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Reproductive age",
+      "Early menstruation",
+      "Obesity"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Very heavy bleeding",
+      "Severe pelvic pain",
+      "Fainting",
+      "Symptoms of severe anemia"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for heavy menstrual bleeding, persistent pelvic pain, or pressure symptoms."
+  },
+  {
+    "name": "Pelvic Inflammatory Disease",
+    "category": "Infectious disease",
+    "subCategory": "Reproductive tract infection",
+    "anatomicalSite": "Uterus, fallopian tubes, and ovaries",
+    "etiology": "Bacterial",
+    "description": "An infection and inflammation of the upper female reproductive tract, often resulting from ascending sexually transmitted or other genital tract infections.",
+    "commonSymptoms": [
+      "Lower abdominal pain",
+      "Pelvic pain",
+      "Abnormal vaginal discharge",
+      "Pain during sexual intercourse"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Abnormal bleeding",
+      "Painful urination",
+      "Nausea"
+    ],
+    "keySymptoms": [
+      "Pelvic pain",
+      "Abnormal discharge",
+      "Cervical or pelvic tenderness"
+    ],
+    "riskFactors": [
+      "Untreated sexually transmitted infection",
+      "Multiple sexual partners",
+      "Previous PID",
+      "Young age"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "High fever",
+      "Vomiting",
+      "Fainting",
+      "Pregnancy with pelvic pain"
+    ],
+    "whenToSeekCare": "Prompt medical evaluation is important because untreated PID can lead to infertility, chronic pelvic pain, or ectopic pregnancy."
+  },
+  {
+    "name": "Ectopic Pregnancy",
+    "category": "Reproductive disease",
+    "subCategory": "Pregnancy complication",
+    "anatomicalSite": "Fallopian tube or other extrauterine location",
+    "etiology": "Structural and reproductive",
+    "description": "A pregnancy that implants outside the normal uterine cavity, most commonly in a fallopian tube.",
+    "commonSymptoms": [
+      "Missed menstrual period",
+      "Lower abdominal pain",
+      "Vaginal bleeding"
+    ],
+    "lessCommonSymptoms": [
+      "Shoulder pain",
+      "Dizziness",
+      "Weakness",
+      "Rectal pressure"
+    ],
+    "keySymptoms": [
+      "Positive pregnancy test",
+      "Pelvic or abdominal pain",
+      "Vaginal bleeding"
+    ],
+    "riskFactors": [
+      "Previous ectopic pregnancy",
+      "Previous tubal surgery",
+      "Pelvic inflammatory disease",
+      "Tubal abnormalities"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Severe abdominal pain",
+      "Shoulder-tip pain",
+      "Fainting",
+      "Severe dizziness",
+      "Signs of internal bleeding"
+    ],
+    "whenToSeekCare": "Emergency medical assessment is required when pregnancy is accompanied by severe abdominal pain, bleeding, dizziness, or fainting."
+  },
+  {
+    "name": "Benign Prostatic Hyperplasia",
+    "category": "Reproductive disease",
+    "subCategory": "Male reproductive disorder",
+    "anatomicalSite": "Prostate gland",
+    "etiology": "Age-related hormonal and tissue changes",
+    "description": "Non-cancerous enlargement of the prostate gland that can obstruct urinary flow.",
+    "commonSymptoms": [
+      "Difficulty starting urination",
+      "Weak urine stream",
+      "Frequent urination",
+      "Nighttime urination"
+    ],
+    "lessCommonSymptoms": [
+      "Urgency",
+      "Incomplete bladder emptying",
+      "Urinary dribbling"
+    ],
+    "keySymptoms": [
+      "Weak urine stream",
+      "Urinary hesitancy",
+      "Frequent nighttime urination"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Family history",
+      "Metabolic conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Complete inability to urinate",
+      "Blood in urine",
+      "Fever with urinary symptoms",
+      "Severe lower abdominal pain"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent urinary symptoms. Acute inability to urinate requires urgent treatment."
+  },
+  {
+    "name": "Prostatitis",
+    "category": "Reproductive disease",
+    "subCategory": "Male reproductive tract infection",
+    "anatomicalSite": "Prostate gland",
+    "etiology": "Bacterial or inflammatory",
+    "description": "Inflammation of the prostate that may be caused by bacterial infection or other inflammatory mechanisms.",
+    "commonSymptoms": [
+      "Pelvic pain",
+      "Painful urination",
+      "Frequent urination",
+      "Difficulty urinating"
+    ],
+    "lessCommonSymptoms": [
+      "Fever",
+      "Chills",
+      "Painful ejaculation",
+      "Blood in urine"
+    ],
+    "keySymptoms": [
+      "Pelvic or perineal pain",
+      "Urinary symptoms"
+    ],
+    "riskFactors": [
+      "Previous urinary infection",
+      "Urinary tract abnormalities",
+      "Prostate procedures"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "High fever",
+      "Chills",
+      "Inability to urinate",
+      "Severe weakness"
+    ],
+    "whenToSeekCare": "Prompt medical assessment is recommended, particularly when fever or difficulty urinating is present."
+  },
+  {
+    "name": "Testicular Torsion",
+    "category": "Reproductive disease",
+    "subCategory": "Male reproductive emergency",
+    "anatomicalSite": "Testis and spermatic cord",
+    "etiology": "Structural",
+    "description": "Twisting of the spermatic cord that cuts off blood supply to the testis.",
+    "commonSymptoms": [
+      "Sudden severe testicular pain",
+      "Testicular swelling",
+      "Scrotal tenderness"
+    ],
+    "lessCommonSymptoms": [
+      "Nausea",
+      "Vomiting",
+      "Abdominal pain"
+    ],
+    "keySymptoms": [
+      "Sudden severe unilateral testicular pain",
+      "Swollen testis"
+    ],
+    "riskFactors": [
+      "Adolescence",
+      "Previous testicular torsion",
+      "Anatomical predisposition"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden severe testicular pain",
+      "Rapid swelling",
+      "Nausea or vomiting"
+    ],
+    "whenToSeekCare": "Immediate emergency assessment is required because testicular blood supply can be permanently compromised."
+  },
+  {
+    "name": "Varicocele",
+    "category": "Reproductive disease",
+    "subCategory": "Male reproductive disorder",
+    "anatomicalSite": "Scrotal veins",
+    "etiology": "Vascular",
+    "description": "Abnormal enlargement of veins within the scrotum caused by impaired venous drainage.",
+    "commonSymptoms": [
+      "Scrotal heaviness",
+      "Dull testicular discomfort",
+      "Visible or palpable enlarged veins"
+    ],
+    "lessCommonSymptoms": [
+      "Testicular size difference",
+      "Infertility"
+    ],
+    "keySymptoms": [
+      "Enlarged scrotal veins",
+      "Dull scrotal discomfort"
+    ],
+    "riskFactors": [
+      "Male reproductive age",
+      "Anatomical venous abnormalities"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Sudden severe scrotal pain",
+      "Rapid swelling",
+      "New right-sided varicocele"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent scrotal swelling, pain, testicular size differences, or fertility problems."
+  },
+  {
+    "name": "Male Infertility",
+    "category": "Reproductive disease",
+    "subCategory": "Fertility disorder",
+    "anatomicalSite": "Male reproductive system",
+    "etiology": "Multifactorial",
+    "description": "Inability to achieve pregnancy due to factors affecting male reproductive function.",
+    "commonSymptoms": [
+      "Difficulty achieving pregnancy"
+    ],
+    "lessCommonSymptoms": [
+      "Low libido",
+      "Erectile dysfunction",
+      "Testicular pain or swelling"
+    ],
+    "keySymptoms": [
+      "Failure to achieve pregnancy despite regular unprotected intercourse"
+    ],
+    "riskFactors": [
+      "Varicocele",
+      "Hormonal disorders",
+      "Genetic disorders",
+      "Previous testicular injury",
+      "Certain medications"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Testicular mass",
+      "Severe testicular pain",
+      "Marked hormonal symptoms"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when pregnancy has not occurred after an appropriate period of regular unprotected intercourse."
+  },
+  {
+    "name": "Female Infertility",
+    "category": "Reproductive disease",
+    "subCategory": "Fertility disorder",
+    "anatomicalSite": "Female reproductive system",
+    "etiology": "Multifactorial",
+    "description": "Difficulty becoming pregnant due to factors affecting ovulation, reproductive organs, or other fertility mechanisms.",
+    "commonSymptoms": [
+      "Difficulty becoming pregnant"
+    ],
+    "lessCommonSymptoms": [
+      "Irregular menstruation",
+      "Pelvic pain",
+      "Abnormal vaginal bleeding"
+    ],
+    "keySymptoms": [
+      "Failure to achieve pregnancy"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Endometriosis",
+      "Polycystic ovary syndrome",
+      "Tubal disease",
+      "Previous pelvic infection"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe pelvic pain",
+      "Very irregular bleeding",
+      "Symptoms suggesting pelvic infection"
+    ],
+    "whenToSeekCare": "Seek medical evaluation when pregnancy has not occurred after an appropriate period of regular unprotected intercourse."
+  },
+  {
+    "name": "Premature Ovarian Insufficiency",
+    "category": "Reproductive disease",
+    "subCategory": "Ovarian disorder",
+    "anatomicalSite": "Ovaries",
+    "etiology": "Genetic, autoimmune, iatrogenic, or unknown",
+    "description": "Loss of normal ovarian function before age 40, resulting in reduced ovarian hormone production and impaired fertility.",
+    "commonSymptoms": [
+      "Irregular periods",
+      "Absent periods",
+      "Hot flashes",
+      "Infertility"
+    ],
+    "lessCommonSymptoms": [
+      "Vaginal dryness",
+      "Sleep problems",
+      "Mood changes"
+    ],
+    "keySymptoms": [
+      "Menstrual irregularity before age 40",
+      "Reduced fertility"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Autoimmune disease",
+      "Chemotherapy",
+      "Radiation therapy",
+      "Certain genetic conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Unexpected early loss of menstruation",
+      "Severe symptoms of estrogen deficiency"
+    ],
+    "whenToSeekCare": "Seek medical evaluation for persistent menstrual irregularity or loss of menstruation before age 40."
+  }
+]

@@ -1,0 +1,617 @@
+[
+  {
+    "name": "Major Depressive Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Mood disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A mental health disorder characterized by persistent depressed mood or loss of interest accompanied by cognitive, emotional, and physical symptoms.",
+    "commonSymptoms": [
+      "Persistent sadness",
+      "Loss of interest or pleasure",
+      "Fatigue",
+      "Sleep disturbance",
+      "Changes in appetite"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty concentrating",
+      "Feelings of worthlessness",
+      "Psychomotor changes",
+      "Thoughts of death or suicide"
+    ],
+    "keySymptoms": [
+      "Persistent depressed mood",
+      "Loss of interest or pleasure",
+      "Functional impairment"
+    ],
+    "riskFactors": [
+      "Previous depressive episodes",
+      "Family history",
+      "Chronic stress",
+      "Traumatic experiences",
+      "Certain medical conditions"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Suicidal thoughts",
+      "Suicide attempt",
+      "Severe inability to function",
+      "Psychotic symptoms"
+    ],
+    "whenToSeekCare": "Seek professional assessment for persistent depressive symptoms. Immediate help is required when there is imminent risk of self-harm or suicide."
+  },
+  {
+    "name": "Bipolar Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Mood disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A mood disorder characterized by episodes of mania or hypomania and episodes of depression.",
+    "commonSymptoms": [
+      "Mood changes",
+      "Episodes of elevated or irritable mood",
+      "Depressive episodes",
+      "Changes in energy",
+      "Changes in sleep"
+    ],
+    "lessCommonSymptoms": [
+      "Rapid speech",
+      "Racing thoughts",
+      "Impulsive behavior",
+      "Grandiosity"
+    ],
+    "keySymptoms": [
+      "Distinct episodes of mania or hypomania",
+      "Episodes of depression"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Sleep disruption",
+      "Stress",
+      "Substance use"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe mania",
+      "Psychosis",
+      "Dangerous impulsive behavior",
+      "Suicidal thoughts"
+    ],
+    "whenToSeekCare": "Professional assessment is recommended for significant mood episodes. Urgent care is required for severe mania, psychosis, or immediate safety concerns."
+  },
+  {
+    "name": "Generalized Anxiety Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Anxiety disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A disorder characterized by excessive and persistent worry about multiple areas of life.",
+    "commonSymptoms": [
+      "Excessive worry",
+      "Restlessness",
+      "Fatigue",
+      "Difficulty concentrating",
+      "Sleep disturbance"
+    ],
+    "lessCommonSymptoms": [
+      "Muscle tension",
+      "Irritability",
+      "Headache",
+      "Gastrointestinal discomfort"
+    ],
+    "keySymptoms": [
+      "Excessive persistent worry",
+      "Difficulty controlling worry"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Chronic stress",
+      "Traumatic experiences",
+      "Other mental health disorders"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe functional impairment",
+      "Panic symptoms",
+      "Suicidal thoughts"
+    ],
+    "whenToSeekCare": "Seek professional assessment when excessive anxiety interferes with daily functioning or quality of life."
+  },
+  {
+    "name": "Panic Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Anxiety disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A disorder characterized by recurrent unexpected panic attacks and persistent concern or behavioral changes related to the attacks.",
+    "commonSymptoms": [
+      "Sudden intense fear",
+      "Palpitations",
+      "Shortness of breath",
+      "Chest discomfort",
+      "Dizziness"
+    ],
+    "lessCommonSymptoms": [
+      "Sweating",
+      "Trembling",
+      "Nausea",
+      "Fear of losing control"
+    ],
+    "keySymptoms": [
+      "Recurrent unexpected panic attacks",
+      "Persistent fear of further attacks"
+    ],
+    "riskFactors": [
+      "Family history",
+      "High stress",
+      "Traumatic experiences",
+      "Other anxiety disorders"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Suicidal thoughts",
+      "Severe functional impairment",
+      "First severe chest-pain episode"
+    ],
+    "whenToSeekCare": "Seek professional assessment for recurrent panic attacks. New severe chest pain or breathing difficulty should be medically assessed to exclude physical causes."
+  },
+  {
+    "name": "Post-Traumatic Stress Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Trauma- and stressor-related disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Trauma-related",
+    "description": "A mental health disorder that may develop after experiencing or witnessing a traumatic event.",
+    "commonSymptoms": [
+      "Intrusive memories",
+      "Nightmares",
+      "Avoidance",
+      "Hypervigilance",
+      "Sleep disturbance"
+    ],
+    "lessCommonSymptoms": [
+      "Irritability",
+      "Emotional numbness",
+      "Difficulty concentrating",
+      "Exaggerated startle response"
+    ],
+    "keySymptoms": [
+      "Trauma-related intrusive symptoms",
+      "Avoidance",
+      "Persistent heightened arousal"
+    ],
+    "riskFactors": [
+      "Severe trauma",
+      "Previous trauma",
+      "Limited social support",
+      "Previous mental health problems"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Suicidal thoughts",
+      "Severe dissociation",
+      "Psychosis",
+      "Inability to function"
+    ],
+    "whenToSeekCare": "Seek professional assessment when trauma-related symptoms persist or interfere with daily life."
+  },
+  {
+    "name": "Obsessive-Compulsive Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Obsessive-compulsive disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A disorder characterized by recurrent unwanted thoughts, images, or urges and repetitive behaviors or mental acts performed in response.",
+    "commonSymptoms": [
+      "Obsessions",
+      "Compulsive behaviors",
+      "Excessive checking",
+      "Fear of contamination"
+    ],
+    "lessCommonSymptoms": [
+      "Intrusive taboo thoughts",
+      "Repetitive counting",
+      "Mental rituals",
+      "Hoarding-related symptoms"
+    ],
+    "keySymptoms": [
+      "Recurrent intrusive obsessions",
+      "Repetitive compulsions",
+      "Significant distress or impairment"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Childhood onset",
+      "Other psychiatric conditions"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe functional impairment",
+      "Self-harm related compulsions",
+      "Suicidal thoughts"
+    ],
+    "whenToSeekCare": "Seek professional assessment when obsessions or compulsions cause significant distress or interfere with daily functioning."
+  },
+  {
+    "name": "Schizophrenia",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Psychotic disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A chronic psychiatric disorder involving disturbances in perception, thinking, behavior, and emotional expression.",
+    "commonSymptoms": [
+      "Hallucinations",
+      "Delusions",
+      "Disorganized thinking",
+      "Social withdrawal"
+    ],
+    "lessCommonSymptoms": [
+      "Reduced emotional expression",
+      "Reduced motivation",
+      "Cognitive difficulties",
+      "Disorganized behavior"
+    ],
+    "keySymptoms": [
+      "Psychotic symptoms",
+      "Hallucinations or delusions",
+      "Functional decline"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Certain environmental exposures",
+      "Substance use",
+      "Early-life complications"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Command hallucinations",
+      "Severe confusion",
+      "Suicidal behavior",
+      "Aggressive behavior",
+      "Inability to care for oneself"
+    ],
+    "whenToSeekCare": "Prompt psychiatric assessment is recommended for new psychotic symptoms. Emergency care is required when there is immediate danger to the person or others."
+  },
+  {
+    "name": "Attention-Deficit/Hyperactivity Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Neurodevelopmental disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Neurodevelopmental and multifactorial",
+    "description": "A neurodevelopmental disorder characterized by persistent patterns of inattention and/or hyperactivity-impulsivity that interfere with functioning.",
+    "commonSymptoms": [
+      "Difficulty sustaining attention",
+      "Forgetfulness",
+      "Impulsivity",
+      "Restlessness"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty organizing tasks",
+      "Interrupting others",
+      "Difficulty waiting",
+      "Frequent careless mistakes"
+    ],
+    "keySymptoms": [
+      "Persistent inattention",
+      "Hyperactivity or impulsivity",
+      "Functional impairment"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Premature birth",
+      "Certain prenatal exposures"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe functional impairment",
+      "Major educational or occupational difficulties",
+      "Significant behavioral problems"
+    ],
+    "whenToSeekCare": "Seek professional assessment when attention or behavioral difficulties persist and interfere with education, work, relationships, or daily life."
+  },
+  {
+    "name": "Autism Spectrum Disorder",
+    "category": "Neurodevelopmental disease",
+    "subCategory": "Neurodevelopmental disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Neurodevelopmental and genetic",
+    "description": "A neurodevelopmental condition characterized by differences in social communication and restricted or repetitive patterns of behavior or interests.",
+    "commonSymptoms": [
+      "Social communication difficulties",
+      "Restricted interests",
+      "Repetitive behaviors",
+      "Sensory differences"
+    ],
+    "lessCommonSymptoms": [
+      "Difficulty with changes in routine",
+      "Unusual speech patterns",
+      "Sleep problems",
+      "Feeding difficulties"
+    ],
+    "keySymptoms": [
+      "Persistent social communication differences",
+      "Restricted or repetitive behaviors"
+    ],
+    "riskFactors": [
+      "Genetic factors",
+      "Family history",
+      "Certain prenatal or developmental factors"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Developmental regression",
+      "Severe self-injurious behavior",
+      "Severe communication difficulties"
+    ],
+    "whenToSeekCare": "Developmental concerns should be assessed early so appropriate educational, behavioral, and developmental support can be provided."
+  },
+  {
+    "name": "Anorexia Nervosa",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Eating disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "An eating disorder characterized by restriction of energy intake, significantly low body weight, and disturbances related to body image or weight.",
+    "commonSymptoms": [
+      "Food restriction",
+      "Fear of weight gain",
+      "Distorted body image",
+      "Weight loss"
+    ],
+    "lessCommonSymptoms": [
+      "Excessive exercise",
+      "Social withdrawal",
+      "Dizziness",
+      "Menstrual changes"
+    ],
+    "keySymptoms": [
+      "Severe restriction of food intake",
+      "Low body weight",
+      "Disturbed body image"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Psychological stress",
+      "Perfectionism",
+      "Certain sociocultural pressures"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Severe weight loss",
+      "Fainting",
+      "Severe dehydration",
+      "Abnormal heart rhythm",
+      "Suicidal thoughts"
+    ],
+    "whenToSeekCare": "Professional assessment is important for suspected eating disorders. Severe dehydration, fainting, or cardiac symptoms require urgent medical care."
+  },
+  {
+    "name": "Bulimia Nervosa",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Eating disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "An eating disorder characterized by recurrent binge-eating episodes followed by inappropriate compensatory behaviors.",
+    "commonSymptoms": [
+      "Binge eating",
+      "Self-induced vomiting",
+      "Excessive concern about body weight"
+    ],
+    "lessCommonSymptoms": [
+      "Use of laxatives",
+      "Excessive exercise",
+      "Dental enamel erosion",
+      "Swollen salivary glands"
+    ],
+    "keySymptoms": [
+      "Recurrent binge eating",
+      "Compensatory behaviors"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Psychological stress",
+      "Body-image concerns"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Severe dehydration",
+      "Fainting",
+      "Abnormal heart rhythm",
+      "Blood in vomit",
+      "Suicidal thoughts"
+    ],
+    "whenToSeekCare": "Seek professional assessment for suspected bulimia. Severe dehydration, fainting, or cardiac symptoms require urgent medical care."
+  },
+  {
+    "name": "Insomnia Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Sleep-wake disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A disorder characterized by persistent difficulty initiating or maintaining sleep despite adequate opportunity for sleep.",
+    "commonSymptoms": [
+      "Difficulty falling asleep",
+      "Frequent nighttime awakening",
+      "Early morning awakening",
+      "Daytime fatigue"
+    ],
+    "lessCommonSymptoms": [
+      "Irritability",
+      "Poor concentration",
+      "Mood changes"
+    ],
+    "keySymptoms": [
+      "Persistent difficulty sleeping",
+      "Daytime impairment"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Anxiety",
+      "Depression",
+      "Irregular sleep schedule",
+      "Chronic medical conditions"
+    ],
+    "urgency": "low",
+    "warningSigns": [
+      "Severe daytime sleepiness",
+      "Suicidal thoughts",
+      "Episodes of falling asleep while driving"
+    ],
+    "whenToSeekCare": "Seek professional assessment when persistent sleep problems significantly affect daytime functioning."
+  },
+  {
+    "name": "Substance Use Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Substance-related disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A pattern of problematic substance use that causes significant impairment, distress, or difficulty controlling use.",
+    "commonSymptoms": [
+      "Strong cravings",
+      "Difficulty controlling use",
+      "Continued use despite harm",
+      "Neglect of responsibilities"
+    ],
+    "lessCommonSymptoms": [
+      "Tolerance",
+      "Withdrawal symptoms",
+      "Risky behavior",
+      "Social problems"
+    ],
+    "keySymptoms": [
+      "Loss of control over substance use",
+      "Continued use despite negative consequences"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Mental health disorders",
+      "Trauma",
+      "Chronic stress",
+      "Early exposure to substances"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Overdose",
+      "Severe withdrawal",
+      "Loss of consciousness",
+      "Suicidal behavior"
+    ],
+    "whenToSeekCare": "Professional support is recommended for problematic substance use. Overdose, severe withdrawal, or loss of consciousness requires emergency care."
+  },
+  {
+    "name": "Alcohol Use Disorder",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Alcohol-related disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Multifactorial",
+    "description": "A pattern of problematic alcohol use associated with impaired control, continued use despite harm, and functional impairment.",
+    "commonSymptoms": [
+      "Strong desire to drink",
+      "Difficulty controlling drinking",
+      "Continued drinking despite problems",
+      "Tolerance"
+    ],
+    "lessCommonSymptoms": [
+      "Withdrawal symptoms",
+      "Neglect of responsibilities",
+      "Risky drinking",
+      "Repeated unsuccessful attempts to stop"
+    ],
+    "keySymptoms": [
+      "Impaired control over alcohol use",
+      "Continued use despite harm"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Early alcohol exposure",
+      "Mental health disorders",
+      "Chronic stress"
+    ],
+    "urgency": "high",
+    "warningSigns": [
+      "Alcohol poisoning",
+      "Severe withdrawal",
+      "Seizures",
+      "Confusion",
+      "Loss of consciousness"
+    ],
+    "whenToSeekCare": "Professional support is recommended for problematic alcohol use. Severe withdrawal, seizures, confusion, or loss of consciousness requires emergency care."
+  },
+  {
+    "name": "Delirium",
+    "category": "Mental and behavioral disorder",
+    "subCategory": "Acute cognitive disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Medical, toxic, metabolic, infectious, or medication-related",
+    "description": "An acute disturbance in attention and awareness that develops over a short period and fluctuates during the day.",
+    "commonSymptoms": [
+      "Sudden confusion",
+      "Difficulty paying attention",
+      "Disorientation",
+      "Altered awareness"
+    ],
+    "lessCommonSymptoms": [
+      "Hallucinations",
+      "Agitation",
+      "Drowsiness",
+      "Sleep-wake disturbance"
+    ],
+    "keySymptoms": [
+      "Acute onset",
+      "Fluctuating confusion",
+      "Impaired attention"
+    ],
+    "riskFactors": [
+      "Older age",
+      "Severe illness",
+      "Hospitalization",
+      "Medication effects",
+      "Infection"
+    ],
+    "urgency": "critical",
+    "warningSigns": [
+      "Sudden severe confusion",
+      "Reduced consciousness",
+      "Severe agitation",
+      "New neurological symptoms"
+    ],
+    "whenToSeekCare": "Sudden confusion or altered consciousness requires urgent medical assessment because delirium may indicate a serious underlying condition."
+  },
+  {
+    "name": "Dementia",
+    "category": "Neurological disease",
+    "subCategory": "Major neurocognitive disorder",
+    "anatomicalSite": "Brain and central nervous system",
+    "etiology": "Neurodegenerative, vascular, infectious, metabolic, or other",
+    "description": "A syndrome involving acquired decline in cognitive abilities that interferes with independence and daily functioning.",
+    "commonSymptoms": [
+      "Memory loss",
+      "Difficulty with problem solving",
+      "Difficulty performing familiar tasks",
+      "Language difficulties"
+    ],
+    "lessCommonSymptoms": [
+      "Personality changes",
+      "Disorientation",
+      "Behavioral changes",
+      "Difficulty recognizing people or objects"
+    ],
+    "keySymptoms": [
+      "Progressive cognitive decline",
+      "Loss of functional independence"
+    ],
+    "riskFactors": [
+      "Increasing age",
+      "Cardiovascular risk factors",
+      "Family history",
+      "Previous neurological disease"
+    ],
+    "urgency": "moderate",
+    "warningSigns": [
+      "Rapidly progressive confusion",
+      "Sudden cognitive decline",
+      "New neurological deficits"
+    ],
+    "whenToSeekCare": "Progressive cognitive decline should be medically assessed. Sudden confusion requires urgent assessment."
+  }
+]
